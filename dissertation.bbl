@@ -1,4 +1,25 @@
-\begin{thebibliography}{Com12}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{DPDRR{\etalchar{+}}13}
+
+\bibitem[BGPC13]{Berns:2013}
+Anke Berns, Antonio Gonzalez-Pardo, and David Camacho.
+\newblock Game-like language learning in 3-d virtual environments.
+\newblock {\em Computers \& Education}, 60(1):210--220, January 2013.
+
+\bibitem[BKL{\etalchar{+}}13]{Bellotti:2013}
+Francesco Bellotti, Bill Kapralos, Kiju Lee, Pablo Moreno-Ger, and Riccardo
+  Berta.
+\newblock Assessment in and of serious games: An overview.
+\newblock {\em Advances in Human-Computer Interaction - Special issue on User
+  Assessment in Serious Games and Technology-Enhanced}, 2013:1:1--1:1, January
+  2013.
+
+\bibitem[CGC12]{Chebil:2012}
+H.~Chebil, J.~Girardot, and C.~Courtin.
+\newblock An ontology-based approach for sharing and analyzing learning trace
+  corpora.
+\newblock In {\em Proceedings - IEEE 6th International Conference on Semantic
+  Computing, ICSC 2012}, pages 101--108, 2012.
 
 \bibitem[Com12]{communique2012making}
 Bucharest Communiqu{\'e}.
@@ -7,11 +28,98 @@ Bucharest Communiqu{\'e}.
 \newblock In {\em EHEA Ministerial Conference. Retrieved May}, volume~16, page
   2012, 2012.
 
+\bibitem[DPDRR{\etalchar{+}}13]{Dodero:2013}
+J.~M. Dodero, M.~Palomo-Duarte, I.~Ruiz-Rube, I.~Traverso, and J.~M. Mota.
+\newblock {ASCETA: Accesibilidad a servicios y contenidos educativos mediante
+  tecnologías del aprendizaje}.
+\newblock In {\em {XV Simposio Internacional de Tecnologías de la Información
+  y las Comunicaciones en la Educación}}, pages 116--120, 2013.
+
+\bibitem[FGD{\etalchar{+}}11]{Florian:2011}
+B.~Florian, C.~Glahn, H.~Drachsler, M.~Specht, and R.~Fabregat~Gesa.
+\newblock {\em Activity-based learner-models for learner monitoring and
+  recommendations in moodle}, volume 6964 LNCS of {\em Lecture Notes in
+  Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics)}.
+\newblock Springer Berlin Heidelberg, 2011.
+
+\bibitem[GW{\etalchar{+}}03]{gonzalez2003tuning}
+Julia Gonz{\'a}lez, Robert Wagenaar, et~al.
+\newblock {\em Tuning educational structures in Europe}.
+\newblock University of Deusto Final report. Phase one. Bilbao, 2003.
+
+\bibitem[HMPR04]{Hevner:2004}
+Alan~R. Hevner, Salvatore~T. March, Jinsoo Park, and Sudha Ram.
+\newblock Design science in information systems research.
+\newblock {\em MIS Quarterly}, 28(1):75--105, March 2004.
+
+\bibitem[Joh13]{Johnson:2013}
+D.H. Johnson.
+\newblock Teaching a ``mooc:`` experiences from the front line.
+\newblock In {\em Digital Signal Processing and Signal Processing Education
+  Meeting (DSP/SPE), 2013 IEEE}, pages 268--272, 2013.
+
+\bibitem[Lug12]{Lugton:2012}
+Martin Lugton.
+\newblock {What is a MOOC? What are the different types of MOOC? xMOOCs and
+  cMOOCs}, 2012.
+
+\bibitem[MB13]{Munkhchimeg:2013}
+B.~Munkhchimeg and S.~Baigaltugs.
+\newblock Control possibility of students' learning process through using
+  learning management system.
+\newblock In {\em Strategic Technology (IFOST), 2013 8th International Forum
+  on}, volume~2, pages 395--399, 2013.
+
+\bibitem[MK13]{Mor:2013}
+Yishay Mor and Tapio Koshinen.
+\newblock {MOOC y m\'{a}s all\'{a}}.
+\newblock {\em eLearning Papers}, 33:1--7, 2013.
+
+\bibitem[PDDT{\etalchar{+}}12]{Palomo-Duarte:2012}
+Manuel Palomo-Duarte, Juan~Manuel Dodero, Jos{\'e}~Tom\'{a}s Tocino, Antonio
+  Garc\'{\i}a-Dom\'{\i}nguez, and Antonio Balderas.
+\newblock Competitive evaluation in a video game development course.
+\newblock In {\em Proceedings of the 17th ACM Annual Conference on Innovation
+  and Technology in Computer Science Education}, ITiCSE '12, pages 321--326,
+  New York, NY, USA, 2012. ACM.
+
+\bibitem[RAKY11]{Cachia:2011}
+Cachia R., Ferrari A., Ala-Mutka K., and Punie Y.
+\newblock {\em Creative Learning and Innovative Teaching: Final Report on the
+  Study on Creativity and Innovation in Education in the EU Member States}.
+\newblock Dictus Publishing, 2011.
+
+\bibitem[RJ13]{Redecker:2013}
+Christine Redecker and Øystein Johannessen.
+\newblock {Changing Assessment — Towards a New Assessment Paradigm Using
+  ICT}.
+\newblock {\em European Journal of Education}, 48(1):79--96, 2013.
+
+\bibitem[WMMR05]{Wieringa:2005}
+Roel Wieringa, Neil Maiden, Nancy Mead, and Colette Rolland.
+\newblock Requirements engineering paper classification and evaluation
+  criteria: A proposal and a discussion.
+\newblock {\em Requirements Engineering}, 11(1):102--107, December 2005.
+
+\bibitem[WPS08]{Wenjun:2008}
+Wenjun Wu, M.E. Papka, and R.~Stevens.
+\newblock Toward an opensocial life science gateway.
+\newblock In {\em Grid Computing Environments Workshop, 2008. GCE '08}, pages
+  1--6, 2008.
+
 \bibitem[Zab05]{zabala2005espacio}
 Jes{\'u}s~Go{\~n}i Zabala.
 \newblock {\em El espacio europeo de educaci{\'o}n superior, un reto para la
   universidad: competencias, tareas y evaluaci{\'o}n, los ejes del
   curr{\'\i}culum universitario}.
 \newblock 2005.
+
+\bibitem[ZGLV11]{Zafra:2011}
+A.~Zafra, E.~Gibaja, M.~Luque, and S.~Ventura.
+\newblock An evaluation of the effectiveness of e-learning system as support
+  for traditional classes.
+\newblock In {\em Next Generation Web Services Practices (NWeSP), 2011 7th
+  International Conference on}, pages 431--435, 2011.
 
 \end{thebibliography}

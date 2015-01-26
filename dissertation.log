@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  21 JAN 2015 11:59
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  26 JAN 2015 13:05
 entering extended mode
-**C:/Users/Antonio/UCA/Tesis/Tesis/PhDLATEX/dissertation.tex
-(C:/Users/Antonio/UCA/Tesis/Tesis/PhDLATEX/dissertation.tex
+**C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
+(C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,9 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\Latex/Classes/PhDthesisPSnPDF.cls
+
+(C:\Users\Antonio\Documents\GitHub\dissertation\Latex/Classes/PhDthesisPSnPDF.c
+ls
 Document Class: Latex/Classes/PhDthesisPSnPDF 2010/11/26 v3 PhD thesis class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
@@ -704,24 +706,28 @@ Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 LaTeX Info: Redefining \_ on input line 43.
 ))
 \@input{Latex/Macros/Macros.aux}
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\Latex/Macros/Macros.tex
+(C:\Users\Antonio\Documents\GitHub\dissertation\Latex/Macros/Macros.tex
 \figwidth=\skip74
 \anchoFigura=\skip75
 \anchoFloat=\skip76
 )
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\dissertation.aux
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/title_back.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/dedication.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/abstract.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/acknowledgement.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/glossary.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\1_introduction/0_index.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\1_introduction/1_motivation.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\2_state_of_the_art/0_index.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\3_overall_methodology/0_index.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\4_experiments_and_results/0_index.au
-x) (C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\5_conclusion/0_index.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\9_backmatter/declaration.aux))
+(C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.aux
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/title_back.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/dedication.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/abstract.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/acknowledgement.a
+ux) (C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/glossary.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/0_index.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/1_motivation.aux
+)
+(C:\Users\Antonio\Documents\GitHub\dissertation\2_state_of_the_art/0_index.aux)
+
+(C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.a
+ux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
+ex.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
@@ -784,14 +790,14 @@ LaTeX Info: Redefining \ref on input line 74.
 LaTeX Info: Redefining \pageref on input line 74.
 LaTeX Info: Redefining \nameref on input line 74.
 
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\dissertation.out)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\dissertation.out)
+(C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.out)
+(C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.out)
 \@outlinefile=\write5
 \c@lstlisting=\count186
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
 
-<0_frontmatter/figures/PNG/UCA_Shield.png, id=39, 468.75125pt x 602.25pt>
+<0_frontmatter/figures/PNG/UCA_Shield.png, id=95, 468.75125pt x 602.25pt>
 File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
 
 <use 0_frontmatter/figures/PNG/UCA_Shield.png>
@@ -807,8 +813,8 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 
 \FN@pp@footnotehinttrue 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Antonio/UCA/Tesi
-s/Tesis/PhDLATEX/0_frontmatter/figures/PNG/UCA_Shield.png>] [2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Antonio/Document
+s/GitHub/dissertation/0_frontmatter/figures/PNG/UCA_Shield.png>] [2
 
 ]
 File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
@@ -818,7 +824,7 @@ Package pdftex.def Info: 0_frontmatter/figures/PNG/UCA_Shield.png used on input
  line 88.
 (pdftex.def)             Requested size: 56.9055pt x 73.10312pt.
  [3] [4]
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/title_back.tex
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/title_back.tex
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
@@ -841,9 +847,9 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\block.tss"
 File: block.tss 2011/12/15
 )
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/dedication.texpdfTeX w
-arning (ext4): destination with the same identifier (name{page.i}) has been alr
-eady used, duplicate ignored
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/dedication.texpdf
+TeX warning (ext4): destination with the same identifier (name{page.i}) has bee
+n already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.9 \end{dedication}
@@ -852,9 +858,9 @@ l.9 \end{dedication}
 
 
 ])
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/abstract.texpdfTeX war
-ning (ext4): destination with the same identifier (name{page.ii}) has been alre
-ady used, duplicate ignored
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/abstract.texpdfTe
+X warning (ext4): destination with the same identifier (name{page.ii}) has been
+ already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.8 \begin{abstracts}
@@ -885,44 +891,44 @@ s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.41 \end{resumen}
-                   [6] [7
-
-] [8])
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/acknowledgement.tex
-[9
+                   [6])
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/acknowledgement.t
+ex [7
 
 
 
-] [10] [11] [12])
+] [8] [9] [10])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <30> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
- (C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\dissertation.toc)
-\tf@toc=\write6
- [13
+
+(C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.toc [11
 \FN@pp@footnotehinttrue 
 
+
+])
+\tf@toc=\write6
+ [12] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.lof)
+\tf@lof=\write7
+
+[13
 
 ] [14
 
-] (C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\dissertation.lof)
-\tf@lof=\write7
- [15]
-[16
-
-] (C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\dissertation.lot)
+] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.lot)
 \tf@lot=\write8
- [17]
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/glossary.tex)
+
+[15] (C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/glossary.tex
+)
 No file dissertation.nls.
-[18
+[16
 
 
 \FN@pp@footnotehinttrue 
 
 
-] (C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\1_introduction/0_index.tex
+] (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/0_index.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
@@ -931,9 +937,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <90> not available
 [1
 
 
-] [2]) [3]
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\1_introduction/1_motivation.tex
-<1_introduction/figures/PNG/computing_machinery_and_intelligence.jpg, id=172, 6
+] [2] [3]) [4]
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/1_motivation.tex
+
+<1_introduction/figures/PNG/computing_machinery_and_intelligence.jpg, id=269, 6
 18.31pt x 888.31876pt>
 File: 1_introduction/figures/PNG/computing_machinery_and_intelligence.jpg Graph
 ic file (type jpg)
@@ -946,70 +953,89 @@ elligence.jpg used on input line 11.
 
 LaTeX Warning: Float too large for page by 16.5343pt on input line 11.
 
-) [4
+) [5
 
 
-] [5 <C:/Users/Antonio/UCA/Tesis/Tesis/PhDLATEX/1_introduction/figures/PNG/comp
-uting_machinery_and_intelligence.jpg>]
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\2_state_of_the_art/0_index.tex
-[6
+] [6 <C:/Users/Antonio/Documents/GitHub/dissertation/1_introduction/figures/PNG
+/computing_machinery_and_intelligence.jpg>]
+(C:\Users\Antonio\Documents\GitHub\dissertation\2_state_of_the_art/0_index.tex
+Chapter 2.
+[7
 
 
 
 ]
-Chapter 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+ [8] [9]
+Overfull \hbox (40.44542pt too wide) in paragraph at lines 64--84
+ [] 
+ []
 
-Package natbib Warning: Citation `turing1950computing' on page 7 undefined on i
-nput line 28.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 93.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
+ [10]
 
-[7]) [8]
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\3_overall_methodology/0_index.tex
+Package natbib Warning: Citation `Petersen:2008' on page 11 undefined on input 
+line 104.
+
+[11] [12] [13]) [14] [15]
+(C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.t
+ex [16
+
+
+
+]
 Chapter 3.
 
-Package natbib Warning: Citation `turing1950computing' on page 9 undefined on i
-nput line 25.
+Package natbib Warning: Citation `turing1950computing' on page 17 undefined on 
+input line 25.
 
-[9
-
-
-
-]) [10]
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\4_experiments_and_results/0_index.te
-x
+[17]) [18]
+(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
+ex.tex
 Chapter 4.
 
-Package natbib Warning: Citation `turing1950computing' on page 11 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 19 undefined on 
 input line 25.
 
-[11
+[19
 
 
 
-]) [12] (C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\5_conclusion/0_index.tex
+]) [20]
+(C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.tex
 Chapter 5.
 
-Package natbib Warning: Citation `turing1950computing' on page 13 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 21 undefined on 
 input line 25.
 
-[13
+[21
 
 
 
-]) [14] (C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\dissertation.bbl
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\dissertation.brf)
+]) [22] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
+(C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.brf)
 \tf@brf=\write9
-) [15
+ [23
 
 
 
-]
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\9_backmatter/declaration.tex
-[16
+] [24]
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)) [25]
+(C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.tex
+[26
 
 ] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fc-british.def"
 File: fc-british.def 2013/08/17
 )
-[17]) [18
+[27]) [28
 
 ]
 
@@ -1017,44 +1043,50 @@ Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\dissertation.aux
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/title_back.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/dedication.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/abstract.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/acknowledgement.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\0_frontmatter/glossary.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\1_introduction/0_index.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\1_introduction/1_motivation.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\2_state_of_the_art/0_index.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\3_overall_methodology/0_index.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\4_experiments_and_results/0_index.au
-x) (C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\5_conclusion/0_index.aux)
-(C:\Users\Antonio\UCA\Tesis\Tesis\PhDLATEX\9_backmatter/declaration.aux))
+(C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.aux
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/title_back.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/dedication.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/abstract.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/acknowledgement.a
+ux) (C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/glossary.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/0_index.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/1_motivation.aux
+)
+(C:\Users\Antonio\Documents\GitHub\dissertation\2_state_of_the_art/0_index.aux)
+
+(C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.a
+ux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
+ex.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 59B678CE57B300920497C901B6DE123C;484.
+(rerunfilecheck)             Checksum: 24E1AFEF7B24EA194DE7F8E0A17C43FF;1663.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: 4319C2C534FFE3639AA4CCC16FA6103F;103.
+(rerunfilecheck)             Checksum: F6D548772B0CDA68BA3DAB7DFEDF9232;911.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
- 13001 strings out of 494045
- 193315 string characters out of 3145963
- 308441 words of memory out of 3000000
- 15841 multiletter control sequences out of 15000+200000
- 37512 words of font info for 76 fonts, out of 3000000 for 9000
+ 13452 strings out of 494045
+ 200064 string characters out of 3145963
+ 315941 words of memory out of 3000000
+ 16240 multiletter control sequences out of 15000+200000
+ 40723 words of font info for 80 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,12n,47p,1068b,670s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,47p,2600b,670s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on dissertation.pdf (42 pages, 375506 bytes).
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on dissertation.pdf (50 pages, 445620 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 449 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 
