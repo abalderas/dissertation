@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  26 JAN 2015 13:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  31 MAR 2015 10:28
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -1063,16 +1063,16 @@ ex.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 24E1AFEF7B24EA194DE7F8E0A17C43FF;1663.
+(rerunfilecheck)             Checksum: 89F60ED6A58024F500518223F032D1A4;1740.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
 (rerunfilecheck)             Checksum: F6D548772B0CDA68BA3DAB7DFEDF9232;911.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
- 13452 strings out of 494045
- 200064 string characters out of 3145963
- 315941 words of memory out of 3000000
- 16240 multiletter control sequences out of 15000+200000
+ 13454 strings out of 494045
+ 200080 string characters out of 3145963
+ 316008 words of memory out of 3000000
+ 16242 multiletter control sequences out of 15000+200000
  40723 words of font info for 80 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  43i,12n,47p,2600b,670s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1084,7 +1084,7 @@ iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on dissertation.pdf (50 pages, 445620 bytes).
+Output written on dissertation.pdf (50 pages, 446666 bytes).
 PDF statistics:
  449 PDF objects out of 1000 (max. 8388607)
  95 named destinations out of 1000 (max. 500000)
