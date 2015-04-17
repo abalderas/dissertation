@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  10 APR 2015 10:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  17 APR 2015 19:01
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -733,10 +733,10 @@ x)
 ux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
 ex.aux)
-(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/1_lms
-.aux)
-(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/2_org
-anizational.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/1_wik
+is.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/2_cur
+sos.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/3_vw.
 aux) (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.aux))
@@ -809,7 +809,7 @@ LaTeX Info: Redefining \nameref on input line 74.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
 
-<0_frontmatter/figures/PNG/UCA_Shield.png, id=155, 468.75125pt x 602.25pt>
+<0_frontmatter/figures/PNG/UCA_Shield.png, id=135, 468.75125pt x 602.25pt>
 File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
 
 <use 0_frontmatter/figures/PNG/UCA_Shield.png>
@@ -951,15 +951,23 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <90> not available
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/1_motivation.tex
-) [2
+[2
 
 
 ]
-(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/2_resumen.tex
-[3
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 21.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+ [3]
+[4]) [5]
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/2_resumen.tex)
+[6
 
 
-] [4] [5]) [6]
+]
 (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/3_marco_conceptu
 al.tex) [7
 
@@ -990,13 +998,7 @@ Overfull \hbox (40.44542pt too wide) in paragraph at lines 64--84
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 93.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
- [14]
+[14]
 
 Package natbib Warning: Citation `Petersen:2008' on page 15 undefined on input 
 line 104.
@@ -1013,11 +1015,7 @@ Chapter 3.
 Package natbib Warning: Citation `turing1950computing' on page 21 undefined on 
 input line 25.
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
-[22]
+[21]) [22]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
 ex.tex
 Chapter 4.
@@ -1030,13 +1028,13 @@ input line 25.
 
 
 ]) [24]
-(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/1_lms
-.tex) [25
+(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/1_wik
+is.tex) [25
 
 
 ]
-(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/2_org
-anizational.tex) [26
+(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/2_cur
+sos.tex) [26
 
 
 ]
@@ -1103,26 +1101,26 @@ x)
 ux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
 ex.aux)
-(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/1_lms
-.aux)
-(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/2_org
-anizational.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/1_wik
+is.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/2_cur
+sos.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/3_vw.
 aux) (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 3A42A1B48BCF8F6ECC3EF9D446974472;2898.
+(rerunfilecheck)             Checksum: 514BBB7D184A48BF297C8010A21E57E9;2430.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: 7AE7F65220F2FFF4EC0DB1C0C2E2F9E5;976.
+(rerunfilecheck)             Checksum: 3534B866226CD1E79175FDF0653F3E76;1070.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
  ) 
 Here is how much of TeX's memory you used:
- 13540 strings out of 494045
- 203989 string characters out of 3145963
- 319585 words of memory out of 3000000
- 16262 multiletter control sequences out of 15000+200000
+ 13544 strings out of 494045
+ 203983 string characters out of 3145963
+ 319597 words of memory out of 3000000
+ 16269 multiletter control sequences out of 15000+200000
  40723 words of font info for 80 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  43i,12n,48p,2600b,670s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1134,9 +1132,9 @@ iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on dissertation.pdf (58 pages, 241822 bytes).
+Output written on dissertation.pdf (58 pages, 240436 bytes).
 PDF statistics:
- 559 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 539 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
