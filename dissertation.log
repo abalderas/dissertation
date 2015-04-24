@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  17 APR 2015 19:01
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  23 APR 2015 19:36
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -719,14 +719,11 @@ LaTeX Info: Redefining \_ on input line 43.
 ux) (C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/glossary.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/0_index.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/1_motivation.aux
-) (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/2_resumen.aux)
-
-(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/3_marco_conceptu
-al.aux)
-(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/4_objetivos_inve
-stigacion.aux)
-(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/5_metodologia.au
-x)
+)
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/2_objetivos.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/3_contexto.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/4_estrategia.aux
+)
 (C:\Users\Antonio\Documents\GitHub\dissertation\2_state_of_the_art/0_index.aux)
 
 (C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.a
@@ -809,7 +806,7 @@ LaTeX Info: Redefining \nameref on input line 74.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
 
-<0_frontmatter/figures/PNG/UCA_Shield.png, id=135, 468.75125pt x 602.25pt>
+<0_frontmatter/figures/PNG/UCA_Shield.png, id=139, 468.75125pt x 602.25pt>
 File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
 
 <use 0_frontmatter/figures/PNG/UCA_Shield.png>
@@ -963,23 +960,21 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
  [3]
 [4]) [5]
-(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/2_resumen.tex)
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/2_objetivos.tex
 [6
 
 
-]
-(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/3_marco_conceptu
-al.tex) [7
+]) [7]
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/3_contexto.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+)
+[8
 
 
 ]
-(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/4_objetivos_inve
-stigacion.tex) [8
-
-
-]
-(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/5_metodologia.te
-x) [9
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/4_estrategia.tex
+) [9
 
 
 ]
@@ -990,10 +985,7 @@ x) [9
 
 ]
 Chapter 2.
-[11]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
- [12] [13]
+[11] [12] [13]
 Overfull \hbox (40.44542pt too wide) in paragraph at lines 64--84
  [] 
  []
@@ -1077,8 +1069,8 @@ File: fc-british.def 2013/08/17
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.aux
 (C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/title_back.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/dedication.aux)
@@ -1087,14 +1079,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
 ux) (C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/glossary.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/0_index.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/1_motivation.aux
-) (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/2_resumen.aux)
-
-(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/3_marco_conceptu
-al.aux)
-(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/4_objetivos_inve
-stigacion.aux)
-(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/5_metodologia.au
-x)
+)
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/2_objetivos.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/3_contexto.aux)
+(C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/4_estrategia.aux
+)
 (C:\Users\Antonio\Documents\GitHub\dissertation\2_state_of_the_art/0_index.aux)
 
 (C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.a
@@ -1108,19 +1097,19 @@ sos.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/3_vw.
 aux) (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 514BBB7D184A48BF297C8010A21E57E9;2430.
+(rerunfilecheck)             Checksum: 7E042E62594C40B68891A1F42909BC82;2593.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
 (rerunfilecheck)             Checksum: 3534B866226CD1E79175FDF0653F3E76;1070.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 13544 strings out of 494045
- 203983 string characters out of 3145963
- 319597 words of memory out of 3000000
- 16269 multiletter control sequences out of 15000+200000
+ 13537 strings out of 494045
+ 203334 string characters out of 3145963
+ 319076 words of memory out of 3000000
+ 16268 multiletter control sequences out of 15000+200000
  40723 words of font info for 80 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  43i,12n,48p,2600b,670s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1132,9 +1121,9 @@ iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on dissertation.pdf (58 pages, 240436 bytes).
+Output written on dissertation.pdf (58 pages, 247304 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 115 named destinations out of 1000 (max. 500000)
+ 278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
