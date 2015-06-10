@@ -10,25 +10,17 @@ El principal objetivo de esta tesis es:
 
 Para alcanzar dicho objetivo, es necesario primero responder a diferentes preguntas de investigación. Para dar respuesta a las mismas se llevará a cabo una \emph{Revisión Sistemática de la Literatura} (SLR, Systematic Literature Review). Las preguntas de investigación a las que se tratará de dar respuesta son las siguientes:
 
-\bigskip
-\textbf{Q1. ¿Cuáles son las competencias que se han evaluado de forma automática o asistida por ordenador a partir del uso de los entornos virtuales?}
-\bigskip
+\begin{itemize}
+\item Q1. ¿Qué competencias se han evaluado de forma automática o asistida por ordenador a partir del uso de los entornos virtuales?
+\item Q2. ¿Qué métodos se utilizan para evaluar competencias genéricas mediante el uso de entornos virtuales?
+\item Q3. ¿Son utilizados los registros de actividad de los entornos virtuales para la evaluación?
+\item Q4. ¿Qué técnicas utilizan los métodos basados en evidencias?
+\end{itemize}
 
 Hay muchos trabajos en la literatura que abordan la evaluación de competencias genéricas de los estudiantes. De estos queremos obtener información de aquellos que buscan la automatización del proceso para facilitar la labor del docente, centrándonos sobre todo en qué competencia es la que evalúan. Es evidente que encontraremos muchos trabajos que abordan la evaluación de alguna competencia genérica con actividades manuales. Sin embargo, este tipo de trabajo sufren generalmente problemas de escalabilidad, por lo que bajo esta premisa los descartaremos en este análisis.
 
-\bigskip
-\textbf{Q2. ¿Qué herramientas o metodologías se utilizan para evaluar competencias mediante el uso de los entornos virtuales?}
-\bigskip
 
-% Quitar metodlogía?
 % ¿Qué método se utilizan para evaluar competencias? En la respuesta dejar en evidencia que los métodos basados en indicadores no abundan 
-
-
-Analizaremos las herramientas que se utilizan para facilitar a los docentes la evaluación de las competencias genéricas de sus alumnos.
-
-\bigskip
-\textbf{Q3. ¿Con qué técnicas informáticas se obtienen evidencias objetivas del {desarrollo} de las siguientes competencias en un entorno virtual?}
-\bigskip
 
 % tec. informatics automatizasas ...
 
@@ -40,34 +32,21 @@ Analizaremos las herramientas que se utilizan para facilitar a los docentes la e
 
 Se analizaran las técnicas empleadas para obtener las evidencias o indicadores objetivos de los entornos de aprendizaje virtual.
 
-\bigskip
-\textbf{Q4. ¿Son utilizados los registros de actividad de los entornos virtuales para la evaluación?}
-\bigskip
-
-% Poner esta antes de la tercera
-
-Prestaremos especial atención a aquellos trabajos que hagan uso de los registros de actividad o logs de los entornos de aprendizaje virtual.
 
 \bigskip
-A partir de aquí el objetivo de esta investigación será proveer a los diseñadores de evaluaciones de un lenguaje para obtener de manera automatizada un conjunto de indicadores entre los que elegir para ir aplicándolos a sus procesos de evaluación segun las competencias genéricas que quieran evaluar. Esto se divide en los siguientes dos objetivos:
+A partir de aquí el objetivo de esta investigación será proveer a los diseñadores de evaluaciones de un lenguaje para obtener de manera automatizada un conjunto de indicadores entre los que elegir para ir aplicándolos a sus procesos de evaluación segun las competencias genéricas que quieran evaluar. Esto se divide en los siguientes tres objetivos:
  
-\bigskip
-\textbf{O1. Definir un conjunto de indicadores susceptibles de ser obtenidos de los entornos de aprendiaje virtual para evaluar a los estudiantes en el desempeño de sus competencias genéricas}
-\bigskip
+\begin{itemize}
+\item O1. Escribir una relación de posibles fuentes de evidencias para el análisis de registros de actividad
+\item O2. Definir un método que permita al docente obtener de manera automática un conjunto de indicadores de un entorno de aprendizaje virtual
+\item O3. Definir un DSL que permita a los docentes investigar y diseñar estrategias de evaluación a partir de los registros contenidos en los entornos de aprendizaje virtual
+\end{itemize}
 
-Analizaremos las herramientas que se utilizan para facilitar a los docentes la evaluación de las competencias genéricas de sus alumnos.
+Para comenzar a abordar estos objetivos partiremos de las evidencias utilizadas y referidas por los autores en la literatura como susceptibles de ser utilizadas en la evaluación de competencias genéricas. Estas evidencias se mapearán a un entorno de aprendizaje virtual y se implementaran para obtenerlas mediante el uso de alguna herramienta informática. A continuación, se definirá un DSL que permita al docente no únicamente obtener indicadores, sino investigar y diseñar diferentes estrategias de evaluación a partir de dichos indicadores. De esta forma el docente podrá ajustar los indicadores según el trabajo realizado por los estudiantes en el curso.
 
-2. Un objetivo de informática y automatización.  Ejecución. Pero los indidcadores viene ya predefinidos, incluida la manera de obtenerlos. Construcción de AMW.
+%LA EVALUACIÓN NO ES UN OBJETIVO.
 
-Aquí la evaluación ya está diseñada.
-
-3. Permite automatizar y diseñar. Construir DSL: automatiza el diseño de la evaluación
-
-Lo anterior no es suficiente porque la manera de evaluar no es simepre la misma. El profesor necesitaría una herramienta de diseño pars saber que laevaluación va a ser de una forma u otra. Para esto necesita el DSL.
-
-LA EVALUACIÓN NO ES UN OBJETIVO.
-
-EN EL CAPÍTULO DE EVALUACIÓN HABRÁ QUE DEFINIR OBJETIVOS DE EVALUACIÓN Y MAPEARLO CON LOS OBJETIVOS ANTERIORES. tENDRÉ QUE HACER UN CUADRO PARA EL MAPEO.
+%EN EL CAPÍTULO DE EVALUACIÓN HABRÁ QUE DEFINIR OBJETIVOS DE EVALUACIÓN Y MAPEARLO CON LOS OBJETIVOS ANTERIORES. tENDRÉ QUE HACER UN CUADRO PARA EL MAPEO.
 
 \bigskip
 %\textbf{O2. Evaluar los indicadores en escenarios reales de aprendizaje basados en competencias con soporte de un VLE}
@@ -76,10 +55,10 @@ EN EL CAPÍTULO DE EVALUACIÓN HABRÁ QUE DEFINIR OBJETIVOS DE EVALUACIÓN Y MAP
 Además, para proponer una serie de recomendaciones estos indicadores seran evaluados por docentes miembros de la comunidad UCA. Desarrollamos tres herramientas para obtener los indicadores sugeridos en esta tesis: \emph{AssessMediaWiki} para obtener indicadores procedentes de una wiki basada en MediaWiki; \emph{EvalCourse}, Un Lenguaje Específico de Dominio para obtener indicadores procedentes de los registros de la plataforma de cursos virtuales Moodle; y \emph{EvalSim}, un Lenguaje Específico de Dominio para obtener indicadores procedentes de los registros de un mundo virtual basado en OpenSim.
 
 
--------------------
+%-------------------
 
-Estrategia para la investigación realizada en los 3 objetivos.
+%Estrategia para la investigación realizada en los 3 objetivos.
 
-En el tercer objetivo: ¿Cómo evaluar DSL?
+%En el tercer objetivo: ¿Cómo evaluar DSL?
 
-Jordi Cabot había esceitro algo sobre evaluación de DSL
+%Jordi Cabot había esceitro algo sobre evaluación de DSL
