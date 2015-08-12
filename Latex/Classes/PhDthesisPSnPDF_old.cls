@@ -599,7 +599,7 @@
 \newenvironment{declaration} {\begin{alwayssingle} \pagestyle{empty}
   \begin{center}
   \vspace*{1.5cm}
-  {\Large \bfseries  Declaración}
+  {\Large \bfseries  Declaration}
   \end{center}
   \vspace{0.5cm}
    \begin{quote}}
@@ -617,7 +617,7 @@
 % Label and title options
 {\filleft}%
 % Label format and text
-{\color{Gray}{\filleft\small{\bfseries CAPÍTULO}} {\linebreak\fontsize{90}{90}\selectfont\selectfont {\bfseries \thechapter}}}	   
+{\color{Gray}{\filleft\small{\bfseries CHAPTER}} {\linebreak\fontsize{90}{90}\selectfont\selectfont {\bfseries \thechapter}}}	   
 % Label and title distance
 {2ex}
 % Title format
@@ -659,7 +659,7 @@
 % Label and title options
 {\filleft}%
 % Label format and text
-{\color{Gray}{\filleft\small{\bfseries CAPÍTULO}} {\linebreak\fontsize{90}{90}\selectfont\selectfont {\bfseries \thechapter}}}	   
+{\color{Gray}{\filleft\small{\bfseries CHAPTER}} {\linebreak\fontsize{90}{90}\selectfont\selectfont {\bfseries \thechapter}}}	   
 % Label and title distance
 {2ex}
 % Title format
@@ -692,7 +692,7 @@
 % Label and title options
 {\filleft}%
 % Label format and text
-{\color{Gray}{\filleft\small{\bfseries APÉNDICE}} {\linebreak\fontsize{90}{90}\selectfont\selectfont {\bfseries \thechapter}}}	   
+{\color{Gray}{\filleft\small{\bfseries APPENDIX}} {\linebreak\fontsize{90}{90}\selectfont\selectfont {\bfseries \thechapter}}}	   
 % Label and title distance
 {2ex}
 % Title format

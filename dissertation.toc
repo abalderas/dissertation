@@ -1,12 +1,12 @@
-\select@language {basque}
-\select@language {british}
-\select@language {british}
 \select@language {british}
 \select@language {spanish}
 \select@language {british}
-\select@language {british}
-\contentsline {chapter}{List of Figures}{xiii}{chapter*.2}
-\contentsline {chapter}{List of Tables}{xv}{chapter*.3}
+\select@language {spanish}
+\select@language {spanish}
+\select@language {spanish}
+\select@language {spanish}
+\contentsline {chapter}{\'{I}ndice de figuras}{xiii}{chapter*.2}
+\contentsline {chapter}{\'{I}ndice de cuadros}{xv}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Objetivos y preguntas de investigaci\IeC {\'o}n}{6}{section.1.2}
@@ -40,4 +40,4 @@
 \contentsline {section}{\numberline {4.2}Caso 2: Cursos virtuales}{26}{section.4.2}
 \contentsline {section}{\numberline {4.3}Caso 3: Mundos virtuales}{27}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusiones y trabajo futuro}{29}{chapter.5}
-\contentsline {chapter}{Bibliography}{31}{chapter*.5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{31}{chapter*.5}
