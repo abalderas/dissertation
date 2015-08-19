@@ -1,5 +1,11 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{DPDRR{\etalchar{+}}13}
+\begin{thebibliography}{FBSEGPC15}
+
+\bibitem[AAZ08]{alAjlan:2008}
+Ajlan Al-Ajlan and Hussein Zedan.
+\newblock Why moodle.
+\newblock In {\em Future Trends of Distributed Computing Systems, 2008.
+  FTDCS'08. 12th IEEE International Workshop on}, pages 58--64. IEEE, 2008.
 
 \bibitem[BGPC13]{Berns:2013}
 Anke Berns, Antonio Gonzalez-Pardo, and David Camacho.
@@ -34,6 +40,12 @@ J.~M. Dodero, M.~Palomo-Duarte, I.~Ruiz-Rube, I.~Traverso, and J.~M. Mota.
   tecnologías del aprendizaje}.
 \newblock In {\em {XV Simposio Internacional de Tecnologías de la Información
   y las Comunicaciones en la Educación}}, pages 116--120, 2013.
+
+\bibitem[FBSEGPC15]{fidalgo:2015}
+{\'A}ngel Fidalgo-Blanco, Mar{\'\i}a~Luisa Sein-Echaluce, Francisco~J
+  Garc{\'\i}a-Pe{\~n}alvo, and Miguel~{\'A}ngel Conde.
+\newblock Using learning analytics to improve teamwork assessment.
+\newblock {\em Computers in Human Behavior}, 47:149--156, 2015.
 
 \bibitem[FGD{\etalchar{+}}11]{Florian:2011}
 B.~Florian, C.~Glahn, H.~Drachsler, M.~Specht, and R.~Fabregat~Gesa.
@@ -96,6 +108,18 @@ Manuel Palomo-Duarte, Juan~Manuel Dodero, Jos{\'e}~Tom\'{a}s Tocino, Antonio
   and Technology in Computer Science Education}, ITiCSE '12, pages 321--326,
   New York, NY, USA, 2012. ACM.
 
+\bibitem[PFMM08]{Petersen:2008}
+Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
+\newblock Systematic mapping studies in software engineering.
+\newblock In {\em 12th International Conference on Evaluation and Assessment in
+  Software Engineering}, volume~17. sn, 2008.
+
+\bibitem[PK11]{podgorelec:2011}
+V~Podgorelec and S~Kuhar.
+\newblock Taking advantage of education data: Advanced data analysis and
+  reporting in virtual learning environments.
+\newblock {\em Elektronika ir Elektrotechnika}, 114(8):111--116, 2011.
+
 \bibitem[RAKY11]{Cachia:2011}
 Cachia R., Ferrari A., Ala-Mutka K., and Punie Y.
 \newblock {\em Creative Learning and Innovative Teaching: Final Report on the
@@ -113,12 +137,6 @@ Roel Wieringa, Neil Maiden, Nancy Mead, and Colette Rolland.
 \newblock Requirements engineering paper classification and evaluation
   criteria: A proposal and a discussion.
 \newblock {\em Requirements Engineering}, 11(1):102--107, December 2005.
-
-\bibitem[WPS08]{Wenjun:2008}
-Wenjun Wu, M.E. Papka, and R.~Stevens.
-\newblock Toward an opensocial life science gateway.
-\newblock In {\em Grid Computing Environments Workshop, 2008. GCE '08}, pages
-  1--6, 2008.
 
 \bibitem[Zab05]{zabala2005espacio}
 Jes{\'u}s~Go{\~n}i Zabala.

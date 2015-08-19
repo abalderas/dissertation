@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  12 AUG 2015 11:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  19 AUG 2015 14:39
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -976,16 +976,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 ]
 Cap\'{\i }tulo 2.
 [11] [12] [13]
-Overfull \hbox (40.44542pt too wide) in paragraph at lines 64--84
+Overfull \hbox (24.39265pt too wide) in paragraph at lines 80--103
  [] 
  []
 
-[14]
-
-Package natbib Warning: Citation `Petersen:2008' on page 15 undefined on input 
-line 104.
-
-[15] [16] [17]) [18] [19]
+[14] [15] [16] [17]) [18] [19]
 (C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.t
 ex [20
 
@@ -1046,11 +1041,11 @@ input line 25.
 ] [32]
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)) [33]
+) [33]) [34]
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.tex
-[34
+[35
 
-] [35]) [36
+] [36]) [37
 
 ]
 
@@ -1089,17 +1084,17 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 528E9DE6069C72CC7BACAB05DE0BC3AD;2794.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: 3534B866226CD1E79175FDF0653F3E76;1070.
+(rerunfilecheck)             Checksum: DBCBD4603D17F02E7C4EBB2F83D2F1F3;1323.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 13552 strings out of 494045
- 203020 string characters out of 3145963
- 320722 words of memory out of 3000000
- 16290 multiletter control sequences out of 15000+200000
+ 13579 strings out of 494045
+ 203534 string characters out of 3145963
+ 319970 words of memory out of 3000000
+ 16313 multiletter control sequences out of 15000+200000
  40723 words of font info for 80 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,12n,48p,2600b,677s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,48p,1756b,677s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
@@ -1108,9 +1103,9 @@ iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on dissertation.pdf (58 pages, 250058 bytes).
+Output written on dissertation.pdf (59 pages, 252977 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
+ 577 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
  294 words of extra memory for PDF output out of 10000 (max. 10000000)
 
