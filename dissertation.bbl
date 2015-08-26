@@ -1,11 +1,72 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{FBSEGPC15}
+\begin{thebibliography}{RVGGGGCS13}
+
+\bibitem[AA11]{albergaria2011critical}
+Patr{\'\i}cia Albergaria-Almeida.
+\newblock Critical thinking, questioning and creativity as components of
+  intelligence.
+\newblock {\em Procedia-Social and Behavioral Sciences}, 30:357--362, 2011.
 
 \bibitem[AAZ08]{alAjlan:2008}
 Ajlan Al-Ajlan and Hussein Zedan.
 \newblock Why moodle.
 \newblock In {\em Future Trends of Distributed Computing Systems, 2008.
   FTDCS'08. 12th IEEE International Workshop on}, pages 58--64. IEEE, 2008.
+
+\bibitem[ABA11]{andre2011formal}
+Margarita Andr{\'e}, Mar{\'\i}a~G Baldoqu{\'\i}n, and Silvia~T Acu{\~n}a.
+\newblock Formal model for assigning human resources to teams in software
+  projects.
+\newblock {\em Information and Software Technology}, 53(3):259--275, 2011.
+
+\bibitem[AGTMM{\etalchar{+}}14]{achcaoucaou2014competence}
+Fariza Achcaoucaou, Laura Guitart-Tarr{\'e}s, Paloma Miravitlles-Matamoros, Ana
+  N{\'u}{\~n}ez-Carballosa, Merc{\'e} Bernardo, and Andrea Bikfalvi.
+\newblock Competence assessment in higher education: A dynamic approach.
+\newblock {\em Human Factors and Ergonomics in Manufacturing \& Service
+  Industries}, 24(4):454--467, 2014.
+
+\bibitem[AMA{\etalchar{+}}07]{aziz2007appraisal}
+Azrilah~Abdul Aziz, Azlinah Mohamed, NoorHabibah Arshad, Sohaimi Zakaria, and
+  Mohd~Saidfudin Masodi.
+\newblock Appraisal of course learning outcomes using rasch measurement: a case
+  study in information technology education.
+\newblock {\em International Journal of Systems Applications, Engineering \&
+  Development}, 4(1):164--172, 2007.
+
+\bibitem[AMRR11]{arno2011promoting}
+Elisabet Arno-Macia and Carmen Rueda-Ramos.
+\newblock Promoting reflection on science, technology, and society among
+  engineering students through an eap online learning environment.
+\newblock {\em Journal of English for Academic Purposes}, 10(1):19--31, 2011.
+
+\bibitem[ARMA{\etalchar{+}}07]{a2007outcome}
+Rozeha A~Rashid, Ibrahim Mohamed, Razimah Abdullah, Azami Zaharim, Mohd Masodi,
+  et~al.
+\newblock Outcome based education performance assessment: A computational model
+  to measure electrical engineering subjects learning outcomes.
+\newblock {\em MATEMATIKA}, 2007.
+
+\bibitem[BDBC07]{benlloch2007adapting}
+Jos{\'e}V Benlloch-Dualde and Sara Blanc-Clavero.
+\newblock Adapting teaching and assessment strategies to enhance
+  competence-based learning in the framework of the european convergence
+  process.
+\newblock In {\em Frontiers In Education Conference-Global Engineering:
+  Knowledge Without Borders, Opportunities Without Passports, 2007. FIE'07.
+  37th Annual}, pages S3B--1. IEEE, 2007.
+
+\bibitem[BDDE11]{barbera2011design}
+T~Barber{\'a}, C~Dema, C~Devece, and S~Estell{\'e}s.
+\newblock Design and results of the collaborative project-based learning in the
+  subject “commercial management” in industrial organization engineering.
+\newblock {\em EDULEARN11 Proceedings}, pages 3250--3258, 2011.
+
+\bibitem[BEDD11]{barbera2011assessment}
+T~Barber{\'a}, S~Estell{\'e}s, C~Dema, and C~Devece.
+\newblock Assessment tools for the evaluation of generic skills development in
+  students of business management.
+\newblock {\em ICERI2011 Proceedings}, pages 965--972, 2011.
 
 \bibitem[BGPC13]{Berns:2013}
 Anke Berns, Antonio Gonzalez-Pardo, and David Camacho.
@@ -20,6 +81,25 @@ Francesco Bellotti, Bill Kapralos, Kiju Lee, Pablo Moreno-Ger, and Riccardo
   Assessment in Serious Games and Technology-Enhanced}, 2013:1:1--1:1, January
   2013.
 
+\bibitem[BPH10]{badcock2010developing}
+Paul~BT Badcock, Philippa~E Pattison, and Kerri-Lee Harris.
+\newblock Developing generic skills through university study: a study of arts,
+  science and engineering in australia.
+\newblock {\em Higher Education}, 60(4):441--458, 2010.
+
+\bibitem[BPH11]{bedek2011behavioral}
+Michael Bedek, Sobah~Abbas Petersen, and Tuija Heikura.
+\newblock From behavioral indicators to contextualized competence assessment.
+\newblock In {\em Advanced Learning Technologies (ICALT), 2011 11th IEEE
+  International Conference on}, pages 277--281. IEEE, 2011.
+
+\bibitem[CEKV09]{chang2009international}
+Yoon Chang, Tomas Eklund, Jussi~I Kantola, and Hannu Vanharanta.
+\newblock International creative tension study of university students in south
+  korea and finland.
+\newblock {\em Human Factors and Ergonomics in Manufacturing \& Service
+  Industries}, 19(6):528--543, 2009.
+
 \bibitem[CGC12]{Chebil:2012}
 H.~Chebil, J.~Girardot, and C.~Courtin.
 \newblock An ontology-based approach for sharing and analyzing learning trace
@@ -27,12 +107,28 @@ H.~Chebil, J.~Girardot, and C.~Courtin.
 \newblock In {\em Proceedings - IEEE 6th International Conference on Semantic
   Computing, ICSC 2012}, pages 101--108, 2012.
 
+\bibitem[CMBBM{\etalchar{+}}13]{carreras2013promotion}
+Anna Carreras~Mar{\'\i}n, Yolanda Blasco, Marc Badia-Mir{\'o}, Manuela
+  Bosch~Pr{\'\i}ncep, Isabel Morillo, Gemma Cair{\'o}~i C{\'e}spedes, and
+  Dolors Casares~Vidal.
+\newblock The promotion and assessment of generic skills from interdisciplinary
+  teaching teams.
+\newblock In {\em Comunicaci{\'o} presentada a: Proceedings of EDULEARN13
+  Conference, 1st-3rd July 2013, Barcelona, Spain. ISBN:
+  978-84-616-3822-2.(0201-0207)}, 2013.
+
 \bibitem[Com12]{communique2012making}
 Bucharest Communiqu{\'e}.
 \newblock Making the most of our potential: Consolidating the european higher
   education area.
 \newblock In {\em EHEA Ministerial Conference. Retrieved May}, volume~16, page
   2012, 2012.
+
+\bibitem[CPCF15]{casan2015developing}
+Ricardo Casa{\~n}-Pitarch and Jos{\'e}~Ram{\'o}n Calvo-Ferrer.
+\newblock Developing writing skills in the classroom: A corpus-based analysis
+  of multi-genre structures.
+\newblock {\em Procedia-Social and Behavioral Sciences}, 198:74--83, 2015.
 
 \bibitem[DPDRR{\etalchar{+}}13]{Dodero:2013}
 J.~M. Dodero, M.~Palomo-Duarte, I.~Ruiz-Rube, I.~Traverso, and J.~M. Mota.
@@ -47,6 +143,20 @@ J.~M. Dodero, M.~Palomo-Duarte, I.~Ruiz-Rube, I.~Traverso, and J.~M. Mota.
 \newblock Using learning analytics to improve teamwork assessment.
 \newblock {\em Computers in Human Behavior}, 47:149--156, 2015.
 
+\bibitem[FC11]{fernandez2011experience}
+Marinela~Garc{\'\i}a Fern{\'a}ndez and Edmundo~Tovar Caro.
+\newblock The experience of implementing a communication skills assessment in
+  the first year course for undergraduate computing engineering students: A
+  tool for further development of an international curriculum.
+\newblock In {\em Global Engineering Education Conference (EDUCON), 2011 IEEE},
+  pages 1081--1087. IEEE, 2011.
+
+\bibitem[FCBG15]{ficapal2015learning}
+Pilar Ficapal-Cus{\'\i} and Joan Boada-Grau.
+\newblock e-learning and team-based learning. practical experience in virtual
+  teams.
+\newblock {\em Procedia-Social and Behavioral Sciences}, 196:69--74, 2015.
+
 \bibitem[FGD{\etalchar{+}}11]{Florian:2011}
 B.~Florian, C.~Glahn, H.~Drachsler, M.~Specht, and R.~Fabregat~Gesa.
 \newblock {\em Activity-based learner-models for learner monitoring and
@@ -54,6 +164,13 @@ B.~Florian, C.~Glahn, H.~Drachsler, M.~Specht, and R.~Fabregat~Gesa.
   Computer Science (including subseries Lecture Notes in Artificial
   Intelligence and Lecture Notes in Bioinformatics)}.
 \newblock Springer Berlin Heidelberg, 2011.
+
+\bibitem[GARF{\etalchar{+}}13]{guenaga2013serious}
+Mariluz Guenaga, Sonia Arranz, Isabel Rubio~Florido, Eduardo Aguilar, Alex
+  Ortiz~de Guinea, Alex Rayon, Mara~Jose Bezanilla, and Iratxe Menchaca.
+\newblock Serious games for the development of employment oriented competences.
+\newblock {\em Tecnologias del Aprendizaje, IEEE Revista Iberoamericana de},
+  8(4):176--183, 2013.
 
 \bibitem[GW{\etalchar{+}}03]{gonzalez2003tuning}
 Julia Gonz{\'a}lez, Robert Wagenaar, et~al.
@@ -64,6 +181,11 @@ Julia Gonz{\'a}lez, Robert Wagenaar, et~al.
 Alan~R. Hevner, Salvatore~T. March, Jinsoo Park, and Sudha Ram.
 \newblock Design science in information systems research.
 \newblock {\em MIS Quarterly}, 28(1):75--105, March 2004.
+
+\bibitem[JHT02]{johnson2002encouraging}
+Elizabeth Johnson, Susanna Herd, and Judith Tisdall.
+\newblock Encouraging generic skills in science courses.
+\newblock {\em Electronic Journal of Biotechnology}, 5(2):22--23, 2002.
 
 \bibitem[JKC10]{judd:2010}
 Terry Judd, Gregor KEnnEDY, and Simon CRoPPER.
@@ -83,10 +205,50 @@ Leslie Jarmon, Tomoko Traphagan, Michael Mayrath, and Avani Trivedi.
   interdisciplinary communication course in second life.
 \newblock {\em Computers \& Education}, 53(1):169--182, 2009.
 
+\bibitem[KS12]{khamis2012measurement}
+Nor~Kamaliana Khamis and Abu~Bakar Sulong.
+\newblock Measurement of students’ performance level in a group project by
+  using peer review and lecturer assessment.
+\newblock {\em Procedia-Social and Behavioral Sciences}, 60:130--134, 2012.
+
+\bibitem[LBM{\etalchar{+}}05]{lumsden2005assessment}
+Mary~Ann Lumsden, Miles Bore, Keith Millar, Rachael Jack, and David Powis.
+\newblock Assessment of personal qualities in relation to admission to medical
+  school.
+\newblock {\em Medical education}, 39(3):258--265, 2005.
+
+\bibitem[LPF09]{lacuesta2009active}
+Raquel Lacuesta, Guillermo Palacios, and Luis Fern{\'a}ndez.
+\newblock Active learning through problem based learning methodology in
+  engineering education.
+\newblock In {\em Frontiers in Education Conference, 2009. FIE'09. 39th IEEE},
+  pages 1--6. IEEE, 2009.
+
+\bibitem[LTSM13]{lasa2013problem}
+A~Lasa, I~Txurruka, E~Sim{\'o}n, and J~Miranda.
+\newblock Problem based learning implementation in the degree of human
+  nutrition and dietetics.
+\newblock {\em ICERI2013 Proceedings}, pages 1687--1692, 2013.
+
 \bibitem[Lug12]{Lugton:2012}
 Martin Lugton.
 \newblock {What is a MOOC? What are the different types of MOOC? xMOOCs and
   cMOOCs}, 2012.
+
+\bibitem[M{\'A}HSPG{\etalchar{+}}13]{masip2013self}
+Albert Masip-{\'A}lvarez, Carme Hervada-Sala, Teresa P{\`a}mies-G{\'o}mez,
+  Antoni Arias-Pujol, Carles Jaen-Fernandez, Cristina Rodriguez-Sorigue, David
+  Romero-Duran, Fatiha Nejjari-Akhi-Elarab, M~Alvarez-del Castillo, Marta
+  Roca-Lefler, et~al.
+\newblock Self-video recording for the integration and assessment of generic
+  competencies.
+\newblock In {\em Global Engineering Education Conference (EDUCON), 2013 IEEE},
+  pages 436--441. IEEE, 2013.
+
+\bibitem[Mal94]{malehorn1994ten}
+Hal Malehorn.
+\newblock Ten measures better than grading.
+\newblock {\em The Clearing House}, 67(6):323--324, 1994.
 
 \bibitem[MB13]{Munkhchimeg:2013}
 B.~Munkhchimeg and S.~Baigaltugs.
@@ -95,10 +257,57 @@ B.~Munkhchimeg and S.~Baigaltugs.
 \newblock In {\em Strategic Technology (IFOST), 2013 8th International Forum
   on}, volume~2, pages 395--399, 2013.
 
+\bibitem[MBDPP10]{martin2010new}
+MR~Mart{\'\i}n-Brice{\~n}o, G~D{\'\i}az-Pardo, and S~Prashar.
+\newblock New methodologies in the teaching and evaluation of the competences
+  “teamwork” and “oral and written communication” in the civil law
+  course of the university rey juan carlos.
+\newblock {\em ICERI2010 Proceedings}, pages 4956--4961, 2010.
+
+\bibitem[MBP13]{martin2013acquired}
+MR~Mart{\'\i}n-Brice{\~n}o and S~Prashar.
+\newblock Acquired skills with the implementation of new evaluation methods at
+  university rey juan carlos.
+\newblock {\em ICERI2013 Proceedings}, pages 4875--4878, 2013.
+
+\bibitem[MGBT10]{marquez2010have}
+AM~M{\'a}rquez-Garc{\'\i}a and R~Barreda-Tarrazona.
+\newblock Have our future entrepreneurs an ethical commitment?
+\newblock {\em ICERI2010 Proceedings}, pages 5780--5789, 2010.
+
+\bibitem[MGMA14]{martinez2014teamwork}
+Jorge E~Perez Martinez, Javier Garc{\'\i}a~Mart{\'\i}n, and Almudena~Sierra
+  Alonso.
+\newblock Teamwork competence and academic motivation in computer science
+  engineering studies.
+\newblock In {\em Global Engineering Education Conference (EDUCON), 2014 IEEE},
+  pages 778--783. IEEE, 2014.
+
 \bibitem[MK13]{Mor:2013}
 Yishay Mor and Tapio Koshinen.
 \newblock {MOOC y m\'{a}s all\'{a}}.
 \newblock {\em eLearning Papers}, 33:1--7, 2013.
+
+\bibitem[ML06]{mcloughlin2006beyond}
+Catherine McLoughlin and Joe Luca.
+\newblock Beyond marks and measurement: Developing dynamic and authentic forms
+  of e-assessment.
+\newblock {\em Who's learning? Whose technology}, pages 559--662, 2006.
+
+\bibitem[PALAM{\etalchar{+}}11]{pinto2011assessment}
+JJ~Pinto, JM~Arellano-Lopez, MI~Arufe-Martinez, MC~Barrera, I~Caro, R~Castro,
+  MD~Coello, MD~Galindo, MD~Granado, M~Gonz{\'a}lez, et~al.
+\newblock Assessment of self-criticism capacity competence in higher education
+  students: Outcome oriented education.
+\newblock {\em ICERI2011 Proceedings}, pages 2032--2039, 2011.
+
+\bibitem[PCL{\etalchar{+}}10]{piedra2010measuring}
+Nelson Piedra, Janneth Chicaiza, Jorge L{\'o}pez, Audrey Romero, and Edmundo
+  Tovar.
+\newblock Measuring collaboration and creativity skills through rubrics:
+  Experience from utpl collaborative social networks course.
+\newblock In {\em Education Engineering (EDUCON), 2010 IEEE}, pages 1511--1516.
+  IEEE, 2010.
 
 \bibitem[PDDT{\etalchar{+}}12]{Palomo-Duarte:2012}
 Manuel Palomo-Duarte, Juan~Manuel Dodero, Jos{\'e}~Tom\'{a}s Tocino, Antonio
@@ -120,11 +329,40 @@ V~Podgorelec and S~Kuhar.
   reporting in virtual learning environments.
 \newblock {\em Elektronika ir Elektrotechnika}, 114(8):111--116, 2011.
 
+\bibitem[PMBDP10]{prashar2010competence}
+S~Prashar, MR~Mart{\'\i}n-Brice{\~n}o, and G~D{\'\i}az-Pardo.
+\newblock Competence based teaching and evaluation in the general chemistry
+  course of the university rey juan carlos.
+\newblock {\em ICERI2010 Proceedings}, pages 4931--4935, 2010.
+
+\bibitem[PP06]{park2006moral}
+Nansook Park and Christopher Peterson.
+\newblock Moral competence and character strengths among adolescents: The
+  development and validation of the values in action inventory of strengths for
+  youth.
+\newblock {\em Journal of adolescence}, 29(6):891--909, 2006.
+
 \bibitem[RAKY11]{Cachia:2011}
 Cachia R., Ferrari A., Ala-Mutka K., and Punie Y.
 \newblock {\em Creative Learning and Innovative Teaching: Final Report on the
   Study on Creativity and Innovation in Education in the EU Member States}.
 \newblock Dictus Publishing, 2011.
+
+\bibitem[RAZ{\etalchar{+}}08]{rashid2008engineering}
+Rozeha~A Rashid, Razimah Abdullah, Azami Zaharim, Hamzah~Ahmad Ghulman,
+  Mohd~Saidfudin Masodi, JL~Mauri, A~Zaharim, A~Kolyshkin, M~Hatziprokopiou,
+  A~Lazakidou, et~al.
+\newblock Engineering students performance evaluation of generic skills
+  measurement: Espegs model.
+\newblock In {\em WSEAS International Conference. Proceedings. Mathematics and
+  Computers in Science and Engineering}, number~5. WSEAS, 2008.
+
+\bibitem[RDGDO10]{rodriguez2010portfolio}
+Silvia Rodriguez-Donaire, Beatriz~Amante Garc{\'\i}a, and Sonia~Oliver
+  Del~Olmo.
+\newblock e-portfolio: a tool to assess university students' skills.
+\newblock In {\em Information Technology Based Higher Education and Training
+  (ITHET), 2010 9th International Conference on}, pages 114--124. IEEE, 2010.
 
 \bibitem[RJ13]{Redecker:2013}
 Christine Redecker and Øystein Johannessen.
@@ -132,11 +370,83 @@ Christine Redecker and Øystein Johannessen.
   ICT}.
 \newblock {\em European Journal of Education}, 48(1):79--96, 2013.
 
+\bibitem[RJGN14]{rayon2014web}
+Alex Rayon~Jerez, Mariluz Guenaga, and Asier N{\'u}{\~n}ez.
+\newblock A web platform for the assessment of competences in mobile learning
+  contexts.
+\newblock In {\em Global Engineering Education Conference (EDUCON), 2014 IEEE},
+  pages 321--329. IEEE, 2014.
+
+\bibitem[RV10]{renau2010teaching}
+ML~Renau Renau and J~Us{\'o} Viciedo.
+\newblock Teaching and learning through projects using the ict: Practice of the
+  english writing through business documents.
+\newblock {\em ICERI2010 Proceedings}, pages 4700--4705, 2010.
+
+\bibitem[RVGGGGCS13]{ruizacarate2013soft}
+Carmen Ruizac{\'a}rate~Varela, Maria~Jesus Garcia~Garcia, Concepcion
+  Gonzalez~Garcia, and Jose~Luis Casado~Sanchez.
+\newblock Soft skills: A comparative analysis between online and classroom
+  teaching.
+\newblock 2013.
+
+\bibitem[SGRO13]{serrano2013hiperion}
+Jesus Serrano-Guerrero, Francisco~P Romero, and Jose~A Olivas.
+\newblock Hiperion: A fuzzy approach for recommending educational activities
+  based on the acquisition of competences.
+\newblock {\em Information Sciences}, 248:114--129, 2013.
+
+\bibitem[SJP07]{sin2007evaluating}
+Samantha Sin, Alan Jones, and Peter Petocz.
+\newblock Evaluating a method of integrating generic skills with accounting
+  content based on a functional theory of meaning.
+\newblock {\em Accounting \& Finance}, 47(1):143--163, 2007.
+
+\bibitem[SLLS11]{so2011mapping}
+CHJ So, SFH Lai, D~Lam, and YL~So.
+\newblock Mapping the impact on holistic development: A study of the
+  relationship between generic skills and academic discipline among hong kong
+  associate degree students.
+\newblock {\em ICERI2011 Proceedings}, pages 6630--6638, 2011.
+
+\bibitem[SPMSGS12]{sevilla2012assessment}
+Ana Sevilla-Pav{\'o}n, Antonio Mart{\'\i}nez-S{\'a}ez, and Ana Gimeno-Sanz.
+\newblock Assessment of competences in designing online preparatory materials
+  for the cambridge first certificate in english examination.
+\newblock {\em Procedia-Social and Behavioral Sciences}, 34:207--211, 2012.
+
+\bibitem[VGMEC{\etalchar{+}}13]{vizcarro2013assessment}
+Carmen Vizcarro~Guarch, Pilar Martin~Espinosa, Ruth Cobos, Jorge~E P{\'e}rez,
+  Edmundo Tovar~Caro, Gregoria Blanco~Viejo, Aurelio Bermudez~Marin, and Jose
+  Reyes Ruiz~Gallardo.
+\newblock Assessment of problem solving in computing studies.
+\newblock In {\em Frontiers in Education Conference, 2013 IEEE}, pages
+  999--1003. IEEE, 2013.
+
+\bibitem[WC11]{ward2011developing}
+Tim Ward and Saudemont Christophe.
+\newblock Developing entrepreneurial accounting and finance competency using
+  the elleiec virtual centre for enterprise.
+\newblock In {\em EAEEIE Annual Conference (EAEEIE), 2011 Proceedings of the
+  22nd}, pages 1--5. IEEE, 2011.
+
 \bibitem[WMMR05]{Wieringa:2005}
 Roel Wieringa, Neil Maiden, Nancy Mead, and Colette Rolland.
 \newblock Requirements engineering paper classification and evaluation
   criteria: A proposal and a discussion.
 \newblock {\em Requirements Engineering}, 11(1):102--107, December 2005.
+
+\bibitem[Xen12]{DeXena2012educacion}
+Leslie Borjas~De Xena.
+\newblock La educación empresarial en instituciones de educación superior
+  venezolanas.
+\newblock {\em Estudios Gerenciales}, 28(125):51 -- 58, 2012.
+
+\bibitem[YLL14]{yang2014fine}
+Fan Yang, Frederick~WB Li, and Rynson~WH Lau.
+\newblock A fine-grained outcome-based learning path model.
+\newblock {\em Systems, Man, and Cybernetics: Systems, IEEE Transactions on},
+  44(2):235--245, 2014.
 
 \bibitem[Zab05]{zabala2005espacio}
 Jes{\'u}s~Go{\~n}i Zabala.
