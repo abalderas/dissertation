@@ -169,7 +169,7 @@ B.~Florian, C.~Glahn, H.~Drachsler, M.~Specht, and R.~Fabregat~Gesa.
 Mariluz Guenaga, Sonia Arranz, Isabel Rubio~Florido, Eduardo Aguilar, Alex
   Ortiz~de Guinea, Alex Rayon, Mara~Jose Bezanilla, and Iratxe Menchaca.
 \newblock Serious games for the development of employment oriented competences.
-\newblock {\em Tecnologias del Aprendizaje, IEEE Revista Iberoamericana de},
+\newblock {\em IEEE Revista Iberoamericana de Tecnologias del Aprendizaje},
   8(4):176--183, 2013.
 
 \bibitem[GW{\etalchar{+}}03]{gonzalez2003tuning}
@@ -294,6 +294,12 @@ Catherine McLoughlin and Joe Luca.
   of e-assessment.
 \newblock {\em Who's learning? Whose technology}, pages 559--662, 2006.
 
+\bibitem[Oli13]{oliver2013graduate}
+Beverley Oliver.
+\newblock Graduate attributes as a focus for institution-wide curriculum
+  renewal: innovations and challenges.
+\newblock {\em Higher Education Research \& Development}, 32(3):450--463, 2013.
+
 \bibitem[PALAM{\etalchar{+}}11]{pinto2011assessment}
 JJ~Pinto, JM~Arellano-Lopez, MI~Arufe-Martinez, MC~Barrera, I~Caro, R~Castro,
   MD~Coello, MD~Galindo, MD~Granado, M~Gonz{\'a}lez, et~al.
@@ -390,6 +396,12 @@ Carmen Ruizac{\'a}rate~Varela, Maria~Jesus Garcia~Garcia, Concepcion
   teaching.
 \newblock 2013.
 
+\bibitem[SES15]{strijbos2015criteria}
+Jetske Strijbos, Nadine Engels, and Katrien Struyven.
+\newblock Criteria and standards of generic competences at bachelor degree
+  level: A review study.
+\newblock {\em Educational Research Review}, 14:18--32, 2015.
+
 \bibitem[SGRO13]{serrano2013hiperion}
 Jesus Serrano-Guerrero, Francisco~P Romero, and Jose~A Olivas.
 \newblock Hiperion: A fuzzy approach for recommending educational activities
@@ -414,6 +426,13 @@ Ana Sevilla-Pav{\'o}n, Antonio Mart{\'\i}nez-S{\'a}ez, and Ana Gimeno-Sanz.
 \newblock Assessment of competences in designing online preparatory materials
   for the cambridge first certificate in english examination.
 \newblock {\em Procedia-Social and Behavioral Sciences}, 34:207--211, 2012.
+
+\bibitem[Sta08]{starcic2008sustaining}
+Andreja~Istenic Starcic.
+\newblock Sustaining teacher's professional development and training through
+  web-based communities of practice.
+\newblock In {\em Applications and the Internet, 2008. SAINT 2008.
+  International Symposium on}, pages 317--320. IEEE, 2008.
 
 \bibitem[VGMEC{\etalchar{+}}13]{vizcarro2013assessment}
 Carmen Vizcarro~Guarch, Pilar Martin~Espinosa, Ruth Cobos, Jorge~E P{\'e}rez,
