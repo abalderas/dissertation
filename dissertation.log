@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  3 SEP 2015 20:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  4 SEP 2015 09:54
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -1013,68 +1013,68 @@ Overfull \hbox (124.111pt too wide) in paragraph at lines 318--319
 PNG/Burbujas.png>] [25
 
 
-] [26] [27] [28] [29] [30] [31]
-Overfull \hbox (1.487pt too wide) in paragraph at lines 426--426
+] [26] [27] [28] [29] [30] [31] [32]
+Overfull \hbox (1.487pt too wide) in paragraph at lines 429--429
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (81.17886pt too wide) in alignment at lines 397--439
+Overfull \hbox (81.17886pt too wide) in alignment at lines 400--442
  [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 439
+Underfull \vbox (badness 10000) detected at line 442
  []
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Overfull \hbox (81.17886pt too wide) in alignment at lines 439--479
+Overfull \hbox (81.17886pt too wide) in alignment at lines 442--482
  [] [] [] [] [] 
  []
 
-[32
+[33
 
 ]
-Overfull \hbox (5.97482pt too wide) in paragraph at lines 482--482
+Overfull \hbox (5.97482pt too wide) in paragraph at lines 485--485
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (13.71973pt too wide) in paragraph at lines 486--486
+Overfull \hbox (13.71973pt too wide) in paragraph at lines 489--489
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (1.31871pt too wide) in paragraph at lines 496--496
+Overfull \hbox (1.31871pt too wide) in paragraph at lines 499--499
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (0.87955pt too wide) in paragraph at lines 498--498
+Overfull \hbox (0.87955pt too wide) in paragraph at lines 501--501
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (81.17886pt too wide) in alignment at lines 479--502
+Overfull \hbox (81.17886pt too wide) in alignment at lines 482--505
  [] [] [] [] [] 
  []
 
-[33] [34] [35] [36] [37])
+[34] [35] [36] [37] [38])
 (C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.t
-ex [38
-
-
-
-
-]
+ex
 Cap\'{\i }tulo 3.
 
 Package natbib Warning: Citation `turing1950computing' on page 39 undefined on 
 input line 25.
 
-[39]) [40]
+[39
+
+
+
+
+]) [40]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
 ex.tex
 Cap\'{\i }tulo 4.
@@ -1164,7 +1164,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: E38CAF5A23B272911011DB82E67067C0;3510.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: 79406081461015C6874651BA60F1AD3C;7362.
+(rerunfilecheck)             Checksum: 6611B666E0C0A44D8FEA7F5C6440F1A3;7362.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
@@ -1183,7 +1183,7 @@ iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on dissertation.pdf (85 pages, 421165 bytes).
+Output written on dissertation.pdf (85 pages, 423289 bytes).
 PDF statistics:
  1016 PDF objects out of 1200 (max. 8388607)
  214 named destinations out of 1000 (max. 500000)
