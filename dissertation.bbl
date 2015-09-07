@@ -130,6 +130,13 @@ Ricardo Casa{\~n}-Pitarch and Jos{\'e}~Ram{\'o}n Calvo-Ferrer.
   of multi-genre structures.
 \newblock {\em Procedia-Social and Behavioral Sciences}, 198:74--83, 2015.
 
+\bibitem[DAJ11]{djaouti2011classifying}
+Damien Djaouti, Julian Alvarez, and Jean-Pierre Jessel.
+\newblock Classifying serious games: the g/p/s model.
+\newblock {\em Handbook of research on improving learning and motivation
+  through educational games: Multidisciplinary approaches}, pages 118--136,
+  2011.
+
 \bibitem[DPDRR{\etalchar{+}}13]{Dodero:2013}
 J.~M. Dodero, M.~Palomo-Duarte, I.~Ruiz-Rube, I.~Traverso, and J.~M. Mota.
 \newblock {ASCETA: Accesibilidad a servicios y contenidos educativos mediante
@@ -402,6 +409,13 @@ Carmen Ruizac{\'a}rate~Varela, Maria~Jesus Garcia~Garcia, Concepcion
 \newblock Soft skills: A comparative analysis between online and classroom
   teaching.
 \newblock 2013.
+
+\bibitem[SdB12]{siemens2012learning}
+George Siemens and Ryan~SJ d~Baker.
+\newblock Learning analytics and educational data mining: towards communication
+  and collaboration.
+\newblock In {\em Proceedings of the 2nd international conference on learning
+  analytics and knowledge}, pages 252--254. ACM, 2012.
 
 \bibitem[SES15]{strijbos2015criteria}
 Jetske Strijbos, Nadine Engels, and Katrien Struyven.
