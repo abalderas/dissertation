@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  8 SEP 2015 20:00
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  9 SEP 2015 14:08
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -986,22 +986,22 @@ Overfull \hbox (34.44368pt too wide) in paragraph at lines 175--192
  []
 
 [19]
-<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=483, 792.9625pt x 
+<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=485, 792.9625pt x 
 474.77374pt>
 File: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png Graphic file (typ
 e png)
  <use 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png>
 Package pdftex.def Info: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.pn
 g used on input line 271.
-(pdftex.def)             Requested size: 475.78116pt x 284.86644pt.
+(pdftex.def)             Requested size: 396.48027pt x 237.38629pt.
 
-Overfull \hbox (80.28804pt too wide) in paragraph at lines 271--272
+Overfull \hbox (0.98715pt too wide) in paragraph at lines 271--272
  [] 
  []
 
 [20] [21] [22 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_ar
-t/figures/PNG/PublicacionesAnuales.png>] [23] [24]
-<2_state_of_the_art/figures/PNG/Burbujas.png, id=507, 1699.34875pt x 660.4675pt
+t/figures/PNG/PublicacionesAnuales.png>] [23]
+<2_state_of_the_art/figures/PNG/Burbujas.png, id=505, 1699.34875pt x 660.4675pt
 >
 File: 2_state_of_the_art/figures/PNG/Burbujas.png Graphic file (type png)
  <use 2_state_of_the_art/figures/PNG/Burbujas.png>
@@ -1013,72 +1013,73 @@ Overfull \hbox (86.77214pt too wide) in paragraph at lines 318--319
  [] 
  []
 
-[25 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/figures/
-PNG/Burbujas.png>] [26
+[24 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/figures/
+PNG/Burbujas.png>] [25
 
 
-] [27] [28] [29] [30] [31] [32] [33] [34] [35]
-Overfull \hbox (1.487pt too wide) in paragraph at lines 439--439
+] [26] [27] [28] [29] [30] [31] [32] [33]
+Overfull \hbox (1.487pt too wide) in paragraph at lines 418--418
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (81.17886pt too wide) in alignment at lines 410--452
+Overfull \hbox (81.17886pt too wide) in alignment at lines 389--431
  [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 452
+Underfull \vbox (badness 10000) detected at line 431
  []
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Overfull \hbox (81.17886pt too wide) in alignment at lines 452--492
+Overfull \hbox (81.17886pt too wide) in alignment at lines 431--471
  [] [] [] [] [] 
  []
 
-[36
+[34
 
 ]
-Overfull \hbox (5.97482pt too wide) in paragraph at lines 495--495
+Overfull \hbox (5.97482pt too wide) in paragraph at lines 474--474
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (13.71973pt too wide) in paragraph at lines 499--499
+Overfull \hbox (13.71973pt too wide) in paragraph at lines 478--478
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (1.31871pt too wide) in paragraph at lines 509--509
+Overfull \hbox (1.31871pt too wide) in paragraph at lines 488--488
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (0.87955pt too wide) in paragraph at lines 511--511
+Overfull \hbox (0.87955pt too wide) in paragraph at lines 490--490
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (81.17886pt too wide) in alignment at lines 492--515
+Overfull \hbox (81.17886pt too wide) in alignment at lines 471--494
  [] [] [] [] [] 
  []
 
-[37] [38] [39] [40] [41])
+[35] [36] [37] [38] [39]) [40
+
+] [41] [42]
 (C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.t
-ex [42
-
-
-
-
-]
+ex
 Cap\'{\i }tulo 3.
 
 Package natbib Warning: Citation `turing1950computing' on page 43 undefined on 
 input line 25.
 
-[43]) [44]
+[43
+
+
+
+]) [44]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
 ex.tex
 Cap\'{\i }tulo 4.
@@ -1166,16 +1167,16 @@ aux) (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 8AE394132208200665EE7F1341803526;3668.
+(rerunfilecheck)             Checksum: A7F15179E9B0FF4A356538F480D68CDD;3668.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: AF690CECDE079762ABAA7BC43322DBC5;7579.
+(rerunfilecheck)             Checksum: 9CB77431DFF437F0DFD8D3563AC00D04;8066.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 14051 strings out of 494045
- 214310 string characters out of 3145963
- 355931 words of memory out of 3000000
- 16681 multiletter control sequences out of 15000+200000
+ 14054 strings out of 494045
+ 214369 string characters out of 3145963
+ 357025 words of memory out of 3000000
+ 16683 multiletter control sequences out of 15000+200000
  40723 words of font info for 80 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  43i,12n,49p,1774b,747s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1187,9 +1188,9 @@ iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on dissertation.pdf (89 pages, 437692 bytes).
+Output written on dissertation.pdf (89 pages, 444150 bytes).
 PDF statistics:
- 1047 PDF objects out of 1200 (max. 8388607)
- 222 named destinations out of 1000 (max. 500000)
+ 1068 PDF objects out of 1200 (max. 8388607)
+ 223 named destinations out of 1000 (max. 500000)
  368 words of extra memory for PDF output out of 10000 (max. 10000000)
 
