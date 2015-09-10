@@ -21,17 +21,17 @@
 \contentsline {section}{\numberline {2.2}Metodolog\IeC {\'\i }a}{13}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Protocolo de revisi\IeC {\'o}n}{13}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Motores de b\IeC {\'u}squeda}{13}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}T\IeC {\'e}rminos de b\IeC {\'u}squeda}{13}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}T\IeC {\'e}rminos de b\IeC {\'u}squeda}{14}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Criterios de selecci\IeC {\'o}n}{14}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Esquema para la extracci\IeC {\'o}n de datos}{15}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.5}Esquema para la extracci\IeC {\'o}n de datos}{16}{subsection.2.2.5}
 \contentsline {subsubsection}{\numberline {2.2.5.1}Tipo de investigaci\IeC {\'o}n}{16}{subsubsection.2.2.5.1}
 \contentsline {subsubsection}{\numberline {2.2.5.2}Tipo de contribuci\IeC {\'o}n}{17}{subsubsection.2.2.5.2}
-\contentsline {subsubsection}{\numberline {2.2.5.3}\IeC {\'A}mbito de aplicaci\IeC {\'o}n de la investigaci\IeC {\'o}n}{17}{subsubsection.2.2.5.3}
+\contentsline {subsubsection}{\numberline {2.2.5.3}\IeC {\'A}mbito de aplicaci\IeC {\'o}n de la investigaci\IeC {\'o}n}{18}{subsubsection.2.2.5.3}
 \contentsline {subsection}{\numberline {2.2.6}Visualizaci\IeC {\'o}n y an\IeC {\'a}lisis de los datos}{18}{subsection.2.2.6}
 \contentsline {section}{\numberline {2.3}Resultados}{19}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Localizaci\IeC {\'o}n de la literatura}{19}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Extracci\IeC {\'o}n de los datos}{20}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Categorizaci\IeC {\'o}n del estudio}{20}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.2}Extracci\IeC {\'o}n de los datos}{21}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Categorizaci\IeC {\'o}n del estudio}{22}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Esquema de clasificaci\IeC {\'o}n}{25}{subsection.2.3.4}
 \contentsline {subsubsection}{\numberline {2.3.4.1}Evaluaci\IeC {\'o}n entre iguales y autoevaluaci\IeC {\'o}n (peer and self-assessment)}{25}{subsubsection.2.3.4.1}
 \contentsline {subsubsection}{\numberline {2.3.4.2}Evaluaci\IeC {\'o}n del profesor (teacher assessment)}{28}{subsubsection.2.3.4.2}
