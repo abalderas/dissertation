@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  9 SEP 2015 14:08
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  10 SEP 2015 14:34
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -1065,72 +1065,72 @@ Overfull \hbox (81.17886pt too wide) in alignment at lines 471--494
  [] [] [] [] [] 
  []
 
-[35] [36] [37] [38] [39]) [40
+[35] [36] [37] [38] [39] [40
 
-] [41] [42]
+] [41] [42] [43]) [44] [45]
 (C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.t
-ex
+ex [46
+
+
+
+]
 Cap\'{\i }tulo 3.
 
-Package natbib Warning: Citation `turing1950computing' on page 43 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 47 undefined on 
 input line 25.
 
-[43
-
-
-
-]) [44]
+[47]) [48]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
 ex.tex
 Cap\'{\i }tulo 4.
 
-Package natbib Warning: Citation `turing1950computing' on page 45 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 49 undefined on 
 input line 25.
 
-[45
+[49
 
 
 
-]) [46]
+]) [50]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/1_wik
-is.tex) [47
+is.tex) [51
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/2_cur
-sos.tex) [48
+sos.tex) [52
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/3_vw.
-tex) [49
+tex) [53
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.tex
-[50
+[54
 
 
 
 ]
 Cap\'{\i }tulo 5.
 
-Package natbib Warning: Citation `turing1950computing' on page 51 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 55 undefined on 
 input line 25.
 
-[51]) [52] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
+[55]) [56] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.brf)
 \tf@brf=\write9
- [53
+ [57
 
 
 
-] [54]
-[55] [56] [57] [58] [59] [60] [61] [62] [63]) [64]
+] [58]
+[59] [60] [61] [62] [63] [64] [65] [66] [67]) [68]
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.tex
-[65
+[69
 
-] [66]) [67
+] [70]) [71
 
 ]
 
@@ -1169,13 +1169,13 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: A7F15179E9B0FF4A356538F480D68CDD;3668.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: 9CB77431DFF437F0DFD8D3563AC00D04;8066.
+(rerunfilecheck)             Checksum: 4A6FA777431E42A2D1A2F186CDD343E0;8176.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 14054 strings out of 494045
- 214369 string characters out of 3145963
- 357025 words of memory out of 3000000
+ 14058 strings out of 494045
+ 214397 string characters out of 3145963
+ 356025 words of memory out of 3000000
  16683 multiletter control sequences out of 15000+200000
  40723 words of font info for 80 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1188,9 +1188,9 @@ iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on dissertation.pdf (89 pages, 444150 bytes).
+Output written on dissertation.pdf (93 pages, 453648 bytes).
 PDF statistics:
- 1068 PDF objects out of 1200 (max. 8388607)
- 223 named destinations out of 1000 (max. 500000)
+ 1088 PDF objects out of 1200 (max. 8388607)
+ 227 named destinations out of 1000 (max. 500000)
  368 words of extra memory for PDF output out of 10000 (max. 10000000)
 
