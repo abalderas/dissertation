@@ -33,9 +33,9 @@
 \contentsline {subsection}{\numberline {2.3.2}Extracci\IeC {\'o}n de los datos}{20}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Categorizaci\IeC {\'o}n del estudio}{21}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Esquema de clasificaci\IeC {\'o}n}{25}{subsection.2.3.4}
-\contentsline {subsubsection}{\numberline {2.3.4.1}Evaluaci\IeC {\'o}n del profesor (teacher assessment)}{25}{subsubsection.2.3.4.1}
-\contentsline {subsubsection}{\numberline {2.3.4.2}Evaluaci\IeC {\'o}n entre iguales y autoevaluaci\IeC {\'o}n (peer and self-assessment)}{26}{subsubsection.2.3.4.2}
-\contentsline {subsubsection}{\numberline {2.3.4.3}Cuestionarios (Questionnaries)}{29}{subsubsection.2.3.4.3}
+\contentsline {subsubsection}{\numberline {2.3.4.1}Evaluaci\IeC {\'o}n entre iguales y autoevaluaci\IeC {\'o}n (peer and self-assessment)}{25}{subsubsection.2.3.4.1}
+\contentsline {subsubsection}{\numberline {2.3.4.2}Evaluaci\IeC {\'o}n del profesor (teacher assessment)}{28}{subsubsection.2.3.4.2}
+\contentsline {subsubsection}{\numberline {2.3.4.3}Cuestionarios (Questionnaries)}{30}{subsubsection.2.3.4.3}
 \contentsline {subsubsection}{\numberline {2.3.4.4}Herramientas de evaluaci\IeC {\'o}n autom\IeC {\'a}tica (automated assessment tools)}{32}{subsubsection.2.3.4.4}
 \contentsline {section}{\numberline {2.4}Respuestas}{40}{section.2.4}
 \contentsline {section}{\numberline {2.5}Conclusiones}{44}{section.2.5}
