@@ -68,6 +68,12 @@ T~Barber{\'a}, S~Estell{\'e}s, C~Dema, and C~Devece.
   students of business management.
 \newblock {\em ICERI2011 Proceedings}, pages 965--972, 2011.
 
+\bibitem[Ber10]{bernheim2010educacion}
+Carlos~T{\"u}nnermann Bernheim.
+\newblock La educaci{\'o}n permanente y su impacto en la educaci{\'o}n
+  superior.
+\newblock {\em Revista Iberoamericana de Educaci{\'o}n Superior}, 1(1), 2010.
+
 \bibitem[BGPC13]{Berns:2013}
 Anke Berns, Antonio Gonzalez-Pardo, and David Camacho.
 \newblock Game-like language learning in 3-d virtual environments.
@@ -172,12 +178,22 @@ B.~Florian, C.~Glahn, H.~Drachsler, M.~Specht, and R.~Fabregat~Gesa.
   Intelligence and Lecture Notes in Bioinformatics)}.
 \newblock Springer Berlin Heidelberg, 2011.
 
+\bibitem[Fis11]{fisher2011critical}
+Alec Fisher.
+\newblock {\em Critical thinking: An introduction}.
+\newblock Cambridge University Press, 2011.
+
 \bibitem[GARF{\etalchar{+}}13]{guenaga2013serious}
 Mariluz Guenaga, Sonia Arranz, Isabel Rubio~Florido, Eduardo Aguilar, Alex
   Ortiz~de Guinea, Alex Rayon, Mara~Jose Bezanilla, and Iratxe Menchaca.
 \newblock Serious games for the development of employment oriented competences.
 \newblock {\em IEEE Revista Iberoamericana de Tecnologias del Aprendizaje},
   8(4):176--183, 2013.
+
+\bibitem[Gas13]{gass2013second}
+Susan~M Gass.
+\newblock {\em Second language acquisition: An introductory course}.
+\newblock Routledge, 2013.
 
 \bibitem[GBA{\etalchar{+}}05]{garcia2005competencias}
 Ana Mar{\'\i}a~Delgado Garc{\'\i}a, Rosa~Borge Bravo, Jordi~Garc{\'\i}a Albero,
@@ -328,6 +344,10 @@ JJ~Pinto, JM~Arellano-Lopez, MI~Arufe-Martinez, MC~Barrera, I~Caro, R~Castro,
 \newblock Assessment of self-criticism capacity competence in higher education
   students: Outcome oriented education.
 \newblock {\em ICERI2011 Proceedings}, pages 2032--2039, 2011.
+
+\bibitem[Par90]{parker1990teamwork}
+Glenn Parker.
+\newblock What is teamwork?, 1990.
 
 \bibitem[PCL{\etalchar{+}}10]{piedra2010measuring}
 Nelson Piedra, Janneth Chicaiza, Jorge L{\'o}pez, Audrey Romero, and Edmundo
