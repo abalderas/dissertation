@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  24 SEP 2015 11:59
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  25 SEP 2015 13:46
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -992,7 +992,7 @@ Overfull \hbox (34.44368pt too wide) in paragraph at lines 180--197
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=494, 523.9575pt x 
+<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=504, 523.9575pt x 
 403.5075pt>
 File: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png Graphic file (typ
 e png)
@@ -1024,7 +1024,7 @@ Overfull \hbox (58.20526pt too wide) in alignment at lines 334--337
 ] [24
 
 ] [25]
-<2_state_of_the_art/figures/PNG/Burbujas.png, id=542, 1699.34875pt x 660.4675pt
+<2_state_of_the_art/figures/PNG/Burbujas.png, id=552, 1699.34875pt x 660.4675pt
 >
 File: 2_state_of_the_art/figures/PNG/Burbujas.png Graphic file (type png)
  <use 2_state_of_the_art/figures/PNG/Burbujas.png>
@@ -1040,72 +1040,64 @@ Overfull \hbox (86.77214pt too wide) in paragraph at lines 381--382
 PNG/Burbujas.png>] [27
 
 
-] [28] [29] [30] [31] [32] [33] [34] [35] [36]
-Overfull \hbox (1.487pt too wide) in paragraph at lines 528--528
+] [28] [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+[31] [32] [33] [34] [35] [36] [37] [38]
+Overfull \hbox (1.487pt too wide) in paragraph at lines 710--710
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (81.17886pt too wide) in alignment at lines 499--541
+Overfull \hbox (81.17886pt too wide) in alignment at lines 681--723
  [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 541
+Underfull \vbox (badness 10000) detected at line 723
  []
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Overfull \hbox (81.17886pt too wide) in alignment at lines 541--581
+Overfull \hbox (81.17886pt too wide) in alignment at lines 723--763
  [] [] [] [] [] 
  []
 
-[37
+[39
 
 ]
-Overfull \hbox (5.97482pt too wide) in paragraph at lines 584--584
+Overfull \hbox (5.97482pt too wide) in paragraph at lines 766--766
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (13.71973pt too wide) in paragraph at lines 588--588
+Overfull \hbox (13.71973pt too wide) in paragraph at lines 770--770
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (1.31871pt too wide) in paragraph at lines 598--598
+Overfull \hbox (1.31871pt too wide) in paragraph at lines 780--780
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (0.87955pt too wide) in paragraph at lines 600--600
+Overfull \hbox (0.87955pt too wide) in paragraph at lines 782--782
 []|\OT1/ptm/m/n/12 [[]]| 
  []
 
 
-Overfull \hbox (81.17886pt too wide) in alignment at lines 581--604
+Overfull \hbox (81.17886pt too wide) in alignment at lines 763--786
  [] [] [] [] [] 
  []
 
-[38] [39] [40] [41] [42] [43
+[40] [41] [42] [43] [44] [45
 
-] [44] [45] [46] [47]) [48]
+] [46] [47] [48] [49]) [50]
 (C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.t
 ex
 Cap\'{\i }tulo 3.
-
-Package natbib Warning: Citation `turing1950computing' on page 49 undefined on 
-input line 25.
-
-[49
-
-
-
-]) [50]
-(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
-ex.tex
-Cap\'{\i }tulo 4.
 
 Package natbib Warning: Citation `turing1950computing' on page 51 undefined on 
 input line 25.
@@ -1115,45 +1107,57 @@ input line 25.
 
 
 ]) [52]
+(C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
+ex.tex
+Cap\'{\i }tulo 4.
+
+Package natbib Warning: Citation `turing1950computing' on page 53 undefined on 
+input line 25.
+
+[53
+
+
+
+]) [54]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/1_wik
-is.tex) [53
+is.tex) [55
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/2_cur
-sos.tex) [54
+sos.tex) [56
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/3_vw.
-tex) [55
+tex) [57
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.tex
-[56
+[58
 
 
 
 ]
 Cap\'{\i }tulo 5.
 
-Package natbib Warning: Citation `turing1950computing' on page 57 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 59 undefined on 
 input line 25.
 
-[57]) [58] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
+[59]) [60] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.brf)
 \tf@brf=\write9
- [59
+ [61
 
 
 
-] [60]
-[61] [62] [63] [64] [65] [66] [67] [68] [69] [70]) [71]
+] [62]
+[63] [64] [65] [66] [67] [68] [69] [70] [71] [72]) [73]
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.tex
-[72
+[74
 
-] [73]) [74
+] [75]) [76
 
 ]
 
@@ -1190,16 +1194,16 @@ aux) (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 3CF27CD586EDBA675CCEE4BAC2BE93C3;3667.
+(rerunfilecheck)             Checksum: DFE1705B9739999BFFE1E5A86E913341;3667.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: BE4BD6174A63F59597ECC1F05536EB08;12674.
+(rerunfilecheck)             Checksum: 122F2183B19495F18101213A0204BBF3;18040.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
  ) 
 Here is how much of TeX's memory you used:
- 14105 strings out of 494045
- 215349 string characters out of 3145963
- 357324 words of memory out of 3000000
- 16718 multiletter control sequences out of 15000+200000
+ 14115 strings out of 494045
+ 215542 string characters out of 3145963
+ 357732 words of memory out of 3000000
+ 16722 multiletter control sequences out of 15000+200000
  42352 words of font info for 82 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  43i,14n,49p,1782b,756s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1212,9 +1216,9 @@ onts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/
 utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on dissertation.pdf (96 pages, 495286 bytes).
+Output written on dissertation.pdf (98 pages, 509198 bytes).
 PDF statistics:
- 1202 PDF objects out of 1440 (max. 8388607)
- 237 named destinations out of 1000 (max. 500000)
+ 1293 PDF objects out of 1440 (max. 8388607)
+ 243 named destinations out of 1000 (max. 500000)
  368 words of extra memory for PDF output out of 10000 (max. 10000000)
 
