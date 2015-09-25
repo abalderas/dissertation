@@ -667,9 +667,47 @@ Volvemos a encontrarnos con problemas de escalabilidad. El profesorado que parti
 
 \subsubsection{Herramientas de evaluación automática (automated assessment tools)}
 
-Los juegos serios (\emph{serious game}) son juegos diseñados para un propósito principal distinto del de la pura diversión~\cite{djaouti2011classifying}. Normalmente, el adjetivo "serio" pretende referirse a productos utilizados por industrias como la de defensa, educación, exploración científica, sanitaria, urgencias, planificación cívica, ingeniería, religión y política~\footnote{http://cs.gmu.edu/~gaia/SeriousGames/index.html}. Los serios juegos son muy utilizados hoy en día en el aula, aunque son más aplicados a competencias específicas que a genéricas. En \cite{guenaga2013serious} se utilizan los juegos serios para el desarrollo de las competencias de \emph{emprendimiento} y \emph{solución de problemas}. Se definieron una serie de indicadores como medida del desempeño en las competencias que permiten al estudiante conocer su nivel de adquisición de las mismas. En \cite{bedek2011behavioral} también se utilizan los juegos serios para el desarrollo y evaluación de competencias genéricas. Se basa en un modelo donde para cada competencia se identifican subcompetencias más específicas, lo que facilita el proceso de definición de indicadores.
+Las herramientas de evaluación automática son herramientas informáticas que ayudan al docente en el procedimiento de la evaluación automatizando dicho procedimiento. Puede haber diferentes niveles de automatización dependiendo de cuánto tenga que intervenir el docente en el procedimiento. Un caso típico en el que los investigadores han tratado de automatizar el proceso de evaluación se da en las asignaturas de programación en las titulaciones de informática. Un ejemplo de ésto puede verse en~\cite{jackson2000semi}, trabajo del año 2000 en el se muestra un software que prueba automáticamente todos los programas de los estudiantes, evitando que el profesor tenga que afrontar la tediosa tarea de ejecutar de uno en uno dichos programas. El sistema genera una serie de métricas y muestra al profesor finalmente el código fuente, para que éste pueda considerar y calificar otros aspectos relativos a la calidad que son más difíciles de automatizar. Por otro lado en~\cite{vujovsevic2013software} tenemos un trabajo del año 2013 que muestra un software totalmente automático que evalua los programas creados por los estudiantes desde tres perspectivas: funcionamiento, verificación y similitud con grafo de control de flujo.
+
+Desde el punto de vista de las competencias genéricas hemos encontrado dos tipos de herramientas que evalúan automáticamente a los estudiantes: los juegos serios y herramientas que analizan los procesos de aprendizaje. 
+
+Los juegos serios (\emph{serious game}) son juegos diseñados para un propósito principal distinto del de la pura diversión~\cite{djaouti2011classifying}. Normalmente, el adjetivo "serio" pretende referirse a productos utilizados por industrias como la de defensa, educación, exploración científica, sanitaria, urgencias, planificación cívica, ingeniería, religión y política~\footnote{http://cs.gmu.edu/~gaia/SeriousGames/index.html}. Los juegos serios son muy utilizados hoy en día en el aula, aunque son más aplicados a competencias específicas que a genéricas. 
 
 El término \emph{Learning Analytics}, traducido al español como análisis del aprendizaje, es definido por la \emph{Society for Learning Analytics} como la medición, recopilación, análisis y presentación de datos sobre los estudiantes, sus contextos y las interacciones que allí se generan, con el fin de comprender el proceso de aprendizaje que se está desarrollando y optimizar los entornos en los que se produce~\cite{siemens2012learning}.
+
+\bigskip
+\textbf{Competencias evaluadas}
+\bigskip
+
+% VOY POR AQUI: párrafo introductorio a la tabla y luego tengo que poner el cuadro de estrategias/herramientas
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{| m{3.5cm} | m{9cm} |}
+    \hline
+    COMPETENCIA & TRABAJOS\\
+    \hline
+    \hline
+    Comunicación & \cite{rayon2014web} \\
+    \hline
+    Emprendimiento & \cite{guenaga2013serious} \\	
+    \hline
+    Habilidades interpersonales & \cite{rayon2014web} \\
+    \hline
+    Resolución de problemas & \cite{guenaga2013serious} \\
+    \hline
+    Trabajo en equipo & \cite{fidalgo:2015} \\	  
+    \hline
+  \end{tabular}
+\end{center}
+\caption{Competencias evaluadas con herramientas que automatizan el proceso}
+\label{tab:CompetenciasAutomaticas}
+\end{table} 
+
+
+En \cite{guenaga2013serious} se utilizan los juegos serios para el desarrollo de las competencias de \emph{emprendimiento} y \emph{solución de problemas}. Se definieron una serie de indicadores como medida del desempeño en las competencias que permiten al estudiante conocer su nivel de adquisición de las mismas. En \cite{bedek2011behavioral} también se utilizan los juegos serios para el desarrollo y evaluación de competencias genéricas. Se basa en un modelo donde para cada competencia se identifican subcompetencias más específicas, lo que facilita el proceso de definición de indicadores.
+
+
 
 En \cite{fidalgo:2015} también abordan la evaluación de la competencia de \emph{trabajo en equipo}. Pero en este caso se hace desde un enfoque completamente diferente. En este trabajo se propone utilizar indicadores basados en la interacción entre los agentes que intervienen en el proceso de aprendizaje: Mediante los mensajes escritos en el foro se mide la interacción estudiante-estudiante activo, mientras que mediante las lecturas en el foro se mide las interacciones estudiante-estudiante pasivo. En este trabajo los autores demuestran cómo estos indicadores están relacionados con el rendimiento trabajando en equipo de los estudiante. Además, cómo la obtención de estos indicadores mediante los mecanismos de un entorno virtual es un trabajo tedioso y lento, se desarrolló en este mismo trabajo el software \emph{LA system (Learning Analytics system)}.
 

@@ -212,6 +212,11 @@ Alan~R. Hevner, Salvatore~T. March, Jinsoo Park, and Sudha Ram.
 \newblock Design science in information systems research.
 \newblock {\em MIS Quarterly}, 28(1):75--105, March 2004.
 
+\bibitem[Jac00]{jackson2000semi}
+David Jackson.
+\newblock A semi-automated approach to online assessment.
+\newblock {\em ACM SIGCSE Bulletin}, 32(3):164--167, 2000.
+
 \bibitem[JHT02]{johnson2002encouraging}
 Elizabeth Johnson, Susanna Herd, and Judith Tisdall.
 \newblock Encouraging generic skills in science courses.
@@ -490,6 +495,13 @@ Carmen Vizcarro~Guarch, Pilar Martin~Espinosa, Ruth Cobos, Jorge~E P{\'e}rez,
 \newblock Assessment of problem solving in computing studies.
 \newblock In {\em Frontiers in Education Conference, 2013 IEEE}, pages
   999--1003. IEEE, 2013.
+
+\bibitem[VJNTK13]{vujovsevic2013software}
+Milena Vujo{\v{s}}evi{\'c}-Jani{\v{c}}i{\'c}, Mladen Nikoli{\'c}, Du{\v{s}}an
+  To{\v{s}}i{\'c}, and Viktor Kuncak.
+\newblock Software verification and graph similarity for automated evaluation
+  of students’ assignments.
+\newblock {\em Information and Software Technology}, 55(6):1004--1016, 2013.
 
 \bibitem[WC11]{ward2011developing}
 Tim Ward and Saudemont Christophe.
