@@ -19,10 +19,10 @@ A level-1 auxiliary file: 5_conclusion/0_index.aux
 The style file: alpha.bst
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 Database file #1: 9_backmatter/references.bib
-Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "turing1950computing"
 Warning--can't use both volume and number fields in Petersen:2008
 Warning--there's a number but no series in rashid2008engineering
 Warning--empty journal in ruizacarate2013soft
+Warning--there's a number but no volume in torres2010rubrica
 Warning--empty publisher in zabala2005espacio
 (There were 6 warnings)
