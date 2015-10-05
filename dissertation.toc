@@ -34,9 +34,7 @@
 \contentsline {subsection}{\numberline {2.3.3}Categorizaci\IeC {\'o}n del estudio}{22}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Esquema de clasificaci\IeC {\'o}n}{27}{subsection.2.3.4}
 \contentsline {subsubsection}{\numberline {2.3.4.1}Evaluaci\IeC {\'o}n semiautom\IeC {\'a}tica de competencias gen\IeC {\'e}ricas}{27}{subsubsection.2.3.4.1}
-\contentsline {subsubsection}{\numberline {2.3.4.2}Evaluaci\IeC {\'o}n autom\IeC {\'a}tica de competencias gen\IeC {\'e}ricas}{35}{subsubsection.2.3.4.2}
-\contentsline {subsubsection}{\numberline {2.3.4.3}Cuestionarios (Questionnaries)}{35}{subsubsection.2.3.4.3}
-\contentsline {subsubsection}{\numberline {2.3.4.4}Herramientas de evaluaci\IeC {\'o}n autom\IeC {\'a}tica (automated assessment tools)}{38}{subsubsection.2.3.4.4}
+\contentsline {subsubsection}{\numberline {2.3.4.2}Evaluaci\IeC {\'o}n autom\IeC {\'a}tica de competencias gen\IeC {\'e}ricas}{37}{subsubsection.2.3.4.2}
 \contentsline {section}{\numberline {2.4}Respuestas}{48}{section.2.4}
 \contentsline {section}{\numberline {2.5}Conclusiones}{52}{section.2.5}
 \contentsline {chapter}{\numberline {3}Metodolog\IeC {\'\i }a para la evaluaci\IeC {\'o}n de competencias gen\IeC {\'e}ricas}{55}{chapter.3}
@@ -48,4 +46,4 @@
 \contentsline {section}{\numberline {4.2}Caso 2: Cursos virtuales}{60}{section.4.2}
 \contentsline {section}{\numberline {4.3}Caso 3: Mundos virtuales}{61}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusiones y trabajo futuro}{63}{chapter.5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{65}{chapter*.20}
+\contentsline {chapter}{Bibliograf\'{\i }a}{65}{chapter*.18}
