@@ -32,8 +32,8 @@
 \contentsline {subsection}{\numberline {2.3.1}Localizaci\IeC {\'o}n de la literatura}{19}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Extracci\IeC {\'o}n de los datos}{20}{subsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.2.1}Competencias gen\IeC {\'e}ricas}{21}{subsubsection.2.3.2.1}
-\contentsline {subsubsection}{\numberline {2.3.2.2}Instrumentos de evaluaci\IeC {\'o}n}{24}{subsubsection.2.3.2.2}
-\contentsline {subsubsection}{\numberline {2.3.2.3}Experiencias}{26}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.2}M\IeC {\'e}todos}{24}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Instrumentos de evaluaci\IeC {\'o}n}{26}{subsubsection.2.3.2.3}
 \contentsline {subsection}{\numberline {2.3.3}Categorizaci\IeC {\'o}n del estudio}{28}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Esquema de clasificaci\IeC {\'o}n}{31}{subsection.2.3.4}
 \contentsline {subsubsection}{\numberline {2.3.4.1}Autoevaluaci\IeC {\'o}n o evaluaci\IeC {\'o}n entre iguales.}{31}{subsubsection.2.3.4.1}
