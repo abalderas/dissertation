@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  12 OCT 2015 13:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  13 OCT 2015 22:43
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -796,7 +796,7 @@ LaTeX Info: Redefining \nameref on input line 74.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 
-<0_frontmatter/figures/PNG/UCA_Shield.png, id=187, 468.75125pt x 602.25pt>
+<0_frontmatter/figures/PNG/UCA_Shield.png, id=191, 468.75125pt x 602.25pt>
 File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
 
 <use 0_frontmatter/figures/PNG/UCA_Shield.png>
@@ -978,18 +978,18 @@ Cap\'{\i }tulo 2.
 [11]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 42.
- [12] [13]
+ [12] [13] [14]
 Overfull \hbox (5.4736pt too wide) in paragraph at lines 91--92
 []|\OT1/ptm/m/n/12 RSLT| 
  []
 
-[14] [15] [16] [17] [18]
+[15] [16] [17] [18] [19]
 Overfull \hbox (34.44368pt too wide) in paragraph at lines 179--196
  [] 
  []
 
-[19] [20]
-<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=519, 687.56876pt x
+[20]
+<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=526, 687.56876pt x
  441.65pt>
 File: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png Graphic file (typ
 e png)
@@ -998,172 +998,179 @@ Package pdftex.def Info: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.pn
 g used on input line 267.
 (pdftex.def)             Requested size: 275.02263pt x 176.65686pt.
 
-[21] [22 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/fig
-ures/PNG/PublicacionesAnuales.png>]
-Overfull \hbox (58.20526pt too wide) in alignment at lines 287--329
+Underfull \vbox (badness 2189) has occurred while \output is active []
+
+ [21]
+[22 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/figures/
+PNG/PublicacionesAnuales.png>] [23]
+Overfull \hbox (58.20526pt too wide) in alignment at lines 285--327
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 329
+Underfull \vbox (badness 10000) detected at line 327
  []
 
 
-Overfull \hbox (58.20526pt too wide) in alignment at lines 329--332
+Overfull \hbox (58.20526pt too wide) in alignment at lines 327--330
  [] [] 
  []
 
-[23
+[24
 
-] [24
+] [25
 
-] [25] [26] [27] [28] [29]
-<2_state_of_the_art/figures/PNG/Burbujas.png, id=620, 1678.27pt x 650.43pt>
+] [26] [27] [28] [29] [30] [31]
+<2_state_of_the_art/figures/PNG/Burbujas.png, id=639, 1678.27pt x 650.43pt>
 File: 2_state_of_the_art/figures/PNG/Burbujas.png Graphic file (type png)
 
 <use 2_state_of_the_art/figures/PNG/Burbujas.png>
 Package pdftex.def Info: 2_state_of_the_art/figures/PNG/Burbujas.png used on in
-put line 414.
+put line 424.
 (pdftex.def)             Requested size: 671.29611pt x 260.16739pt.
 
-Overfull \hbox (78.34079pt too wide) in paragraph at lines 414--415
+Overfull \hbox (78.34079pt too wide) in paragraph at lines 424--425
  [] 
  []
 
-[30 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/figures/
-PNG/Burbujas.png>] [31
+[32 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/figures/
+PNG/Burbujas.png>] [33
 
 
-] [32]
-Overfull \hbox (37.11948pt too wide) in paragraph at lines 510--542
- [] 
- []
-
-[33] [34]
-Overfull \hbox (8.66672pt too wide) in paragraph at lines 633--661
+] [34]
+Overfull \hbox (44.38457pt too wide) in paragraph at lines 520--552
  [] 
  []
 
 [35] [36]
-Overfull \hbox (8.66672pt too wide) in paragraph at lines 741--757
+Overfull \hbox (44.38457pt too wide) in paragraph at lines 643--671
  [] 
  []
 
-[37] [38] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-[39] [40] [41]
-Underfull \vbox (badness 10000) detected at line 849
+[37] [38]
+Overfull \hbox (30.1582pt too wide) in paragraph at lines 751--767
+ [] 
  []
 
-[42
+[39] [40] [41] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+[42] [43] [44]
+Underfull \vbox (badness 10000) detected at line 861
+ []
 
-] [43] [44] [45
+[45
 
-] [46] [47]
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=892, 1045.9075pt x
+] [46] [47] [48
+
+] [49] [50]
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=911, 1045.9075pt x
  731.73375pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png Graphic file (typ
 e png)
  <use 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png>
 Package pdftex.def Info: 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.pn
-g used on input line 960.
+g used on input line 972.
 (pdftex.def)             Requested size: 627.54935pt x 439.04364pt.
 
-Overfull \hbox (34.59402pt too wide) in paragraph at lines 960--961
+Overfull \hbox (34.59402pt too wide) in paragraph at lines 972--973
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 83.87047pt on input line 964.
+LaTeX Warning: Float too large for page by 83.87047pt on input line 976.
 
 
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=893, 1048.91875pt 
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=912, 1048.91875pt 
 x 730.73pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png Graphic file (typ
 e png)
  <use 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png>
 Package pdftex.def Info: 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.pn
-g used on input line 968.
+g used on input line 980.
 (pdftex.def)             Requested size: 629.35611pt x 438.44138pt.
 
-Overfull \hbox (36.40079pt too wide) in paragraph at lines 968--969
+Overfull \hbox (36.40079pt too wide) in paragraph at lines 980--981
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 83.2682pt on input line 972.
+LaTeX Warning: Float too large for page by 83.2682pt on input line 984.
 
-[48 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/figures/
-PNG/BurbujaCompetencias1.png>] [49 <C:/Users/Antonio/Documents/GitHub/dissertat
-ion/2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png>] [50
-
-
-] [51])
-[52]
-(C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.t
-ex
-Cap\'{\i }tulo 3.
-
-Package natbib Warning: Citation `turing1950computing' on page 53 undefined on 
-input line 25.
+[51 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/figures/
+PNG/BurbujaCompetencias1.png>] [52 <C:/Users/Antonio/Documents/GitHub/dissertat
+ion/2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png>]
+Overfull \hbox (3.59103pt too wide) in paragraph at lines 1002--1030
+ [] 
+ []
 
 [53
 
 
+] [54]) [55]
+(C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.t
+ex [56
 
-]) [54]
+
+
+]
+Cap\'{\i }tulo 3.
+
+Package natbib Warning: Citation `turing1950computing' on page 57 undefined on 
+input line 25.
+
+[57]) [58]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
 ex.tex
 Cap\'{\i }tulo 4.
 
-Package natbib Warning: Citation `turing1950computing' on page 55 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 59 undefined on 
 input line 25.
 
-[55
+[59
 
 
 
-]) [56]
+]) [60]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/1_wik
-is.tex) [57
+is.tex) [61
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/2_cur
-sos.tex) [58
+sos.tex) [62
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/3_vw.
-tex) [59
+tex) [63
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.tex
-[60
+[64
 
 
 
 ]
 Cap\'{\i }tulo 5.
 
-Package natbib Warning: Citation `turing1950computing' on page 61 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 65 undefined on 
 input line 25.
 
-[61]) [62] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
+[65]) [66] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.brf)
 \tf@brf=\write9
- [63
+ [67
 
 
 
-] [64]
-[65] [66] [67] [68] [69] [70]) [71]
+] [68]
+[69] [70] [71] [72] [73] [74]) [75]
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.tex
-[72
+[76
 
-] [73]) [74
+] [77]) [78
 
 ]
 
@@ -1200,19 +1207,19 @@ aux) (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 3B3BA39683A9B4322F9EAF53ED4BAB30;3745.
+(rerunfilecheck)             Checksum: A408A155276DF8C7463A79C75310BECD;3828.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: FE9760BCBCE51D6FEC17C8CBF4DD317C;17961.
+(rerunfilecheck)             Checksum: 4302E16377DAE165E63AF8265C361694;17955.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
  ) 
 Here is how much of TeX's memory you used:
- 14020 strings out of 494045
- 213510 string characters out of 3145963
- 346642 words of memory out of 3000000
- 16638 multiletter control sequences out of 15000+200000
+ 14027 strings out of 494045
+ 213548 string characters out of 3145963
+ 345645 words of memory out of 3000000
+ 16639 multiletter control sequences out of 15000+200000
  42352 words of font info for 82 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,12n,49p,1781b,861s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,49p,1781b,855s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
@@ -1221,9 +1228,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on dissertation.pdf (96 pages, 542683 bytes).
+Output written on dissertation.pdf (100 pages, 552336 bytes).
 PDF statistics:
- 1249 PDF objects out of 1440 (max. 8388607)
- 230 named destinations out of 1000 (max. 500000)
- 394 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1282 PDF objects out of 1440 (max. 8388607)
+ 236 named destinations out of 1000 (max. 500000)
+ 402 words of extra memory for PDF output out of 10000 (max. 10000000)
 

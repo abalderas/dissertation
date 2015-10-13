@@ -81,6 +81,12 @@ Y.~Chang, T.~Eklund, J.~I. Kantola, and H.~Vanharanta.
 \newblock {\em Human Factors and Ergonomics in Manufacturing \& Service
   Industries}, 19(6):528--543, 2009.
 
+\bibitem{charlier2012not}
+N.~Charlier, O.~Michela, B.~Remmele, and N.~Whitton.
+\newblock Not just for children: game-based learning for older adults.
+\newblock In {\em 6th European Conference on Games Based Learning, Cork,
+  Ireland}, pages 102--108, 2012.
+
 \bibitem{Chebil:2012}
 H.~Chebil, J.~Girardot, and C.~Courtin.
 \newblock An ontology-based approach for sharing and analyzing learning trace
@@ -155,11 +161,6 @@ M.~Guenaga, S.~Arranz, I.~Rubio~Florido, E.~Aguilar, A.~Ortiz~de Guinea,
 A.~R. Hevner, S.~T. March, J.~Park, and S.~Ram.
 \newblock Design science in information systems research.
 \newblock {\em MIS Quarterly}, 28(1):75--105, Mar. 2004.
-
-\bibitem{jackson2000semi}
-D.~Jackson.
-\newblock A semi-automated approach to online assessment.
-\newblock {\em ACM SIGCSE Bulletin}, 32(3):164--167, 2000.
 
 \bibitem{jarmon:2009}
 L.~Jarmon, T.~Traphagan, M.~Mayrath, and A.~Trivedi.
@@ -325,6 +326,12 @@ S.~Rodriguez-Donaire, B.~A. Garc{\'\i}a, and S.~O. Del~Olmo.
 \newblock In {\em Information Technology Based Higher Education and Training
   (ITHET), 2010 9th International Conference on}, pages 114--124. IEEE, 2010.
 
+\bibitem{rojas2008prueba}
+A.~Rojas-Vargas.
+\newblock {\em La prueba escrita}.
+\newblock Ministerio de Educación Pública. Dirección de desarrollo
+  curricular. Departamento de Evaluación de los Aprendizajes, 2008.
+
 \bibitem{ruizacarate2013soft}
 C.~Ruizac{\'a}rate~Varela, M.~J. Garcia~Garcia, C.~Gonzalez~Garcia, and J.~L.
   Casado~Sanchez.
@@ -381,13 +388,6 @@ C.~Vizcarro~Guarch, P.~Martin~Espinosa, R.~Cobos, J.~E. P{\'e}rez,
 \newblock Assessment of problem solving in computing studies.
 \newblock In {\em Frontiers in Education Conference, 2013 IEEE}, pages
   999--1003. IEEE, 2013.
-
-\bibitem{vujovsevic2013software}
-M.~Vujo{\v{s}}evi{\'c}-Jani{\v{c}}i{\'c}, M.~Nikoli{\'c}, D.~To{\v{s}}i{\'c},
-  and V.~Kuncak.
-\newblock Software verification and graph similarity for automated evaluation
-  of students’ assignments.
-\newblock {\em Information and Software Technology}, 55(6):1004--1016, 2013.
 
 \bibitem{ward2011developing}
 T.~Ward and S.~Christophe.
