@@ -58,6 +58,7 @@
 \usepackage[usenames, dvipsnames]{color}
 \usepackage[perpage]{footmisc}
 
+
 %\usepackage[round, sort, numbers, authoryear]{natbib}
 %\usepackage[sort, numbers, authoryear]{natbib}
 %\usepackage[numbers]{natbib}
@@ -90,14 +91,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 
-
-
-
 \usepackage[spanish,british,activeacute]{babel}
-
-
-
-
 
 %:-------------------------- Glossary/Abbrev./Symbols -----------------------
 

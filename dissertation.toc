@@ -19,19 +19,16 @@
 \contentsline {chapter}{\numberline {2}Estado del Arte}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}Preguntas de investigaci\IeC {\'o}n}{14}{section.2.1}
 \contentsline {section}{\numberline {2.2}Metodolog\IeC {\'\i }a}{15}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Protocolo de revisi\IeC {\'o}n}{16}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Motores de b\IeC {\'u}squeda}{16}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}T\IeC {\'e}rminos de b\IeC {\'u}squeda}{16}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Criterios de selecci\IeC {\'o}n}{17}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Esquema para la extracci\IeC {\'o}n de datos}{18}{subsection.2.2.5}
-\contentsline {subsubsection}{\numberline {2.2.5.1}Tipo de investigaci\IeC {\'o}n}{19}{subsubsection.2.2.5.1}
-\contentsline {subsubsection}{\numberline {2.2.5.2}Tipo de contribuci\IeC {\'o}n}{20}{subsubsection.2.2.5.2}
-\contentsline {subsubsection}{\numberline {2.2.5.3}\IeC {\'A}mbito de aplicaci\IeC {\'o}n de la investigaci\IeC {\'o}n}{20}{subsubsection.2.2.5.3}
-\contentsline {subsection}{\numberline {2.2.6}Visualizaci\IeC {\'o}n y an\IeC {\'a}lisis de los datos}{21}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.1}Criterios de selecci\IeC {\'o}n}{17}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Esquema para la extracci\IeC {\'o}n de datos}{18}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Tipo de investigaci\IeC {\'o}n}{18}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Tipo de contribuci\IeC {\'o}n}{19}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}\IeC {\'A}mbito de aplicaci\IeC {\'o}n de la investigaci\IeC {\'o}n}{20}{subsubsection.2.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Visualizaci\IeC {\'o}n y an\IeC {\'a}lisis de los datos}{21}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Resultados}{21}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Localizaci\IeC {\'o}n de la literatura}{22}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Extracci\IeC {\'o}n de los datos}{23}{subsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Competencias gen\IeC {\'e}ricas}{25}{subsubsection.2.3.2.1}
+\contentsline {subsection}{\numberline {2.3.1}Localizaci\IeC {\'o}n de la literatura}{21}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Extracci\IeC {\'o}n de los datos}{22}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Competencias gen\IeC {\'e}ricas}{23}{subsubsection.2.3.2.1}
 \contentsline {subsubsection}{\numberline {2.3.2.2}M\IeC {\'e}todos}{27}{subsubsection.2.3.2.2}
 \contentsline {subsubsection}{\numberline {2.3.2.3}T\IeC {\'e}cnicas}{29}{subsubsection.2.3.2.3}
 \contentsline {subsubsection}{\numberline {2.3.2.4}Instrumentos de evaluaci\IeC {\'o}n}{30}{subsubsection.2.3.2.4}
@@ -40,15 +37,15 @@
 \contentsline {subsubsection}{\numberline {2.3.4.1}Autoevaluaci\IeC {\'o}n o evaluaci\IeC {\'o}n entre iguales.}{35}{subsubsection.2.3.4.1}
 \contentsline {subsubsection}{\numberline {2.3.4.2}Evaluaci\IeC {\'o}n del profesor}{38}{subsubsection.2.3.4.2}
 \contentsline {subsubsection}{\numberline {2.3.4.3}Evaluaci\IeC {\'o}n autom\IeC {\'a}tica}{41}{subsubsection.2.3.4.3}
-\contentsline {section}{\numberline {2.4}Respuestas}{50}{section.2.4}
-\contentsline {section}{\numberline {2.5}Conclusiones}{55}{section.2.5}
-\contentsline {chapter}{\numberline {3}Metodolog\IeC {\'\i }a para la evaluaci\IeC {\'o}n de competencias gen\IeC {\'e}ricas}{59}{chapter.3}
-\contentsline {section}{\numberline {3.1}Como voy a evaluar}{59}{section.3.1}
-\contentsline {section}{\numberline {3.2}Evoluci\IeC {\'o}n herramientas}{60}{section.3.2}
-\contentsline {section}{\numberline {3.3}Metodologia de desarrollo}{60}{section.3.3}
-\contentsline {chapter}{\numberline {4}Evaluaci\IeC {\'o}n}{61}{chapter.4}
-\contentsline {section}{\numberline {4.1}Caso 1: Wikis}{63}{section.4.1}
-\contentsline {section}{\numberline {4.2}Caso 2: Cursos virtuales}{64}{section.4.2}
-\contentsline {section}{\numberline {4.3}Caso 3: Mundos virtuales}{65}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclusiones y trabajo futuro}{67}{chapter.5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{69}{chapter*.21}
+\contentsline {section}{\numberline {2.4}Respuestas}{49}{section.2.4}
+\contentsline {section}{\numberline {2.5}Conclusiones}{54}{section.2.5}
+\contentsline {chapter}{\numberline {3}Metodolog\IeC {\'\i }a para la evaluaci\IeC {\'o}n de competencias gen\IeC {\'e}ricas}{57}{chapter.3}
+\contentsline {section}{\numberline {3.1}Como voy a evaluar}{57}{section.3.1}
+\contentsline {section}{\numberline {3.2}Evoluci\IeC {\'o}n herramientas}{58}{section.3.2}
+\contentsline {section}{\numberline {3.3}Metodologia de desarrollo}{58}{section.3.3}
+\contentsline {chapter}{\numberline {4}Evaluaci\IeC {\'o}n}{59}{chapter.4}
+\contentsline {section}{\numberline {4.1}Caso 1: Wikis}{61}{section.4.1}
+\contentsline {section}{\numberline {4.2}Caso 2: Cursos virtuales}{62}{section.4.2}
+\contentsline {section}{\numberline {4.3}Caso 3: Mundos virtuales}{63}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajo futuro}{65}{chapter.5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{67}{chapter*.21}

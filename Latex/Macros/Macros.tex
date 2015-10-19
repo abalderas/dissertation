@@ -1,5 +1,6 @@
 %---------------------------------------------------------------
 % Macros
+% version 4 by Antonio Balderas 2015
 % version 3 by Igor Ruiz-Agundez 2011
 % version 2 by Jakob Suckale 2007
 % version 1 by Harish Bhanderi 2002
@@ -210,5 +211,22 @@
 %  \lstinputlisting[language=#1,caption={#2}]{#3}%
 %}
 
+%---------------------------------------------------------------
+% Porcentajes 
+% Info sobre espacios en latex:
+%	http://tex.stackexchange.com/questions/25262/space-on-the-right-hand-side-of-a-unary-math-operator
+%---------------------------------------------------------------
 
+\newcommand{\percentage}{\!{\%}}
 
+%---------------------------------------------------------------
+% Ptitle: paragraph title
+%---------------------------------------------------------------
+
+\newcommand{\ptitle}[1]
+	{
+		\bigskip
+		\textbf{#1}
+		\smallskip 
+
+	}

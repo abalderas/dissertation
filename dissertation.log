@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  19 OCT 2015 13:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  19 OCT 2015 18:49
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -727,21 +727,21 @@ sos.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/3_vw.
 aux) (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 75.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -774,8 +774,8 @@ Package caption Info: End \AtBeginDocument code.
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 \AtBeginShipoutBox=\box69
-Package backref Info: ** backref set up for natbib ** on input line 74.
-Package hyperref Info: Link coloring OFF on input line 74.
+Package backref Info: ** backref set up for natbib ** on input line 75.
+Package hyperref Info: Link coloring OFF on input line 75.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -785,23 +785,23 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count185
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.out)
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.out)
 \@outlinefile=\write5
 \c@lstlisting=\count186
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 
-<0_frontmatter/figures/PNG/UCA_Shield.png, id=191, 468.75125pt x 602.25pt>
+<0_frontmatter/figures/PNG/UCA_Shield.png, id=179, 468.75125pt x 602.25pt>
 File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
 
 <use 0_frontmatter/figures/PNG/UCA_Shield.png>
 Package pdftex.def Info: 0_frontmatter/figures/PNG/UCA_Shield.png used on input
- line 89.
+ line 90.
 (pdftex.def)             Requested size: 56.9055pt x 73.10312pt.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
@@ -820,7 +820,7 @@ File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
 
 <use 0_frontmatter/figures/PNG/UCA_Shield.png>
 Package pdftex.def Info: 0_frontmatter/figures/PNG/UCA_Shield.png used on input
- line 89.
+ line 90.
 (pdftex.def)             Requested size: 56.9055pt x 73.10312pt.
  [3] [4]
 (C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/title_back.tex
@@ -898,9 +898,9 @@ ex [7
 
 ] [8] [9] [10])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <30> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
 
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.toc [11
 \FN@pp@footnotehinttrue 
@@ -977,42 +977,39 @@ x [9
 Cap\'{\i }tulo 2.
 [13]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 41.
  [14] [15] [16]
-Overfull \hbox (5.4736pt too wide) in paragraph at lines 91--92
+Overfull \hbox (5.4736pt too wide) in paragraph at lines 88--89
 []|\OT1/ptm/m/n/12 RSLT| 
  []
 
 [17] [18] [19] [20] [21]
-Overfull \hbox (34.44368pt too wide) in paragraph at lines 179--196
+Overfull \hbox (34.44368pt too wide) in paragraph at lines 176--193
  [] 
  []
 
 [22]
-<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=537, 687.56876pt x
+<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=524, 687.56876pt x
  441.65pt>
 File: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png Graphic file (typ
 e png)
  <use 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png>
 Package pdftex.def Info: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.pn
-g used on input line 267.
+g used on input line 264.
 (pdftex.def)             Requested size: 275.02263pt x 176.65686pt.
 
-Underfull \vbox (badness 2189) has occurred while \output is active []
-
- [23]
-[24 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/figures/
-PNG/PublicacionesAnuales.png>] [25]
-Overfull \hbox (58.20526pt too wide) in alignment at lines 285--327
+[23] [24 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/fig
+ures/PNG/PublicacionesAnuales.png>] [25]
+Overfull \hbox (58.20526pt too wide) in alignment at lines 282--324
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 327
+Underfull \vbox (badness 10000) detected at line 324
  []
 
 
-Overfull \hbox (58.20526pt too wide) in alignment at lines 327--330
+Overfull \hbox (58.20526pt too wide) in alignment at lines 324--327
  [] [] 
  []
 
@@ -1021,15 +1018,15 @@ Overfull \hbox (58.20526pt too wide) in alignment at lines 327--330
 ] [27
 
 ] [28] [29] [30] [31] [32] [33]
-<2_state_of_the_art/figures/PNG/Burbujas.png, id=650, 1678.27pt x 650.43pt>
+<2_state_of_the_art/figures/PNG/Burbujas.png, id=637, 1678.27pt x 650.43pt>
 File: 2_state_of_the_art/figures/PNG/Burbujas.png Graphic file (type png)
 
 <use 2_state_of_the_art/figures/PNG/Burbujas.png>
 Package pdftex.def Info: 2_state_of_the_art/figures/PNG/Burbujas.png used on in
-put line 424.
+put line 421.
 (pdftex.def)             Requested size: 671.29611pt x 260.16739pt.
 
-Overfull \hbox (78.34079pt too wide) in paragraph at lines 424--425
+Overfull \hbox (78.34079pt too wide) in paragraph at lines 421--422
  [] 
  []
 
@@ -1038,146 +1035,146 @@ PNG/Burbujas.png>] [35
 
 
 ] [36]
-Overfull \hbox (44.38457pt too wide) in paragraph at lines 520--552
+Overfull \hbox (44.38457pt too wide) in paragraph at lines 511--543
  [] 
  []
 
 [37] [38]
-Overfull \hbox (44.38457pt too wide) in paragraph at lines 643--671
+Overfull \hbox (44.38457pt too wide) in paragraph at lines 625--653
  [] 
  []
 
 [39] [40]
-Overfull \hbox (30.1582pt too wide) in paragraph at lines 751--767
+Overfull \hbox (30.1582pt too wide) in paragraph at lines 724--740
  [] 
  []
 
 [41] [42] [43] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-[44] [45] [46]
-Underfull \vbox (badness 10000) detected at line 861
+[44] [45]
+Underfull \vbox (badness 10000) detected at line 831
  []
 
-[47
+[46
 
-] [48] [49] [50
+] [47] [48] [49
 
-] [51] [52]
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=922, 1045.9075pt x
+] [50] [51]
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=905, 1045.9075pt x
  731.73375pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png Graphic file (typ
 e png)
  <use 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png>
 Package pdftex.def Info: 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.pn
-g used on input line 972.
+g used on input line 942.
 (pdftex.def)             Requested size: 627.54935pt x 439.04364pt.
 
-Overfull \hbox (34.59402pt too wide) in paragraph at lines 972--973
+Overfull \hbox (34.59402pt too wide) in paragraph at lines 942--943
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 83.87047pt on input line 976.
+LaTeX Warning: Float too large for page by 83.87047pt on input line 946.
 
 
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=923, 1048.91875pt 
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=906, 1048.91875pt 
 x 730.73pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png Graphic file (typ
 e png)
  <use 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png>
 Package pdftex.def Info: 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.pn
-g used on input line 980.
+g used on input line 950.
 (pdftex.def)             Requested size: 629.35611pt x 438.44138pt.
 
-Overfull \hbox (36.40079pt too wide) in paragraph at lines 980--981
+Overfull \hbox (36.40079pt too wide) in paragraph at lines 950--951
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 83.2682pt on input line 984.
+LaTeX Warning: Float too large for page by 83.2682pt on input line 954.
 
-[53 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/figures/
-PNG/BurbujaCompetencias1.png>] [54 <C:/Users/Antonio/Documents/GitHub/dissertat
+[52 <C:/Users/Antonio/Documents/GitHub/dissertation/2_state_of_the_art/figures/
+PNG/BurbujaCompetencias1.png>] [53 <C:/Users/Antonio/Documents/GitHub/dissertat
 ion/2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png>]
-Overfull \hbox (3.59103pt too wide) in paragraph at lines 1002--1030
+Overfull \hbox (3.59103pt too wide) in paragraph at lines 971--999
  [] 
  []
 
-[55
+[54
 
 
-] [56]) [57]
+] [55]) [56]
 (C:\Users\Antonio\Documents\GitHub\dissertation\3_overall_methodology/0_index.t
-ex [58
-
-
-
-]
+ex
 Cap\'{\i }tulo 3.
 
-Package natbib Warning: Citation `turing1950computing' on page 59 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 57 undefined on 
 input line 25.
 
-[59]) [60]
+[57
+
+
+
+]) [58]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/0_ind
 ex.tex
 Cap\'{\i }tulo 4.
 
-Package natbib Warning: Citation `turing1950computing' on page 61 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 59 undefined on 
 input line 25.
 
-[61
+[59
 
 
 
-]) [62]
+]) [60]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/1_wik
-is.tex) [63
+is.tex) [61
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/2_cur
-sos.tex) [64
+sos.tex) [62
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/3_vw.
-tex) [65
+tex) [63
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.tex
-[66
+[64
 
 
 
 ]
 Cap\'{\i }tulo 5.
 
-Package natbib Warning: Citation `turing1950computing' on page 67 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 65 undefined on 
 input line 25.
 
-[67]) [68] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
+[65]) [66] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.brf)
 \tf@brf=\write9
- [69
+ [67
 
 
 
-] [70]
-[71] [72] [73] [74] [75] [76]) [77]
+] [68]
+[69] [70] [71] [72] [73] [74]) [75]
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.tex
-[78
+[76
 
-] [79]) [80
+] [77]) [78
 
 ]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.aux
 (C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/title_back.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\0_frontmatter/dedication.aux)
@@ -1204,22 +1201,22 @@ sos.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\4_experiments_and_results/3_vw.
 aux) (C:\Users\Antonio\Documents\GitHub\dissertation\5_conclusion/0_index.aux)
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: A408A155276DF8C7463A79C75310BECD;3828.
+(rerunfilecheck)             Checksum: CC2158CF60DDE1EDE6B9BFDDA881775A;3576.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: 8A9E4D2574B12FCA191BE53EF2FD0688;18019.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
+(rerunfilecheck)             Checksum: 715D88456A79665933BB1BFB68D57FE1;18136.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 299.
  ) 
 Here is how much of TeX's memory you used:
- 14036 strings out of 494045
- 213764 string characters out of 3145963
- 345661 words of memory out of 3000000
- 16645 multiletter control sequences out of 15000+200000
+ 14042 strings out of 494045
+ 213982 string characters out of 3145963
+ 345666 words of memory out of 3000000
+ 16655 multiletter control sequences out of 15000+200000
  42352 words of font info for 82 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,12n,49p,1781b,859s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,49p,1781b,857s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
@@ -1228,9 +1225,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on dissertation.pdf (102 pages, 558992 bytes).
+Output written on dissertation.pdf (100 pages, 556868 bytes).
 PDF statistics:
- 1293 PDF objects out of 1440 (max. 8388607)
- 239 named destinations out of 1000 (max. 500000)
- 402 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1274 PDF objects out of 1440 (max. 8388607)
+ 235 named destinations out of 1000 (max. 500000)
+ 378 words of extra memory for PDF output out of 10000 (max. 10000000)
 
