@@ -37,7 +37,7 @@
 \contentsline {subsubsection}{\numberline {2.3.4.1}Autoevaluaci\IeC {\'o}n o evaluaci\IeC {\'o}n entre iguales.}{35}{subsubsection.2.3.4.1}
 \contentsline {subsubsection}{\numberline {2.3.4.2}Evaluaci\IeC {\'o}n del profesor}{38}{subsubsection.2.3.4.2}
 \contentsline {subsubsection}{\numberline {2.3.4.3}Evaluaci\IeC {\'o}n autom\IeC {\'a}tica}{41}{subsubsection.2.3.4.3}
-\contentsline {section}{\numberline {2.4}Respuestas}{49}{section.2.4}
+\contentsline {section}{\numberline {2.4}Respuestas a las preguntas de investigaci\IeC {\'o}n}{48}{section.2.4}
 \contentsline {section}{\numberline {2.5}Conclusiones}{54}{section.2.5}
 \contentsline {chapter}{\numberline {3}Metodolog\IeC {\'\i }a para la evaluaci\IeC {\'o}n de competencias gen\IeC {\'e}ricas}{57}{chapter.3}
 \contentsline {section}{\numberline {3.1}Como voy a evaluar}{57}{section.3.1}
