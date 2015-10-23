@@ -38,6 +38,11 @@ M.~Bedek, S.~A. Petersen, and T.~Heikura.
 \newblock In {\em Advanced Learning Technologies (ICALT), 2011 11th IEEE
   International Conference on}, pages 277--281. IEEE, 2011.
 
+\bibitem{bell2001characteristics}
+B.~Bell and B.~Cowie.
+\newblock The characteristics of formative assessment in science education.
+\newblock {\em Science education}, 85(5):536--553, 2001.
+
 \bibitem{Bellotti:2013}
 F.~Bellotti, B.~Kapralos, K.~Lee, P.~Moreno-Ger, and R.~Berta.
 \newblock Assessment in and of serious games: An overview.
@@ -81,12 +86,6 @@ Y.~Chang, T.~Eklund, J.~I. Kantola, and H.~Vanharanta.
 \newblock {\em Human Factors and Ergonomics in Manufacturing \& Service
   Industries}, 19(6):528--543, 2009.
 
-\bibitem{charlier2012not}
-N.~Charlier, O.~Michela, B.~Remmele, and N.~Whitton.
-\newblock Not just for children: game-based learning for older adults.
-\newblock In {\em 6th European Conference on Games Based Learning, Cork,
-  Ireland}, pages 102--108, 2012.
-
 \bibitem{Chebil:2012}
 H.~Chebil, J.~Girardot, and C.~Courtin.
 \newblock An ontology-based approach for sharing and analyzing learning trace
@@ -120,6 +119,13 @@ J.~M. Dodero, M.~Palomo-Duarte, I.~Ruiz-Rube, I.~Traverso, and J.~M. Mota.
   tecnologías del aprendizaje}.
 \newblock In {\em {XV Simposio Internacional de Tecnologías de la Información
   y las Comunicaciones en la Educación}}, pages 116--120, 2013.
+
+\bibitem{dunn2002seeking}
+L.~Dunn, C.~Morgan, and S.~Parry.
+\newblock Seeking quality in criterion referenced assessment.
+\newblock In {\em Learning Communities and Assessment Cultures Conference
+  organised by the EARLI Special Interest Group on Assessment and Evaluation,
+  University of Northumbria, 28-30 August 2002}, 2002.
 
 \bibitem{ficapal2015learning}
 P.~Ficapal-Cus{\'\i} and J.~Boada-Grau.
@@ -168,10 +174,27 @@ M.~Guenaga, S.~Arranz, I.~Rubio~Florido, E.~Aguilar, A.~Ortiz~de Guinea,
 \newblock {\em IEEE Revista Iberoamericana de Tecnologias del Aprendizaje},
   8(4):176--183, 2013.
 
+\bibitem{gulikers2004five}
+J.~T. Gulikers, T.~J. Bastiaens, and P.~A. Kirschner.
+\newblock A five-dimensional framework for authentic assessment.
+\newblock {\em Educational Technology Research and Development}, 52(3):67--86,
+  2004.
+
 \bibitem{Hevner:2004}
 A.~R. Hevner, S.~T. March, J.~Park, and S.~Ram.
 \newblock Design science in information systems research.
 \newblock {\em MIS Quarterly}, 28(1):75--105, Mar. 2004.
+
+\bibitem{hughes2011towards}
+G.~Hughes.
+\newblock Towards a personal best: a case for introducing ipsative assessment
+  in higher education.
+\newblock {\em Studies in Higher Education}, 36(3):353--367, 2011.
+
+\bibitem{huhta2008diagnostic}
+A.~Huhta.
+\newblock Diagnostic and formative assessment.
+\newblock {\em The handbook of educational linguistics}, 33:469--483, 2008.
 
 \bibitem{jarmon:2009}
 L.~Jarmon, T.~Traphagan, M.~Mayrath, and A.~Trivedi.
@@ -210,6 +233,12 @@ A.~Lasa, I.~Txurruka, E.~Sim{\'o}n, and J.~Miranda.
 \newblock Problem based learning implementation in the degree of human
   nutrition and dietetics.
 \newblock {\em ICERI2013 Proceedings}, pages 1687--1692, 2013.
+
+\bibitem{lidz1987dynamic}
+C.~S.~E. Lidz.
+\newblock {\em Dynamic assessment: An interactional approach to evaluating
+  learning potential.}
+\newblock Guilford Press, 1987.
 
 \bibitem{Lugton:2012}
 M.~Lugton.
@@ -303,6 +332,12 @@ V.~Podgorelec and S.~Kuhar.
   reporting in virtual learning environments.
 \newblock {\em Elektronika ir Elektrotechnika}, 114(8):111--116, 2011.
 
+\bibitem{qaa2006quality}
+QAA.
+\newblock {\em Code of Practice for the Assurance of Academic Quality and
+  Standards in Higher Education.}
+\newblock The Quality Assurance Agency for Higher Education, 2006.
+
 \bibitem{Cachia:2011}
 C.~R., F.~A., A.-M. K., and P.~Y.
 \newblock {\em Creative Learning and Innovative Teaching: Final Report on the
@@ -369,13 +404,6 @@ A.~Sevilla-Pav{\'o}n, A.~Mart{\'\i}nez-S{\'a}ez, and A.~Gimeno-Sanz.
   for the cambridge first certificate in english examination.
 \newblock {\em Procedia-Social and Behavioral Sciences}, 34:207--211, 2012.
 
-\bibitem{siemens2012learning}
-G.~Siemens and R.~S. d~Baker.
-\newblock Learning analytics and educational data mining: towards communication
-  and collaboration.
-\newblock In {\em Proceedings of the 2nd international conference on learning
-  analytics and knowledge}, pages 252--254. ACM, 2012.
-
 \bibitem{starcic2008sustaining}
 A.~I. Starcic.
 \newblock Sustaining teacher's professional development and training through
@@ -396,6 +424,11 @@ J.-J. Torres-Gordillo and V.-H. Perera-Rodr{\'\i}guez.
   educaci{\'o}n superior.
 \newblock {\em Pixel-Bit: Revista de medios y educaci{\'o}n}, (36):141--149,
   2010.
+
+\bibitem{tyler1967perspectives}
+R.~W. Tyler, R.~M. Gagn{\'e}, M.~Scriven, et~al.
+\newblock {\em Perspectives of curriculum evaluation}, volume~1.
+\newblock Rand McNally Chicago, 1967.
 
 \bibitem{vizcarro2013assessment}
 C.~Vizcarro~Guarch, P.~Martin~Espinosa, R.~Cobos, J.~E. P{\'e}rez,

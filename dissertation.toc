@@ -26,13 +26,13 @@
 \contentsline {subsubsection}{\numberline {2.2.2.3}\IeC {\'A}mbito de aplicaci\IeC {\'o}n de la investigaci\IeC {\'o}n}{20}{subsubsection.2.2.2.3}
 \contentsline {subsection}{\numberline {2.2.3}Visualizaci\IeC {\'o}n y an\IeC {\'a}lisis de los datos}{21}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Resultados}{21}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Localizaci\IeC {\'o}n de la literatura}{21}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Extracci\IeC {\'o}n de los datos}{22}{subsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Competencias gen\IeC {\'e}ricas}{23}{subsubsection.2.3.2.1}
+\contentsline {subsection}{\numberline {2.3.1}Localizaci\IeC {\'o}n de la literatura}{22}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Extracci\IeC {\'o}n de los datos}{23}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Competencias gen\IeC {\'e}ricas}{25}{subsubsection.2.3.2.1}
 \contentsline {subsubsection}{\numberline {2.3.2.2}M\IeC {\'e}todos}{27}{subsubsection.2.3.2.2}
-\contentsline {subsubsection}{\numberline {2.3.2.3}T\IeC {\'e}cnicas}{29}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.3}T\IeC {\'e}cnicas}{28}{subsubsection.2.3.2.3}
 \contentsline {subsubsection}{\numberline {2.3.2.4}Instrumentos de evaluaci\IeC {\'o}n}{30}{subsubsection.2.3.2.4}
-\contentsline {subsection}{\numberline {2.3.3}Categorizaci\IeC {\'o}n del estudio}{32}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Categorizaci\IeC {\'o}n del estudio}{31}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Esquema de clasificaci\IeC {\'o}n}{35}{subsection.2.3.4}
 \contentsline {subsubsection}{\numberline {2.3.4.1}Autoevaluaci\IeC {\'o}n o evaluaci\IeC {\'o}n entre iguales.}{35}{subsubsection.2.3.4.1}
 \contentsline {subsubsection}{\numberline {2.3.4.2}Evaluaci\IeC {\'o}n del profesor}{38}{subsubsection.2.3.4.2}
@@ -48,4 +48,4 @@
 \contentsline {section}{\numberline {4.2}Caso 2: Cursos virtuales}{62}{section.4.2}
 \contentsline {section}{\numberline {4.3}Caso 3: Mundos virtuales}{63}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusiones y trabajo futuro}{65}{chapter.5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{67}{chapter*.21}
+\contentsline {chapter}{Bibliograf\'{\i }a}{67}{chapter*.37}
