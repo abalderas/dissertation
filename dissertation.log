@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  26 OCT 2015 18:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  26 OCT 2015 20:28
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -1222,62 +1222,62 @@ ex [64
 
 ]
 Cap\'{\i }tulo 4.
-[65] [66] [67] [68] [69]) [70]
+[65] [66] [67] [68] [69] [70]) [71]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_experiments_and_results/0_ind
-ex.tex
+ex.tex [72
+
+
+
+]
 Cap\'{\i }tulo 5.
 
-Package natbib Warning: Citation `turing1950computing' on page 71 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 73 undefined on 
 input line 25.
 
-[71
-
-
-
-]) [72]
+[73]) [74]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_experiments_and_results/1_wik
-is.tex) [73
+is.tex) [75
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_experiments_and_results/2_cur
-sos.tex) [74
+sos.tex) [76
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_experiments_and_results/3_vw.
-tex) [75
+tex) [77
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\6_conclusion/0_index.tex
-[76
+[78
 
 
 
 ]
 Cap\'{\i }tulo 6.
 
-Package natbib Warning: Citation `turing1950computing' on page 77 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 79 undefined on 
 input line 25.
 
-[77]) [78] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
+[79]) [80] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.brf)
 \tf@brf=\write9
- [79
+ [81
 
 
 
-] [80]
-[81] [82] [83] [84] [85]
+] [82]
+[83] [84] [85] [86] [87]
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [86] [87])
-[88]
+) [88] [89])
+[90]
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.tex
-[89
+[91
 
-] [90]) [91
+] [92]) [93
 
 ]
 
@@ -1314,14 +1314,14 @@ aux) (C:\Users\Antonio\Documents\GitHub\dissertation\6_conclusion/0_index.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 9E26189724AA930CE8FFE45D9F4DCE5B;4537.
+(rerunfilecheck)             Checksum: 7EE542E47051A1A6596DF4E098BB5D1F;4544.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
 (rerunfilecheck)             Checksum: BD8FD149FB19F577A1538E777B0A3AD7;19425.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 303.
  ) 
 Here is how much of TeX's memory you used:
- 14191 strings out of 494045
- 216877 string characters out of 3145963
+ 14193 strings out of 494045
+ 216891 string characters out of 3145963
  348412 words of memory out of 3000000
  16719 multiletter control sequences out of 15000+200000
  42352 words of font info for 82 fonts, out of 3000000 for 9000
@@ -1335,9 +1335,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on dissertation.pdf (115 pages, 606439 bytes).
+Output written on dissertation.pdf (117 pages, 609809 bytes).
 PDF statistics:
- 1498 PDF objects out of 1728 (max. 8388607)
- 312 named destinations out of 1000 (max. 500000)
+ 1507 PDF objects out of 1728 (max. 8388607)
+ 314 named destinations out of 1000 (max. 500000)
  466 words of extra memory for PDF output out of 10000 (max. 10000000)
 
