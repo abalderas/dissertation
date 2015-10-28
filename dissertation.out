@@ -39,17 +39,30 @@
 \BOOKMARK [1][]{section.3.2}{3.2 Evaluaci\363n semiautom\341tica}{chapter.3}% 39
 \BOOKMARK [0][]{chapter.4}{4 M\351todo para la evaluaci\363n de competencias gen\351ricas}{}% 40
 \BOOKMARK [1][]{section.4.1}{4.1 Introducci\363n}{chapter.4}% 41
-\BOOKMARK [1][]{section.4.2}{4.2 Learning analytics}{chapter.4}% 42
-\BOOKMARK [1][]{section.4.3}{4.3 M\351todo propuesto para la evaluaci\363n de competencias gen\351ricas}{chapter.4}% 43
-\BOOKMARK [2][]{subsection.4.3.1}{4.3.1 Introducci\363n}{section.4.3}% 44
-\BOOKMARK [2][]{subsection.4.3.2}{4.3.2 Descripci\363n}{section.4.3}% 45
-\BOOKMARK [2][]{subsection.4.3.3}{4.3.3 Implementaciones}{section.4.3}% 46
-\BOOKMARK [3][]{subsubsection.4.3.3.1}{4.3.3.1 Wikis: AssessMediaWiki}{subsection.4.3.3}% 47
-\BOOKMARK [3][]{subsubsection.4.3.3.2}{4.3.3.2 EvalCourse}{subsection.4.3.3}% 48
-\BOOKMARK [3][]{subsubsection.4.3.3.3}{4.3.3.3 EvalSim}{subsection.4.3.3}% 49
-\BOOKMARK [0][]{chapter.5}{5 Evaluaci\363n}{}% 50
-\BOOKMARK [1][]{section.5.1}{5.1 Caso 1: Wikis}{chapter.5}% 51
-\BOOKMARK [1][]{section.5.2}{5.2 Caso 2: Cursos virtuales}{chapter.5}% 52
-\BOOKMARK [1][]{section.5.3}{5.3 Caso 3: Mundos virtuales}{chapter.5}% 53
-\BOOKMARK [0][]{chapter.6}{6 Conclusiones y trabajo futuro}{}% 54
-\BOOKMARK [0][]{chapter*.63}{Bibliograf\355a}{}% 55
+\BOOKMARK [1][]{section.4.2}{4.2 Requisitos}{chapter.4}% 42
+\BOOKMARK [1][]{section.4.3}{4.3 Descripci\363n}{chapter.4}% 43
+\BOOKMARK [1][]{section.4.4}{4.4 Implementaciones}{chapter.4}% 44
+\BOOKMARK [2][]{subsection.4.4.1}{4.4.1 Wikis: AssessMediaWiki}{section.4.4}% 45
+\BOOKMARK [3][]{subsubsection.4.4.1.1}{4.4.1.1 Descripci\363n}{subsection.4.4.1}% 46
+\BOOKMARK [3][]{subsubsection.4.4.1.2}{4.4.1.2 Tecnolog\355a implementada}{subsection.4.4.1}% 47
+\BOOKMARK [3][]{subsubsection.4.4.1.3}{4.4.1.3 Indicadores que aporta}{subsection.4.4.1}% 48
+\BOOKMARK [3][]{subsubsection.4.4.1.4}{4.4.1.4 Ejemplo de uso}{subsection.4.4.1}% 49
+\BOOKMARK [3][]{subsubsection.4.4.1.5}{4.4.1.5 Publicaci\363n}{subsection.4.4.1}% 50
+\BOOKMARK [2][]{subsection.4.4.2}{4.4.2 EvalCourse}{section.4.4}% 51
+\BOOKMARK [3][]{subsubsection.4.4.2.1}{4.4.2.1 Descripci\363n}{subsection.4.4.2}% 52
+\BOOKMARK [3][]{subsubsection.4.4.2.2}{4.4.2.2 Tecnolog\355a implementada}{subsection.4.4.2}% 53
+\BOOKMARK [3][]{subsubsection.4.4.2.3}{4.4.2.3 Indicadores que aporta}{subsection.4.4.2}% 54
+\BOOKMARK [3][]{subsubsection.4.4.2.4}{4.4.2.4 Ejemplo de uso}{subsection.4.4.2}% 55
+\BOOKMARK [3][]{subsubsection.4.4.2.5}{4.4.2.5 Publicaci\363n}{subsection.4.4.2}% 56
+\BOOKMARK [2][]{subsection.4.4.3}{4.4.3 EvalSim}{section.4.4}% 57
+\BOOKMARK [3][]{subsubsection.4.4.3.1}{4.4.3.1 Descripci\363n}{subsection.4.4.3}% 58
+\BOOKMARK [3][]{subsubsection.4.4.3.2}{4.4.3.2 Tecnolog\355a implementada}{subsection.4.4.3}% 59
+\BOOKMARK [3][]{subsubsection.4.4.3.3}{4.4.3.3 Indicadores que aporta}{subsection.4.4.3}% 60
+\BOOKMARK [3][]{subsubsection.4.4.3.4}{4.4.3.4 Ejemplo de uso}{subsection.4.4.3}% 61
+\BOOKMARK [3][]{subsubsection.4.4.3.5}{4.4.3.5 Publicaci\363n}{subsection.4.4.3}% 62
+\BOOKMARK [0][]{chapter.5}{5 Evaluaci\363n}{}% 63
+\BOOKMARK [1][]{section.5.1}{5.1 Caso 1: Wikis}{chapter.5}% 64
+\BOOKMARK [1][]{section.5.2}{5.2 Caso 2: Cursos virtuales}{chapter.5}% 65
+\BOOKMARK [1][]{section.5.3}{5.3 Caso 3: Mundos virtuales}{chapter.5}% 66
+\BOOKMARK [0][]{chapter.6}{6 Conclusiones y trabajo futuro}{}% 67
+\BOOKMARK [0][]{chapter*.52}{Bibliograf\355a}{}% 68
