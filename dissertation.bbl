@@ -70,6 +70,11 @@ A.~Berns, A.~Gonzalez-Pardo, and D.~Camacho.
 \newblock Game-like language learning in 3-d virtual environments.
 \newblock {\em Computers \& Education}, 60(1):210--220, Jan. 2013.
 
+\bibitem{berns2013game}
+A.~Berns, A.~Gonzalez-Pardo, and D.~Camacho.
+\newblock Game-like language learning in 3-d virtual environments.
+\newblock {\em Computers \& Education}, 60(1):210--220, 2013.
+
 \bibitem{carreras2013promotion}
 A.~Carreras~Mar{\'\i}n, Y.~Blasco, M.~Badia-Mir{\'o}, M.~Bosch~Pr{\'\i}ncep,
   I.~Morillo, G.~Cair{\'o}~i C{\'e}spedes, and D.~Casares~Vidal.
@@ -118,6 +123,12 @@ B.~Communiqu{\'e}.
 \newblock In {\em EHEA Ministerial Conference. Retrieved May}, volume~16, page
   2012, 2012.
 
+\bibitem{cruz2015discovering}
+J.~Cruz-Benito, R.~Ther{\'o}n, F.~J. Garc{\'\i}a-Pe{\~n}alvo, and E.~P. Lucas.
+\newblock Discovering usage behaviors and engagement in an educational virtual
+  world.
+\newblock {\em Computers in Human Behavior}, 47:18--25, 2015.
+
 \bibitem{djaouti2011classifying}
 D.~Djaouti, J.~Alvarez, and J.-P. Jessel.
 \newblock Classifying serious games: the g/p/s model.
@@ -144,6 +155,13 @@ I.~Elgort, A.~G. Smith, and J.~Toland.
 \newblock Is wiki an effective platform for group course work?
 \newblock {\em Australasian Journal of Educational Technology}, 24(2), 2008.
 
+\bibitem{eysholdt2010xtext}
+M.~Eysholdt and H.~Behrens.
+\newblock Xtext: implement your language faster than the quick and dirty way.
+\newblock In {\em Proceedings of the ACM international conference companion on
+  Object oriented programming systems languages and applications companion},
+  pages 307--309. ACM, 2010.
+
 \bibitem{ficapal2015learning}
 P.~Ficapal-Cus{\'\i} and J.~Boada-Grau.
 \newblock e-learning and team-based learning. practical experience in virtual
@@ -168,6 +186,12 @@ B.~Florian, C.~Glahn, H.~Drachsler, M.~Specht, and R.~Fabregat~Gesa.
   Computer Science (including subseries Lecture Notes in Artificial
   Intelligence and Lecture Notes in Bioinformatics)}.
 \newblock Springer Berlin Heidelberg, 2011.
+
+\bibitem{garrison1999critical}
+D.~R. Garrison, T.~Anderson, and W.~Archer.
+\newblock Critical inquiry in a text-based environment: Computer conferencing
+  in higher education.
+\newblock {\em The internet and higher education}, 2(2):87--105, 1999.
 
 \bibitem{gass2013second}
 S.~M. Gass.
@@ -201,6 +225,12 @@ J.~T. Gulikers, T.~J. Bastiaens, and P.~A. Kirschner.
 A.~R. Hevner, S.~T. March, J.~Park, and S.~Ram.
 \newblock Design science in information systems research.
 \newblock {\em MIS Quarterly}, 28(1):75--105, Mar. 2004.
+
+\bibitem{hew2010use}
+K.~F. Hew and W.~S. Cheung.
+\newblock Use of three-dimensional (3-d) immersive virtual worlds in k-12 and
+  higher education settings: A review of the research.
+\newblock {\em British journal of educational technology}, 41(1):33--55, 2010.
 
 \bibitem{hughes2011towards}
 G.~Hughes.
@@ -299,6 +329,13 @@ Y.~Mor and T.~Koshinen.
 \newblock {MOOC y m\'{a}s all\'{a}}.
 \newblock {\em eLearning Papers}, 33:1--7, 2013.
 
+\bibitem{moreno2014serious}
+P.~Moreno-Ger, I.~Martinez-Ortiz, M.~Freire, B.~Manero, and
+  B.~Fernandez-Manjon.
+\newblock Serious games: A journey from research to application.
+\newblock In {\em Frontiers in Education Conference (FIE), 2014 IEEE}, pages
+  1--4. IEEE, 2014.
+
 \bibitem{Munkhchimeg:2013}
 B.~Munkhchimeg and S.~Baigaltugs.
 \newblock Control possibility of students' learning process through using
@@ -329,6 +366,13 @@ J.~Ortega~Valiente and J.~Reinoso~Peinado.
   university environments.
 \newblock In {\em Next Generation Web Services Practices (NWeSP), 2011 7th
   International Conference on}, pages 280--284. IEEE, 2011.
+
+\bibitem{palomo2014assessment}
+M.~Palomo-Duarte, J.~M. Dodero, I.~Medina-Bulo, E.~J. Rodr{\'\i}guez-Posada,
+  and I.~Ruiz-Rube.
+\newblock Assessment of collaborative learning experiences by graphical
+  analysis of wiki contributions.
+\newblock {\em Interactive Learning Environments}, 22(4):444--466, 2014.
 
 \bibitem{Palomo-Duarte:2012}
 M.~Palomo-Duarte, J.~M. Dodero, J.~T. Tocino, A.~Garc\'{\i}a-Dom\'{\i}nguez,
