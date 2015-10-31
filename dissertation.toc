@@ -53,20 +53,20 @@
 \contentsline {subsubsection}{\numberline {4.4.1.1}Metodolog\IeC {\'\i }a para la evaluaci\IeC {\'o}n del trabajo en el wiki}{70}{subsubsection.4.4.1.1}
 \contentsline {subsubsection}{\numberline {4.4.1.2}Herramienta}{76}{subsubsection.4.4.1.2}
 \contentsline {subsubsection}{\numberline {4.4.1.3}Indicadores y competencias gen\IeC {\'e}ricas}{77}{subsubsection.4.4.1.3}
-\contentsline {subsection}{\numberline {4.4.2}LMSs: EvalCourse}{80}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}LMS: EvalCourse}{80}{subsection.4.4.2}
 \contentsline {subsubsection}{\numberline {4.4.2.1}M\IeC {\'e}todo}{80}{subsubsection.4.4.2.1}
-\contentsline {subsubsection}{\numberline {4.4.2.2}EvalCourse DSL}{80}{subsubsection.4.4.2.2}
-\contentsline {subsubsection}{\numberline {4.4.2.3}Indicadores que aporta}{80}{subsubsection.4.4.2.3}
-\contentsline {subsubsection}{\numberline {4.4.2.4}Ejemplo de uso}{80}{subsubsection.4.4.2.4}
-\contentsline {subsubsection}{\numberline {4.4.2.5}Publicaci\IeC {\'o}n}{81}{subsubsection.4.4.2.5}
-\contentsline {subsection}{\numberline {4.4.3}Mundos virtuales: EvalSim}{81}{subsection.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.3.1}Metodolog\IeC {\'\i }a}{81}{subsubsection.4.4.3.1}
-\contentsline {subsubsection}{\numberline {4.4.3.2}Tecnolog\IeC {\'\i }a implementada}{82}{subsubsection.4.4.3.2}
-\contentsline {subsubsection}{\numberline {4.4.3.3}Indicadores}{83}{subsubsection.4.4.3.3}
-\contentsline {subsubsection}{\numberline {4.4.3.4}Ejemplo de uso}{83}{subsubsection.4.4.3.4}
-\contentsline {chapter}{\numberline {5}Evaluaci\IeC {\'o}n}{85}{chapter.5}
-\contentsline {section}{\numberline {5.1}Caso 1: Wikis}{87}{section.5.1}
-\contentsline {section}{\numberline {5.2}Caso 2: Cursos virtuales}{88}{section.5.2}
-\contentsline {section}{\numberline {5.3}Caso 3: Mundos virtuales}{89}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{91}{chapter.6}
-\contentsline {chapter}{Bibliograf\'{\i }a}{93}{chapter*.60}
+\contentsline {subsubsection}{\numberline {4.4.2.2}EvalCourse DSL}{81}{subsubsection.4.4.2.2}
+\contentsline {subsubsection}{\numberline {4.4.2.3}Indicadores que aporta}{81}{subsubsection.4.4.2.3}
+\contentsline {subsubsection}{\numberline {4.4.2.4}Ejemplo de uso}{81}{subsubsection.4.4.2.4}
+\contentsline {subsubsection}{\numberline {4.4.2.5}Publicaci\IeC {\'o}n}{83}{subsubsection.4.4.2.5}
+\contentsline {subsection}{\numberline {4.4.3}Mundos virtuales: EvalSim}{83}{subsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.3.1}Metodolog\IeC {\'\i }a}{83}{subsubsection.4.4.3.1}
+\contentsline {subsubsection}{\numberline {4.4.3.2}Tecnolog\IeC {\'\i }a implementada}{84}{subsubsection.4.4.3.2}
+\contentsline {subsubsection}{\numberline {4.4.3.3}Indicadores}{85}{subsubsection.4.4.3.3}
+\contentsline {subsubsection}{\numberline {4.4.3.4}Ejemplo de uso}{85}{subsubsection.4.4.3.4}
+\contentsline {chapter}{\numberline {5}Evaluaci\IeC {\'o}n}{87}{chapter.5}
+\contentsline {section}{\numberline {5.1}Caso 1: Wikis}{89}{section.5.1}
+\contentsline {section}{\numberline {5.2}Caso 2: Cursos virtuales}{90}{section.5.2}
+\contentsline {section}{\numberline {5.3}Caso 3: Mundos virtuales}{91}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{93}{chapter.6}
+\contentsline {chapter}{Bibliograf\'{\i }a}{95}{chapter*.62}

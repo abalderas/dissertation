@@ -242,7 +242,55 @@ bla bla bla
 
 \subsubsection{Ejemplo de uso}
 
-bla bla bla
+En este apartado serán mostrados dos ejemplos de consultas de indicadores que podria realizar por el profesor.
+
+En el LMS tenemos un foro en el que los estudiantes han estado interviniendo y el profesor querría obtener indicadores sobre las habilidades de interpersonales de sus estudiantes. El profesor considera que podria diseñar un indicador válido a partir del número de mensajes que ha escrito cada estudiante en un periodo de tiempo particular y plantea la siguiente hipótesis: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro}. Para ello diseña una consulta como la que puede verse en~\ref{code:sasqlejemplo1}. EvalCourse procesa la consulta y devuelve los resultados que se pueden ver en la tabla~\ref{tab:EvalCourseEj1}.
+
+\begin{lstlisting}[caption=Participación en el foro en un periodo concreto de tiempo ,label=code:sasqlejemplo1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
+Evidence query1: 
+	get students
+	show participation
+	in forum between 2015-10-21 and 2015-10-27.
+\end{lstlisting}
+
+\begin{table}
+	\centering
+	\caption{Información sobre la participación en el foro de los estudiantes en un periodo concreto de tiempo}
+	\label{tab:EvalCourseEj1}
+	\begin{tabular}{llccccc}
+		\hline\noalign{\smallskip}
+		id & username & Debate-starter & Debate-participation & Total \\
+		\noalign{\smallskip}
+		\hline
+		\noalign{\smallskip}
+		1 & student1 & 1 & 2 & 3  \\
+		2 & student2 & 0 & 4 & 4  \\
+		3 & student3 & 0 & 1 & 1  \\
+		4 & student4 & 1 & 2 & 3  \\
+		5 & student5 & 0 & 2 & 2  \\
+		\hline
+	\end{tabular}
+\end{table}
+
+A la vista de los resultados, y en base a la hipótesis inicial, se podria decir que todos los estudiantes menos el 3 (\emph{student3}) habrían desempeñado correctamente la competencia. Sin embargo, el profesor considera que esta primera aproximación es un poco pobre y decide completar su hipótesis de la siguiente manera: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro y ha interactuado con más de un compañero}. Para ello escribe la consulta que puede verse en~\ref{code:sasqlejemplo2}. 
+
+\begin{lstlisting}[caption=Interacción en el foro en un periodo de tiempo ,label=code:sasqlejemplo2,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
+Evidence query2: 
+	get students
+	show interaction
+	in forum between 2013-10-21 and 2013-10-27.
+\end{lstlisting}
+
+Además del listado con las interacciones, EvalCourse proporciona varias figuras con la representación de la información. Para esta última consulta se devuelve un grafo para una mejor visualización de las interacciones (figura~\ref{fig:EvalCourseInteraccionForo}). A tenor de los resultados vemos que sólo dos de los estudiantes cumplen la segunda hipótesis (\emph{student2} y \emph{student5}). 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=6cm]{{EvalCourseInteraccionForo.png}}
+	\caption{Interacción en el foro en un periodo de tiempo.}
+	\label{fig:EvalCourseInteraccionForo}
+\end{figure}
+
+Este crediseño de evaluaciones hasta dar con los indicadores válidos es lo que nombramos antes~\emph{ciclo de contraste de hipótesis}.
 
 \subsubsection{Publicación}
 
