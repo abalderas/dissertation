@@ -260,20 +260,47 @@ En la tabla~\ref{tab:ResumenIndicadoresCualiCuanti} puede verse una comparación
 %------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{VLE}
 
-En esta segunda propuesta el método se aplica a los cursos virtuales. El VLE es el núcleo de los cursos virtuales, donde los profesores ponen el material a disposición de los estudiantes y donde los estudiantes pueden fácilmente acceder a ellos; donde tanto los profesores como los estudiantes se pueden comunicar entre ellos de manera sincrona y asíncrona; y donde los estudiantes gestionan sus proyectos en equipo mientras dialogan entre ellos. Además, a partir de la gran cantidad de información del comportamiento de los estudiantes que queda en el VLE, los investigadores de diferentes áreas han colaborado para extraerlos, realizar minería de datos y utilizarlos para mejorar el aprendizaje~\cite{park2015development}.
+En esta segunda propuesta el método se aplica a los cursos virtuales. El VLE es el núcleo de los cursos virtuales, donde los profesores ponen el material a disposición de los estudiantes y donde los estudiantes pueden fácilmente acceder a ellos; donde tanto los profesores como los estudiantes se pueden comunicar entre ellos de manera sincrona y asíncrona; y donde los estudiantes gestionan sus proyectos en equipo mientras dialogan entre ellos. Gracias a la gran cantidad de información que genera la actividad de los estudiantes y que queda registrada en el VLE, los investigadores de diferentes áreas han colaborado para extraerlos, realizar minería de datos y utilizarlos para mejorar el aprendizaje~\cite{park2015development}.
 
 Además, en algunos de los trabajo recopilados en el estado del arte mostrado en el capítulo~\ref{cha:State of the Art}, se confirma la relación entre la interacción que llevan a cabo los estudiantes en el VLE y su rendimiento en el desempeño de varias competencias genéricas~\cite{fidalgo:2015,rayon2014web}. 
 
 Por tanto, y tal y cómo se mostrará a continuación, en esta propuesta se utilizarán indicadores obtenidos de la interacción de los estudiantes en el VLE para el diseño de evaluaciones de competencias genéricas dentro del  \emph{ciclo de contraste de hipótesis}.
-% Introducción algo más currada a los VLE (un par de parrafitos)
+
+
+\subsubsection{SASQL y EvalCourse}
+
+Para diseñar evaluaciones a partir de los indicadores del VLE se crea un lenguaje especifico de dominio (DSL, del inglés \emph{domain-specific language})~\cite{vanDeursen:2000}: \emph{Simple Assessment-Specific Query Language} (SASQL). Es un lenguaje formal para la ejecución automática de consultas simples escritas utilizando un lenguaje específico de evaluación. SASQL tiene un sintaxis simple, orientada a la evaluación de competencias genéricas~\cite{Balderas:2013}. De esta forma, los profesores pueden fácilmente obtener indicadores almacenados de la actividad en el VLE sin requerir conocimientos técnicos en bases de datos o programación informática.
+
+También se implementa \emph{EvalCourse}, una herramienta informática que ejecuta instrucciones escritas en SASQL, proporcionando como resultado los indicadores solicitados. EvalCourse se comunica con el VLE para extraer la información del registro de actividad. EvalCourse\footnote{https://www.assembla.com/spaces/evalcourse} está basado en el IDE de la plataforma Eclipse y está disponible como software libre bajo licencia GNU GPL.
+
+El desarrollo de EvalCourse y SASQL se basa en los principios y técnicas de la ingeniería dirigida por modelos (MDE, del inglés Model-Driven Engineering). Este enfoque promueve la construcción de artefactos software de un modo flexible y rápido mediante el desarrollo de modelos y sus transformaciones. Nuestro DSL se define en términos de su sintaxis abstracta o metamodelo, su sinxtaxis concreta y un conjunto de plantillas para la transformación de modelos de consulta en código ejecutable dependiente del VLE.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.4]{EvcMetamodel.png}
+  \end{center}
+  \caption{Metamodelo de SASQL}
+  \label{fig:EvcMetamodel}
+\end{figure}
+
+El metamodelo de EvalCourse puede verse en la figura~\ref{fig:EvcMetamodel}. La entidad principal es el indicador o evidencia (\emph{evidence}). Esta evidencia se aplicará a una herramienta (\emph{tool}) que puede ser tarea (\emph{assignment}), foro (\emph{forum}), campus (\emph{campus}), taller (\emph{workshop}) o wiki (\emph{wiki}), en las que se observará un indicio (\emph{sign}), que puede ser participación (\emph{participation}), entregas (\emph{milestones}), accesos (\emph{access}), evaluaciones (\emph{assessment}), interacción (\emph{interaction}) o calificación (\emph{grade}). Además, puede actuarse sobre una actividad específica (\emph{entity}) o sobre todas las actividades de un tipo que se han dado en el VLE. La conexión a la base de datos del curso se declara en la entidad \emph{connection}. 
+
+La sintaxis de SASQL puede verse en~\ref{code:sasqlSintax}. En la primera línea se comienza con la palabra reservada \emph{Evidence} seguida del nombre que se dará al indicador. Ese nombre sera el que tengan todos los ficheros de salida. En la segunda línea se escriben los términos obligatorios \emph{get students}. En la tercera, se indica qué indicio se quiere extraer (\emph{show milestones | participation | access | interaction | assessment | grade}). En la cuarta, se indica sobre qué herramienta se quiere obtener el indicio (\emph{ in assignment | forum | campus | workshop | wiki [list of ids]}). En la quinta línea, que es opcional, se indica el rango de fechas sobre los que se extraerá la información. Y por último, en la sexta se especifica si la conexión se realizará directamente a la base de datos o sobre una copia de seguridad de un fichero.
+
+\begin{lstlisting}[caption=Sintaxis de SASQL (las palabras reservadas se muestran resaltadas),label=code:sasqlSintax,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, wiki, between, and, workshop, interaction, assessment, grade, from, course, backup}]
+Evidence indicator_name:
+ get students 
+ show milestones | participation | access | interaction | assessment | grade
+ in assignment | forum | campus | workshop | wiki [list of ids]
+ between YYYY-MM-DD and YYYY-MM-DD
+ from course id | backup.
+\end{lstlisting}
 
 \subsubsection{Método}
 
 Para evaluar las competencias genéricas, el profesor deberá definir los indicadores que serán extraidos de la actividad de cada estudiante en el VLE. Ilustraremos el método a partir de un ejemplo de uso de EvalCourse y su ejecución con los foros del VLE. Los foros suelen ser una de las herramientas incorporadas por los VLEs para la interacción entre los estudiantes. Es evidente que la comunicación oral es una manera muy rica de comunicarse, que proporciona múltiples signos no verbales como las expresiones faciales o el tono de voz. En contraste, las comunicaciones escritas proporcionan otras ventajas. Una de las más importantes para la educación es que el estudiante dispone de un tiempo para la relfexión. Por esta razon, podría preferirse la comunicación escrita a la oral cuando se busca un aprendizaje cognitivo~\cite{garrison1999critical}.
 
-El profesor deberá crear en el VLE las actividades que le puedan proporcionar los indicadores. Estos indicadores deben ser publicados para que los estudiantes sepan cómo seran evaluados. Durante el curso, los estudiantes interactuarán con el VLE conforme a las instrucciones proporcionadas por sus profesores. Cuando lo desee, el profesor podrá utilizar EvalCourse para obtener los indicadores.
-
-La obtención de indicadores se basará en el \emph{ciclo de contraste de hipótesis}~\ref{fig:EVCDiagram}. Es decir, el profesor podrá diseñar una evaluación y obtendrá los resultados. Si los resultados no son válidos como indicadores de la competencia, entonces el profesor podra rediseñar la evaluación. En cualquier caso, el profesor podrá reutilizar el diseño cuántas veces sea necesaria a lo largo del curso y monitorizar la evolución de los indicadores de cada estudiante.
+La obtención de indicadores se basará en el \emph{ciclo de contraste de hipótesis}(figura~\ref{fig:EVCDiagram}). En primer lugar, es necesario que los estudiantes hayan interactuado en el VLE, de manera que su actividad haya quedado registrada. Entonces, el profesor propone un diseño de evaluación mediante una consulta SASQL, envía esta consulta a EvalCourse y recibe los resultados. El profesor analiza los resultados conforme a su propuesta de evaluación de competencias, terminando el proceso si éstos son válidos para él. Por el contrario, si los resultados no son válidos como indicadores de la competencia, entonces el profesor podrá rediseñar la evaluación. En cualquier caso, el profesor podrá reutilizar el diseño cuántas veces sea necesaria a lo largo del curso y monitorizar la evolución de los indicadores de cada estudiante.
 
 \begin{figure}
   \begin{center}
@@ -283,20 +310,14 @@ La obtención de indicadores se basará en el \emph{ciclo de contraste de hipót
   \label{fig:EVCDiagram}
 \end{figure}
 
+\paragraph*{Ejemplo de uso}
 
-\subsubsection{EvalCourse DSL}
+Este ejemplo parte de la configuración del profesor en el VLE de un foro con la idea de obtener indicadores para evaluar la competencia genérica de las hablidades interpersonales. Durante el curso, los estudiantes interactuarán en el foro conforme a las instrucciones proporcionadas por sus profesores. Cuando lo desee, el profesor podrá utilizar EvalCourse para obtener los indicadores.
 
-Para obtener los indicadores del LMS se creó un lenguaje especifico de dominio (DSL, del inglés \emph{domain-specific language}). Los profesores que utilizasen el lenguaje, escribirían una consulta sencilla con términos cercanos al dominio educativo y recibirían como respuesta la información solicitada en la consulta. 
+% Estos indicadores deben ser publicados para que los estudiantes sepan cómo seran evaluados % FRASE ELIMINADA DEL MEDIO DEL PÁRRAFO ANTERIOR
 
-\subsubsection{Indicadores que aporta}
 
-bla bla bla
-
-\subsubsection{Ejemplo de uso}
-
-En este apartado serán mostrados dos ejemplos de consultas de indicadores que podria realizar por el profesor.
-
-En el LMS tenemos un foro en el que los estudiantes han estado interviniendo y el profesor querría obtener indicadores sobre las habilidades de interpersonales de sus estudiantes. El profesor considera que podria diseñar un indicador válido a partir del número de mensajes que ha escrito cada estudiante en un periodo de tiempo particular y plantea la siguiente hipótesis: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro}. Para ello diseña una consulta como la que puede verse en~\ref{code:sasqlejemplo1}. EvalCourse procesa la consulta y devuelve los resultados que se pueden ver en la tabla~\ref{tab:EvalCourseEj1}.
+En el VLE se dispone de un foro en el que los estudiantes han estado interviniendo y el profesor querría obtener indicadores sobre las habilidades de interpersonales de sus estudiantes. El profesor considera que podria diseñar un indicador válido a partir del número de mensajes que ha escrito cada estudiante en un periodo de tiempo particular y plantea la siguiente hipótesis: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro}. Para ello diseña una consulta como la que puede verse en~\ref{code:sasqlejemplo1}. EvalCourse procesa la consulta y devuelve los resultados que se pueden ver en la tabla~\ref{tab:EvalCourseEj1}.
 
 \begin{lstlisting}[caption=Participación en el foro en un periodo concreto de tiempo ,label=code:sasqlejemplo1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
 Evidence query1: 
@@ -342,7 +363,23 @@ Además del listado con las interacciones, EvalCourse proporciona varias figuras
 	\label{fig:EvalCourseInteraccionForo}
 \end{figure}
 
-Este crediseño de evaluaciones hasta dar con los indicadores válidos es lo que nombramos antes~\emph{ciclo de contraste de hipótesis}.
+%Este crediseño de evaluaciones hasta dar con los indicadores válidos es lo que nombramos antes~\emph{ciclo de contraste de hipótesis}.
+
+\subsubsection{Indicadores}
+
+En este apartado se muestra una propuesta de uso de indicadores obtenidos mediante EvalCourse para la evaluación de competencias genéricas~\cite{Balderas:2015}. Pero al igual que ocurre con el resto de herramientas, habrá otros indicadores que quedaran fuera de este resumen.
+
+\paragraph*{Habilidades interpersonales}
+Para la evaluación de esta competencia genérica se utilizó la participación en el foro. Durante el curso se fomenta que los estudiantes intervengan en los foros creados para los diferentes equipos de trabajo, ya que era la herramienta interna de comunicación de cada equipo. Por tanto, si no utilizaban el foro los estudiantes no tendrían calificación en esta competencia. Un estudiante que tuviera tres o más intervenciones tendría una evaluación positiva en la competencia.
+
+\paragraph*{Liderazgo}
+Para evaluar el liderazgo de los estudiantes se proponen también los foros creados para la comunicación de los equipos de trabajo. Para ello se considera la cantidad de debates que cada estudiante ha iniciado. Un estudiante que inicia dos o más debates tendrá una evaluación positiva en la competencia de liderazgo.
+
+\paragraph*{Pensamiento crítico}
+En Moodle hay una actividad que son los talleres (\emph{workshops}). En esta actividad, los estudiantes tiene que entregar un ejercicio conforme a las instrucciones del profesor que podrá ser autoevaluada o evaluada por un compañero. En este caso, cada estudiante tuvo que hacer varias tareas. Una vez entregada cada tarea, el profesor pone la solución del ejercicio a disposición de los estudiantes, y cada tarea es evaluada por dos compañeros y por el propio estudiante. Para evaluar la competencia del pensamiento crítico, el profesor utiliza para cada tarea la diferencia entre la media de las notas dadas por sus compañeros y la que se asignó el propio estudiante.
+
+\paragraph*{Planificación y gestión del tiempo}
+Las tareas programadas en el VLE tienen una fecha límite de entrega. Sin embargo, el profesor puede configurar la actividad para que permita envíos retrasados. El profesor podria establecer un número mínimo de trabajos entregados antes de la fecha límite para considerar que esta se ha entregado a tiempo. De esta manera, un profesor podría considerar que si las tareas se han entregado tarde, pero son correctas, tengan una buena calificación en lo que a las habilidades y conocimientos específicos que requería la tarea se refiere. Pero con respecto a la planificación y gestión del tiempo de ese estudiante la calificación seria negativa, dado que ha incumplido la planificación y los plazos que se acordaron a comienzos del curso.
 
 %------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Mundos virtuales}
