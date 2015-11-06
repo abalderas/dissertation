@@ -133,7 +133,31 @@ En un trabajo anterior se utilizó \emph{StatMediaWiki} (SMW)~\footnote{http://s
 
 Para completar el análisis cuantitativo proporcionado por SMW con un análisis cualitativo se desarrolló \emph{AssessMediaWiki} (AMW)~\footnote{http://assessmediawiki.forja.rediris.es}. AMW es una herramienta para realizar una evaluación escalable y cualitativa del trabajo realizado en el wiki mediante procedimientos de autoevaluación, evaluación entre iguales y evaluación del profesor.
 
-\subsubsection{Método para la evaluación del trabajo en el wiki}
+\subsubsection{AssessMediaWiki (AMW)}
+
+La aplicación creada para poner en práctica este método es AMW. AMW es una aplicación web de código abierto que, al conectarse a una instalación MediaWiki, proporciona procedimientos de autoevaluación, evaluación entre iguales y evaluación del profesor, a la vez que mantiene información sobre esas evaluaciones. AMW pone a disposición de los estudiantes una rubrica previamente definida por el profesor para que realicen la evaluación (figura\ref{fig:AmwRubrica}). 
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.3]{AmwRubrica.png}
+  \end{center}
+  \caption{Rúbrica de AMW}
+  \label{fig:AmwRubrica}
+\end{figure}
+
+AMW implementa dos roles de usuario distintos: supervisores y estudiantes. Los estudiantes pueden elegir entre distintas opciones: evaluar una revisión, comprobar sus propias aportaciones evaluadas y verificar las evaluaciones ya enviadas. Por otro lado, los supervisores tienen un mayor número de opciones, como definir la rubrica que los estudiantes deberán completar al realizar sus evaluaciones, modificar los parámetros de los programas o vigilar las evaluaciones que los alumnos vayan haciendo. AMW implementa un función de selección parcialmente aleatoria. Cuando un estudiante va a realizar una evaluación, el sistema eligen automáticamente una de entre el 30\percentage más significativa que aún no ha sido evaluada.
+
+Al revisar sus evaluaciones, los estudiantes puede revisar las notas recibidas y sus justificaciones, asi como ver a qué contribución en particular se refiere (figura~\ref{fig:AmwFormative}). Si el estudiante no está de acuerdo con la calificación puede replicar utilizando para ello una réplica similar a la que se utilizó en su evaluación, indicando las calificaciones que considera que merece y sus correspondientes justificaciones. Después el profesor revisará la disputa y pondrá la nota definitica.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.19]{AmwFormative.png}
+  \end{center}
+  \caption{Ejemplo de retroalimentación formativa y la contribución de wiki evaluada}
+  \label{fig:AmwFormative}
+\end{figure}
+
+\subsubsection{Método}
 
 El método para la evaluación del trabajo en el wiki consta de tres fases: una primera fase en la que los estudiantes realizan sus trabajos en las páginas del wiki, una segunda fase de evaluación y una tercera fase de revisión del profesor. En la figura~\ref{fig:AmwDiagram} puede verse un diagrama de flujo de trabajo que muestra cada una de las fases del método de evaluación realizado sobre una página del wiki en la que participan varios estudiantes y el profesor. A continuación se describen cada una de estas fases.
 
@@ -185,31 +209,7 @@ En esta última columna se representan dos actividades que corresponden al profe
 \item Revisión de evaluaciones no replicadas: el profesor puede revisar aleatoriamente otras evaluaciones realizadas por los estudiantes que no hayan sido replicadas. En el diagrama puede verse como en el profesor revisa las evaluaciones realizadas sobre las contribuciones representadas en \emph{R2} y en \emph{R7}, disminuyendo la calificación de la primera y manteniendo la segunda.
 \end{itemize}
 
-\subsubsection{AssessMediaWiki (AMW)}
-
-La aplicación creada para poner en práctica este método es AMW. AMW es una aplicación web de código abierto que, al conectarse a una instalación MediaWiki, proporciona procedimientos de autoevaluación, evaluación entre iguales y evaluación del profesor, a la vez que mantiene información sobre esas evaluaciones. AMW pone a disposición de los estudiantes una rubrica previamente definida por el profesor para que realicen la evaluación (figura\ref{fig:AmwRubrica}). 
-
-\begin{figure}
-  \begin{center}
-    \includegraphics[scale=0.3]{AmwRubrica.png}
-  \end{center}
-  \caption{Rúbrica de AMW}
-  \label{fig:AmwRubrica}
-\end{figure}
-
-AMW implementa dos roles de usuario distintos: supervisores y estudiantes. Los estudiantes pueden elegir entre distintas opciones: evaluar una revisión, comprobar sus propias aportaciones evaluadas y verificar las evaluaciones ya enviadas. Por otro lado, los supervisores tienen un mayor número de opciones, como definir la rubrica que los estudiantes deberán completar al realizar sus evaluaciones, modificar los parámetros de los programas o vigilar las evaluaciones que los alumnos vayan haciendo. AMW implementa un función de selección parcialmente aleatoria. Cuando un estudiante va a realizar una evaluación, el sistema eligen automáticamente una de entre el 30\percentage más significativa que aún no ha sido evaluada.
-
-Al revisar sus evaluaciones, los estudiantes puede revisar las notas recibidas y sus justificaciones, asi como ver a qué contribución en particular se refiere (figura~\ref{fig:AmwFormative}). Si el estudiante no está de acuerdo con la calificación puede replicar utilizando para ello una réplica similar a la que se utilizó en su evaluación, indicando las calificaciones que considera que merece y sus correspondientes justificaciones. Después el profesor revisará la disputa y pondrá la nota definitica.
-
-\begin{figure}
-  \begin{center}
-    \includegraphics[scale=0.19]{AmwFormative.png}
-  \end{center}
-  \caption{Ejemplo de retroalimentación formativa y la contribución de wiki evaluada}
-  \label{fig:AmwFormative}
-\end{figure}
-
-\subsubsection{Indicadores y competencias genéricas}
+\subsubsection{Indicadores}
 
 Los indicadores que se mencionan en este punto han sido utilizados en los estudios de caso realizados para este trabajo, pero como se ha mencionado desde un primer momento, este método proporciona indicadores y es el profesor el que los utilizará para evaluar las competencias genéricas que considere oportunas.
 
@@ -271,7 +271,7 @@ Por tanto, y tal y cómo se mostrará a continuación, en esta propuesta se util
 
 Para diseñar evaluaciones a partir de los indicadores del VLE se crea un lenguaje especifico de dominio (DSL, del inglés \emph{domain-specific language})~\cite{vanDeursen:2000}: \emph{Simple Assessment-Specific Query Language} (SASQL). Es un lenguaje formal para la ejecución automática de consultas simples escritas utilizando un lenguaje específico de evaluación. SASQL tiene un sintaxis simple, orientada a la evaluación de competencias genéricas~\cite{Balderas:2013}. De esta forma, los profesores pueden fácilmente obtener indicadores almacenados de la actividad en el VLE sin requerir conocimientos técnicos en bases de datos o programación informática.
 
-También se implementa \emph{EvalCourse}, una herramienta informática que ejecuta instrucciones escritas en SASQL, proporcionando como resultado los indicadores solicitados. EvalCourse se comunica con el VLE para extraer la información del registro de actividad. EvalCourse\footnote{https://www.assembla.com/spaces/evalcourse} está basado en el IDE de la plataforma Eclipse y está disponible como software libre bajo licencia GNU GPL.
+También se implementa \emph{EvalCourse}, una herramienta informática que ejecuta instrucciones escritas en SASQL, proporcionando como resultado los indicadores solicitados. EvalCourse se comunica con el VLE para extraer la información del registro de actividad. EvalCourse\footnote{https://www.assembla.com/spaces/evalcourse} está basado en el IDE de la plataforma Eclipse, fue implementado utilizando Xtext~\cite{eysholdt2010xtext} dentro del Eclipse Modeling Framework y está disponible como software libre bajo licencia GNU GPL.
 
 El desarrollo de EvalCourse y SASQL se basa en los principios y técnicas de la ingeniería dirigida por modelos (MDE, del inglés Model-Driven Engineering). Este enfoque promueve la construcción de artefactos software de un modo flexible y rápido mediante el desarrollo de modelos y sus transformaciones. Nuestro DSL se define en términos de su sintaxis abstracta o metamodelo, su sinxtaxis concreta y un conjunto de plantillas para la transformación de modelos de consulta en código ejecutable dependiente del VLE.
 
@@ -285,13 +285,15 @@ El desarrollo de EvalCourse y SASQL se basa en los principios y técnicas de la 
 
 El metamodelo de EvalCourse puede verse en la figura~\ref{fig:EvcMetamodel}. La entidad principal es el indicador o evidencia (\emph{evidence}). Esta evidencia se aplicará a una herramienta (\emph{tool}) que puede ser tarea (\emph{assignment}), foro (\emph{forum}), campus (\emph{campus}), taller (\emph{workshop}) o wiki (\emph{wiki}), en las que se observará un indicio (\emph{sign}), que puede ser participación (\emph{participation}), entregas (\emph{milestones}), accesos (\emph{access}), evaluaciones (\emph{assessment}), interacción (\emph{interaction}) o calificación (\emph{grade}). Además, puede actuarse sobre una actividad específica (\emph{entity}) o sobre todas las actividades de un tipo que se han dado en el VLE. La conexión a la base de datos del curso se declara en la entidad \emph{connection}. 
 
-La sintaxis de SASQL puede verse en~\ref{code:sasqlSintax}. En la primera línea se comienza con la palabra reservada \emph{Evidence} seguida del nombre que se dará al indicador. Ese nombre sera el que tengan todos los ficheros de salida. En la segunda línea se escriben los términos obligatorios \emph{get students}. En la tercera, se indica qué indicio se quiere extraer (\emph{show milestones | participation | access | interaction | assessment | grade}). En la cuarta, se indica sobre qué herramienta se quiere obtener el indicio (\emph{ in assignment | forum | campus | workshop | wiki [list of ids]}). En la quinta línea, que es opcional, se indica el rango de fechas sobre los que se extraerá la información. Y por último, en la sexta se especifica si la conexión se realizará directamente a la base de datos o sobre una copia de seguridad de un fichero.
+La sintaxis de SASQL puede verse en la consulta~\ref{code:sasqlSintax}. En la primera línea se comienza con la palabra reservada \emph{Evidence} seguida del nombre que se dará al indicador. Ese nombre sera el que tengan todos los ficheros de salida. En la segunda línea se escriben los términos obligatorios \emph{get students}. En la tercera, se indica qué indicio se quiere extraer (\emph{show milestones | participation | access | interaction | assessment | grade}). En el código la tercera línea se divide en dos (tercera y cuarta) para que puedan ser visualizadas todas las opciones. En la quinta, se indica sobre qué herramienta se quiere obtener el indicio (\emph{ in assignment | forum | campus | workshop | wiki [list of ids]}). También la quinta línea se divide en dos (quinta y sexta). En la séptima línea, que es opcional, se indica el rango de fechas sobre los que se extraerá la información. Y por último, en la octava se especifica si la conexión se realizará directamente a la base de datos o sobre una copia de seguridad de un fichero.
 
 \begin{lstlisting}[caption=Sintaxis de SASQL (las palabras reservadas se muestran resaltadas),label=code:sasqlSintax,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, wiki, between, and, workshop, interaction, assessment, grade, from, course, backup}]
 Evidence indicator_name:
  get students 
- show milestones | participation | access | interaction | assessment | grade
- in assignment | forum | campus | workshop | wiki [list of ids]
+ show milestones | participation | access 
+	| interaction | assessment | grade
+ in assignment | forum | campus | workshop 
+	| wiki [list of ids]
  between YYYY-MM-DD and YYYY-MM-DD
  from course id | backup.
 \end{lstlisting}
@@ -317,7 +319,7 @@ Este ejemplo parte de la configuración del profesor en el VLE de un foro con la
 % Estos indicadores deben ser publicados para que los estudiantes sepan cómo seran evaluados % FRASE ELIMINADA DEL MEDIO DEL PÁRRAFO ANTERIOR
 
 
-En el VLE se dispone de un foro en el que los estudiantes han estado interviniendo y el profesor querría obtener indicadores sobre las habilidades de interpersonales de sus estudiantes. El profesor considera que podria diseñar un indicador válido a partir del número de mensajes que ha escrito cada estudiante en un periodo de tiempo particular y plantea la siguiente hipótesis: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro}. Para ello diseña una consulta como la que puede verse en~\ref{code:sasqlejemplo1}. EvalCourse procesa la consulta y devuelve los resultados que se pueden ver en la tabla~\ref{tab:EvalCourseEj1}.
+En el VLE se dispone de un foro en el que los estudiantes han estado interviniendo y el profesor querría obtener indicadores sobre las habilidades de interpersonales de sus estudiantes. El profesor considera que podria diseñar un indicador válido a partir del número de mensajes que ha escrito cada estudiante en un periodo de tiempo particular y plantea la siguiente hipótesis: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro}. Para ello se diseña la consulta~\ref{code:sasqlejemplo1}. EvalCourse procesa la consulta y devuelve los resultados que se pueden ver en la tabla~\ref{tab:EvalCourseEj1}.
 
 \begin{lstlisting}[caption=Participación en el foro en un periodo concreto de tiempo ,label=code:sasqlejemplo1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
 Evidence query1: 
@@ -330,22 +332,25 @@ Evidence query1:
 	\centering
 	\caption{Información sobre la participación en el foro de los estudiantes en un periodo concreto de tiempo}
 	\label{tab:EvalCourseEj1}
-	\begin{tabular}{llccccc}
-		\hline\noalign{\smallskip}
-		id & username & Debate-starter & Debate-participation & Total \\
-		\noalign{\smallskip}
+	\begin{tabular}{|l|l|c|c|c|c|c|}
 		\hline
-		\noalign{\smallskip}
+		id & username & Debate-starter & Debate-participation & Total \\
+		\hline
+		\hline
 		1 & student1 & 1 & 2 & 3  \\
+		\hline
 		2 & student2 & 0 & 4 & 4  \\
+		\hline
 		3 & student3 & 0 & 1 & 1  \\
+		\hline
 		4 & student4 & 1 & 2 & 3  \\
+		\hline
 		5 & student5 & 0 & 2 & 2  \\
 		\hline
 	\end{tabular}
 \end{table}
 
-A la vista de los resultados, y en base a la hipótesis inicial, se podria decir que todos los estudiantes menos el 3 (\emph{student3}) habrían desempeñado correctamente la competencia. Sin embargo, el profesor considera que esta primera aproximación es un poco pobre y decide completar su hipótesis de la siguiente manera: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro y ha interactuado con más de un compañero}. Para ello escribe la consulta que puede verse en~\ref{code:sasqlejemplo2}. 
+A la vista de los resultados, y en base a la hipótesis inicial, se podria decir que todos los estudiantes menos el 3 (\emph{student3}) habrían desempeñado correctamente la competencia. Sin embargo, el profesor considera que esta primera aproximación es un poco pobre y decide completar su hipótesis de la siguiente manera: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro y ha interactuado con más de un compañero}. Para ello escribe la consulta~\ref{code:sasqlejemplo2}. 
 
 \begin{lstlisting}[caption=Interacción en el foro en un periodo de tiempo ,label=code:sasqlejemplo2,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
 Evidence query2: 
@@ -384,31 +389,21 @@ Las tareas programadas en el VLE tienen una fecha límite de entrega. Sin embarg
 %------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Mundos virtuales}
 
-Aunque muchos investigadores han reconocido la potencia educativa y motivacional de los videojuegos, hay pocos estudios empíricos que hayan investigado recientemente su impacto en el aprendizaje de los estudiantes~\cite{berns2013game}. Lo mismo se puede decir de los entornos de aprendizaje como los mundos virtuales (Second Life, OpenCobalt, etc.)~\cite{hew2010use}. Esto se debe en gran parte a que estos entornos no suelen tener licencias libres y, por consiguiente, los profesores no pueden diseñar sus propios entornos, analizar las interacciones de los estudiantes o analizar su impacto en el aprendizaje y en los resultados de aprendizaje~\cite{cruz2015discovering,moreno2014serious}. Por tanto, finalmente optamos por construir nuestro propio mundo virtual, basado en OpenSim (software de código abierto), para poder analizar después los procesos de aprendizaje.
+Aunque muchos investigadores han reconocido la potencia educativa y motivacional de los videojuegos, hay pocos estudios empíricos que hayan investigado recientemente su impacto en el aprendizaje de los estudiantes~\cite{berns2013game}. Lo mismo se puede decir de los entornos de aprendizaje como los mundos virtuales (Second Life, OpenCobalt, etc.)~\cite{hew2010use}. Ésto se debe a que normalmente no se distribuyen bajo licencia libre y, por consiguiente, los profesores no pueden analizar las interacciones de los estudiantes o analizar su impacto en el aprendizaje y en los resultados de aprendizaje~\cite{cruz2015discovering,moreno2014serious}. 
 
-\subsubsection{Metodología}
+Ante esta situación, en un trabajo previo desarrollamos nuestro propio mundo virtual, basado en OpenSim (software de código abierto)~\cite{berns2013using}. De esta forma se podría evaluar la competencia de la comunicación en una segunda lengua a partir de las interacciones llevadas a cabo por los estudiantes en el mundo virtual . 
 
-En el juego los estudiantes interactúan entre ellos por medio de un chat. Las conversaciones quedan almancenadas en la base de datos de EvalSim. Utilizando el ciclo de contraste de hipótesis los profesores obtendrán indicadores del trabajo de sus estudiantes (figura~\ref{fig:EvalSimArchitecture}).
+A continuación se explicará cómo a partir de la actividad generada por los estudiantes se obtendrán indicadores para el diseño de evaluaciones de competencias genéricas.
 
-\begin{figure}
-  \begin{center}
-    \includegraphics[scale=0.29]{EvalSimArchitecture.png}
-  \end{center}
-  \caption{Ciclo de contraste de hipótesis con EvalSim}
-  \label{fig:EvalSimArchitecture}
-\end{figure}
-
-El profesor diseña una evaluación (\emph{a}) que bajo su criterio le vaya a proporcionar indicadores válidos para evaluar alguna competencia genérica y la envía a EvalSim (\emph{b}). EvalSim procesa la petición y realiza la solicitud a la base de datos del mundo virtual (\emph{c}) . Una vez que recibe los datos (\emph{d}), los transforma y devuelve los resultados debidamente formateados al profesor (\emph{e}). El profesor los analiza, y si considera que son indicadores válidos para evaluar la competencia (\emph{f}) termina el ciclo. Sin embargo, si entiende que no les sirven o considera que deberia refinarlo podría volver a diseñar una nueva evaluación (\emph{g}), reinciándose de nuevo el ciclo.
-
-\subsubsection{EvalSim DSL}
+\subsubsection{VWQL y EvalSim}
 
 % Habrá que citar antes el MDD {schmidt2006guest} // artículo citado en evalsims. Borrar este comentario al citar
-Para este trabajo se creó VWQL (\emph{Virtual Worl Query language}). VWQL es un DSL creado para obtener indicadores objetivos de OpenSim. EvalSim es el sistema que procesa las consultas de VWQL. Ha sido desarrollado bajo un enfoque dirigido por modelos para modelar procesos para obtener los indicadores que se requieran. Fue implementado utilizando Xtext~\cite{eysholdt2010xtext} dentro del Eclipse Modeling Framework, que se distribuye como software de codigo abierto bajo licencia GNU.
+Para este trabajo se creó VWQL (\emph{Virtual Worl Query language}). VWQL es un DSL creado para obtener indicadores objetivos de OpenSim. EvalSim es el sistema que procesa las consultas de VWQL. Ha sido desarrollado bajo un enfoque MDE para modelar procesos para la obtención de los indicadores que se requieran. Fue también implementado utilizando Xtext~\cite{eysholdt2010xtext} dentro del Eclipse Modeling Framework.
 
-La sintaxis del lenguaje (versión beta 0.1) y pueden verse en~\ref{code:reserved}. La primera línea especifica el nombre del indicador (\emph{name\_of\_the\_indicator}) y se utiliza para diferenciar los diferentes archivos producidos por EvalSim. La segunda línea comienza obligatoriamente con \emph{get students} y a continuación se ha de especificas si se quiere obtener la información para todos los estudiantes que participaron en la experiencia o para sólo algunos de los que participaron (indicando sus identificadores numéricos de usuario). La última línea indica el tipo de información a extraer tras el término obligatorio \emph{show} y esta información puede ser alguno de los siguientes tipos:
+La sintaxis del lenguaje (versión beta 0.1) puede verse en la consulta~\ref{code:reserved}. La primera línea especifica el nombre del indicador (\emph{name\_of\_the\_indicator}) y se utiliza para diferenciar los diferentes archivos producidos por EvalSim. La segunda línea comienza obligatoriamente con \emph{get students} y a continuación se ha de especificar si se quiere obtener la información para todos los estudiantes que participaron en la experiencia o para sólo algunos de los que participaron (indicando sus identificadores numéricos de usuario). La última línea indica el tipo de información a extraer tras el término obligatorio \emph{show} y esta información puede ser de alguno de los siguientes tipos:
 
 \begin{itemize}
-\item \emph{words}: número de palabras escritas en el chat de texto. Por defecto cuenta todas las palabras, a no ser que se indique un idioma, en cuyo caso únicamente muestra de las palabras introducidas en el chat de texto, las palabras en dicho idioma.
+\item \emph{words}: número de palabras escritas en el chat de texto. Por defecto cuenta todas las palabras, a no ser que se indique un idioma, en cuyo caso únicamente muestra, de las palabras introducidas en el chat de texto, las palabras en dicho idioma.
 \item \emph{sentences}: número de frases escritas en el chat de texto.
 \item \emph{single}: número de frases basadas en una sola palabra escritas en el chat de texto.
 \item \emph{turns}: número de turnos realizados en chat de texto. Un turno es un conjunto de frases consecutivas escritas por el mismo usuario.
@@ -423,21 +418,118 @@ Evidence name_of_the_evidence:
          | time | points )+
 \end{lstlisting}
 
+\subsubsection{Método}
+
+En el juego los estudiantes interactúan entre ellos por medio de un chat. Las conversaciones quedan almancenadas en la base de datos de EvalSim. Utilizando el ciclo de contraste de hipótesis los profesores obtendrán indicadores del trabajo de sus estudiantes (figura~\ref{fig:EvsDiagram}).
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.4]{EvsDiagram.png}
+  \end{center}
+  \caption{Ciclo de contraste de hipótesis con EvalSim}
+  \label{fig:EvsDiagram}
+\end{figure}
+
+El profesor propone una evaluación (\emph{a}) que bajo su criterio le vaya a proporcionar indicadores válidos para evaluar alguna competencia genérica y la envía a EvalSim (\emph{b}). EvalSim procesa la petición y realiza la solicitud a la base de datos del mundo virtual (\emph{c}) . Una vez que recibe los datos (\emph{d}), los transforma y devuelve los resultados debidamente formateados al profesor (\emph{e}). El profesor los analiza, y si considera que son indicadores válidos para evaluar la competencia (\emph{f}) termina el ciclo. Sin embargo, si entiende que no les sirven o considera que deberia refinarlo podría volver a diseñar una nueva evaluación (\emph{g}), reinciándose de nuevo el ciclo.
+
+
+\paragraph*{Ejemplo de uso}
+
+En este ejemplo se parte de que el mundo virtual se está utilizando en una asignatura de idiomas. En un ejercicio práctico confeccionado por el profesor, los estudiantes han de participar en un juego de roles (\emph{role-play}) y son advertidos de que deben explayarse en sus respuestas a fin de utilizar los recursos lingüísticos aprendidos en clase.
+
+Una vez que todos los estudiantes han participado el juego, el profesor decide utilizar como indicador el número de frases de una sola palabra utilizada por los estudiantes. De esta manera, todos aquellos estudiantes que hayan utilizado una sola palabra para responder a alguna pregunta tendrán una evaluación negativa en el desempeño de la competencia. Puede verse el código empleado en la consulta~\ref{code:vqwlej1}.
+
+\begin{lstlisting}[caption=Respuesas de una sola palabra, label=code:vqwlej1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, single, show, words, sentences, turns, time, points}]
+Evidence respuestas_cortas:
+    get students
+    show single.
+\end{lstlisting}
+
+Como resultado a la consulta, el sistema devuelve el listado que puede verse en la tabla~\ref{tab:EvsListEj1}. A la vista de los mismos, el profesor considera que hay situaciones en las que una respuesta corta podría admitirse como válida, por lo que decide admitir como mucho dos respuestas cortas en la participación de cada estudiante. Ante este enfoque, el profesor considera que los estudiantes 3, 6 y 7 (\emph{studen3, student6 y student7}) tuvieron un desempeño bajo en la competencia al haber empleado respectivamente cuatro, cuatro y tres respuestas cortas.
+
+\begin{table}
+	\centering
+	\caption{Información sobre las respuestas de una sola palabra dadas por los estudiantes en el role-play}
+	\label{tab:EvsListEj1}
+	\begin{tabular}{|l|l|c|}
+		\hline
+		id & username & singles \\
+		\hline
+		\hline
+		1 & student1 & 0  \\
+		\hline
+		2 & student2 & 1  \\
+		\hline
+		3 & student3 & 4  \\
+		\hline
+		4 & student4 & 0  \\
+		\hline
+		5 & student5 & 2  \\
+		\hline
+		6 & student6 & 4  \\
+		\hline
+		7 & student7 & 3  \\
+		\hline
+		8 & student8 & 1  \\
+		\hline
+	\end{tabular}
+\end{table}
+
+Para enriquecer este indicador, el profesor decide diseñar un nuevo indicador. En este caso, calculando el número de palabras por turno que escriben los estudiantes. Para ello utiliza la consulta~\ref{code:vqwlej2}. Los resultados en este caso puede verse en la tabla~\ref{tab:EvsListEj2}.
+
+\begin{lstlisting}[caption=Respuesas de una sola palabra, label=code:vqwlej2,numbers=left, captionpos=b, morekeywords={Evidence,get, students, single, show, words, sentences, turns, time, points}]
+Evidence palabras_turno:
+    get students
+    show words, turns.
+\end{lstlisting}
+
+\begin{table}
+	\centering
+	\caption{Información sobre las palabras por turnos utilizadas por los estudiantes en el role-play}
+	\label{tab:EvsListEj2}
+	\begin{tabular}{|l|l|c|c|c|}
+		\hline
+		id & username & words & turns & words per turn \\
+		\hline
+		\hline
+		1 & student1 & 117 & 9 & 13 \\
+		\hline
+		2 & student2 & 132 & 11 & 12  \\
+		\hline
+		3 & student3 & 63 & 9 & 7  \\
+		\hline
+		4 & student4 & 140 & 10 & 14  \\
+		\hline
+		5 & student5 & 99  & 11 & 9 \\
+		\hline
+		6 & student6 & 80 & 10 & 8  \\
+		\hline
+		7 & student7 & 72 & 9 & 8  \\
+		\hline
+		8 & student8 & 108 & 9 & 12   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+A la vista de los resultados, el profesor confirma que los estudiantes 3, 6 y 7 (\emph{studen3, student6 y student7}) son los que utilizan menos palabras por turno. Son estos tres estudiantes, junto con el estudiante número 5 (\emph{student5}), los únicos que bajan de 10 palabras por turno. Lo que podría ser una justificación para el profesor a la hora de evaluar de manera negativa a este estudiante, ya que no sólo no llega a 10 mensajes sino que también es el único que en la consulta anterior está en el límite fijado de dos respuestas cortas.
+
+Como en los casos anteriores, será decisión del profesor el uso que se dé a los indicadores.
+
 \subsubsection{Indicadores}
 
-El mundo virtual se ha desarrollado para asignaturas de idiomas, por lo que la competencia genérica que se ha evaluado con los indicadores obtenidos ha sido la \emph{habilidad para comunicarse en un segundo idioma}. Estos indicadores son:
+El mundo virtual se ha desarrollado para asignaturas de idiomas, por lo que la competencia genérica para la que más se han utilizado los indicadores obtenidos ha sido para la \emph{habilidad para comunicarse en un segundo idioma}. Aunque sólo es una propuesta y podrían utilizarse también para otras competencias.
 
 % Hipótesis: un estudiante tiene dificultades para hacerse entender si necesita dos o más frases por turno para comunicarse con su compañero.
 
+\paragraph*{Segundo idioma}
 \begin{itemize}
-\item \emph{Ritmo}: número de frases escritas por minuto.
-\item \emph{Frases por turno}: número de frases escritas por turno.
+\item \emph{Ritmo}: número de frases escritas por minuto. Según la experiencia desarrollada podría ser un indicador positivo o negativo del desempeño de la competencia. Si el estudiante tiene que contar una historia o expresarse sin restricción, el hecho de que escriba muchas frases por minuto es un indicador positivo de su dominio del idioma. Sin embargo, si el estudiante tiene que enviar a su compañero un mensaje concreto y tiene dificultades  para hacerse entender, puede necesitar más de una frase por minuto para hacerse entender, siendo entonces un indicador negativo.
+\item \emph{Frases por turno}: número de frases escritas por turno. Igual que en el caso anterior, puede tomarse como un indicador positivo o negativo dependiendo del caso. Si el estudiante tiene un buen dominio del idioma y no hay restricción impuesta, puede ser un indicador positivo que escriba muchas frases por turno. Mientras que si necesita muchas frases para transmitir un mensaje concreto, que tenga que escribir muchas frases por turno puede ser un indicador negativo del desempeño de la competencia.
+\item \emph{Palabras solas}: número de frases de una sola palabra escritas por el estudiante. Un abuso del uso de frases de una sola palabra puede ser utilizado como un indicador del bajo nivel de conocimiento del segundo idioma.
 \end{itemize}
 
-\subsubsection{Ejemplo de uso}
-
-bla bla bla
-
+\paragraph*{Capacidad de aprender y mantenerse al día con el aprendizaje}
+Si un estudiante tiene dificultades para desenvolverse en el idioma, el hecho de que dedicase muchos minutos a jugar en el mundo virtual podría ser un indicador de que dicho estudiante está comprometido con su aprendizaje, y quiere mejorar. Sin embargo, si un estudiante tiene malos resultados, y además pasa pocos minutos practicando, seria un indicador negativo de esta competencia.
 % La evaluación de las 3 herramientas se corresponde al capítulo siguiente.
 
 

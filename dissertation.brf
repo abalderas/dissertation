@@ -7,7 +7,6 @@
 \backcite {judd:2010}{{4}{1.1}{section.1.1}}
 \backcite {jarmon:2009}{{4}{1.1}{section.1.1}}
 \backcite {Bellotti:2013}{{4}{1.1}{section.1.1}}
-\backcite {Berns:2013}{{4}{1.1}{section.1.1}}
 \backcite {Palomo-Duarte:2012}{{4}{1.1}{section.1.1}}
 \backcite {Redecker:2013}{{4}{1.1}{section.1.1}}
 \backcite {Cachia:2011}{{4}{1.1}{section.1.1}}
@@ -269,10 +268,12 @@
 \backcite {rayon2014web}{{82}{4.4.2}{subsection.4.4.2}}
 \backcite {vanDeursen:2000}{{82}{4.4.2.1}{subsubsection.4.4.2.1}}
 \backcite {Balderas:2013}{{82}{4.4.2.1}{subsubsection.4.4.2.1}}
+\backcite {eysholdt2010xtext}{{82}{4.4.2.1}{subsubsection.4.4.2.1}}
 \backcite {garrison1999critical}{{85}{4.4.2.2}{subsubsection.4.4.2.2}}
 \backcite {Balderas:2015}{{87}{4.4.2.3}{subsubsection.4.4.2.3}}
 \backcite {berns2013game}{{89}{4.4.3}{subsection.4.4.3}}
 \backcite {hew2010use}{{89}{4.4.3}{subsection.4.4.3}}
 \backcite {cruz2015discovering}{{89}{4.4.3}{subsection.4.4.3}}
 \backcite {moreno2014serious}{{89}{4.4.3}{subsection.4.4.3}}
-\backcite {eysholdt2010xtext}{{90}{4.4.3.2}{subsubsection.4.4.3.2}}
+\backcite {berns2013using}{{89}{4.4.3}{subsection.4.4.3}}
+\backcite {eysholdt2010xtext}{{89}{4.4.3.1}{subsubsection.4.4.3.1}}
