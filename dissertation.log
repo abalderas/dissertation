@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  6 NOV 2015 12:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  6 NOV 2015 18:40
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -1224,13 +1224,13 @@ ex [64
 ]
 Cap\'{\i }tulo 4.
 [65] [66]
-<4_overall_methodology/figures/PNG/CCHDiagram.png, id=1167, 829.0975pt x 479.79
-25pt>
+<4_overall_methodology/figures/PNG/CCHDiagram.png, id=1167, 833.1125pt x 484.81
+125pt>
 File: 4_overall_methodology/figures/PNG/CCHDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/CCHDiagram.png>
 Package pdftex.def Info: 4_overall_methodology/figures/PNG/CCHDiagram.png used 
 on input line 66.
-(pdftex.def)             Requested size: 373.09044pt x 215.90462pt.
+(pdftex.def)             Requested size: 374.89716pt x 218.16304pt.
  [67 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
 res/PNG/CCHDiagram.png>] [68] [69] [70] [71]
 <4_overall_methodology/figures/PNG/AmwRubrica.png, id=1215, 1000.73875pt x 689.
@@ -1310,22 +1310,19 @@ ile (type png)
 
 <use 4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png>
 Package pdftex.def Info: 4_overall_methodology/figures/PNG/EvalCourseInteraccio
-nForo.png used on input line 366.
+nForo.png used on input line 365.
 (pdftex.def)             Requested size: 170.71652pt x 116.71954pt.
-
-Underfull \vbox (badness 1248) has occurred while \output is active []
-
  [87 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
-res/PNG/EvalCourseInteraccionForo.png>] [88] [89]
-<4_overall_methodology/figures/PNG/EvsDiagram.png, id=1376, 843.15pt x 514.9237
+res/PNG/EvalCourseInteraccionForo.png>] [88] [89] [90]
+<4_overall_methodology/figures/PNG/EvsDiagram.png, id=1384, 843.15pt x 514.9237
 5pt>
 File: 4_overall_methodology/figures/PNG/EvsDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/EvsDiagram.png>
 Package pdftex.def Info: 4_overall_methodology/figures/PNG/EvsDiagram.png used 
-on input line 427.
+on input line 426.
 (pdftex.def)             Requested size: 337.25401pt x 205.96585pt.
- [90] [91 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology
-/figures/PNG/EvsDiagram.png>] [92] [93]) [94]
+ [91 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
+res/PNG/EvsDiagram.png>] [92] [93]) [94]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_experiments_and_results/0_ind
 ex.tex
 Cap\'{\i }tulo 5.
@@ -1423,12 +1420,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 303.
  ) 
 Here is how much of TeX's memory you used:
  14771 strings out of 494045
- 225469 string characters out of 3145963
+ 225493 string characters out of 3145963
  351440 words of memory out of 3000000
  17189 multiletter control sequences out of 15000+200000
  42352 words of font info for 82 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,13n,50p,1783b,1836s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,13n,50p,1783b,1071s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
@@ -1437,7 +1434,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on dissertation.pdf (140 pages, 1925176 bytes).
+Output written on dissertation.pdf (140 pages, 1928695 bytes).
 PDF statistics:
  1820 PDF objects out of 2073 (max. 8388607)
  413 named destinations out of 1000 (max. 500000)
