@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  6 NOV 2015 18:40
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  7 NOV 2015 12:28
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -796,7 +796,7 @@ LaTeX Info: Redefining \nameref on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 
-<0_frontmatter/figures/PNG/UCA_Shield.png, id=259, 468.75125pt x 602.25pt>
+<0_frontmatter/figures/PNG/UCA_Shield.png, id=267, 468.75125pt x 602.25pt>
 File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
 
 <use 0_frontmatter/figures/PNG/UCA_Shield.png>
@@ -990,7 +990,7 @@ Overfull \hbox (34.44368pt too wide) in paragraph at lines 176--193
  []
 
 [22]
-<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=658, 687.56876pt x
+<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=670, 687.56876pt x
  441.65pt>
 File: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png Graphic file (typ
 e png)
@@ -1019,7 +1019,7 @@ Overfull \hbox (58.20526pt too wide) in alignment at lines 324--327
 ] [27
 
 ] [28] [29] [30] [31] [32] [33]
-<2_state_of_the_art/figures/PNG/Burbujas.png, id=764, 1678.27pt x 650.43pt>
+<2_state_of_the_art/figures/PNG/Burbujas.png, id=776, 1678.27pt x 650.43pt>
 File: 2_state_of_the_art/figures/PNG/Burbujas.png Graphic file (type png)
 
 <use 2_state_of_the_art/figures/PNG/Burbujas.png>
@@ -1169,7 +1169,7 @@ Overfull \hbox (8.5359pt too wide) in paragraph at lines 857--858
 ] [48] [49] [50
 
 ] [51] [52]
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=1078, 1045.9075pt 
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=1090, 1045.9075pt 
 x 731.73375pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png Graphic file (typ
 e png)
@@ -1186,7 +1186,7 @@ Overfull \hbox (34.59402pt too wide) in paragraph at lines 947--948
 LaTeX Warning: Float too large for page by 83.87047pt on input line 951.
 
 
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=1079, 1048.91875pt
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=1091, 1048.91875pt
  x 730.73pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png Graphic file (typ
 e png)
@@ -1224,7 +1224,7 @@ ex [64
 ]
 Cap\'{\i }tulo 4.
 [65] [66]
-<4_overall_methodology/figures/PNG/CCHDiagram.png, id=1167, 833.1125pt x 484.81
+<4_overall_methodology/figures/PNG/CCHDiagram.png, id=1179, 833.1125pt x 484.81
 125pt>
 File: 4_overall_methodology/figures/PNG/CCHDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/CCHDiagram.png>
@@ -1233,7 +1233,7 @@ on input line 66.
 (pdftex.def)             Requested size: 374.89716pt x 218.16304pt.
  [67 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
 res/PNG/CCHDiagram.png>] [68] [69] [70] [71]
-<4_overall_methodology/figures/PNG/AmwRubrica.png, id=1215, 1000.73875pt x 689.
+<4_overall_methodology/figures/PNG/AmwRubrica.png, id=1227, 1000.73875pt x 689.
 57625pt>
 File: 4_overall_methodology/figures/PNG/AmwRubrica.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/AmwRubrica.png>
@@ -1241,7 +1241,7 @@ Package pdftex.def Info: 4_overall_methodology/figures/PNG/AmwRubrica.png used
 on input line 142.
 (pdftex.def)             Requested size: 300.22394pt x 206.87447pt.
  [72]
-<4_overall_methodology/figures/PNG/AmwFormative.png, id=1224, 2007.5pt x 692.58
+<4_overall_methodology/figures/PNG/AmwFormative.png, id=1236, 2007.5pt x 692.58
 75pt>
 File: 4_overall_methodology/figures/PNG/AmwFormative.png Graphic file (type png
 )
@@ -1255,128 +1255,135 @@ Underfull \vbox (badness 4181) has occurred while \output is active []
  [73 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
 res/PNG/AmwRubrica.png> <C:/Users/Antonio/Documents/GitHub/dissertation/4_overa
 ll_methodology/figures/PNG/AmwFormative.png>]
-<4_overall_methodology/figures/PNG/AmwDiagram.png, id=1233, 1298.8525pt x 2056.
+<4_overall_methodology/figures/PNG/AmwDiagram.png, id=1245, 1298.8525pt x 2056.
 68375pt>
 File: 4_overall_methodology/figures/PNG/AmwDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/AmwDiagram.png>
 Package pdftex.def Info: 4_overall_methodology/figures/PNG/AmwDiagram.png used 
-on input line 166.
+on input line 170.
 (pdftex.def)             Requested size: 363.67622pt x 575.86754pt.
 
 
-LaTeX Warning: Float too large for page by 38.55212pt on input line 170.
+LaTeX Warning: Float too large for page by 38.55212pt on input line 174.
 
 [74] [75 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/
-figures/PNG/AmwDiagram.png>] [76] [77] [78] [79]
-Overfull \hbox (0.95459pt too wide) in paragraph at lines 234--234
+figures/PNG/AmwDiagram.png>] [76] [77] [78]
+<4_overall_methodology/figures/PNG/AmwDiagram2.png, id=1271, 849.1725pt x 530.9
+8375pt>
+File: 4_overall_methodology/figures/PNG/AmwDiagram2.png Graphic file (type png)
+
+ <use 4_overall_methodology/figures/PNG/AmwDiagram2.png>
+Package pdftex.def Info: 4_overall_methodology/figures/PNG/AmwDiagram2.png used
+ on input line 224.
+(pdftex.def)             Requested size: 382.1241pt x 238.94048pt.
+ [79] [80 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology
+/figures/PNG/AmwDiagram2.png>] [81]
+Overfull \hbox (0.95459pt too wide) in paragraph at lines 252--252
 []|[]| 
  []
 
 
-Overfull \hbox (17.68312pt too wide) in paragraph at lines 232--247
+Overfull \hbox (17.68312pt too wide) in paragraph at lines 250--265
  [] 
  []
 
-[80] [81] [82]
-<4_overall_methodology/figures/PNG/EvcMetamodel.png, id=1294, 982.67125pt x 742
+[82] [83]
+<4_overall_methodology/figures/PNG/EvcMetamodel.png, id=1313, 982.67125pt x 742
 .775pt>
 File: 4_overall_methodology/figures/PNG/EvcMetamodel.png Graphic file (type png
 )
  <use 4_overall_methodology/figures/PNG/EvcMetamodel.png>
 Package pdftex.def Info: 4_overall_methodology/figures/PNG/EvcMetamodel.png use
-d on input line 280.
+d on input line 298.
 (pdftex.def)             Requested size: 393.06154pt x 297.10474pt.
- [83 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
+ [84 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
 res/PNG/EvcMetamodel.png>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 290.
- [84]
-<4_overall_methodology/figures/PNG/EvcDiagram.png, id=1316, 840.13875pt x 506.8
-9375pt>
+nput line 308.
+ [85]
+<4_overall_methodology/figures/PNG/EvcDiagram.png, id=1340, 839.135pt x 509.905
+pt>
 File: 4_overall_methodology/figures/PNG/EvcDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/EvcDiagram.png>
 Package pdftex.def Info: 4_overall_methodology/figures/PNG/EvcDiagram.png used 
-on input line 309.
-(pdftex.def)             Requested size: 378.05894pt x 228.10008pt.
-
-Underfull \vbox (badness 1454) has occurred while \output is active []
-
- [85 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
-res/PNG/EvcDiagram.png>] [86]
-<4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png, id=1338, 431.
+on input line 329.
+(pdftex.def)             Requested size: 377.60725pt x 229.45512pt.
+ [86] [87 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology
+/figures/PNG/EvcDiagram.png>]
+<4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png, id=1361, 431.
 6125pt x 295.1025pt>
 File: 4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png Graphic f
 ile (type png)
 
 <use 4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png>
 Package pdftex.def Info: 4_overall_methodology/figures/PNG/EvalCourseInteraccio
-nForo.png used on input line 365.
+nForo.png used on input line 385.
 (pdftex.def)             Requested size: 170.71652pt x 116.71954pt.
- [87 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
-res/PNG/EvalCourseInteraccionForo.png>] [88] [89] [90]
-<4_overall_methodology/figures/PNG/EvsDiagram.png, id=1384, 843.15pt x 514.9237
+ [88 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
+res/PNG/EvalCourseInteraccionForo.png>] [89] [90] [91]
+<4_overall_methodology/figures/PNG/EvsDiagram.png, id=1404, 843.15pt x 514.9237
 5pt>
 File: 4_overall_methodology/figures/PNG/EvsDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/EvsDiagram.png>
 Package pdftex.def Info: 4_overall_methodology/figures/PNG/EvsDiagram.png used 
-on input line 426.
+on input line 446.
 (pdftex.def)             Requested size: 337.25401pt x 205.96585pt.
- [91 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
-res/PNG/EvsDiagram.png>] [92] [93]) [94]
+ [92 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
+res/PNG/EvsDiagram.png>] [93] [94] [95]) [96]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_experiments_and_results/0_ind
 ex.tex
 Cap\'{\i }tulo 5.
 
-Package natbib Warning: Citation `turing1950computing' on page 95 undefined on 
+Package natbib Warning: Citation `turing1950computing' on page 97 undefined on 
 input line 25.
 
-[95
+[97
 
 
 
-]) [96]
+]) [98]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_experiments_and_results/1_wik
-is.tex) [97
+is.tex) [99
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_experiments_and_results/2_cur
-sos.tex) [98
+sos.tex) [100
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_experiments_and_results/3_vw.
-tex) [99
+tex) [101
 
 
 ]
 (C:\Users\Antonio\Documents\GitHub\dissertation\6_conclusion/0_index.tex
-[100
+[102
 
 
 
 ]
 Cap\'{\i }tulo 6.
 
-Package natbib Warning: Citation `turing1950computing' on page 101 undefined on
+Package natbib Warning: Citation `turing1950computing' on page 103 undefined on
  input line 25.
 
-[101]) [102] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
+[103]) [104] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.brf)
 \tf@brf=\write9
- [103
+ [105
 
 
 
 ]
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [104] [105]
-[106] [107] [108] [109] [110] [111] [112]) [113]
+) [106] [107]
+[108] [109] [110] [111] [112] [113] [114]) [115]
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.tex
-[114
+[116
 
-] [115]) [116
+] [117]) [118
 
 ]
 
@@ -1413,16 +1420,16 @@ aux) (C:\Users\Antonio\Documents\GitHub\dissertation\6_conclusion/0_index.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: E48B80A072B337A1ADE282B386FCA7E0;5229.
+(rerunfilecheck)             Checksum: 3D629E85005FC0CDBAEEC9F7FBF77D33;5461.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: 0CB4962DC0CC302FEFD20134178A50C6;20503.
+(rerunfilecheck)             Checksum: FB64D8EBBBD8661B0351C8CF11222F8B;20503.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 303.
  ) 
 Here is how much of TeX's memory you used:
- 14771 strings out of 494045
- 225493 string characters out of 3145963
- 351440 words of memory out of 3000000
- 17189 multiletter control sequences out of 15000+200000
+ 14787 strings out of 494045
+ 225887 string characters out of 3145963
+ 350544 words of memory out of 3000000
+ 17197 multiletter control sequences out of 15000+200000
  42352 words of font info for 82 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  43i,13n,50p,1783b,1071s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1434,9 +1441,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on dissertation.pdf (140 pages, 1928695 bytes).
+Output written on dissertation.pdf (142 pages, 2086634 bytes).
 PDF statistics:
- 1820 PDF objects out of 2073 (max. 8388607)
- 413 named destinations out of 1000 (max. 500000)
- 578 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1848 PDF objects out of 2073 (max. 8388607)
+ 420 named destinations out of 1000 (max. 500000)
+ 599 words of extra memory for PDF output out of 10000 (max. 10000000)
 
