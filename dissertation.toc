@@ -71,8 +71,12 @@
 \contentsline {subsection}{\numberline {5.1.2}Cuestionarios y entrevistas}{98}{subsection.5.1.2}
 \contentsline {section}{\numberline {5.2}AMW aplicado a MediaWiki}{98}{section.5.2}
 \contentsline {section}{\numberline {5.3}EvalCourse aplicado a entornos de apredizaje virtual}{99}{section.5.3}
-\contentsline {section}{\numberline {5.4}EvalSim aplicado a los mundos virtuales}{99}{section.5.4}
-\contentsline {section}{\numberline {5.5}Evaluaci\IeC {\'o}n}{99}{section.5.5}
-\contentsline {section}{\numberline {5.6}Conclusiones}{100}{section.5.6}
-\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{101}{chapter.6}
-\contentsline {chapter}{Bibliograf\'{\i }a}{103}{chapter*.77}
+\contentsline {subsection}{\numberline {5.3.1}Evaluaci\IeC {\'o}n}{99}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Extracci\IeC {\'o}n de indicadores del foro}{99}{subsubsection.5.3.1.1}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Extracci\IeC {\'o}n de indicadores del taller}{103}{subsubsection.5.3.1.2}
+\contentsline {subsection}{\numberline {5.3.2}Resultados}{106}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}EvalSim aplicado a los mundos virtuales}{106}{section.5.4}
+\contentsline {section}{\numberline {5.5}Evaluaci\IeC {\'o}n}{106}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusiones}{107}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{109}{chapter.6}
+\contentsline {chapter}{Bibliograf\'{\i }a}{111}{chapter*.84}
