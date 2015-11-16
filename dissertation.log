@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  13 NOV 2015 15:53
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  16 NOV 2015 13:20
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -791,7 +791,7 @@ LaTeX Info: Redefining \nameref on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 
-<0_frontmatter/figures/PNG/UCA_Shield.png, id=303, 468.75125pt x 602.25pt>
+<0_frontmatter/figures/PNG/UCA_Shield.png, id=327, 468.75125pt x 602.25pt>
 File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
 
 <use 0_frontmatter/figures/PNG/UCA_Shield.png>
@@ -985,7 +985,7 @@ Overfull \hbox (34.44368pt too wide) in paragraph at lines 176--193
  []
 
 [22]
-<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=725, 687.56876pt x
+<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=771, 687.56876pt x
  441.65pt>
 File: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png Graphic file (typ
 e png)
@@ -1014,7 +1014,7 @@ Overfull \hbox (58.20526pt too wide) in alignment at lines 324--327
 ] [27
 
 ] [28] [29] [30] [31] [32] [33]
-<2_state_of_the_art/figures/PNG/Burbujas.png, id=831, 1678.27pt x 650.43pt>
+<2_state_of_the_art/figures/PNG/Burbujas.png, id=877, 1678.27pt x 650.43pt>
 File: 2_state_of_the_art/figures/PNG/Burbujas.png Graphic file (type png)
 
 <use 2_state_of_the_art/figures/PNG/Burbujas.png>
@@ -1164,7 +1164,7 @@ Overfull \hbox (8.5359pt too wide) in paragraph at lines 857--858
 ] [48] [49] [50
 
 ] [51] [52]
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=1145, 1045.9075pt 
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=1191, 1045.9075pt 
 x 731.73375pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png Graphic file (typ
 e png)
@@ -1181,7 +1181,7 @@ Overfull \hbox (34.59402pt too wide) in paragraph at lines 947--948
 LaTeX Warning: Float too large for page by 83.87047pt on input line 951.
 
 
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=1146, 1048.91875pt
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=1192, 1048.91875pt
  x 730.73pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png Graphic file (typ
 e png)
@@ -1219,7 +1219,7 @@ ex [64
 ]
 Cap\'{\i }tulo 4.
 [65] [66]
-<4_overall_methodology/figures/PNG/CCHDiagram.png, id=1234, 833.1125pt x 484.81
+<4_overall_methodology/figures/PNG/CCHDiagram.png, id=1280, 833.1125pt x 484.81
 125pt>
 File: 4_overall_methodology/figures/PNG/CCHDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/CCHDiagram.png>
@@ -1228,7 +1228,7 @@ on input line 66.
 (pdftex.def)             Requested size: 374.89716pt x 218.16304pt.
  [67 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
 res/PNG/CCHDiagram.png>] [68] [69] [70] [71]
-<4_overall_methodology/figures/PNG/AmwRubrica.png, id=1282, 1000.73875pt x 689.
+<4_overall_methodology/figures/PNG/AmwRubrica.png, id=1328, 1000.73875pt x 689.
 57625pt>
 File: 4_overall_methodology/figures/PNG/AmwRubrica.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/AmwRubrica.png>
@@ -1236,7 +1236,7 @@ Package pdftex.def Info: 4_overall_methodology/figures/PNG/AmwRubrica.png used
 on input line 142.
 (pdftex.def)             Requested size: 300.22394pt x 206.87447pt.
  [72]
-<4_overall_methodology/figures/PNG/AmwFormative.png, id=1291, 2007.5pt x 692.58
+<4_overall_methodology/figures/PNG/AmwFormative.png, id=1337, 2007.5pt x 692.58
 75pt>
 File: 4_overall_methodology/figures/PNG/AmwFormative.png Graphic file (type png
 )
@@ -1250,7 +1250,7 @@ Underfull \vbox (badness 4181) has occurred while \output is active []
  [73 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
 res/PNG/AmwRubrica.png> <C:/Users/Antonio/Documents/GitHub/dissertation/4_overa
 ll_methodology/figures/PNG/AmwFormative.png>]
-<4_overall_methodology/figures/PNG/AmwDiagram.png, id=1300, 1298.8525pt x 2056.
+<4_overall_methodology/figures/PNG/AmwDiagram.png, id=1346, 1298.8525pt x 2056.
 68375pt>
 File: 4_overall_methodology/figures/PNG/AmwDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/AmwDiagram.png>
@@ -1263,7 +1263,7 @@ LaTeX Warning: Float too large for page by 38.55212pt on input line 174.
 
 [74] [75 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/
 figures/PNG/AmwDiagram.png>] [76] [77] [78]
-<4_overall_methodology/figures/PNG/AmwDiagram2.png, id=1326, 849.1725pt x 530.9
+<4_overall_methodology/figures/PNG/AmwDiagram2.png, id=1372, 849.1725pt x 530.9
 8375pt>
 File: 4_overall_methodology/figures/PNG/AmwDiagram2.png Graphic file (type png)
 
@@ -1283,7 +1283,7 @@ Overfull \hbox (17.68312pt too wide) in paragraph at lines 250--265
  []
 
 [82] [83]
-<4_overall_methodology/figures/PNG/EvcMetamodel.png, id=1368, 982.67125pt x 742
+<4_overall_methodology/figures/PNG/EvcMetamodel.png, id=1414, 982.67125pt x 742
 .775pt>
 File: 4_overall_methodology/figures/PNG/EvcMetamodel.png Graphic file (type png
 )
@@ -1296,7 +1296,7 @@ res/PNG/EvcMetamodel.png>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 308.
  [85]
-<4_overall_methodology/figures/PNG/EvcDiagram.png, id=1395, 839.135pt x 509.905
+<4_overall_methodology/figures/PNG/EvcDiagram.png, id=1441, 839.135pt x 509.905
 pt>
 File: 4_overall_methodology/figures/PNG/EvcDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/EvcDiagram.png>
@@ -1305,7 +1305,7 @@ on input line 329.
 (pdftex.def)             Requested size: 377.60725pt x 229.45512pt.
  [86] [87 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology
 /figures/PNG/EvcDiagram.png>]
-<4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png, id=1416, 431.
+<4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png, id=1462, 431.
 6125pt x 295.1025pt>
 File: 4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png Graphic f
 ile (type png)
@@ -1316,7 +1316,7 @@ nForo.png used on input line 385.
 (pdftex.def)             Requested size: 170.71652pt x 116.71954pt.
  [88 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
 res/PNG/EvalCourseInteraccionForo.png>] [89] [90] [91]
-<4_overall_methodology/figures/PNG/EvsDiagram.png, id=1459, 843.15pt x 514.9237
+<4_overall_methodology/figures/PNG/EvsDiagram.png, id=1505, 843.15pt x 514.9237
 5pt>
 File: 4_overall_methodology/figures/PNG/EvsDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/EvsDiagram.png>
@@ -1332,65 +1332,157 @@ Cap\'{\i }tulo 5.
 
 
 
-] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
+] [98] [99]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 108.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 108.
+
+[100]
+Overfull \hbox (43.58957pt too wide) in paragraph at lines 118--130
+ [][] 
+ []
+
+[101]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 150.
+
+
+Overfull \hbox (76.4496pt too wide) in paragraph at lines 169--181
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (76.4496pt too wide) in paragraph at lines 187--199
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 206.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 206.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 206.
+
+[102] [103]
+Overfull \hbox (100.4602pt too wide) in paragraph at lines 225--236
+ [][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 242.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 242.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 242.
+
+[104]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 267.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 267.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 267.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[105] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [98]
-[99]
-<5_experiments_and_results/figures/PNG/EvcForo1.png, id=1520, 946.53625pt x 379
+) [106]
+[107]
+<5_experiments_and_results/figures/PNG/EvcForo1.png, id=1618, 946.53625pt x 379
 .4175pt>
 File: 5_experiments_and_results/figures/PNG/EvcForo1.png Graphic file (type png
 )
  <use 5_experiments_and_results/figures/PNG/EvcForo1.png>
 Package pdftex.def Info: 5_experiments_and_results/figures/PNG/EvcForo1.png use
-d on input line 110.
+d on input line 362.
 (pdftex.def)             Requested size: 341.43306pt x 136.86229pt.
- [100 <C:/Users/Antonio/Documents/GitHub/dissertation/5_experiments_and_results
-/figures/PNG/EvcForo1.png>] [101]
-<5_experiments_and_results/figures/PNG/EvcForo2.png, id=1533, 541.02126pt x 397
+ [108]
+<5_experiments_and_results/figures/PNG/EvcForo2.png, id=1625, 541.02126pt x 397
 .485pt>
 File: 5_experiments_and_results/figures/PNG/EvcForo2.png Graphic file (type png
 )
  <use 5_experiments_and_results/figures/PNG/EvcForo2.png>
 Package pdftex.def Info: 5_experiments_and_results/figures/PNG/EvcForo2.png use
-d on input line 129.
+d on input line 381.
 (pdftex.def)             Requested size: 341.43306pt x 250.85356pt.
- [102 <C:/Users/Antonio/Documents/GitHub/dissertation/5_experiments_and_results
-/figures/PNG/EvcForo2.png>] [103]
-<5_experiments_and_results/figures/PNG/EvcWorkshop1.png, id=1553, 744.7825pt x 
+ [109 <C:/Users/Antonio/Documents/GitHub/dissertation/5_experiments_and_results
+/figures/PNG/EvcForo1.png>] [110 <C:/Users/Antonio/Documents/GitHub/dissertatio
+n/5_experiments_and_results/figures/PNG/EvcForo2.png>]
+<5_experiments_and_results/figures/PNG/EvcWorkshop1.png, id=1644, 744.7825pt x 
 422.57875pt>
 File: 5_experiments_and_results/figures/PNG/EvcWorkshop1.png Graphic file (type
  png)
  <use 5_experiments_and_results/figures/PNG/EvcWorkshop1.png>
 Package pdftex.def Info: 5_experiments_and_results/figures/PNG/EvcWorkshop1.png
- used on input line 186.
+ used on input line 438.
 (pdftex.def)             Requested size: 341.43306pt x 193.73088pt.
 
-[104] [105 <C:/Users/Antonio/Documents/GitHub/dissertation/5_experiments_and_re
-sults/figures/PNG/EvcWorkshop1.png (PNG copy)>] [106]) [107]
+[111] [112] [113 <C:/Users/Antonio/Documents/GitHub/dissertation/5_experiments_
+and_results/figures/PNG/EvcWorkshop1.png (PNG copy)>] [114]) [115]
 (C:\Users\Antonio\Documents\GitHub\dissertation\6_conclusion/0_index.tex
-[108
+[116
 
 
 
 ]
 Cap\'{\i }tulo 6.
 
-Package natbib Warning: Citation `turing1950computing' on page 109 undefined on
+Package natbib Warning: Citation `turing1950computing' on page 117 undefined on
  input line 25.
 
-[109]) [110] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
+[117]) [118] (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.bbl
 (C:\Users\Antonio\Documents\GitHub\dissertation\dissertation.brf)
 \tf@brf=\write9
- [111
+ [119
 
 
 
 ]
-[112] [113] [114] [115] [116] [117] [118] [119] [120] [121]) [122]
+[120] [121] [122] [123] [124] [125] [126] [127] [128] [129]) [130]
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.tex
-[123
+[131
 
-] [124]) [125
+] [132]) [133
 
 ]
 
@@ -1422,32 +1514,34 @@ ex.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: C55A8E2B8E2EA9712A701F0C4A3D7B10;6231.
+(rerunfilecheck)             Checksum: E78642615D13A4324A23CE822CB14CB1;6902.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: DBDDADA8CD4E0C7B8E6ADC54955800F9;20677.
+(rerunfilecheck)             Checksum: 22B524294245BE50664AB02AB7564F04;20679.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
  ) 
 Here is how much of TeX's memory you used:
- 14846 strings out of 494045
- 226228 string characters out of 3145963
- 349824 words of memory out of 3000000
- 17238 multiletter control sequences out of 15000+200000
- 42352 words of font info for 82 fonts, out of 3000000 for 9000
+ 14904 strings out of 494045
+ 227180 string characters out of 3145963
+ 350739 words of memory out of 3000000
+ 17270 multiletter control sequences out of 15000+200000
+ 45445 words of font info for 91 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  43i,13n,50p,1783b,1071s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/u
-tmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-
-Output written on dissertation.pdf (149 pages, 2239629 bytes).
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
+/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (157 pages, 2303404 bytes).
 PDF statistics:
- 1981 PDF objects out of 2073 (max. 8388607)
- 455 named destinations out of 1000 (max. 500000)
- 686 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2092 PDF objects out of 2487 (max. 8388607)
+ 481 named destinations out of 1000 (max. 500000)
+ 734 words of extra memory for PDF output out of 10000 (max. 10000000)
 
