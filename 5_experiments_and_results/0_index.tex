@@ -54,12 +54,81 @@ En el transcurso de esta tesis se ha presentado en varios foros el trabajo que s
 % AMW ---------------------------------------------------------------------------------
 \section{AMW aplicado a MediaWiki}
 
-Los estudios de caso que se presentan en este capítulo han sido enviados para su publicación a la revista XYZ.
+El estudio de caso donde se aplica por primera vez AMW se presentó en el \emph{SPEDECE 2012 (Ninth multidisciplinary symposium on the design and evaluation of digital content for education)}~\cite{Balderas:2012} y se amplió en la versión enviada a la revista Computers \& Education en 2015~\footnote{http://www.journals.elsevier.com/computers-and-education/}, pendiente aún de ser publicada.
 
 \subsection{Evaluación}
 
 El estudio de caso en el que se aplicó AMW tuvo lugar en la titulación de \emph{Ingenieria Técnica en Informática de Sistemas},  de la Universidad de Cádiz, en el curso 2011-12. La experiencia fue desarrollada en la asignatura de \emph{Administración de Sistemas Operativos} con 40 estudiantes matriculados. Dentro de las actividades de la asignatura se incluyó el desarrollo de un proyecto en el wiki, que fue evaluado mediante una aproximación mixta con SMW y AMW.
 
+En una primera iteración del \emph{ciclo de contraste de hipótesis} se obtuvieron indicadores cuantitativos, mientras que en la segunda iteración los indicadores que se obtuvieron fueron cualitativos. 
+Las dimensiones que se pretendían evaluar fueron las siguientes:
+
+\begin{itemize}
+	\item Trabajo en equipo ($M_1$)
+	\item Comunicación y la aplicación del conocimiento ($M_2$)
+	\item Habilidades individuales ($M_3$)
+	\item Capacidad critica ($M_4$)
+	\item Entregable final ($M_5$)
+\end{itemize}
+
+\subsubsection{Indicadores cuantitativos}
+
+Para la evaluación de competencias en este primer ciclo se decidió partir de indicadores cuantitativos, midiendo en bytes la cantidad de trabajo realizada por cada estudiante en las contribuciones hechas al wiki. Para ela aplicación del método se usó SMW. Los indicadores que se utilizaron fueron los siguientes:
+
+\begin{itemize}
+	\item Trabajo en equipo ($M_1$): Ratio de miembros del equipo que contribuyeron en el proyecto wiki.
+	\item Comunicación y la aplicación del conocimiento ($M_2$): Ratio de miembros del equipo que contribuyeron al menos a un 20\percentage del conteo final de bytes de la categoría.
+	\item Habilidades individuales ($M_3$): contribución en bytes.
+	\item Capacidad critica ($M_4$): No considerado
+\end{itemize}
+
+\subsubsection{Indicadores cualitativos}
+
+En esta segunda iteración del \emph{ciclo de contraste de hipótesis} se utilizó AMW para obtener indicadores cualitativos. Había numerosos aspectos que se escapaban de la evaluación después de obtener los indicadores cuantitativos y que un análisis cualitativo complementaría. Los indicadores que se utilizaron en este caso para las competencias fueron los siguientes:
+
+\begin{itemize}
+	\item Trabajo en equipo ($M_1$): Ratio de miembros del equipo que trabajaron en el mismo criterio técnico.
+	\item Comunicación y la aplicación del conocimiento ($M_2$): Media de las notas que los miembros del equipo recibieron.
+	\item Habilidades individuales ($M_3$): Media de las notas que cada estudiante recibió.
+	\item Capacidad critica ($M_4$): Número de evaluaciones que el estudiante realizó y que fueron posteriormente modificadas por el profesor.
+\end{itemize}
+
+\subsubsection{Resumen}
+
+En la tabla~\ref{table:skill-assessed} puede verse una comparativa de los indicadores cuantitativos y cualitativos. Durante el análisis de los indicadores cuantitativos se detectaron pequeños defectos que tuvieron que ser completementados con indicadores cualitativos. 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|m{3.1cm}|m{5cm}|m{5cm}|}
+\hline
+\textbf{Competencia} & \textbf{Indicadores cuantitativos} & \textbf{Indicadores cualitativos}   \\ \hline
+\hline
+Trabajo en equipo & Ratio de miembros del equipo que contribuyeron a la misma página wiki dentro del proyecto & Ratio de miembros del equipo que trabajaron en el mismo criterio técnico \\
+\hline
+Comunicación y aplicación del conocimiento & Ratio de miembros del equipo que contribuyeron al menos al 20\percentage del conteo final de bytes de la categoría  & Media de las notas que los miembros del equipo recibieron  \\
+\hline
+Habilidades individuales  & Contribución en bytes & Media de las notas que el estudiante recibió \\
+\hline
+Pensamiento  & & Número de evaluaciones que \\
+crítico & \emph{No considerado} & el estudiante hizo y fueron \\
+ & & modificadas por el profesor  \\
+\hline
+Entregable final & Manualmente & Manualmente \\
+\hline
+\end{tabular}
+\caption{Resumen de indicadores para cada aproximación.}
+\label{table:skill-assessed}
+\end{table}
+
+En la competencia de trabajo en equipo, con el enfoque cuantitativo, era muy sencillo para muchos estudiantes conseguir un indicador positivo, ya que por el simple hecho de haber escrito algo en la página era suficiente. Sin embargo, esto no justificaba en sí un trabajo en equipo, sino el haber trabajado algo, aunque fuese poco, en el mismo proyecto. Por ello se planteó el enfoque cualitativo. Al considerarse varios aspectos en un trabajo, y el estar estos aspectos representados en criterios de la rúbrica, el hecho de que dos o más estudiantes tuviesen alguna calificación en un mismo criterio podría considerarse como una evidencia de que esos estudiantes han trabajado en colaboración para alcanzar el objetivo representado en dicho criterio.
+
+Para la competencia de la comunicación y la aplicación del conocimiento se consideró la cantidad de miembros del equipo que contribuyó al menos al 20\percentage de la versión final del wiki en términos de bytes. Este indicador evalúa el nivel de competencia de los equipos de trabajo que contribuyen al éxito del proyecto. Sin embargo, este indicador podía ser confuso. Si un estudiante mueve un trozo de texto considerable el sistema consideraría esta acción como una contribución importante cuando en realidad no lo merece. Incluso un estudiante podría engañar al sistema de pegando texto absurdo y borrándolo después, y así contribuir a unas cifras de trabajo que no serían reales pero que pasarían por alto en un análisis cuantitativo. Por eso, este indicador se complementó con un análisis cualitativo, en el que si un estudiante mueve un trozo de texto de un sitio a otro, quizás pueda obtener una beuan nota en el criterio de la coherencia del texto, pero desde luego no en un criterio específico. En este enfoque cualitativo, a partir de la media de todas las calificaciones de todas las contribuciones de los miembros del equipo se mide cómo han aplicado los estudiantes el conocimiento y cómo se han comunicado para este fin.
+
+Para las competencias de las habilidades individuales nos encontramos ante la misma situación. Medir en bytes el trabajo de los profesores te aporta un dato cuantitativo válido, pero que necesita un análisis cualitativo que tenga en cuenta posibles situaciones que se tendrían en cuenta con el enfoque cuantitativo. Con la media de las calificaciones de las contribuciones realizadas individualmente por cada estudiante se complementa la evaluación de esta competencia.
+
+Para el pensamiento crítico se tiene en cuenta sólo el aspecto cualitativo. Los estudiantes disponen del conocimiento para realizar la evaluación del trabajo de sus compañeros. Los estudiantes evaluados pueden reclamar una evaluación recibida si no están de acuerdo con la misma. En ese caso es el profesor el que se encarga de la revisión, y si modifica la nota, el alumno evaluador será penalizado en esta competencia.
+
+\subsection{Resultados}
 La experiencia constaba de las tres fases que fueron introducidas en el capítulo anterior:
 
 \begin{description}
@@ -88,26 +157,23 @@ Esta fase comenzó con un seminario. Los estudiantes aprendieron cómo evaluar c
 
 \item[3. Revisión del profesor]
 
-El profesor tuvo que resolver las réplicas. Esta información se utilizó más tarde para evaluar las habilidades críticas.
+El profesor tuvo que resolver las réplicas. Esta información se utilizó más tarde para evaluar el pensamiento crítico.
 
 \end{description}
 
 AMW se utilizó para evaluar el desempeño de los estudiantes en varios indicadores relacionados con el trabajo en equipo. Indicadores como la coordinación para desempeñar tareas y su desempeño de manera colaborativa. Además, se fomento el pensamiento crítico de los estudiantes motivándoles a revisar formalmente el trabajo de sus compañeros para que su nota no se bajase.
 
-Las dimensiones de la evaluación fueron las siguientes:
-\begin{itemize}
-	\item Trabajo en equipo ($M_1$)
-	\item Comunicación y la aplicación del conocimiento ($M_2$)
-	\item Habilidades individuales ($M_3$)
-	\item Capacidad critica ($M_4$)
-	\item Entregable final ($M_5$)
-\end{itemize}
-
 A continuación en cada subsección se explica cómo se evaluaron las competencias para cada subdimensión. Esta propuesta se basa en el programa de la asignatura. Dependiendo de la configuración de las tareas específicas del wiki y de la actividad a desarrollar, el profesor podría utilizar estos indicadores como proponemos, adaptarlos a la evaluación de otras habilidades, o incluso definir sus indicadores.
 
 \subsubsection{Indicador del trabajo en equipo ($M_1$)}
 
-Esta calificación mide la habilidad de un equipo para trabajar colaborativamente. Esta calificación fue la misma para todos los miembros del equipo ($U_i$) de cada proyecto ($P_i$). Esta dimensión recogía los criterios en los que fue evaluado cada $U_I$ en la página de su proyecto. Consideramos que un $U_i$ ha contribuido en un criterio de un proyecto si tiene ese criterio evaluado en las rubricas de cualquieras de sus contribuciones evaluadas.
+\paragraph*{Aproximación cuantitativa}
+
+Mediante el uso de SMW se pudo comprobar como todos los miembros de cada equipo, en menor o mayor medida habían participado en la páginas wikis de sus proyectos. Este indicador se descartó, ya que una vez analizado lo único que podíamos saber era si los estudiantes habían contribuido al proyecto, pero el hecho de haber contribuido al mismo proyecto no es necesariamente una evidencia de haber trabajado en equipo. Por tanto, este indicador se redifinió mediante la aproximación cualitativa.
+
+\paragraph*{Aproximación cualitativa}
+
+Esta calificación mide la habilidad de un equipo para trabajar colaborativamente y era compartida por todos los miembros del equipo ($U_i$) de cada proyecto ($P_i$). Esta dimensión recogía los criterios en los que fue evaluado cada $U_i$ en la página de su proyecto. Consideramos que un $U_i$ ha contribuido en un criterio de un proyecto si ha sido evaluado en ese criterio en alguna de sus contribuciones.
 
 De esta forma, dos o más estudiantes colaboraron si fueron evaluados en el mismo criterio. Si dos miembros del equipo fueron evaluados en criterios complementarios, ello no implicaba colaboración. Bajo esta premisa sólo se consideraron los criterios técnicos, que están relacionados con las partes de la tarea en la que los estudiantes en realidad colaboraron. La colaboración en criterios transversales como la escritura o la coherencia no se consideraron ($D_{11}$-$D_{17}$).
 
@@ -148,6 +214,19 @@ En dicha fórmula participan las siguientes variables:
 La calificación $M_1$ para el proyecto $P_{13}$ fue de 6,66 sobre 10, ya que dos de los tres miembros trabajaron colaborativamente.
 
 \subsubsection{Indicador de las habilidades de comunicación y la aplicación del conocimiento ($M_2$)}
+
+\paragraph*{Aproximación cuantitativa}
+
+En este enfoque se considera la cantidad de miembros de cada equipo que habían contribuido al menos a un 20\percentage del trabajo realizado en la página del wiki medido en bytes (para equipos de tres estudiantes). En la figura~\ref{fig:smw-p13} puede verse una gráfica de la distribución del trabajo, mostrándose el ratio total de bytes contribuidos por cada estudiante del proyecto $P_{13}$. $U_1$ (verde) contribuyó con un 38,2\percentage, $U_2$ (rojo) con un 27,2\percentage y $U_3$ (azul) con un 34,7\percentage. Al estar más o menos balanceada consideramos que ellos trabajaron colaborativamente.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=8cm]{smw-work-distribution-p13.png}
+	\caption{Distribución del trabajo de los miembros del proyecto $P_{13}$.}
+	\label{fig:smw-p13}
+\end{figure}
+
+\paragraph*{Aproximación cualitativa}
 
 Esta calificación medía la habilidad para aplicar el conocimiento en situaciónes prácticas y la habilidad para comunicarse con otros miembros del equipo. La calificación de este indicador también era compartida por todos los miembros del equipo ($U_i$). Se calcula como la media de las notas que cada miembro del equipo recibió. Este indicador evaluaba la eficacia de los equipo de trabajo que contribuyen al éxito del proyecto. Notas medias en las contribuciones pueden significar pobres contribuciones al wiki o que algunas contribuciones obtuvieron buenas calificaciones y otras malas, evidenciando una comunicación deficiente entre los miembros del equipo o un escaso grado de compromiso con el equipo.
 
@@ -205,6 +284,12 @@ $U_{15}$ & 22 &  46 & 21   &  40 & 17  & 5 & 94 &  5   & 6  &  20  &  123 & \tex
 
 \subsubsection{Indicador de habilidades individuales ($M_3$)}
 
+\paragraph*{Aproximación cuantitativa}
+
+bla bla bla
+
+\paragraph*{Aproximación cualitativa}
+
 Esta dimensión evalúa la capacidad para producir y mantener la calidad del proyecto. Es una habilidad individual, y se calcula por separado para cada miembro del equipo ($U_i$). El grado en esta dimensión es el promedio de las calificaciones recibidas para cada alumno, expresado en la fórmula~\ref{math:m3}.
 
 \begin{equation}
@@ -239,9 +324,15 @@ El promedio de las calificaciones asignadas a las contribuciones de cada estudia
 
 % Cuantitativo?
 
-\subsubsection{Indicador de habilidades críticas ($M_4$)}
+\subsubsection{Indicador del pensamiento crítico ($M_4$)}
 
-Como se ha comentado anteriormente, AMW permitió a los estudiantes replicar si estabán en desacuerdo con una evaluación recibida. Esas réplicas se reportaron al supervisor para resolverlos. En caso de que el profesor aceptase una rpelica, la calificación se modificaba. Pero este proceso tiene otra parte: los estudiantes recibieron instrucciones claras sobre la tarea de evaluación, siendo un proceso formativo que tenía reflejo en su calificación. Entonces, podíamos utilizar esta información como un indicador de la habilidad de \emph{evaluar críticamente el trabajo de sus compañeros}. En particular, hemos utilizado dos indicadores: el número de evaluaciones realizadas por cada estudiante y la cantidad de ellos que el profesor modificó (podían tener su origen en réplicas del estudiante evaluado o en revisiones al azar realizadas por el profesor). No fue nuestro caso, pero si había diferentes evaluaciones en una misma contribución, la diferencia entre ellos podría ser también un indicador de competencia.
+\paragraph*{Aproximación cuantitativa}
+
+bla bla bla
+
+\paragraph*{Aproximación cualitativa}
+
+Como se ha comentado anteriormente, AMW permitió a los estudiantes replicar si estabán en desacuerdo con una evaluación recibida. Esas réplicas se reportaron al supervisor para resolverlos. En caso de que el profesor aceptase una réplica, la calificación se modificaba. Pero este proceso tiene otra parte: los estudiantes recibieron instrucciones claras sobre la tarea de evaluación, siendo un proceso formativo que tenía reflejo en su calificación. Entonces, podíamos utilizar esta información como un indicador de la habilidad para \emph{interpretar, analizar y evaluar el trabajo de sus compañeros}. En particular, hemos utilizado dos indicadores: el número de evaluaciones realizadas por cada estudiante y la cantidad de ellos que el profesor modificó (podían tener su origen en réplicas del estudiante evaluado o en revisiones al azar realizadas por el profesor). No fue nuestro caso, pero si había diferentes evaluaciones en una misma contribución, la diferencia entre ellos podría ser también un indicador de competencia.
 
 La fórmula que se utilizó fue~\ref{math:m4}. Se considera que todos los estudiantes comenzaron con 10 puntos en esta dimensión, y perdieron 2,5 de ellos por cada evaluación que hicieron  y que fue modificado por el profesor, hasta un mínimo de 0 puntos. De hecho, cada estudiante hizo 10 evaluaciones, por lo que consideramos que deberían haber hecho no más del 20\percentage de las evaluaciones erróneas para aprobar esta parte de la nota. En nuestro caso de estudio, tuvimos 412 evaluación, y 27 de ellas (6\percentage) se replicaron (el profesor sólo revisó las evaluaciones replicadas). Sólo 10 de ellas (37\percentage) fueron aceptadas. En cuanto a los estudiantes, sólo uno tuvo 3 réplicas a sus evaluacones aceptadas. El resto de ellos tenía 2, 1 o ninguno. En la tabla~\ref{table:students-grade-replies} pueden verse las evaluaciones realizadas por los miembros de $P_{13}$ que fueron respondidas. $U_1$ y $U_2$ recibieron una réplica que fue aceptada ($AR$) cada uno, mientras que $U_3 $ no tuvo ninguna.
 
@@ -306,7 +397,7 @@ Para la calificación fina se tomó el trabajo final del wiki, donde se valoraro
 
 A modo de ejemplo, la cuarta columna de la tabla muestra las calificaciones que el supervisor le dio a los criterios del proyecto $P_{13}$. Este proyecto fue calificado con un 8,45 puntos sobre 10. Esta evaluación cualitativa manual realizada por el supervisor es escalable, ya que cada grupo solo tiene una versión definitiva de su página wiki.
 
-\subsection{Resultados}
+\subsection{Discusión} % Dejar? Eran resultados ...
 
 Junto con el estudio de caso, varias comparaciones entre el enfoque cuantitativo previo y la cualitativa implementada en esta experiencia han sido desplegados. Un resumen sobre las ventajas del enfoque cualitativo se muestra a continuación:
 
@@ -359,7 +450,7 @@ Los estudios de caso que se presentan en este capítulo fueron publicados en la 
 
 \subsection{Evaluación}
 
-Los estudios de caso en los que se aplicó EvalCourse tuvieron lugar en dos asignaturas de la titulación de \emph{Ingenieria Informática}, de la Universidad de Cádiz, en el curso 2012/13. La evaluación del curso se realizó de forma manual, y después se aplicó EvalCourse para evaluar a los estudiantes en las competencias de liderazgo, habilidades interpersonales y autocrítica.
+Los estudios de caso en los que se aplicó EvalCourse tuvieron lugar en dos asignaturas de la titulación de \emph{Ingenieria Informática}, de la Universidad de Cádiz, en el curso 2012/13. La evaluación del curso se realizó de forma manual, y después se aplicó EvalCourse para evaluar a los estudiantes en las competencias de liderazgo, habilidades interpersonales y el pensamiento crítico.
 
 \subsubsection{Extracción de indicadores del foro}
 
@@ -433,13 +524,13 @@ Concluímos que gran parte de la interacción del foro se debía a mensajes de r
 
 \subsubsection{Extracción de indicadores del taller}
 
-El segundo estudio de caso que se analizó se desarrolló en la asignatura de Programación Funcional, en la que había 19 estudiantes matriculados. Esta es una asignatura optativa que tiene lugar también en el segundo semestre del quinto (y último) curso. Los estudiantes tuvieron que trabajar en cuatro talleres a lo largo del curso. En Moodle, un taller es un entregable que, conforme a las intrucciones del profesor, puede ser evaluado por otro u otros estudiantes o auto-evaluado. Los estudiantes debían entregar una tarea en un taller habilitado para cada tema antes de la fecha límite fijada en la actividad. Tras la fecha de entrega, el profesor proporcionaba la solución a la tarea, de manera que cada tarea fuera evaluada por dos compañeros de manera aleatoria y por el propio estudiante. A final de curso, se calculó la media de las calificaciones de todos los talleres. Esta calificación era el 30\percentage de la nota de la asignatura, siendo obligatoria una buena calificación para aprobar la asignatura. El profesor de la asignatura tenía que evaluar la capacidad de autocrítica de sus estudiantes. Para ello, utilizó como indicador para cada tarea la diferencia entre la media de las calificaciones dadas por cada compañero con respecto a la calificación que se asignó el propio estudiante. Cada estudiante evaluaba su propio trabajo antes de saber la calificación que le habían dado sus compañeros.
+El segundo estudio de caso que se analizó se desarrolló en la asignatura de Programación Funcional, en la que había 19 estudiantes matriculados. Esta es una asignatura optativa que tiene lugar también en el segundo semestre del quinto (y último) curso. Los estudiantes tuvieron que trabajar en cuatro talleres a lo largo del curso. En Moodle, un taller es un entregable que, conforme a las intrucciones del profesor, puede ser evaluado por otro u otros estudiantes o auto-evaluado. Los estudiantes debían entregar una tarea en un taller habilitado para cada tema antes de la fecha límite fijada en la actividad. Tras la fecha de entrega, el profesor proporcionaba la solución a la tarea, de manera que cada tarea fuera evaluada por dos compañeros de manera aleatoria y por el propio estudiante. A final de curso, se calculó la media de las calificaciones de todos los talleres. Esta calificación era el 30\percentage de la nota de la asignatura, siendo obligatoria una buena calificación para aprobar la asignatura. El profesor de la asignatura tenía que evaluar el pensamiento crítico de sus estudiantes. Para ello, utilizó como indicador para cada tarea la diferencia entre la media de las calificaciones dadas por cada compañero con respecto a la calificación que se asignó el propio estudiante. Cada estudiante evaluaba su propio trabajo antes de saber la calificación que le habían dado sus compañeros.
 
 El grado de validez del indicador proporcionado por EvalCourse dependerá del profesor, que si lo considera oportuno, podrá contrastar o complementar el indicador con otros actividades de aprendizaje. Al igual que los estudiantes deben haber sido instruídos para realizar el trabajo que se les pedia, deben ser capaces de evaluar el trabajo de sus compañeros, argumentando sus criterios, sus razones y sus evidencias.
 
 \paragraph*{Análisis}
 
-A partir del código mostrado en la consulta~\ref{code:EvcWorkshop1}, se obtiene el listado~\ref{tab:EvcWorkshop1} con los indicadores que se utilizaron para evaluar a los estudiantes en la competencia de la autocrítica (en un rango de 0 a 10). En la figura~\ref{fig:EvcWorkshop1} se muestra un grafo con la diferencia entre sus auto-calificaciones y las otorgadas por sus compañeros. Este grafo se genero a partir de la iimportación de los indicadores a una hoja de cálculo. En él, se detecta fácilmente a dos estudiantes que se auto-asignaron una calificación inferior a la que le dieron sus compañeros.
+A partir del código mostrado en la consulta~\ref{code:EvcWorkshop1}, se obtiene el listado~\ref{tab:EvcWorkshop1} con los indicadores que se utilizaron para evaluar a los estudiantes en la competencia del pensamiento crítico (en un rango de 0 a 10). En la figura~\ref{fig:EvcWorkshop1} se muestra un grafo con la diferencia entre sus auto-calificaciones y las otorgadas por sus compañeros. Este grafo se genero a partir de la iimportación de los indicadores a una hoja de cálculo. En él, se detecta fácilmente a dos estudiantes que se auto-asignaron una calificación inferior a la que le dieron sus compañeros.
 
 \begin{lstlisting}[caption=Extracción evaluaciones realizadas en los talleres ,label=code:EvcWorkshop1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, evaluations, participation, access, in, assignment, forum, campus, between, and, workshop, interaction}]
 Evidence workshop_critical: 

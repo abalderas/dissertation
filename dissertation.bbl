@@ -13,6 +13,11 @@ A.~Al-Ajlan and H.~Zedan.
 \newblock In {\em Future Trends of Distributed Computing Systems, 2008.
   FTDCS'08. 12th IEEE International Workshop on}, pages 58--64. IEEE, 2008.
 
+\bibitem{anderson2012design}
+T.~Anderson and J.~Shattuck.
+\newblock Design-based research a decade of progress in education research?
+\newblock {\em Educational researcher}, 41(1):16--25, 2012.
+
 \bibitem{andre2011formal}
 M.~Andr{\'e}, M.~G. Baldoqu{\'\i}n, and S.~T. Acu{\~n}a.
 \newblock Formal model for assigning human resources to teams in software
@@ -38,6 +43,13 @@ A.~Balderas, J.~M. Dodero, M.~Palomo-Duarte, and I.~Ruiz-Rube.
   assessments.
 \newblock {\em International Journal of Engineering Education - Special issue
   on Innovative Methods of Teaching Engineering}, 31(3):851--862, 2015.
+
+\bibitem{Balderas:2012}
+A.~Balderas, M.~Palomo-Duarte, J.~M. Dodero, and I.~R. Rube.
+\newblock Qualitative assessment of wiki-based learning processes.
+\newblock In {\em Proceedings of SPDECE-2012. Ninth multidisciplinary symposium
+  on the design and evaluation of digital content for education}, pages
+  161--172, 2012.
 
 \bibitem{Balderas:2013}
 A.~Balderas, I.~Ruiz-Rube, J.~M. Dodero, M.~Palomo-Duarte, and A.~Berns.
@@ -140,6 +152,11 @@ C.-h. Chen.
 \newblock The implementation and evaluation of a mobile self-and
   peer-assessment system.
 \newblock {\em Computers \& Education}, 55(1):229--236, 2010.
+
+\bibitem{collins2004design}
+A.~Collins, D.~Joseph, and K.~Bielaczyc.
+\newblock Design research: Theoretical and methodological issues.
+\newblock {\em The Journal of the learning sciences}, 13(1):15--42, 2004.
 
 \bibitem{communique2012making}
 B.~Communiqu{\'e}.

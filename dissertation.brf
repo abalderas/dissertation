@@ -15,7 +15,10 @@
 \backcite {Lugton:2012}{{5}{1.1}{section.1.1}}
 \backcite {Mor:2013}{{5}{1.1}{section.1.1}}
 \backcite {Johnson:2013}{{5}{1.1}{section.1.1}}
-\backcite {oates2006researching}{{9}{1.4.1}{subsection.1.4.1}}
+\backcite {collins2004design}{{5}{1.1.1}{subsection.1.1.1}}
+\backcite {anderson2012design}{{6}{1.1.1}{subsection.1.1.1}}
+\backcite {anderson2012design}{{6}{1.1.1}{subsection.1.1.1}}
+\backcite {oates2006researching}{{10}{1.4.1}{subsection.1.4.1}}
 \backcite {alAjlan:2008}{{14}{2}{chapter.2}}
 \backcite {podgorelec:2011}{{14}{2}{chapter.2}}
 \backcite {Chebil:2012}{{14}{2}{chapter.2}}
@@ -278,5 +281,6 @@
 \backcite {berns2013using}{{90}{4.4.3}{subsection.4.4.3}}
 \backcite {eysholdt2010xtext}{{91}{4.4.3.1}{subsubsection.4.4.3.1}}
 \backcite {ladron2008revision}{{98}{5.1.1}{subsection.5.1.1}}
-\backcite {Balderas:2015}{{107}{5.3}{section.5.3}}
-\backcite {balderas2013generative}{{107}{5.3}{section.5.3}}
+\backcite {Balderas:2012}{{98}{5.2}{section.5.2}}
+\backcite {Balderas:2015}{{112}{5.3}{section.5.3}}
+\backcite {balderas2013generative}{{112}{5.3}{section.5.3}}
