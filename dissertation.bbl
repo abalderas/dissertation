@@ -78,13 +78,6 @@ B.~Bell and B.~Cowie.
 \newblock The characteristics of formative assessment in science education.
 \newblock {\em Science education}, 85(5):536--553, 2001.
 
-\bibitem{Bellotti:2013}
-F.~Bellotti, B.~Kapralos, K.~Lee, P.~Moreno-Ger, and R.~Berta.
-\newblock Assessment in and of serious games: An overview.
-\newblock {\em Advances in Human-Computer Interaction - Special issue on User
-  Assessment in Serious Games and Technology-Enhanced}, 2013:1:1--1:1, Jan.
-  2013.
-
 \bibitem{benlloch2007adapting}
 J.~Benlloch-Dualde and S.~Blanc-Clavero.
 \newblock Adapting teaching and assessment strategies to enhance
@@ -177,13 +170,6 @@ D.~Djaouti, J.~Alvarez, and J.-P. Jessel.
 \newblock {\em Handbook of research on improving learning and motivation
   through educational games: Multidisciplinary approaches}, pages 118--136,
   2011.
-
-\bibitem{Dodero:2013}
-J.~M. Dodero, M.~Palomo-Duarte, I.~Ruiz-Rube, I.~Traverso, and J.~M. Mota.
-\newblock {ASCETA: Accesibilidad a servicios y contenidos educativos mediante
-  tecnologías del aprendizaje}.
-\newblock In {\em {XV Simposio Internacional de Tecnologías de la Información
-  y las Comunicaciones en la Educación}}, pages 116--120, 2013.
 
 \bibitem{dunn2002seeking}
 L.~Dunn, C.~Morgan, and S.~Parry.
@@ -290,24 +276,6 @@ M.~G. i~Catas{\'u}s, T.~Romeu, and M.~P{\'e}rez-Mateo.
 \newblock {Competencias TIC y trabajo en equipo en entornos virtuales}.
 \newblock {\em RUSC. Universities and Knowledge Society Journal}, 4(1), 2007.
 
-\bibitem{jarmon:2009}
-L.~Jarmon, T.~Traphagan, M.~Mayrath, and A.~Trivedi.
-\newblock Virtual world teaching, experiential learning, and assessment: An
-  interdisciplinary communication course in second life.
-\newblock {\em Computers \& Education}, 53(1):169--182, 2009.
-
-\bibitem{Johnson:2013}
-D.~Johnson.
-\newblock Teaching a ``mooc:`` experiences from the front line.
-\newblock In {\em Digital Signal Processing and Signal Processing Education
-  Meeting (DSP/SPE), 2013 IEEE}, pages 268--272, 2013.
-
-\bibitem{judd:2010}
-T.~Judd, G.~KEnnEDY, and S.~CRoPPER.
-\newblock Using wikis for collaborative learning: Assessing collaboration
-  through contribution.
-\newblock {\em Australasian Journal of Educational Technology}, 26(3), 2010.
-
 \bibitem{Kitchenham:2010}
 B.~Kitchenham, R.~Pretorius, D.~Budgen, O.~Pearl~Brereton, M.~Turner, M.~Niazi,
   and S.~Linkman.
@@ -334,16 +302,17 @@ A.~Lasa, I.~Txurruka, E.~Sim{\'o}n, and J.~Miranda.
   nutrition and dietetics.
 \newblock {\em ICERI2013 Proceedings}, pages 1687--1692, 2013.
 
+\bibitem{laurillard2012teaching}
+D.~Laurillard.
+\newblock Teaching as a design science.
+\newblock {\em building pedagogical patterns for learning and technology},
+  2012.
+
 \bibitem{lidz1987dynamic}
 C.~S.~E. Lidz.
 \newblock {\em Dynamic assessment: An interactional approach to evaluating
   learning potential.}
 \newblock Guilford Press, 1987.
-
-\bibitem{Lugton:2012}
-M.~Lugton.
-\newblock {What is a MOOC? What are the different types of MOOC? xMOOCs and
-  cMOOCs}, 2012.
 
 \bibitem{malehorn1994ten}
 H.~Malehorn.
@@ -372,24 +341,12 @@ A.~Masip-{\'A}lvarez, C.~Hervada-Sala, T.~P{\`a}mies-G{\'o}mez, A.~Arias-Pujol,
 \newblock In {\em Global Engineering Education Conference (EDUCON), 2013 IEEE},
   pages 436--441. IEEE, 2013.
 
-\bibitem{Mor:2013}
-Y.~Mor and T.~Koshinen.
-\newblock {MOOC y m\'{a}s all\'{a}}.
-\newblock {\em eLearning Papers}, 33:1--7, 2013.
-
 \bibitem{moreno2014serious}
 P.~Moreno-Ger, I.~Martinez-Ortiz, M.~Freire, B.~Manero, and
   B.~Fernandez-Manjon.
 \newblock Serious games: A journey from research to application.
 \newblock In {\em Frontiers in Education Conference (FIE), 2014 IEEE}, pages
   1--4. IEEE, 2014.
-
-\bibitem{Munkhchimeg:2013}
-B.~Munkhchimeg and S.~Baigaltugs.
-\newblock Control possibility of students' learning process through using
-  learning management system.
-\newblock In {\em Strategic Technology (IFOST), 2013 8th International Forum
-  on}, volume~2, pages 395--399, 2013.
 
 \bibitem{munoz2003cuestionario}
 T.~G. Mu{\~n}oz.
@@ -421,14 +378,6 @@ M.~Palomo-Duarte, J.~M. Dodero, I.~Medina-Bulo, E.~J. Rodr{\'\i}guez-Posada,
 \newblock Assessment of collaborative learning experiences by graphical
   analysis of wiki contributions.
 \newblock {\em Interactive Learning Environments}, 22(4):444--466, 2014.
-
-\bibitem{Palomo-Duarte:2012}
-M.~Palomo-Duarte, J.~M. Dodero, J.~T. Tocino, A.~Garc\'{\i}a-Dom\'{\i}nguez,
-  and A.~Balderas.
-\newblock Competitive evaluation in a video game development course.
-\newblock In {\em Proceedings of the 17th ACM Annual Conference on Innovation
-  and Technology in Computer Science Education}, ITiCSE '12, pages 321--326,
-  New York, NY, USA, 2012. ACM.
 
 \bibitem{park2015development}
 Y.~Park and I.-H. Jo.
@@ -465,12 +414,6 @@ QAA.
   Standards in Higher Education.}
 \newblock The Quality Assurance Agency for Higher Education, 2006.
 
-\bibitem{Cachia:2011}
-C.~R., F.~A., A.-M. K., and P.~Y.
-\newblock {\em Creative Learning and Innovative Teaching: Final Report on the
-  Study on Creativity and Innovation in Education in the EU Member States}.
-\newblock Dictus Publishing, 2011.
-
 \bibitem{rashid2008engineering}
 R.~A. Rashid, R.~Abdullah, A.~Zaharim, H.~A. Ghulman, M.~S. Masodi, J.~Mauri,
   A.~Zaharim, A.~Kolyshkin, M.~Hatziprokopiou, A.~Lazakidou, et~al.
@@ -491,6 +434,12 @@ C.~Redecker and y.~Johannessen.
 \newblock {Changing Assessment — Towards a New Assessment Paradigm Using
   ICT}.
 \newblock {\em European Journal of Education}, 48(1):79--96, 2013.
+
+\bibitem{reimann2011design}
+P.~Reimann.
+\newblock Design-based research.
+\newblock In {\em Methodological Choice and Design}, pages 37--50. Springer,
+  2011.
 
 \bibitem{renau2010teaching}
 M.~R. Renau and J.~U. Viciedo.
@@ -613,12 +562,5 @@ J.~G. Zabala.
   universidad: competencias, tareas y evaluaci{\'o}n, los ejes del
   curr{\'\i}culum universitario}.
 \newblock 2005.
-
-\bibitem{Zafra:2011}
-A.~Zafra, E.~Gibaja, M.~Luque, and S.~Ventura.
-\newblock An evaluation of the effectiveness of e-learning system as support
-  for traditional classes.
-\newblock In {\em Next Generation Web Services Practices (NWeSP), 2011 7th
-  International Conference on}, pages 431--435, 2011.
 
 \end{thebibliography}
