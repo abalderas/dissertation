@@ -6,8 +6,8 @@ A level-1 auxiliary file: 0_frontmatter/acknowledgement.aux
 A level-1 auxiliary file: 0_frontmatter/glossary.aux
 A level-1 auxiliary file: 1_introduction/0_index.aux
 A level-1 auxiliary file: 1_introduction/1_motivation.aux
-A level-1 auxiliary file: 1_introduction/2_objetivos.aux
-A level-1 auxiliary file: 1_introduction/3_contexto.aux
+A level-1 auxiliary file: 1_introduction/2_contexto.aux
+A level-1 auxiliary file: 1_introduction/3_objetivos.aux
 A level-1 auxiliary file: 1_introduction/5_metodologia.aux
 A level-1 auxiliary file: 2_state_of_the_art/0_index.aux
 A level-1 auxiliary file: 3_problemas/0_index.aux
@@ -19,8 +19,9 @@ A level-1 auxiliary file: 9_backmatter/declaration.aux
 Database file #1: 9_backmatter/references.bib
 Warning--I didn't find a database entry for "turing1950computing"
 Warning--empty journal in chatti2014learning
+Warning--empty journal in midoro2013guidelines
 Warning--can't use both volume and number fields in Petersen:2008
 Warning--there's a number but no series in rashid2008engineering
 Warning--there's a number but no volume in torres2010rubrica
 Warning--empty publisher in zabala2005espacio
-(There were 6 warnings)
+(There were 7 warnings)
