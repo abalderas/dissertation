@@ -17,6 +17,11 @@ A level-1 auxiliary file: 6_conclusion/0_index.aux
 The style file: abbrv.bst
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 Database file #1: 9_backmatter/references.bib
+I was expecting a `,' or a `}'---line 870 of file 9_backmatter/references.bib
+ :   
+ :   year={2003}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "turing1950computing"
 Warning--empty journal in chatti2014learning
 Warning--empty journal in midoro2013guidelines
@@ -24,4 +29,4 @@ Warning--can't use both volume and number fields in Petersen:2008
 Warning--there's a number but no series in rashid2008engineering
 Warning--there's a number but no volume in torres2010rubrica
 Warning--empty publisher in zabala2005espacio
-(There were 7 warnings)
+(There was 1 error message)

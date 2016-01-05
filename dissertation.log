@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  4 JAN 2016 14:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  5 JAN 2016 12:03
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -1507,11 +1507,11 @@ Package natbib Warning: Citation `turing1950computing' on page 125 undefined on
 
 
 ]
-[128] [129] [130] [131] [132] [133] [134] [135] [136]) [137]
+[128] [129] [130] [131] [132] [133] [134] [135] [136] [137]) [138]
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.tex
-[138
+[139
 
-] [139]) [140
+] [140]) [141
 
 ]
 
@@ -1546,13 +1546,13 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 89F4761BD49E8BBBA1F67AAD4B14AA6E;7362.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: 47219C55CB8A495AE1847AF860A6F474;21095.
+(rerunfilecheck)             Checksum: 514C77008CB39E5B57B9D79C60CD25FD;21094.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
  ) 
 Here is how much of TeX's memory you used:
- 14935 strings out of 494045
- 228278 string characters out of 3145963
- 350950 words of memory out of 3000000
+ 14936 strings out of 494045
+ 228279 string characters out of 3145963
+ 350959 words of memory out of 3000000
  17272 multiletter control sequences out of 15000+200000
  45445 words of font info for 91 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1569,9 +1569,9 @@ fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
 /utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (164 pages, 2342076 bytes).
+Output written on dissertation.pdf (165 pages, 2346931 bytes).
 PDF statistics:
- 2183 PDF objects out of 2487 (max. 8388607)
- 509 named destinations out of 1000 (max. 500000)
+ 2190 PDF objects out of 2487 (max. 8388607)
+ 510 named destinations out of 1000 (max. 500000)
  779 words of extra memory for PDF output out of 10000 (max. 10000000)
 

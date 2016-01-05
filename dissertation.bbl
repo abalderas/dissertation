@@ -164,14 +164,14 @@ A.~Collins, D.~Joseph, and K.~Bielaczyc.
 B.~Communiqu{\'e}.
 \newblock Making the most of our potential: Consolidating the european higher
   education area.
-\newblock In {\em EHEA Ministerial Conference. Retrieved May}, volume~16, page
-  2012, 2012.
+\newblock In {\em European Higher Education Area Ministerial Conference},
+  volume~16, page 2012, 2012.
 
 \bibitem{conde2015exploring}
-M.~A. Conde, F.~J. Garcia-Penalvo, D.-A. Gomez-Aguilar, and R.~Theron.
+M.~A. Conde, F.~J. García-Peñalvo, D.-A. Gómez-Aguilar, and R.~Theron.
 \newblock Exploring software engineering subjects by using visual learning
   analytics techniques.
-\newblock {\em Tecnologias del Aprendizaje, IEEE Revista Iberoamericana de},
+\newblock {\em IEEE Revista Iberoamericana de Tecnologías del Aprendizaje},
   10(4):242--252, 2015.
 
 \bibitem{cruz2015discovering}
@@ -185,6 +185,12 @@ I.~de~Los~Rios, A.~Cazorla, J.~M. D{\'\i}az-Puente, and J.~L. Yag{\"u}e.
 \newblock Project--based learning in engineering higher education: two decades
   of teaching competences in real environments.
 \newblock {\em Procedia-Social and Behavioral Sciences}, 2(2):1368--1378, 2010.
+
+\bibitem{dixon1992teamwork}
+H.~Dixon.
+\newblock What is teamwork?
+\newblock {\em The Canadian Journal of Medical Radiation Technology/CAMRT},
+  23(2):79--80, 1992.
 
 \bibitem{djaouti2011classifying}
 D.~Djaouti, J.~Alvarez, and J.-P. Jessel.
@@ -262,7 +268,7 @@ J.~Gonz{\'a}lez, R.~Wagenaar, et~al.
 M.~Guenaga, S.~Arranz, I.~Rubio~Florido, E.~Aguilar, A.~Ortiz~de Guinea,
   A.~Rayon, M.~J. Bezanilla, and I.~Menchaca.
 \newblock Serious games for the development of employment oriented competences.
-\newblock {\em IEEE Revista Iberoamericana de Tecnologias del Aprendizaje},
+\newblock {\em IEEE Revista Iberoamericana de Tecnologías del Aprendizaje},
   8(4):176--183, 2013.
 
 \bibitem{gulikers2004five}
@@ -322,12 +328,13 @@ M.~Ladr{\'o}n~de Guevara~Cervera, J.~Hincapi{\'e}, J.~Jackman, O.~Herrera, and
 A.~Lasa, I.~Txurruka, E.~Sim{\'o}n, and J.~Miranda.
 \newblock Problem based learning implementation in the degree of human
   nutrition and dietetics.
-\newblock {\em ICERI2013 Proceedings}, pages 1687--1692, 2013.
+\newblock {\em Proceedings of the International Conference of Education,
+  Research and Innovation (ICERI) 2013}, pages 1687--1692, 2013.
 
 \bibitem{laurillard2012teaching}
 D.~Laurillard.
 \newblock Teaching as a design science.
-\newblock {\em building pedagogical patterns for learning and technology},
+\newblock {\em Building pedagogical patterns for learning and technology},
   2012.
 
 \bibitem{lidz1987dynamic}
@@ -345,7 +352,8 @@ H.~Malehorn.
 M.~Mart{\'\i}n-Brice{\~n}o and S.~Prashar.
 \newblock Acquired skills with the implementation of new evaluation methods at
   university rey juan carlos.
-\newblock {\em ICERI2013 Proceedings}, pages 4875--4878, 2013.
+\newblock {\em Proceedings of the International Conference of Education,
+  Research and Innovation (ICERI) 2013}, pages 4875--4878, 2013.
 
 \bibitem{martinez2014teamwork}
 J.~E.~P. Martinez, J.~Garc{\'\i}a~Mart{\'\i}n, and A.~S. Alonso.
@@ -365,7 +373,7 @@ A.~Masip-{\'A}lvarez, C.~Hervada-Sala, T.~P{\`a}mies-G{\'o}mez, A.~Arias-Pujol,
 
 \bibitem{midoro2013guidelines}
 V.~Midoro.
-\newblock Guidelines on adaptation of the unesco ict competency framework for
+\newblock Guidelines on adaptation of the {UNESCO ICT} competency framework for
   teachers.
 \newblock 2013.
 
@@ -379,8 +387,9 @@ P.~Moreno-Ger, I.~Martinez-Ortiz, M.~Freire, B.~Manero, and
 \bibitem{munoz2003cuestionario}
 T.~G. Mu{\~n}oz.
 \newblock El cuestionario como instrumento de investigaci{\'o}n/evaluaci{\'o}n.
-\newblock {\em Espanha: Almenjandrelo. Acedido em http://personal. telefonica.
-  terra. es/web/medellinbadajoz/sociologia/ElCuestionario. pdf}, 2003.
+\newblock
+  \url{http://cvonline.uaeh.edu.mx/Cursos/Maestria/MTE/Gen02/seminario_de_tesis/Unidad_4_anterior/Lect_El_Cuestionario.pdf}.
+\newblock Accessed: 2016-05-01.
 
 \bibitem{oates2006researching}
 B.~J. Oates.
@@ -413,15 +422,11 @@ Y.~Park and I.-H. Jo.
   learning performance.
 \newblock {\em Journal of Universal Computer Science}, 21(1):110--133, 2015.
 
-\bibitem{parker1990teamwork}
-G.~Parker.
-\newblock What is teamwork?, 1990.
-
 \bibitem{Petersen:2008}
 K.~Petersen, R.~Feldt, S.~Mujtaba, and M.~Mattsson.
 \newblock Systematic mapping studies in software engineering.
 \newblock In {\em 12th International Conference on Evaluation and Assessment in
-  Software Engineering}, volume~17. sn, 2008.
+  Software Engineering}, volume~17. British Computer Society, 2008.
 
 \bibitem{piedra2010measuring}
 N.~Piedra, J.~Chicaiza, J.~L{\'o}pez, A.~Romero, and E.~Tovar.
@@ -447,8 +452,9 @@ R.~A. Rashid, R.~Abdullah, A.~Zaharim, H.~A. Ghulman, M.~S. Masodi, J.~Mauri,
   A.~Zaharim, A.~Kolyshkin, M.~Hatziprokopiou, A.~Lazakidou, et~al.
 \newblock Engineering students performance evaluation of generic skills
   measurement: Espegs model.
-\newblock In {\em WSEAS International Conference. Proceedings. Mathematics and
-  Computers in Science and Engineering}, number~5. WSEAS, 2008.
+\newblock In {\em Proceedings of the 5th WSEAS International Conference on
+  Engineering Education (EE'08)}, number~5. World Scientific and Engineering
+  Academy and Society (WSEAS), 2008.
 
 \bibitem{rayon2014web}
 A.~Rayon~Jerez, M.~Guenaga, and A.~N{\'u}{\~n}ez.
@@ -473,7 +479,8 @@ P.~Reimann.
 M.~R. Renau and J.~U. Viciedo.
 \newblock Teaching and learning through projects using the ict: Practice of the
   english writing through business documents.
-\newblock {\em ICERI2010 Proceedings}, pages 4700--4705, 2010.
+\newblock {\em Proceedings of the International Conference of Education,
+  Research and Innovation (ICERI) 2010}, pages 4700--4705, 2010.
 
 \bibitem{rodriguez2010portfolio}
 S.~Rodriguez-Donaire, B.~A. Garc{\'\i}a, and S.~O. Del~Olmo.
@@ -484,8 +491,8 @@ S.~Rodriguez-Donaire, B.~A. Garc{\'\i}a, and S.~O. Del~Olmo.
 \bibitem{rojas2008prueba}
 A.~Rojas-Vargas.
 \newblock {\em La prueba escrita}.
-\newblock Ministerio de Educación Pública. Dirección de desarrollo
-  curricular. Departamento de Evaluación de los Aprendizajes, 2008.
+\newblock Ministerio de Educaci{\'o}n P{\'u}blica. Dirección de desarrollo
+  curricular. Departamento de Evaluaci{\'o}n de los Aprendizajes, 2008.
 
 \bibitem{ruizacarate2013soft}
 C.~Ruizac{\'a}rate~Varela, M.~J. Garcia~Garcia, C.~Gonzalez~Garcia, and J.~L.
@@ -512,8 +519,8 @@ A.~Sevilla-Pav{\'o}n, A.~Mart{\'\i}nez-S{\'a}ez, and A.~Gimeno-Sanz.
 G.~Siemens and R.~S. d~Baker.
 \newblock Learning analytics and educational data mining: towards communication
   and collaboration.
-\newblock In {\em Proceedings of the 2nd international conference on learning
-  analytics and knowledge}, pages 252--254. ACM, 2012.
+\newblock In {\em Proceedings of the 2nd International Conference on Learning
+  Analytics and Knowledge}, pages 252--254. ACM, 2012.
 
 \bibitem{starcic2008sustaining}
 A.~I. Starcic.
@@ -564,8 +571,9 @@ C.~Vizcarro~Guarch, P.~Martin~Espinosa, R.~Cobos, J.~E. P{\'e}rez,
 T.~Ward and S.~Christophe.
 \newblock Developing entrepreneurial accounting and finance competency using
   the elleiec virtual centre for enterprise.
-\newblock In {\em EAEEIE Annual Conference (EAEEIE), 2011 Proceedings of the
-  22nd}, pages 1--5. IEEE, 2011.
+\newblock In {\em Proceedings of the 22nd European Association For Education In
+  Electrical And Information Engineering Annual Conference (EAEEIE)}, pages
+  1--5. IEEE, 2011.
 
 \bibitem{Wieringa:2005}
 R.~Wieringa, N.~Maiden, N.~Mead, and C.~Rolland.
