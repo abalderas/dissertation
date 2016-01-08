@@ -47,47 +47,48 @@
 \contentsline {section}{\numberline {4.2}M\IeC {\'e}todo: design-based assessment (DBA)}{68}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Contexto}{68}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Descripci\IeC {\'o}n del m\IeC {\'e}todo}{69}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Requisitos y caracter\IeC {\'\i }sticas}{70}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Requisitos}{71}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Caracter\IeC {\'\i }sticas}{73}{subsection.4.3.2}
-\contentsline {chapter}{\numberline {5}Evaluaci\IeC {\'o}n}{75}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{76}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Entornos de aplicaci\IeC {\'o}n}{76}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Wikis}{76}{subsubsection.5.1.1.1}
-\contentsline {paragraph}{\numberline {5.1.1.1.1}AssessMediaWiki (AMW)}{77}{paragraph.5.1.1.1.1}
-\contentsline {paragraph}{\numberline {5.1.1.1.2}M\IeC {\'e}todo}{79}{paragraph.5.1.1.1.2}
-\contentsline {paragraph}{\numberline {5.1.1.1.3}Evaluaci\IeC {\'o}n del trabajo en el wiki}{79}{paragraph.5.1.1.1.3}
-\contentsline {paragraph}{\numberline {5.1.1.1.4}Evaluaci\IeC {\'o}n de competencias gen\IeC {\'e}ricas}{84}{paragraph.5.1.1.1.4}
-\contentsline {paragraph}{\numberline {5.1.1.1.5}Indicadores}{85}{paragraph.5.1.1.1.5}
-\contentsline {subsubsection}{\numberline {5.1.1.2}VLE}{88}{subsubsection.5.1.1.2}
-\contentsline {paragraph}{\numberline {5.1.1.2.1}SASQL y EvalCourse}{88}{paragraph.5.1.1.2.1}
-\contentsline {paragraph}{\numberline {5.1.1.2.2}M\IeC {\'e}todo}{91}{paragraph.5.1.1.2.2}
-\contentsline {paragraph}{\numberline {5.1.1.2.3}Indicadores}{93}{paragraph.5.1.1.2.3}
-\contentsline {subsubsection}{\numberline {5.1.1.3}Mundos virtuales}{95}{subsubsection.5.1.1.3}
-\contentsline {paragraph}{\numberline {5.1.1.3.1}VWQL y EvalSim}{96}{paragraph.5.1.1.3.1}
-\contentsline {paragraph}{\numberline {5.1.1.3.2}M\IeC {\'e}todo}{97}{paragraph.5.1.1.3.2}
-\contentsline {paragraph}{\numberline {5.1.1.3.3}Indicadores}{99}{paragraph.5.1.1.3.3}
-\contentsline {subsection}{\numberline {5.1.2}Publicaciones}{101}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Cuestionarios y entrevistas}{101}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}AMW aplicado a MediaWiki}{101}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Evaluaci\IeC {\'o}n}{102}{subsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.1.1}Indicadores cuantitativos}{102}{subsubsection.5.2.1.1}
-\contentsline {subsubsection}{\numberline {5.2.1.2}Indicadores cualitativos}{103}{subsubsection.5.2.1.2}
-\contentsline {subsubsection}{\numberline {5.2.1.3}Resumen}{103}{subsubsection.5.2.1.3}
-\contentsline {subsection}{\numberline {5.2.2}Resultados}{105}{subsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.1}Indicador del trabajo en equipo ($M_1$)}{107}{subsubsection.5.2.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2.2}Indicador de las habilidades de comunicaci\IeC {\'o}n y la aplicaci\IeC {\'o}n del conocimiento ($M_2$)}{108}{subsubsection.5.2.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.3}Indicador de habilidades individuales ($M_3$)}{109}{subsubsection.5.2.2.3}
-\contentsline {subsubsection}{\numberline {5.2.2.4}Indicador del pensamiento cr\IeC {\'\i }tico ($M_4$)}{111}{subsubsection.5.2.2.4}
-\contentsline {subsubsection}{\numberline {5.2.2.5}Entregable final ($M_5$)}{112}{subsubsection.5.2.2.5}
-\contentsline {subsection}{\numberline {5.2.3}Discusi\IeC {\'o}n}{114}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}EvalCourse aplicado a entornos de apredizaje virtual}{115}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Evaluaci\IeC {\'o}n}{115}{subsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.1.1}Extracci\IeC {\'o}n de indicadores del foro}{116}{subsubsection.5.3.1.1}
-\contentsline {subsubsection}{\numberline {5.3.1.2}Extracci\IeC {\'o}n de indicadores del taller}{119}{subsubsection.5.3.1.2}
-\contentsline {subsection}{\numberline {5.3.2}Resultados}{122}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}EvalSim aplicado a los mundos virtuales}{123}{section.5.4}
-\contentsline {section}{\numberline {5.5}Evaluaci\IeC {\'o}n}{123}{section.5.5}
-\contentsline {section}{\numberline {5.6}Conclusiones}{123}{section.5.6}
-\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{125}{chapter.6}
-\contentsline {chapter}{Bibliograf\'{\i }a}{127}{chapter*.106}
+\contentsline {section}{\numberline {4.3}Caracter\IeC {\'\i }sticas, requisitos y herramienta}{71}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Caracter\IeC {\'\i }sticas}{71}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Requisitos}{73}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Herramienta}{75}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {5}Evaluaci\IeC {\'o}n}{77}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{78}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Entornos de aplicaci\IeC {\'o}n}{78}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Wikis}{78}{subsubsection.5.1.1.1}
+\contentsline {paragraph}{\numberline {5.1.1.1.1}AssessMediaWiki (AMW)}{79}{paragraph.5.1.1.1.1}
+\contentsline {paragraph}{\numberline {5.1.1.1.2}M\IeC {\'e}todo}{81}{paragraph.5.1.1.1.2}
+\contentsline {paragraph}{\numberline {5.1.1.1.3}Evaluaci\IeC {\'o}n del trabajo en el wiki}{81}{paragraph.5.1.1.1.3}
+\contentsline {paragraph}{\numberline {5.1.1.1.4}Evaluaci\IeC {\'o}n de competencias gen\IeC {\'e}ricas}{86}{paragraph.5.1.1.1.4}
+\contentsline {paragraph}{\numberline {5.1.1.1.5}Indicadores}{87}{paragraph.5.1.1.1.5}
+\contentsline {subsubsection}{\numberline {5.1.1.2}VLE}{90}{subsubsection.5.1.1.2}
+\contentsline {paragraph}{\numberline {5.1.1.2.1}SASQL y EvalCourse}{90}{paragraph.5.1.1.2.1}
+\contentsline {paragraph}{\numberline {5.1.1.2.2}M\IeC {\'e}todo}{93}{paragraph.5.1.1.2.2}
+\contentsline {paragraph}{\numberline {5.1.1.2.3}Indicadores}{95}{paragraph.5.1.1.2.3}
+\contentsline {subsubsection}{\numberline {5.1.1.3}Mundos virtuales}{97}{subsubsection.5.1.1.3}
+\contentsline {paragraph}{\numberline {5.1.1.3.1}VWQL y EvalSim}{98}{paragraph.5.1.1.3.1}
+\contentsline {paragraph}{\numberline {5.1.1.3.2}M\IeC {\'e}todo}{99}{paragraph.5.1.1.3.2}
+\contentsline {paragraph}{\numberline {5.1.1.3.3}Indicadores}{101}{paragraph.5.1.1.3.3}
+\contentsline {subsection}{\numberline {5.1.2}Publicaciones}{103}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Cuestionarios y entrevistas}{103}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}AMW aplicado a MediaWiki}{103}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Evaluaci\IeC {\'o}n}{104}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Indicadores cuantitativos}{104}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Indicadores cualitativos}{105}{subsubsection.5.2.1.2}
+\contentsline {subsubsection}{\numberline {5.2.1.3}Resumen}{105}{subsubsection.5.2.1.3}
+\contentsline {subsection}{\numberline {5.2.2}Resultados}{107}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Indicador del trabajo en equipo ($M_1$)}{109}{subsubsection.5.2.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Indicador de las habilidades de comunicaci\IeC {\'o}n y la aplicaci\IeC {\'o}n del conocimiento ($M_2$)}{110}{subsubsection.5.2.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.3}Indicador de habilidades individuales ($M_3$)}{111}{subsubsection.5.2.2.3}
+\contentsline {subsubsection}{\numberline {5.2.2.4}Indicador del pensamiento cr\IeC {\'\i }tico ($M_4$)}{113}{subsubsection.5.2.2.4}
+\contentsline {subsubsection}{\numberline {5.2.2.5}Entregable final ($M_5$)}{114}{subsubsection.5.2.2.5}
+\contentsline {subsection}{\numberline {5.2.3}Discusi\IeC {\'o}n}{116}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}EvalCourse aplicado a entornos de apredizaje virtual}{117}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Evaluaci\IeC {\'o}n}{117}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Extracci\IeC {\'o}n de indicadores del foro}{118}{subsubsection.5.3.1.1}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Extracci\IeC {\'o}n de indicadores del taller}{121}{subsubsection.5.3.1.2}
+\contentsline {subsection}{\numberline {5.3.2}Resultados}{124}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}EvalSim aplicado a los mundos virtuales}{125}{section.5.4}
+\contentsline {section}{\numberline {5.5}Evaluaci\IeC {\'o}n}{125}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusiones}{125}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{127}{chapter.6}
+\contentsline {chapter}{Bibliograf\'{\i }a}{129}{chapter*.106}
