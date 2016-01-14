@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  8 JAN 2016 13:00
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  14 JAN 2016 00:39
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -792,7 +792,7 @@ LaTeX Info: Redefining \nameref on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 
-<0_frontmatter/figures/PNG/UCA_Shield.png, id=351, 468.75125pt x 602.25pt>
+<0_frontmatter/figures/PNG/UCA_Shield.png, id=347, 468.75125pt x 602.25pt>
 File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
 
 <use 0_frontmatter/figures/PNG/UCA_Shield.png>
@@ -923,20 +923,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <90> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-) [1
+[1
 
 
 
 
 
-]
+]) [2]
 (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/1_motivation.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
-[2
+[3
 
 
-] [3] [4]) [5]
+] [4] [5]) [6]
 (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/2_contexto.tex
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 27.
 
@@ -945,24 +945,24 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
- [6
+ [7
 
 
-] [7])
-[8]
+] [8])
+[9]
 (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/3_objetivos.tex
-[9
+[10
 
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 50.
-) [10]
+) [11]
 (C:\Users\Antonio\Documents\GitHub\dissertation\1_introduction/5_metodologia.te
-x [11
+x [12
 
 
-] [12]) [13]
+]) [13]
 (C:\Users\Antonio\Documents\GitHub\dissertation\2_state_of_the_art/0_index.tex
 [14
 
@@ -981,7 +981,7 @@ Overfull \hbox (34.44368pt too wide) in paragraph at lines 176--193
  []
 
 [24]
-<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=814, 687.56876pt x
+<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=825, 687.56876pt x
  441.65pt>
 File: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png Graphic file (typ
 e png)
@@ -1010,7 +1010,7 @@ Overfull \hbox (58.20526pt too wide) in alignment at lines 324--327
 ] [29
 
 ] [30] [31] [32] [33] [34] [35]
-<2_state_of_the_art/figures/PNG/Burbujas.png, id=921, 1678.27pt x 650.43pt>
+<2_state_of_the_art/figures/PNG/Burbujas.png, id=932, 1678.27pt x 650.43pt>
 File: 2_state_of_the_art/figures/PNG/Burbujas.png Graphic file (type png)
 
 <use 2_state_of_the_art/figures/PNG/Burbujas.png>
@@ -1160,7 +1160,7 @@ Overfull \hbox (8.5359pt too wide) in paragraph at lines 857--858
 ] [50] [51] [52
 
 ] [53] [54]
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=1235, 1045.9075pt 
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=1245, 1045.9075pt 
 x 731.73375pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png Graphic file (typ
 e png)
@@ -1177,7 +1177,7 @@ Overfull \hbox (34.59402pt too wide) in paragraph at lines 947--948
 LaTeX Warning: Float too large for page by 83.87047pt on input line 951.
 
 
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=1236, 1048.91875pt
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=1246, 1048.91875pt
  x 730.73pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png Graphic file (typ
 e png)
@@ -1215,18 +1215,15 @@ ex [66
 ]
 Cap\'{\i }tulo 4.
 [67] [68]
-<4_overall_methodology/figures/PNG/CCHDiagram.png, id=1325, 833.1125pt x 484.81
+<4_overall_methodology/figures/PNG/CCHDiagram.png, id=1333, 833.1125pt x 484.81
 125pt>
 File: 4_overall_methodology/figures/PNG/CCHDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/CCHDiagram.png>
 Package pdftex.def Info: 4_overall_methodology/figures/PNG/CCHDiagram.png used 
 on input line 63.
 (pdftex.def)             Requested size: 374.89716pt x 218.16304pt.
- [69]
-Underfull \vbox (badness 1968) has occurred while \output is active []
-
- [70 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
-res/PNG/CCHDiagram.png>] [71] [72] [73] [74]) [75]
+ [69 <C:/Users/Antonio/Documents/GitHub/dissertation/4_overall_methodology/figu
+res/PNG/CCHDiagram.png>] [70] [71] [72] [73] [74]) [75]
 (C:\Users\Antonio\Documents\GitHub\dissertation\5_experiments_and_results/0_ind
 ex.tex [76
 
@@ -1235,7 +1232,7 @@ ex.tex [76
 ]
 Cap\'{\i }tulo 5.
 [77] [78]
-<5_experiments_and_results/figures/PNG/AmwRubrica.png, id=1405, 1000.73875pt x 
+<5_experiments_and_results/figures/PNG/AmwRubrica.png, id=1413, 1000.73875pt x 
 689.57625pt>
 File: 5_experiments_and_results/figures/PNG/AmwRubrica.png Graphic file (type p
 ng)
@@ -1245,7 +1242,7 @@ sed on input line 78.
 (pdftex.def)             Requested size: 300.22394pt x 206.87447pt.
 
 [79]
-<5_experiments_and_results/figures/PNG/AmwFormative.png, id=1417, 2007.5pt x 69
+<5_experiments_and_results/figures/PNG/AmwFormative.png, id=1425, 2007.5pt x 69
 2.5875pt>
 File: 5_experiments_and_results/figures/PNG/AmwFormative.png Graphic file (type
  png)
@@ -1258,7 +1255,7 @@ Underfull \vbox (badness 5022) has occurred while \output is active []
 
  [80 <C:/Users/Antonio/Documents/GitHub/dissertation/5_experiments_and_results/
 figures/PNG/AmwRubrica.png>]
-<5_experiments_and_results/figures/PNG/AmwDiagram.png, id=1424, 1298.8525pt x 2
+<5_experiments_and_results/figures/PNG/AmwDiagram.png, id=1432, 1298.8525pt x 2
 056.68375pt>
 File: 5_experiments_and_results/figures/PNG/AmwDiagram.png Graphic file (type p
 ng)
@@ -1274,7 +1271,7 @@ LaTeX Warning: Float too large for page by 38.55212pt on input line 110.
 igures/PNG/AmwFormative.png>] [82 <C:/Users/Antonio/Documents/GitHub/dissertati
 on/5_experiments_and_results/figures/PNG/AmwDiagram.png>] [83] [84] [85]
 [86]
-<5_experiments_and_results/figures/PNG/AmwDiagram2.png, id=1457, 849.1725pt x 5
+<5_experiments_and_results/figures/PNG/AmwDiagram2.png, id=1465, 849.1725pt x 5
 30.98375pt>
 File: 5_experiments_and_results/figures/PNG/AmwDiagram2.png Graphic file (type 
 png)
@@ -1295,7 +1292,7 @@ Overfull \hbox (17.68312pt too wide) in paragraph at lines 186--201
  []
 
 [89] [90]
-<5_experiments_and_results/figures/PNG/EvcMetamodel.png, id=1490, 982.67125pt x
+<5_experiments_and_results/figures/PNG/EvcMetamodel.png, id=1498, 982.67125pt x
  742.775pt>
 File: 5_experiments_and_results/figures/PNG/EvcMetamodel.png Graphic file (type
  png)
@@ -1309,7 +1306,7 @@ igures/PNG/EvcMetamodel.png>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 244.
  [92]
-<5_experiments_and_results/figures/PNG/EvcDiagram.png, id=1518, 839.135pt x 509
+<5_experiments_and_results/figures/PNG/EvcDiagram.png, id=1526, 839.135pt x 509
 .905pt>
 File: 5_experiments_and_results/figures/PNG/EvcDiagram.png Graphic file (type p
 ng)
@@ -1320,7 +1317,7 @@ sed on input line 265.
  [93]
 [94 <C:/Users/Antonio/Documents/GitHub/dissertation/5_experiments_and_results/f
 igures/PNG/EvcDiagram.png>]
-<5_experiments_and_results/figures/PNG/EvalCourseInteraccionForo.png, id=1540, 
+<5_experiments_and_results/figures/PNG/EvalCourseInteraccionForo.png, id=1548, 
 431.6125pt x 295.1025pt>
 File: 5_experiments_and_results/figures/PNG/EvalCourseInteraccionForo.png Graph
 ic file (type png)
@@ -1332,7 +1329,7 @@ ccionForo.png used on input line 321.
 
 [95] [96 <C:/Users/Antonio/Documents/GitHub/dissertation/5_experiments_and_resu
 lts/figures/PNG/EvalCourseInteraccionForo.png>] [97] [98]
-<5_experiments_and_results/figures/PNG/EvsDiagram.png, id=1582, 843.15pt x 514.
+<5_experiments_and_results/figures/PNG/EvsDiagram.png, id=1590, 843.15pt x 514.
 92375pt>
 File: 5_experiments_and_results/figures/PNG/EvsDiagram.png Graphic file (type p
 ng)
@@ -1384,7 +1381,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 665.
 
 
-<5_experiments_and_results/figures/PNG/smw-work-distribution-p13.png, id=1666, 
+<5_experiments_and_results/figures/PNG/smw-work-distribution-p13.png, id=1674, 
 618.31pt x 392.46625pt>
 File: 5_experiments_and_results/figures/PNG/smw-work-distribution-p13.png Graph
 ic file (type png)
@@ -1460,7 +1457,7 @@ Underfull \vbox (badness 3009) has occurred while \output is active []
 [116] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [117]
-<5_experiments_and_results/figures/PNG/EvcForo1.png, id=1721, 946.53625pt x 379
+<5_experiments_and_results/figures/PNG/EvcForo1.png, id=1729, 946.53625pt x 379
 .4175pt>
 File: 5_experiments_and_results/figures/PNG/EvcForo1.png Graphic file (type png
 )
@@ -1471,7 +1468,7 @@ d on input line 948.
  [118]
 [119 <C:/Users/Antonio/Documents/GitHub/dissertation/5_experiments_and_results/
 figures/PNG/EvcForo1.png>]
-<5_experiments_and_results/figures/PNG/EvcForo2.png, id=1734, 541.02126pt x 397
+<5_experiments_and_results/figures/PNG/EvcForo2.png, id=1742, 541.02126pt x 397
 .485pt>
 File: 5_experiments_and_results/figures/PNG/EvcForo2.png Graphic file (type png
 )
@@ -1481,7 +1478,7 @@ d on input line 967.
 (pdftex.def)             Requested size: 341.43306pt x 250.85356pt.
  [120 <C:/Users/Antonio/Documents/GitHub/dissertation/5_experiments_and_results
 /figures/PNG/EvcForo2.png>] [121]
-<5_experiments_and_results/figures/PNG/EvcWorkshop1.png, id=1752, 744.7825pt x 
+<5_experiments_and_results/figures/PNG/EvcWorkshop1.png, id=1760, 744.7825pt x 
 422.57875pt>
 File: 5_experiments_and_results/figures/PNG/EvcWorkshop1.png Graphic file (type
  png)
@@ -1510,11 +1507,11 @@ Package natbib Warning: Citation `turing1950computing' on page 127 undefined on
 
 
 ]
-[130] [131] [132] [133] [134] [135] [136] [137] [138] [139]) [140]
+[130] [131] [132] [133] [134] [135] [136] [137] [138] [139] [140]) [141]
 (C:\Users\Antonio\Documents\GitHub\dissertation\9_backmatter/declaration.tex
-[141
+[142
 
-] [142]) [143
+] [143]) [144
 
 ]
 
@@ -1547,19 +1544,19 @@ ex.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 313D31EEB0B1EA28A57CE699EAC171CF;7446.
+(rerunfilecheck)             Checksum: 894E8D08F3D04E276300429A70E36F2E;7342.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: 91BE03285E4013680FFE8FB7197CC21F;21218.
+(rerunfilecheck)             Checksum: EED6988E245296EC25FFCF7F467396F2;21595.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
  ) 
 Here is how much of TeX's memory you used:
- 14947 strings out of 494045
- 228482 string characters out of 3145963
- 351978 words of memory out of 3000000
- 17279 multiletter control sequences out of 15000+200000
+ 14987 strings out of 494045
+ 229520 string characters out of 3145963
+ 351078 words of memory out of 3000000
+ 17313 multiletter control sequences out of 15000+200000
  45445 words of font info for 91 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,13n,50p,1938b,1071s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,13n,50p,1783b,1071s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
@@ -1572,9 +1569,9 @@ fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
 /utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (167 pages, 2351416 bytes).
+Output written on dissertation.pdf (168 pages, 2357788 bytes).
 PDF statistics:
- 2208 PDF objects out of 2487 (max. 8388607)
- 514 named destinations out of 1000 (max. 500000)
- 787 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2231 PDF objects out of 2487 (max. 8388607)
+ 520 named destinations out of 1000 (max. 500000)
+ 779 words of extra memory for PDF output out of 10000 (max. 10000000)
 
