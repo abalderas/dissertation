@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  18 JAN 2016 18:33
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.9)  18 JAN 2016 20:24
 entering extended mode
 **C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
 (C:/Users/Antonio/Documents/GitHub/dissertation/dissertation.tex
@@ -1552,7 +1552,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
 Here is how much of TeX's memory you used:
  14994 strings out of 494045
  229617 string characters out of 3145963
- 352095 words of memory out of 3000000
+ 351095 words of memory out of 3000000
  17319 multiletter control sequences out of 15000+200000
  45445 words of font info for 91 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1569,7 +1569,7 @@ fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
 /utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (168 pages, 2358451 bytes).
+Output written on dissertation.pdf (168 pages, 2358370 bytes).
 PDF statistics:
  2234 PDF objects out of 2487 (max. 8388607)
  521 named destinations out of 1000 (max. 500000)
