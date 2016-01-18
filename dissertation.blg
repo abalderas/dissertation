@@ -17,12 +17,12 @@ A level-1 auxiliary file: 6_conclusion/0_index.aux
 The style file: abbrv.bst
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 Database file #1: 9_backmatter/references.bib
-I was expecting a `,' or a `}'---line 879 of file 9_backmatter/references.bib
+I was expecting a `,' or a `}'---line 885 of file 9_backmatter/references.bib
  :   
  :   year={2003}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1349 of file 9_backmatter/references.bib
+I was expecting a `,' or a `}'---line 1357 of file 9_backmatter/references.bib
  :   
  :   year={2015}
 (Error may have been on previous line)
@@ -33,5 +33,4 @@ Warning--empty journal in midoro2013guidelines
 Warning--can't use both volume and number fields in Petersen:2008
 Warning--there's a number but no series in rashid2008engineering
 Warning--there's a number but no volume in torres2010rubrica
-Warning--empty publisher in zabala2005espacio
 (There were 2 error messages)

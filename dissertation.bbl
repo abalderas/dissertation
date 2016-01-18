@@ -103,20 +103,14 @@ J.~Benlloch-Dualde and S.~Blanc-Clavero.
   Knowledge Without Borders, Opportunities Without Passports, 2007. FIE'07.
   37th Annual}, pages S3B--1. IEEE, 2007.
 
-\bibitem{bernheim2010educacion}
-C.~T. Bernheim.
-\newblock La educaci{\'o}n permanente y su impacto en la educaci{\'o}n
-  superior.
-\newblock {\em Revista Iberoamericana de Educaci{\'o}n Superior}, 1(1), 2010.
-
 \bibitem{berns2013game}
 A.~Berns, A.~Gonzalez-Pardo, and D.~Camacho.
-\newblock Game-like language learning in 3-d virtual environments.
+\newblock Game-like language learning in {3-D} virtual environments.
 \newblock {\em Computers \& Education}, 60(1):210--220, 2013.
 
 \bibitem{berns2013using}
 A.~Berns, M.~Palomo-Duarte, J.~M. Dodero, and C.~Valero-Franco.
-\newblock Using a 3d online game to assess students’ foreign language
+\newblock Using a {3D} online game to assess students’ foreign language
   acquisition and communicative competence.
 \newblock In {\em Scaling up learning for sustained impact}, pages 19--31.
   Springer, 2013.
@@ -126,9 +120,7 @@ A.~Carreras~Mar{\'\i}n, Y.~Blasco, M.~Badia-Mir{\'o}, M.~Bosch~Pr{\'\i}ncep,
   I.~Morillo, G.~Cair{\'o}~i C{\'e}spedes, and D.~Casares~Vidal.
 \newblock The promotion and assessment of generic skills from interdisciplinary
   teaching teams.
-\newblock In {\em Comunicaci{\'o} presentada a: Proceedings of EDULEARN13
-  Conference, 1st-3rd July 2013, Barcelona, Spain. ISBN:
-  978-84-616-3822-2.(0201-0207)}, 2013.
+\newblock {\em EDULEARN13 Proceedings}, pages 201--207, 2013.
 
 \bibitem{chang2009international}
 Y.~Chang, T.~Eklund, J.~I. Kantola, and H.~Vanharanta.
@@ -227,13 +219,22 @@ L.~Dunn, C.~Morgan, and S.~Parry.
 \bibitem{elgort2008wiki}
 I.~Elgort, A.~G. Smith, and J.~Toland.
 \newblock Is wiki an effective platform for group course work?
-\newblock {\em Australasian Journal of Educational Technology}, 24(2), 2008.
+\newblock {\em Australasian Journal of Educational Technology}, 24(2):195--210,
+  2008.
 
 \bibitem{ellis2005evaluation}
 A.~P. Ellis, B.~S. Bell, R.~E. Ployhart, J.~R. Hollenbeck, and D.~R. Ilgen.
 \newblock An evaluation of generic teamwork skills training with action teams:
   effects on cognitive and skill-based outcomes.
 \newblock {\em Personnel psychology}, 58(3):641--672, 2005.
+
+\bibitem{llp:2006}
+C.~European.
+\newblock {The Lifelong Learning Programme}.
+\newblock In {\em {Decision No 1720/2006/EC of the European Parliament and of
+  the Council of 15 November 2006 establishing an action programme in the field
+  of lifelong learning}}, chapter~1, pages 327/48 -- 327/49. Official Journal
+  of the European Union, Nov. 2006.
 
 \bibitem{eysholdt2010xtext}
 M.~Eysholdt and H.~Behrens.
@@ -261,11 +262,11 @@ A.~Fisher.
 
 \bibitem{Florian:2011}
 B.~Florian, C.~Glahn, H.~Drachsler, M.~Specht, and R.~Fabregat~Gesa.
-\newblock {\em Activity-based learner-models for learner monitoring and
-  recommendations in moodle}, volume 6964 LNCS of {\em Lecture Notes in
-  Computer Science (including subseries Lecture Notes in Artificial
-  Intelligence and Lecture Notes in Bioinformatics)}.
-\newblock Springer Berlin Heidelberg, 2011.
+\newblock Activity-based learner-models for learner monitoring and
+  recommendations in moodle.
+\newblock {\em Lecture Notes in Computer Science (including subseries Lecture
+  Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 6964
+  LNCS:111--124, 2011.
 
 \bibitem{fowler2010domain}
 M.~Fowler.
@@ -300,6 +301,12 @@ M.~Guenaga, S.~Arranz, I.~Rubio~Florido, E.~Aguilar, A.~Ortiz~de Guinea,
 \newblock {\em IEEE Revista Iberoamericana de Tecnologías del Aprendizaje},
   8(4):176--183, 2013.
 
+\bibitem{i2007competencias}
+M.~Guitert, T.~Romeu, and M.~P{\'e}rez-Mateo.
+\newblock {Competencias TIC y trabajo en equipo en entornos virtuales}.
+\newblock {\em RUSC. Universities and Knowledge Society Journal}, 4(1):1--12,
+  2007.
+
 \bibitem{gulikers2004five}
 J.~T. Gulikers, T.~J. Bastiaens, and P.~A. Kirschner.
 \newblock A five-dimensional framework for authentic assessment.
@@ -308,9 +315,9 @@ J.~T. Gulikers, T.~J. Bastiaens, and P.~A. Kirschner.
 
 \bibitem{hevner2009interview}
 A.~R. Hevner.
-\newblock Interview with alan r. hevner on “design science”.
-\newblock {\em Business \& Information Systems Engineering (BISE)}, 1:126--129,
-  2009.
+\newblock {Interview with Alan R. Hevner on “Design Science”}.
+\newblock {\em Business \& Information Systems Engineering (BISE)},
+  1(1):126--129, 2009.
 
 \bibitem{Hevner:2004}
 A.~R. Hevner, S.~T. March, J.~Park, and S.~Ram.
@@ -333,11 +340,6 @@ G.~Hughes.
 A.~Huhta.
 \newblock Diagnostic and formative assessment.
 \newblock {\em The handbook of educational linguistics}, 33:469--483, 2008.
-
-\bibitem{i2007competencias}
-M.~G. i~Catas{\'u}s, T.~Romeu, and M.~P{\'e}rez-Mateo.
-\newblock {Competencias TIC y trabajo en equipo en entornos virtuales}.
-\newblock {\em RUSC. Universities and Knowledge Society Journal}, 4(1), 2007.
 
 \bibitem{Kitchenham:2010}
 B.~Kitchenham, R.~Pretorius, D.~Budgen, O.~Pearl~Brereton, M.~Turner, M.~Niazi,
@@ -385,8 +387,8 @@ H.~Malehorn.
 
 \bibitem{martin2013acquired}
 M.~Mart{\'\i}n-Brice{\~n}o and S.~Prashar.
-\newblock Acquired skills with the implementation of new evaluation methods at
-  university rey juan carlos.
+\newblock {Acquired Skills With The Implementation Of New Evaluation Methods At
+  University Rey Juan Carlos}.
 \newblock {\em Proceedings of the International Conference of Education,
   Research and Innovation (ICERI) 2013}, pages 4875--4878, 2013.
 
@@ -492,10 +494,10 @@ QAA.
 R.~A. Rashid, R.~Abdullah, A.~Zaharim, H.~A. Ghulman, M.~S. Masodi, J.~Mauri,
   A.~Zaharim, A.~Kolyshkin, M.~Hatziprokopiou, A.~Lazakidou, et~al.
 \newblock Engineering students performance evaluation of generic skills
-  measurement: Espegs model.
+  measurement: {ESPEGS} model.
 \newblock In {\em Proceedings of the 5th WSEAS International Conference on
-  Engineering Education (EE'08)}, number~5. World Scientific and Engineering
-  Academy and Society (WSEAS), 2008.
+  Engineering Education (EE'08)}, number~5, pages 377--383. World Scientific
+  and Engineering Academy and Society (WSEAS), 2008.
 
 \bibitem{rayon2014web}
 A.~Rayon~Jerez, M.~Guenaga, and A.~N{\'u}{\~n}ez.
@@ -532,8 +534,9 @@ S.~Rodriguez-Donaire, B.~A. Garc{\'\i}a, and S.~O. Del~Olmo.
 \bibitem{rojas2008prueba}
 A.~Rojas-Vargas.
 \newblock {\em La prueba escrita}.
-\newblock Ministerio de Educaci{\'o}n P{\'u}blica. Dirección de desarrollo
-  curricular. Departamento de Evaluaci{\'o}n de los Aprendizajes, 2008.
+\newblock Ministerio de Educaci{\'o}n P{\'u}blica de Costa Rica. Dirección de
+  desarrollo curricular. Departamento de Evaluaci{\'o}n de los Aprendizajes,
+  2008.
 
 \bibitem{ruizacarate2013soft}
 C.~Ruizac{\'a}rate~Varela, M.~J. Garcia~Garcia, C.~Gonzalez~Garcia, and J.~L.
@@ -590,6 +593,13 @@ G.~Trentin.
   learning project.
 \newblock {\em Journal of Computer Assisted Learning}, 25(1):43--55, 2009.
 
+\bibitem{bernheim2010educacion}
+C.~T{\"u}nnermann~Bernheim.
+\newblock La educaci{\'o}n permanente y su impacto en la educaci{\'o}n
+  superior.
+\newblock {\em Revista Iberoamericana de Educaci{\'o}n Superior (RIES),
+  M{\'e}xico, issue - unam /Universia}, 1(1):120--133, 2010.
+
 \bibitem{tyler1967perspectives}
 R.~W. Tyler, R.~M. Gagn{\'e}, M.~Scriven, et~al.
 \newblock {\em Perspectives of curriculum evaluation}, volume~1.
@@ -638,6 +648,6 @@ J.~G. Zabala.
 \newblock {\em El espacio europeo de educaci{\'o}n superior, un reto para la
   universidad: competencias, tareas y evaluaci{\'o}n, los ejes del
   curr{\'\i}culum universitario}.
-\newblock 2005.
+\newblock Barcelona : Editorial Octaedro, S.L., 2005.
 
 \end{thebibliography}
