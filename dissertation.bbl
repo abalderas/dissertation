@@ -44,15 +44,6 @@ A.~A. Aziz, A.~Mohamed, N.~Arshad, S.~Zakaria, and M.~S. Masodi.
 \newblock {\em International Journal of Systems Applications, Engineering \&
   Development}, 4(1):164--172, 2007.
 
-\bibitem{balderas2015domain}
-A.~Balderas, A.~Berns, M.~Palomo-Duarte, J.~M. Dodero,
-  R.~G{\'o}mez-S{\'a}nchez, and I.~Ruiz-Rube.
-\newblock A domain specific language to retrieve objective indicators for
-  foreign language learning in virtual worlds.
-\newblock In {\em Proceedings of the 3rd International Conference on
-  Technological Ecosystems for Enhancing Multiculturality}, pages 675--680.
-  ACM, 2015.
-
 \bibitem{Balderas:2015}
 A.~Balderas, J.~M. Dodero, M.~Palomo-Duarte, and I.~Ruiz-Rube.
 \newblock A domain specific language for online learning competence
@@ -153,6 +144,11 @@ C.-h. Chen.
 \newblock The implementation and evaluation of a mobile self-and
   peer-assessment system.
 \newblock {\em Computers \& Education}, 55(1):229--236, 2010.
+
+\bibitem{cole2005being}
+R.~Cole, S.~Purao, M.~Rossi, and M.~Sein.
+\newblock Being proactive: where action research meets design research.
+\newblock {\em ICIS 2005 Proceedings}, page~27, 2005.
 
 \bibitem{collins2004design}
 A.~Collins, D.~Joseph, and K.~Bielaczyc.
@@ -340,6 +336,12 @@ G.~Hughes.
 A.~Huhta.
 \newblock Diagnostic and formative assessment.
 \newblock {\em The handbook of educational linguistics}, 33:469--483, 2008.
+
+\bibitem{izquierdo2012community}
+J.~L.~C. Izquierdo and J.~Cabot.
+\newblock Community-driven language development.
+\newblock In {\em Modeling in Software Engineering (MISE), 2012 ICSE Workshop
+  on}, pages 29--35. IEEE, 2012.
 
 \bibitem{Kitchenham:2010}
 B.~Kitchenham, R.~Pretorius, D.~Budgen, O.~Pearl~Brereton, M.~Turner, M.~Niazi,
