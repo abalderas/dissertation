@@ -25,11 +25,11 @@ En este capítulo se propone un método para la evaluación de competencias gen�
 
 \section{Introducción}
 
-En esta tesis se propone un método de evaluación de competencias genéricas basado en el diseño de evaluaciones (DBA, del inglés, \emph{design-based assessment}) y que tiene su origen en la investigación basada en el diseño (DBR). DBA es un método de evaluación de competencias genéricas que se basa en indicadores de la actividad generada por los estudiantes en los entornos de aprendizaje virtual. Los profesores podrán diseñar evaluaciones utilizando estos indicadores y podrán utilizar estas evaluaciones como evidencias del desempeño de competencias genéricas. Estas evaluaciones podrán ser refinadas por el propio profesor hasta llegar a unas evidencias que le sean válidas. También podrán ser utilizadas y modificadas por otros profesores que busquen adaptarlo a su contexto local o a las competencias genéricas que ellos quieren medir. 
-
 Se podría decir que hoy en día los entornos virtuales constituyen una pieza fundamental en cualquier contexto en el que se impartan cursos. Mientras que en los cursos virtuales, los VLEs son el único entorno de trabajo posible, en los cursos presenciales o mixtos, tantos los VLEs como otras herramientas virtuales actúan como soporte virtual de las clases, proporcionando multitud de actividades de aprendizaje. 
 
-En el VLE por ejemplo, los estudiantes pasan a diario por sus páginas. Por un lado, habrá estudiantes que accedan al VLE cada día a consultar novedades, participar en foros, subir tareas o descargar apuntes, mientras que por otro lado, habrá estudiantes que entren sólo de manera puntual, a realizar un examen o a subir una tarea. Todas las acciones de los estudiantes quedan almacenadas en el registro de actividad de los entornos virtuales, y estos registros podrían ser analizados para comprender el proceso de aprendizaje que se está desarrollando mediante técnicas de \emph{learning analytics}. El método DBA se basa en la utilización e integración de técnicas y herramientas de \emph{learning analytics} para la obtención de indicadores procedentes de estos entornos virtuales y utilizarlos como medida del desempeño de los estudiantes en competencias genéricas .
+En esta tesis se propone un método de evaluación de competencias genéricas basado en el diseño de evaluaciones (DBA, del inglés, \emph{design-based assessment}) y que tiene su origen en la investigación basada en el diseño (DBR). DBA es un método de evaluación de competencias genéricas que se basa en indicadores de la actividad generada por los estudiantes en los entornos de aprendizaje virtual. Los profesores podrán diseñar evaluaciones utilizando estos indicadores y podrán utilizar estas evaluaciones como evidencias del desempeño de competencias genéricas. Si llegado el caso, el profesor considera que las evidencias no terminan de reflejar bien el desempeño o no de las competencias, el método DBA permitirá al profesor refinar los diseños hasta llegar a unas evidencias que sí le sean válidas al profesor, o a descartarlas si no llegan a serlo. Además, los diseños podrán ser utilizados y modificados por otros profesores que busquen adaptarlo a su contexto local o a las competencias genéricas que ellos quieren medir. 
+
+En el VLE por ejemplo, los estudiantes pasan a diario por sus páginas. Por un lado, habrá estudiantes que accedan al VLE cada día a consultar novedades, participar en foros, subir tareas o descargar apuntes, mientras que por otro lado, habrá estudiantes que entren sólo de manera puntual, a realizar un examen o a subir una tarea. Todas las acciones de los estudiantes quedan almacenadas en el registro de actividad de los entornos virtuales, y estos registros podrían ser analizados para comprender el proceso de aprendizaje que se está desarrollando mediante técnicas de \emph{learning analytics}. El método DBA se basa en la utilización e integración de técnicas y herramientas de \emph{learning analytics} para la obtención de indicadores procedentes de estos entornos virtuales.
 
 % Revisar párrafo anterior sobre el contexto de learning analytics
 
@@ -76,13 +76,13 @@ En este ejemplo, el profesor pretende obtener indicadores del uso del foro del e
 
 \paragraph*{Iteración I}
 
-\subparagraph*{Hipótesis inicial (Iteración I).}
+\subparagraph*{I.1 Hipótesis inicial.}
 
 El profesor considera que podría diseñar un indicador válido a partir del número de mensajes que ha escrito cada estudiante en la semana en la que transcurre la actividad y plantea la siguiente hipótesis: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro}.
 
-\subparagraph*{Diseño y formulación de la evaluación (Iteración I).}
+\subparagraph*{I.2 Diseño y formulación de la evaluación.}
 
-El profesor diseña la consulta \ref{code:sasqlejemplo1} en SASQL, DSL creado para este trabajo.
+Para diseñar la evaluación, el profesor deberá contar con un lenguaje cercano al dominio que le permita formular la consulta que le proporcione los indicadores que requiere la hipótesis inicial. En este ejemplo mostramos la consulta~\ref{code:sasqlejemplo1}, escrita en el lenguaje SASQL~\footnote{https://www.assembla.com/spaces/evalcourse/wiki/SASQL} y que proporcionará datos sobre la participación de los estudiantes en el foro entre dos fechas.
 
 \begin{lstlisting}[caption=Participación en el foro en un periodo concreto de tiempo ,label=code:sasqlejemplo1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
 Evidence participacion_foro: 
@@ -91,13 +91,13 @@ Evidence participacion_foro:
 	in forum between 2015-10-21 and 2015-10-27.
 \end{lstlisting}
 
-\subparagraph*{Petición de datos (Iteración I).}
+\subparagraph*{I.3 Petición de datos.}
 
-Se introduce la consulta en EvalCourse, herramienta creada para este trabajo que acepta consultas escrita en SASQL y se conecta al VLE.
+En este paso, se enviará la consulta a un software que lo interprete, procese y sea capaz de proporcionar al usuario los datos solicitados. %La consulta anterior se introduciría en el software EvalCourse, herramienta creada para este trabajo que acepta consultas escritas en SASQL y se conecta al VLE.
 
-\subparagraph*{Validación de resultados (Iteración I).}
+\subparagraph*{I.4 Validación de resultados.}
 
-EvalCourse pone a disposición del profesor los indicadores solicitados mediante la consulta~\ref{tab:EvalCourseEj1}, los analiza y concluye que, en base a la hipótesis inicial, todos los estudiantes menos el 3 (\emph{student3}) habrían desempeñado correctamente la competencia. Sin embargo, el profesor considera pobre esta primera aproximación y decide redefinir la hipótesis inicial.
+El software devuelve al profesor los indicadores solicitados mediante el listado~\ref{tab:EvalCourseEj1}. El profesor los analiza y concluye que, en base a la hipótesis inicial, todos los estudiantes menos el 3 (\emph{student3}) habrían desempeñado correctamente la competencia. Sin embargo, el profesor considera pobre esta primera aproximación y decide redefinir la hipótesis inicial.
 
 \begin{table}
 	\centering
@@ -124,13 +124,13 @@ EvalCourse pone a disposición del profesor los indicadores solicitados mediante
 
 \paragraph*{Iteración II}
 
-\subparagraph*{Hipótesis inicial (Iteración II).}
+\subparagraph*{II.1 Hipótesis inicial.}
 
 El profesor plantea la nueva hipótesis inicial de la siguiente manera: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro y ha interactuado con más de un compañero}.
 
-\subparagraph*{Diseño y formulación de la evaluación (Iteración II).}
+\subparagraph*{II.2 Diseño y formulación de la evaluación.}
 
-El profesor diseña la consulta \ref{code:sasqlejemplo2} en SASQL.
+El profesor diseña la nueva evaluación mediante la consulta~\ref{code:sasqlejemplo2}.
 
 \begin{lstlisting}[caption=Interacción en el foro en un periodo de tiempo ,label=code:sasqlejemplo2,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
 Evidence interacciones_foro: 
@@ -139,13 +139,13 @@ Evidence interacciones_foro:
 	in forum between 2013-10-21 and 2013-10-27.
 \end{lstlisting}
 
-\subparagraph*{Petición de datos (Iteración II).}
+\subparagraph*{II.3 Petición de datos.}
 
-Se introduce la consulta en EvalCourse.
+Se introduce la consulta en el software.
 
-\subparagraph*{Validación de resultados (Iteración II).}
+\subparagraph*{II.4 Validación de resultados.}
 
-Además del listado con las interacciones, EvalCourse proporciona figuras con la representación de la información. En esta última consulta se devuelve un grafo que muestra las interacciones (figura~\ref{fig:EvalCourseInteraccionForo}). A tenor de los resultados vemos que sólo dos de los estudiantes cumplen la segunda hipótesis (\emph{student2} y \emph{student4}), y bajo esta nueva hipótesis, ellos serian los dos únicos estudiantes que han mostrado un buen desempeño de la competencia genéricas de las habilidades interpersonales.
+El software devuelve, entre otros formatos, un grafo que muestra las interacciones (figura~\ref{fig:EvalCourseInteraccionForo}). A tenor de los resultados vemos que sólo dos de los estudiantes cumplen la segunda hipótesis (\emph{student2} y \emph{student4}), y bajo esta nueva hipótesis, ellos serian los dos únicos estudiantes que han mostrado un buen desempeño de la competencia genéricas de las habilidades interpersonales.
 
 \begin{figure}
 	\centering
@@ -165,13 +165,13 @@ Mientras que con respecto a la clasificación de técnicas de evaluación mostra
 En el apartado~\ref{sec:dbr} se indican, partiendo del análisis realizado por Terry Andersen y Julie Shattuck~\cite{anderson2012design}, las características que un estudio DBR de calidad debe tener. A continuación se identificará nuestro método DBA en cada una de esas características:
 
 \begin{itemize}
-\item \emph{Estar situado en un contexto educativo real}: el método DBA se ha creado en un contexto educativo real (la Universidad de Cádiz) para ser utilizado en este y en otros contextos educativos reales.
+\item \emph{Estar situado en un contexto educativo real}: el método DBA se ha creado en un contexto educativo real (la Universidad de Cádiz) para ser utilizado en este y en otros contextos educativos reales. Su validez será tratada en el capítulo de la evaluación.
 \item \emph{Enfocado en el diseño y prueba de una intervención significativa}: La intervención que se lleva a cabo con el método DBA es un \emph{tipo de evaluación}, siendo este uno de los tipos de intervenciones recogidos en la tipología de intervenciones DBR definida por Andersen~\cite{anderson2012design}. 
 \item \emph{Empleo de métodos mixtos}: una intervención DBR implica normalmente la aplicación de diferentes métodos, técnicas y herramientas. El método DBA puede combinarse con otros métodos de evaluación con el fin de contrastar evaluaciones y dar validez a los resultados obtenidos con uno u otro método. Por ejemplo, una aplicación de métodos mixtos podría darse en el ejemplo mostrado en el apartado anterior, donde los estudiantes eran evaluados mediante el método DBA de sus habilidades interpersonales. Esa actividad podría formar parte de un conjunto de actividades de trabajo en equipo configuradas por el profesor para realizar una evaluación auténtica. El profesor podría combinar los resultados de la aplicación de ambos métodos y así contrastar los resultados.
 \item \emph{Múltiples iteraciones}: el método DBA permite el diseño de evaluaciones y su contraste de resultados (\emph{ciclo de contraste de hipótesis}). A partir de los resultados, el diseño se puede ir refinando iterativamente hasta que los resultados satisfagan las expectativas del profesor o hasta que decida descartarlos por no ser válidos para su evaluación.
-\item \emph{Asociación colaborativa entre investigadores y profesores}: el proceso de desarrollo de software es cada vez más colaborativo, tratando de integrar todo lo posible a los usuarios finales para avanzar hacia un proceso dirigido por la comunidad donde tanto los actores técnicos como los no técnicos trabajen juntos para que se cumplan las espectativas. Esto es especialmente apropiado en el campo de los DSLs, herramientas informáticas diseñadas para facilitar el desarrollo de software en un contexto específico~\cite{izquierdo2012community}. Bajo este enfoque se desarrolló el método DBA, colaborando profesores e investigadores en su desarrollo, teniendo así los usuarios finales y expertos en el dominio (los profesores) una participación activa y directa en la definción de la herramienta que implementa el método, es decir, el DSL. 
+\item \emph{Asociación colaborativa entre investigadores y profesores}: el proceso de desarrollo de software es cada vez más colaborativo, tratando de integrar todo lo posible a los usuarios finales para avanzar hacia un proceso dirigido por la comunidad donde tanto los actores técnicos como los no técnicos trabajen juntos para que se cumplan las expectativas. Esto es especialmente apropiado en el campo de los DSLs, herramientas informáticas diseñadas para facilitar el desarrollo de software en un contexto específico~\cite{izquierdo2012community}. Bajo este enfoque se desarrollará el método DBA, colaborando profesores e investigadores en su desarrollo, teniendo así los usuarios finales y expertos en el dominio (los profesores) una participación activa y directa en la definición de una herramienta que implemente el método, es decir, un DSL. 
 \item \emph{Evolución de los principios de diseño}: el método DBA permite la creación de diseños para aplicar a diferentes competencias. Ciertos diseños podrían ser definidos como plantillas o patrones para la evaluación de competencias. Estos patrones podrán ser utilizados por otros profesores, y a partir de su reflexión, modificados para ser adaptados a nuevos contextos. De esta forma, los principios y diseños creados por profesores e investigadores no mueren con una práctica, sino que son puntos de partidas para nuevas teorías y experimentos. Por ejemplo, un profesor que trabajase con wikis en sus clases podría utilizar como indicador de un buen desempeño de la competencia de trabajo en equipo el número de contribuciones aportado por cada estudiante a la página de su equipo de trabajo. Un segundo profesor que trabajase con wikis podría mejorar esta evaluación considerando como indicador el peso en bytes de las contribuciones aportadas por cada miembro del equipo. Y un tercer profesor podría mejorar esta evaluación añadiendo un indicador cualitativo de la información aportada al wiki por cada miembro del equipo. Es decir, se parte de un patrón o diseño inicial que los profesores han ido evolucionando para mejorarlo y aplicarlo a su contexto.
-\item \emph{Comparación con la investigación-acción}: El objetivo del método DBA, al contrario de lo que ocurre con la investigación-acción, no es sólo alcanzar una serie de objetivos a nivel local, sino que también permite evolucionar a nivel teórico y maximizar la generalización, mejorando así la comprensión de aplicaciones prácticas. Además, permite la participación de un equipo formado por investigadores y profesores mientras que, por lo general, la práctica de la investigación-acción es llevada a cabo únicamente por el profesor que realiza el experimento. Ambos enfoques son muy parecidos y en ocasiones cuesta diferenciarlos. Se podria decir que la investigación-acción carece de ese carácter reflexivo que sí tiene el DBR~\cite{cole2005being}. Para ilustrarlo utilizaremos el ejemplo de la medición de la competencia de trabajo en equipo mediante el wiki mostrado en el punto anterior. En la investigación-acción, un profesor se enfrentaría a esta evaluación por sí solo, sin considerar cómo han evaluado dicha competencia otros en el wiki, sino que adoptaria una solución útil para él en su caso pero que no evolucionaría. Justo al contrario de lo que ocurrió en el ejemplo anterior de wikis, donde cada profesor investigador o equipo de investigadores y/o profesores tenía en cuenta como había sido abordada antes la evaluación del trabajo en equipo en el wiki y cada evaluación se pudo utilizar como base de futuras evaluaciones.
+\item \emph{Comparación con la investigación-acción}: El objetivo del método DBA, al contrario de lo que ocurre con la investigación-acción, no es sólo alcanzar una serie de objetivos a nivel local, sino que también permite evolucionar a nivel teórico y maximizar la generalización, mejorando así la comprensión de aplicaciones prácticas. Además, permite la participación de un equipo formado por investigadores y profesores mientras que, por lo general, la práctica de la investigación-acción es llevada a cabo únicamente por el profesor que realiza el experimento. Ambos enfoques son muy parecidos y en ocasiones cuesta diferenciarlos. Se podría decir que la investigación-acción carece de ese carácter reflexivo que sí tiene el DBR~\cite{cole2005being}. Para ilustrarlo utilizaremos el ejemplo de la medición de la competencia de trabajo en equipo mediante el wiki mostrado en el punto anterior. En la investigación-acción, un profesor se enfrentaría a esta evaluación por sí solo, sin considerar cómo han evaluado dicha competencia otros en el wiki, sino que adoptaría una solución útil para él en su caso pero que no evolucionaría. Justo al contrario de lo que ocurrió en el ejemplo anterior de wikis, donde cada profesor, investigador o equipo de investigadores y/o profesores tenía en cuenta como había sido abordada antes la evaluación del trabajo en equipo en el wiki y cada nueva evaluación se pudo utilizar como base de futuras evaluaciones.
 \item \emph{Repercusión en las prácticas}: El método DBA puede repercutir directamente en las prácticas. A partir de su aplicación en las sesiones prácticas y del análisis de resultados, los investigadores y profesores implicados pueden detectar actividades e interacciones que favorecen el desempeño de competencias y que no habían considerado anteriormente. Esto repercutirá directamente en la organización y programación de actividades en los siguientes cursos.
 \end{itemize}
 
