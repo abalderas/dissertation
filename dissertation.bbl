@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{achcaoucaou2014competence}
 F.~Achcaoucaou, L.~Guitart-Tarr{\'e}s, P.~Miravitlles-Matamoros,
@@ -44,6 +44,21 @@ A.~A. Aziz, A.~Mohamed, N.~Arshad, S.~Zakaria, and M.~S. Masodi.
 \newblock {\em International Journal of Systems Applications, Engineering \&
   Development}, 4(1):164--172, 2007.
 
+\bibitem{Balderas:2015}
+A.~Balderas, J.~M. Dodero, M.~Palomo-Duarte, and I.~Ruiz-Rube.
+\newblock A domain specific language for online learning competence
+  assessments.
+\newblock {\em International Journal of Engineering Education - Special issue
+  on Innovative Methods of Teaching Engineering}, 31(3):851--862, 2015.
+
+\bibitem{Balderas:2013}
+A.~Balderas, I.~Ruiz-Rube, J.~M. Dodero, M.~Palomo-Duarte, and A.~Berns.
+\newblock A generative computer language to customize online learning
+  assessments.
+\newblock {\em Lecture Notes in Computer Science (including subseries Lecture
+  Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 8095
+  LNCS:591--592, 2013.
+
 \bibitem{bedek2011behavioral}
 M.~Bedek, S.~A. Petersen, and T.~Heikura.
 \newblock From behavioral indicators to contextualized competence assessment.
@@ -63,6 +78,18 @@ J.~Benlloch-Dualde and S.~Blanc-Clavero.
 \newblock In {\em Frontiers In Education Conference-Global Engineering:
   Knowledge Without Borders, Opportunities Without Passports, 2007. FIE'07.
   37th Annual}, pages S3B--1. IEEE, 2007.
+
+\bibitem{berns2013game}
+A.~Berns, A.~Gonzalez-Pardo, and D.~Camacho.
+\newblock Game-like language learning in {3-D} virtual environments.
+\newblock {\em Computers \& Education}, 60(1):210--220, 2013.
+
+\bibitem{berns2013using}
+A.~Berns, M.~Palomo-Duarte, J.~M. Dodero, and C.~Valero-Franco.
+\newblock Using a {3D} online game to assess students’ foreign language
+  acquisition and communicative competence.
+\newblock In {\em Scaling up learning for sustained impact}, pages 19--31.
+  Springer, 2013.
 
 \bibitem{carreras2013promotion}
 A.~Carreras~Mar{\'\i}n, Y.~Blasco, M.~Badia-Mir{\'o}, M.~Bosch~Pr{\'\i}ncep,
@@ -127,6 +154,12 @@ M.~A. Conde, F.~J. García-Peñalvo, D.-A. Gómez-Aguilar, and R.~Theron.
 \newblock {\em IEEE Revista Iberoamericana de Tecnologías del Aprendizaje},
   10(4):242--252, 2015.
 
+\bibitem{cruz2015discovering}
+J.~Cruz-Benito, R.~Ther{\'o}n, F.~J. Garc{\'\i}a-Pe{\~n}alvo, and E.~P. Lucas.
+\newblock Discovering usage behaviors and engagement in an educational virtual
+  world.
+\newblock {\em Computers in Human Behavior}, 47:18--25, 2015.
+
 \bibitem{curtis2004assessment}
 D.~D. Curtis.
 \newblock The assessment of generic skills.
@@ -190,6 +223,13 @@ C.~European.
   of lifelong learning}}, chapter~1, pages 327/48 -- 327/49. Official Journal
   of the European Union, Nov. 2006.
 
+\bibitem{eysholdt2010xtext}
+M.~Eysholdt and H.~Behrens.
+\newblock Xtext: implement your language faster than the quick and dirty way.
+\newblock In {\em Proceedings of the ACM international conference companion on
+  Object oriented programming systems languages and applications companion},
+  pages 307--309. ACM, 2010.
+
 \bibitem{ficapal2015learning}
 P.~Ficapal-Cus{\'\i} and J.~Boada-Grau.
 \newblock e-learning and team-based learning. practical experience in virtual
@@ -219,6 +259,12 @@ B.~Florian, C.~Glahn, H.~Drachsler, M.~Specht, and R.~Fabregat~Gesa.
 M.~Fowler.
 \newblock {\em Domain-specific languages}.
 \newblock Pearson Education, 2010.
+
+\bibitem{garrison1999critical}
+D.~R. Garrison, T.~Anderson, and W.~Archer.
+\newblock Critical inquiry in a text-based environment: Computer conferencing
+  in higher education.
+\newblock {\em The internet and higher education}, 2(2):87--105, 1999.
 
 \bibitem{gass2013second}
 S.~M. Gass.
@@ -264,6 +310,12 @@ A.~R. Hevner.
 A.~R. Hevner, S.~T. March, J.~Park, and S.~Ram.
 \newblock Design science in information systems research.
 \newblock {\em MIS Quarterly}, 28(1):75--105, Mar. 2004.
+
+\bibitem{hew2010use}
+K.~F. Hew and W.~S. Cheung.
+\newblock Use of three-dimensional (3-d) immersive virtual worlds in k-12 and
+  higher education settings: A review of the research.
+\newblock {\em British journal of educational technology}, 41(1):33--55, 2010.
 
 \bibitem{hughes2011towards}
 G.~Hughes.
@@ -354,6 +406,13 @@ V.~Midoro.
 \newblock Guidelines on adaptation of the {UNESCO ICT} competency framework for
   teachers.
 \newblock 2013.
+
+\bibitem{moreno2014serious}
+P.~Moreno-Ger, I.~Martinez-Ortiz, M.~Freire, B.~Manero, and
+  B.~Fernandez-Manjon.
+\newblock Serious games: A journey from research to application.
+\newblock In {\em Frontiers in Education Conference (FIE), 2014 IEEE}, pages
+  1--4. IEEE, 2014.
 
 \bibitem{munoz2003cuestionario}
 T.~G. Mu{\~n}oz.
