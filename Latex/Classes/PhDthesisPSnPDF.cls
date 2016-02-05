@@ -246,6 +246,10 @@
 % avoid hyphenation locally
 \usepackage{hyphenat}
 
+% Cuestionario apendice
+\usepackage{mdframed}
+\usepackage{lipsum}
+
 
 % Line break directly after paragraph title
 % http://www.latex-community.org/forum/viewtopic.php?f=5&t=1383
