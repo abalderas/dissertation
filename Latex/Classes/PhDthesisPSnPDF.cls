@@ -249,6 +249,10 @@
 % Cuestionario apendice
 \usepackage{mdframed}
 \usepackage{lipsum}
+\usepackage{amssymb}
+
+% coloring code
+\usepackage{minted}
 
 
 % Line break directly after paragraph title
