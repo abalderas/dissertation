@@ -240,17 +240,15 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 
 			El metamodelo de SASQL puede verse en la figura~\ref{fig:EvcMetamodel}. La entidad principal es el indicador o evidencia (\emph{evidence}). Esta evidencia se aplicará a una herramienta (\emph{tool}) que puede ser tarea (\emph{assignment}), foro (\emph{forum}), campus (\emph{campus}), taller (\emph{workshop}) o wiki (\emph{wiki}), en las que se observará un indicio (\emph{sign}), que puede ser participación (\emph{participation}), entregas (\emph{milestones}), accesos (\emph{access}), evaluaciones (\emph{assessment}), interacción (\emph{interaction}) o calificación (\emph{grade}). Además, puede actuarse sobre una actividad específica (\emph{entity}) o sobre todas las actividades de un tipo que se han dado en el VLE. La conexión a la base de datos del curso se declara en la entidad \emph{connection}. 
 
-			La sintaxis de SASQL puede verse en la consulta~\ref{code:sasqlSintax}. En la primera línea se comienza con la palabra reservada \emph{Evidence} seguida del nombre que se dará al indicador. Ese nombre será el que tengan todos los ficheros de salida. En la segunda línea se escriben los términos obligatorios \emph{get students}. En la tercera, se indica qué indicio se quiere extraer (\emph{show milestones | participation | access | interaction | assessment | grade}). En la consulta, la tercera línea se divide en dos (tercera y cuarta) para que puedan ser visualizadas todas las opciones. En la quinta, se indica sobre qué herramienta se quiere obtener el indicio (\emph{ in assignment | forum | campus | workshop | wiki [list of ids]}). También la quinta línea se divide en dos (quinta y sexta). En la séptima línea, que es opcional, se indica el rango de fechas sobre los que se extraerá la información. Y por último, en la octava se especifica si la conexión se realizará directamente a la base de datos o sobre una copia de seguridad almacenada en un fichero.
+			En el siguiente código puede verse la sintaxis de SASQL. En la primera línea se comienza con la palabra reservada \emph{Evidence} seguida del nombre que se dará al indicador. Ese nombre será el que tengan todos los ficheros de salida. En la segunda línea se escriben los términos obligatorios \emph{get students}. En la tercera, se indica qué indicio se quiere extraer (\emph{show milestones | participation | access | interaction | assessment | grade}). En la consulta, la tercera línea se divide en dos (tercera y cuarta) para que puedan ser visualizadas todas las opciones. En la quinta, se indica sobre qué herramienta se quiere obtener el indicio (\emph{ in assignment | forum | campus | workshop | wiki [list of ids]}). También la quinta línea se divide en dos (quinta y sexta). En la séptima línea, que es opcional, se indica el rango de fechas sobre los que se extraerá la información. Y por último, en la octava se especifica si la conexión se realizará directamente a la base de datos o sobre una copia de seguridad almacenada en un fichero.
 
 %\begin{lstlisting}[caption=Sintaxis de SASQL (las palabras reservadas se muestran resaltadas),label=code:sasqlSintax,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, wiki, between, and, workshop, interaction, assessment, grade, from, course, backup}]
 
 
-\begin{minted}[mathescape,
-               linenos,
-               numbersep=5pt,
-               gobble=2,
-               frame=lines,
-               framesep=2mm]{csharp}
+\begin{minted}[	label=Sintaxis de SASQL,
+		linenos,
+		frame=lines,
+               	framesep=2mm]{pascal}
 Evidence indicator_name:
  get students 
  show milestones | participation | access 
@@ -282,16 +280,24 @@ Evidence indicator_name:
 
 % Estos indicadores deben ser publicados para que los estudiantes sepan cómo serán evaluados % FRASE ELIMINADA DEL MEDIO DEL PÁRRAFO ANTERIOR
 
-			El docente considera que podría diseñar un indicador válido a partir del número de mensajes que ha escrito cada estudiante en un periodo de tiempo particular y plantea la siguiente hipótesis: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro}. Para ello se diseña la consulta~\ref{code:sasqlejemplo1}. EvalCourse procesa la consulta y devuelve los resultados que se pueden ver en la tabla~\ref{tab:EvalCourseEj1}.
+			El docente considera que podría diseñar un indicador válido a partir del número de mensajes que ha escrito cada estudiante en un periodo de tiempo particular y plantea la siguiente hipótesis: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro}. Para ello se diseña la consulta que se muestra a continuación (consulta SASQL participaciones foro). EvalCourse procesa la consulta y devuelve los resultados que se pueden ver en la tabla~\ref{tab:EvalCourseEj1}.
 
-\begin{center}
-\begin{lstlisting}[caption=Consulta para obtener la participación en el foro en un periodo concreto de tiempo ,label=code:sasqlejemplo1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
+
+
+%\begin{lstlisting}[caption=Consulta para obtener la participación en el foro en un periodo concreto de tiempo ,label=code:sasqlejemplo1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
+
+
+
+\begin{minted}[	label=Consulta SASQL participaciones foro,
+		linenos,
+		frame=lines,
+	        framesep=2mm]{pascal}
 Evidence participacion_foro: 
 	get students
 	show participation
 	in forum between 2015-10-21 and 2015-10-27.
-\end{lstlisting}
-\end{center}
+\end{minted}
+
 
 \begin{table}
 	\centering
@@ -315,16 +321,20 @@ Evidence participacion_foro:
 	\end{tabular}
 \end{table}
 
-			A la vista de los resultados, y en base a la hipótesis inicial, se podría decir que todos los estudiantes menos el 3 (\emph{student3}) habrían desempeñado correctamente la competencia. Sin embargo, el docente considera que esta primera aproximación es un poco pobre y decide completar su hipótesis de la siguiente manera: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro y ha interactuado con más de un compañero}. Para ello escribe la consulta~\ref{code:sasqlejemplo2}. 
+			A la vista de los resultados, y en base a la hipótesis inicial, se podría decir que todos los estudiantes menos el 3 (\emph{student3}) habrían desempeñado correctamente la competencia. Sin embargo, el docente considera que esta primera aproximación es un poco pobre y decide completar su hipótesis de la siguiente manera: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro y ha interactuado con más de un compañero}. Para ello escribe la consulta SASQL interacciones foro.
 
-\begin{center}
-\begin{lstlisting}[caption=Consulta para obtener la interacción en el foro en un periodo de tiempo determinado, label=code:sasqlejemplo2,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
+%\begin{lstlisting}[caption=Consulta para obtener la interacción en el foro en un periodo de tiempo determinado, label=code:sasqlejemplo2,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
+
+\begin{minted}[	label=Consulta SASQL interacciones foro,
+		linenos,
+		frame=lines,
+               	framesep=2mm]{pascal}
 Evidence interacciones_foro: 
 	get students
 	show interaction
 	in forum between 2013-10-21 and 2013-10-27.
-\end{lstlisting}
-\end{center}
+\end{minted}
+
 
 			Además del listado con las interacciones, EvalCourse proporciona varias figuras con la representación de la información. Para esta última consulta se devuelve un grafo para una mejor visualización de las interacciones (figura~\ref{fig:EvalCourseInteraccionForo}). A tenor de los resultados vemos que sólo dos de los estudiantes cumplen la segunda hipótesis (\emph{student2} y \emph{student4}). 
 
@@ -342,18 +352,63 @@ Evidence interacciones_foro:
 			En este apartado se muestra una propuesta de uso de indicadores obtenidos mediante EvalCourse para la evaluación de competencias genéricas~\cite{Balderas:2015}. Pero al igual que ocurre con el resto de herramientas, estos indicadores podrían ser válidos para unos docentes y no serlos para otros, así como que habrá otras muchas formas de combinar la información del registro para obtener indicadores válidos para otras competencias genéricas.
 
 				\paragraph*{Habilidades interpersonales}
-				Para la evaluación de esta competencia genérica se propone utilizar la participación en el foro. Al crear grupos de trabajo en el VLE se puede crear un foro para cada grupo. Durante el curso se fomenta que los estudiantes intervengan en dichos foros para comunicarse entre los miembros del equipo y dejar constancia de los mensajes de cara al docente. Por tanto, si no utilizan el foro, los estudiantes no tienen calificación en esta competencia. Por ejemplo, podría fijarse que un estudiante con tres o más intervenciones en el foro tuviera una evaluación positiva en la competencia.
+				Para la evaluación de esta competencia genérica se propone utilizar la participación en el foro. Al crear grupos de trabajo en el VLE se puede crear un foro para cada grupo. Durante el curso se fomenta que los estudiantes intervengan en dichos foros para comunicarse entre los miembros del equipo y dejar constancia de los mensajes de cara al docente. Por tanto, si no utilizan el foro, los estudiantes no tienen calificación en esta competencia. Por ejemplo, podría fijarse que un estudiante con tres o más intervenciones en el foro tuviera una evaluación positiva en la competencia. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado con los mensajes iniciados, las respuestas dadas y el total de mensajes de cada estudiante en el foro, siendo este último valor el que utilizaríamos como indicador positivo para quellos estudiantes que tengan tres o más participaciones.
+
+% label=Habilidades interpersonales en SASQL,
+\begin{minted}[linenos,frame=lines,
+               framesep=2mm]{pascal}
+Evidence habilidades_interpersonales: 
+	get students
+	show participation
+	in forum.
+\end{minted}
 
 				\paragraph*{Liderazgo}
-				Para evaluar el liderazgo de los estudiantes se proponen también los foros creados para la comunicación de los equipos de trabajo. Para ello se podría considerar la cantidad de debates que cada estudiante ha iniciado. Por ejemplo, un estudiante que iniciara dos o más debates tendría una evaluación positiva en la competencia de liderazgo.
+				Para evaluar el liderazgo de los estudiantes se proponen también los foros creados para la comunicación de los equipos de trabajo. Para ello se podría considerar la cantidad de debates que cada estudiante ha iniciado. Por ejemplo, un estudiante que iniciara dos o más debates tendría una evaluación positiva en la competencia de liderazgo. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado con los mensajes iniciados, las respuestas dadas y el total de mensajes de cada estudiante en el foro, siendo el primer valor el que utilizaríamos como indicador positivo para quellos estudiantes que tengan dos o más participaciones.
 
-				El wiki de Moodle también se podría prestar a la evaluación de esta competencia genérica. Si tenemos registros de un usuario que se encarga de las primeras ediciones de una página del wiki (organizando el trabajo del equipo) y registros de actividad de ese usuario tras los registros de actividad de sus compañeros (revisando el trabajo de estos), podría considerarse que ese usuario está ejerciendo una labor de líder en el equipo.
+% label=Liderazgo en foro con SASQL,
+\begin{minted}[linenos,frame=lines,
+               framesep=2mm]{pascal}
+Evidence liderazgo_foro: 
+	get students
+	show participation
+	in forum.
+\end{minted}
+
+				El wiki de Moodle también se podría prestar a la evaluación de esta competencia genérica. Si tenemos registros de un usuario que se encarga de las primeras ediciones de una página del wiki (organizando el trabajo del equipo) y registros de actividad de ese usuario tras los registros de actividad de sus compañeros (revisando el trabajo de estos), podría considerarse que ese usuario está ejerciendo una labor de líder en el equipo. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado con el momento y el peso de las contribuciones de cada estudiante. El docente utilizaría estos valores contrastaría los valores de los otros estudiantes para valorar si ha ejercido o no de líder.
+
+% label=Liderazgo en wiki con SASQL,
+\begin{minted}[linenos,frame=lines,
+               framesep=2mm]{pascal}
+Evidence liderazgo_wiki: 
+	get students 
+	show interaction 
+	in wiki.
+\end{minted}
 
 				\paragraph*{Pensamiento crítico}
-				En Moodle hay una actividad que son los talleres (\emph{workshops}). En esta actividad, los estudiantes tienen que entregar un ejercicio conforme a las instrucciones del docente que podrá ser autoevaluada o evaluada por uno o varios compañeros. Por ejemplo, podría plantearse que cada estudiante tuviera que hacer varias tareas. Una vez entregada cada tarea, el docente pondría la solución del ejercicio a disposición de los estudiantes, y cada tarea sería evaluada por dos compañeros y por el propio estudiante. Para evaluar la competencia del pensamiento crítico, el docente utilizaría para cada tarea la diferencia entre la media de las notas dadas por sus compañeros y la que se asignó el propio estudiante.
+				En Moodle hay una actividad que son los talleres (\emph{workshops}). En esta actividad, los estudiantes tienen que entregar un ejercicio conforme a las instrucciones del docente que podrá ser autoevaluada o evaluada por uno o varios compañeros. Por ejemplo, podría plantearse que cada estudiante tuviera que hacer varias tareas. Una vez entregada cada tarea, el docente pondría la solución del ejercicio a disposición de los estudiantes, y cada tarea sería evaluada por dos compañeros y por el propio estudiante. Para evaluar la competencia del pensamiento crítico, el docente utilizaría para cada tarea la diferencia entre la media de las notas dadas por sus compañeros y la que se asignó el propio estudiante. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado de estudiantes con tres columnas adicionales, la primera con la calificación fruto de la autoevaluación y las dos siguiente de la evaluación realizada por los otros estudiantes. El docente utilizaría la diferencia entre estos valores para valorar la competencia genérica.
+
+% label=Liderazgo en wiki con SASQL,
+\begin{minted}[linenos,frame=lines,
+               framesep=2mm]{pascal}
+Evidence pensamiento_critico:  
+	get students 
+	show assessment 
+	in workshop.
+\end{minted}
 
 				\paragraph*{Planificación y gestión del tiempo}
-				Las tareas programadas en el VLE tienen una fecha límite de entrega. Sin embargo, el docente puede configurar la actividad para que permita envíos retrasados. El docente podría establecer un número mínimo de trabajos entregados antes de la fecha límite para considerar que esta se ha entregado a tiempo. De esta manera, un docente podría considerar que si las tareas se han entregado tarde, pero son correctas, tengan una buena calificación en lo que a las habilidades y conocimientos específicos que requería la tarea se refiere. Pero con respecto a la planificación y gestión del tiempo de ese estudiante la calificación sería negativa, dado que ha incumplido la planificación y los plazos que se acordaron a comienzos del curso.
+				Las tareas programadas en el VLE tienen una fecha límite de entrega. Sin embargo, el docente puede configurar la actividad para que permita envíos retrasados. El docente podría establecer un número mínimo de trabajos entregados antes de la fecha límite para considerar que esta se ha entregado a tiempo. De esta manera, un docente podría considerar que si las tareas se han entregado tarde, pero son correctas, tengan una buena calificación en lo que a las habilidades y conocimientos específicos que requería la tarea se refiere. Pero con respecto a la planificación y gestión del tiempo de ese estudiante la calificación sería negativa, dado que ha incumplido la planificación y los plazos que se acordaron a comienzos del curso. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado de estudiantes indicándose para cada uno la cantidad de tareas entregadas, las que ha entregado a tiempo de estas y las que han quedado pendientes. A partir de esta información el docente podrá evaluar la planificación y gestión del tiempo de sus estudiantes.
+
+% label=Liderazgo en wiki con SASQL,
+\begin{minted}[linenos,frame=lines,
+               framesep=2mm]{pascal}
+Evidence planificacion:  
+	get students 
+	show milestones 
+	in assignments.
+\end{minted}
 
 		\subsubsection{EvalSim (EVS) y VWQL} \label{subcha:evs}
 
@@ -367,7 +422,7 @@ Evidence interacciones_foro:
 
 			Para este trabajo se creó VWQL (\emph{Virtual Worl Query language}). VWQL es un DSL creado para obtener indicadores objetivos de OpenSim. EvalSim es el sistema que procesa las consultas de VWQL. Ha sido desarrollado bajo un enfoque MDE para modelar procesos para la obtención de los indicadores que se requieran. Fue también implementado utilizando Xtext~\cite{eysholdt2010xtext} dentro del Eclipse Modeling Framework.
 
-			La sintaxis del lenguaje (versión beta 0.1) puede verse en la consulta~\ref{code:reserved}. La primera línea especifica el nombre del indicador (\emph{name\_of\_the\_indicator}) y se utiliza para diferenciar los diferentes archivos producidos por EvalSim. La segunda línea comienza obligatoriamente con \emph{get students} y a continuación se ha de especificar si se quiere obtener la información para todos los estudiantes que participaron en la experiencia o sólo para algunos de los que participaron (indicando sus identificadores numéricos de usuario). La última línea indica el tipo de información a extraer tras el término obligatorio \emph{show}, y esta información puede ser de alguno de los siguientes tipos:
+			La sintaxis del lenguaje (versión beta 0.1) puede verse en el cuadro de sintaxis VWQL. La primera línea especifica el nombre del indicador (\emph{name\_of\_the\_indicator}) y se utiliza para diferenciar los diferentes archivos producidos por EvalSim. La segunda línea comienza obligatoriamente con \emph{get students} y a continuación se ha de especificar si se quiere obtener la información para todos los estudiantes que participaron en la experiencia o sólo para algunos de los que participaron (indicando sus identificadores numéricos de usuario). La última línea indica el tipo de información a extraer tras el término obligatorio \emph{show}, y esta información puede ser de alguno de los siguientes tipos:
 
 \begin{itemize}
 \item \emph{words}: número de palabras escritas en el chat de texto. Por defecto cuenta todas las palabras, a no ser que se indique un idioma, en cuyo caso únicamente muestra, de las palabras introducidas en el chat de texto, las palabras en dicho idioma.
@@ -378,14 +433,16 @@ Evidence interacciones_foro:
 \item \emph{points}: número de puntos obtenidos en el mundo virtual. La manera en que los puntos se obtengan dependerá específicamente del mundo virtual jugado.
 \end{itemize}
 
-\begin{center}
-\begin{lstlisting}[caption=Palabras reservadas y formato de VWQL (version 0.1), label=code:reserved,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, words, sentences, turns, time, points}]
+%\begin{lstlisting}[caption=Palabras reservadas y formato de VWQL (version 0.1), label=code:reserved,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, words, sentences, turns, time, points}]
+\begin{minted}[	label=Sintaxis VWQL,
+		linenos,
+		frame=lines,
+               	framesep=2mm]{pascal}
 Evidence name_of_the_evidence:
     get students [id_of_the_student]
-    show ( words [dict] | sentences | turns |
+    show ( words [dict] | sentences | turns | single |
          | time | points )+
-\end{lstlisting}
-\end{center}
+\end{minted}
 
 			\paragraph{Ejemplo}
 
@@ -406,17 +463,19 @@ Evidence name_of_the_evidence:
 
 			En este ejemplo se parte de que el mundo virtual se está utilizando en una asignatura de idiomas. En un ejercicio práctico confeccionado por el docente, los estudiantes han de participar en un juego de roles (\emph{role-play}) y son advertidos de que deben explayarse en sus respuestas a fin de utilizar los recursos lingüísticos aprendidos en clase.
 
-			Una vez que todos los estudiantes han participado el juego, el docente decide utilizar como indicador el número de frases de una sola palabra utilizada por los estudiantes. De esta manera, todos aquellos estudiantes que hayan utilizado una sola palabra para responder a alguna pregunta tendrán una evaluación negativa en el desempeño de la competencia. Puede verse el código empleado en la consulta~\ref{code:vqwlej1}.
+			Una vez que todos los estudiantes han participado el juego, el docente decide utilizar como indicador el número de frases de una sola palabra utilizada por los estudiantes. De esta manera, todos aquellos estudiantes que hayan utilizado una sola palabra para responder a alguna pregunta tendrán una evaluación negativa en el desempeño de la competencia. Puede verse el código empleado en la consulta VWQL 1.
 
-\begin{center}
-\begin{lstlisting}[caption=Consulta para obtener la cantidad de respuestas de una sola palabra de cada estudiante, label=code:vqwlej1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, single, show, words, sentences, turns, time, points}]
+%\begin{lstlisting}[caption=Consulta para obtener la cantidad de respuestas de una sola palabra de cada estudiante, label=code:vqwlej1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, single, show, words, sentences, turns, time, points}]
+\begin{minted}[label=Consulta VWQL 1,
+		linenos,
+		frame=lines,
+               	framesep=2mm]{pascal}
 Evidence respuestas_cortas:
     get students
     show single.
-\end{lstlisting}
-\end{center}
+\end{minted}
 
-			Como resultado a la consulta, el sistema devuelve el listado que puede verse en la tabla~\ref{tab:EvsListEj1}. A la vista de los mismos, el docente considera que hay situaciones en las que una respuesta corta podría admitirse como válida, por lo que decide admitir como mucho dos respuestas cortas en la participación de cada estudiante. Ante este enfoque, el docente considera que los estudiantes 3, 6 y 7 (\emph{studen3, student6 y student7}) tuvieron un desempeño bajo en la competencia al haber empleado cuatro, cuatro y tres respuestas cortas respectivamente.
+			Como resultado a la consulta, el sistema devuelve el listado que puede verse en la tabla~\ref{tab:EvsListEj1}. A la vista de los mismos, el docente considera que hay situaciones en las que una respuesta corta podría admitirse como válida, por lo que decide admitir como mucho dos respuestas cortas en la participación de cada estudiante. Ante este enfoque, el docente considera que los estudiantes 3, 6 y 7 (\emph{student3, student6 y student7}) tuvieron un desempeño bajo en la competencia al haber empleado cuatro, cuatro y tres respuestas cortas respectivamente.
 
 \begin{table}
 	\centering
@@ -446,15 +505,17 @@ Evidence respuestas_cortas:
 	\end{tabular}
 \end{table}
 
-			Para enriquecer este indicador, el docente decide diseñar un nuevo indicador. En este caso, calculando el número de palabras por turno que escriben los estudiantes. Para ello utiliza la consulta~\ref{code:vqwlej2}. Los resultados en este caso puede verse en la tabla~\ref{tab:EvsListEj2}.
+			Para enriquecer este indicador, el docente decide diseñar un nuevo indicador. En este caso, calculando el número de palabras por turno que escriben los estudiantes. Para ello utiliza la consulta VWQL 2. Los resultados en este caso puede verse en la tabla~\ref{tab:EvsListEj2}.
 
-\begin{center}
-\begin{lstlisting}[caption=Consulta para obtener las palabras por turno de cada estudiante, label=code:vqwlej2,numbers=left, captionpos=b, morekeywords={Evidence,get, students, single, show, words, sentences, turns, time, points}]
+%\begin{lstlisting}[caption=Consulta para obtener las palabras por turno de cada estudiante, label=code:vqwlej2,numbers=left, captionpos=b, morekeywords={Evidence,get, students, single, show, words, sentences, turns, time, points}]
+\begin{minted}[	label=Consulta VWQL 2,
+		linenos,
+		frame=lines,
+               	framesep=2mm]{pascal}
 Evidence palabras_turno:
     get students
     show words, turns.
-\end{lstlisting}
-\end{center}
+\end{minted}
 
 \begin{table}
 	\centering
@@ -484,13 +545,13 @@ Evidence palabras_turno:
 	\end{tabular}
 \end{table}
 
-			A la vista de los resultados, el docente confirma que los estudiantes 3, 6 y 7 (\emph{studen3, student6 y student7}) son los que utilizan menos palabras por turno. Son estos tres estudiantes, junto con el estudiante número 5 (\emph{student5}), los únicos que bajan de 10 palabras por turno. Lo que podría ser una justificación para el docente a la hora de evaluar de manera negativa a este estudiante, ya que no sólo no llega a 10 mensajes sino que también es el único que en la consulta anterior está en el límite fijado de dos respuestas cortas.
+			A la vista de los resultados, el docente confirma que los estudiantes 3, 6 y 7 (\emph{student3, student6 y student7}) son los que utilizan menos palabras por turno. Son estos tres estudiantes, junto con el estudiante número 5 (\emph{student5}), los únicos que bajan de 10 palabras por turno. Lo que podría ser una justificación para el docente a la hora de evaluar de manera negativa a este estudiante, ya que no sólo no llega a 10 mensajes sino que también es el único que en la consulta anterior está en el límite fijado de dos respuestas cortas.
 
 			Como en los casos anteriores, será decisión del docente el uso que se dé a los indicadores.
 
 			\paragraph*{Propuesta de indicadores para el ejemplo}
 
-			El mundo virtual se ha desarrollado para asignaturas de idiomas, por lo que la competencia genérica para la que más se han utilizado los indicadores obtenidos ha sido para la \emph{habilidad para comunicarse en un segundo idioma}. Aunque sólo es una propuesta y podrían utilizarse también para otras competencias.
+			El mundo virtual se ha desarrollado para asignaturas de idiomas, por lo que la competencia genérica para la que más se han utilizado los indicadores obtenidos ha sido para la \emph{habilidad para comunicarse en un segundo idioma}. No obstante, los indicadores podrían ser utilizados en la evaluación de otras competencias genéricas bajo el criterio del docente que diseña la evaluación.
 
 % Hipótesis: un estudiante tiene dificultades para hacerse entender si necesita dos o más frases por turno para comunicarse con su compañero.
 
@@ -506,29 +567,54 @@ Evidence palabras_turno:
 
 \section{Estudios de caso}
 
-	Entre los cursos 2010-11 y 2014-15 se han realizado diversas experiencias para la evaluación de competencias genéricas utilizando el método DBA y las herramientas que lo implementan. A continuación se describen brevemente dichas experiencias, mientras que las publicaciones en las que se han presentado se enumeran en el apartado~\ref{eva:contribuciones}.
+	Entre los cursos 2010-11 y 2014-15 se han realizado diversas experiencias para la evaluación de competencias genéricas utilizando el método DBA y las herramientas que lo implementan. A continuación se describen brevemente dichas experiencias, mientras que las publicaciones en las que se han presentado se resumen en la tabla~\ref{tab:ResumenCS} y se describen en el apartado~\ref{eva:contribuciones}.
 
-	\subsection{Administración de Sistemas Operativos}
 
-		Este estudio se llevó a cabo en la asignatura de Administración de Sistemas Operativos durante los cursos 2010-11 y 2011-12, con 38 y 40 estudiantes respectivamente. Esta asignatura tenía lugar en el segundo semestre del tercer (y último) curso de la titulación de Ingeniería Técnica en Informática de Sistemas. Los estudiantes tuvieron que desarrollar varias tareas durante el curso, dos de ellas en un wiki público~\footnote{http://wikis.uca.es/wikiASO}. La primera consistió en un proyecto de migración de la infraestructura de red de una empresa, mientras que la segunda consistía en documentar un programa Unix para tareas del sistema operativo. Utilizando AMW cada estudiante evaluó 10 contribuciones de sus compañeros al wiki. El docente utilizó AMW y las evaluaciones de los estudiantes para evaluar competencias del \emph{trabajo en equipo}, \emph{capacidad crítica}, la \emph{comunicación}, la \emph{aplicación del conocimiento}, la \emph{capacidad para mantener la calidad del trabajo producido} y la \emph{capacidad crítica de sus estudiantes}.
+\begin{table}
+	\centering
+	\caption{Resumen de publicaciones de los estudios de caso}
+	\label{tab:ResumenCS}
+	\begin{tabular}{|c|l|l|}
+		\hline
+		Estudio de caso & Congreso & Revista \\
+		\hline
+		\hline
+		CS01 & SPDECE 2012 (\cite{Balderas:2012}) & CHB 2014 (\cite{palomo2014scalability})  \\
+		\hline
+		CS02 & TEEM 2013 (\cite{balderas2013generative}) & IJEE 2015 (\cite{Balderas:2015})  \\
+		\hline
+		CS03 & SIIE 2014 (\cite{balderas2014domain})  & IJEE 2015 (\cite{Balderas:2015}) \\
+		\hline
+		CS04 & TEEM 2013 (\cite{balderas2013generative})   & IJEE 2015 (\cite{Balderas:2015})  \\
+		\hline
+		CS05 & SIIE 2014 (\cite{balderas2014domain}) &  IJEE 2015 (\cite{Balderas:2015}) \\
+		\hline
+		CS06 & TEEM 2015 (\cite{balderas2015domain}) & JITR 2016 (In process) \\
+		\hline
+	\end{tabular}
+\end{table}
 
-	\subsection{Procesadores de Lenguajes II}
+	\subsection{Estudio de caso CS01}
+
+		Este estudio se llevó a cabo en la asignatura de \emph{Administración de Sistemas Operativos} durante los cursos 2010-11 y 2011-12, con 38 y 40 estudiantes respectivamente. Esta asignatura tenía lugar en el segundo semestre del tercer (y último) curso de la titulación de Ingeniería Técnica en Informática de Sistemas. Los estudiantes tuvieron que desarrollar varias tareas durante el curso, dos de ellas en un wiki público~\footnote{http://wikis.uca.es/wikiASO}. La primera consistió en un proyecto de migración de la infraestructura de red de una empresa, mientras que la segunda consistía en documentar un programa Unix para tareas del sistema operativo. Utilizando AMW cada estudiante evaluó 10 contribuciones de sus compañeros al wiki. El docente utilizó AMW y las evaluaciones de los estudiantes para evaluar competencias del \emph{trabajo en equipo}, \emph{capacidad crítica}, la \emph{comunicación}, la \emph{aplicación del conocimiento}, la \emph{capacidad para mantener la calidad del trabajo producido} y la \emph{capacidad crítica de sus estudiantes}.
+
+	\subsection{Estudio de caso CS02}
 
 		El primer estudio de caso con EvalCourse tuvo lugar en la asignatura de \emph{Procesadores de Lenguajes II} del curso 2012-13, con 36 estudiantes matriculados. Esta era una asignatura obligatoria, que tenía lugar en el primer semestre del quinto (y último) curso de la titulación de Ingeniería en Informática. Durante el semestre, los estudiantes tuvieron que trabajar en pequeños equipos de dos o tres miembros. Cada equipo del curso tenía un foro para la comunicación interna. El docente utilizó la primera versión de EvalCourse y SASQL para evaluar las competencias genéricas de las habilidades interpersonales y el liderazgo desempeñadas por los estudiantes en el foro de cada equipo. 
 
-	\subsection{Programación Funcional}
+	\subsection{Estudio de caso CS03}
 
 		El segundo estudio de caso con EvalCourse se desarrolló en la asignatura de \emph{Programación Funcional} del curso 2012-13, en la que había 19 estudiantes matriculados. Esta era una asignatura optativa que tenía lugar en el segundo semestre del quinto (y último) curso de la titulación de Ingeniería en Informática. Los estudiantes tuvieron que trabajar en cuatro talleres a lo largo del curso. En Moodle, un taller es un entregable que, conforme a las instrucciones del docente, puede ser evaluado por otro u otros estudiantes o auto-evaluado. El docente utilizó la primera versión de EvalCourse y SASQL para evaluar la competencia genérica del pensamiento crítico desempeñado por los estudiantes en los talleres.
 
-	\subsection{Actuaciones Avaladas para la Mejora Docente (2013/14)} \label{AA1}
+	\subsection{Estudio de caso CS04} \label{AA1}
 
 		Para este estudio de caso se cursó una solicitud para la realización de un \emph{Proyecto de Actuación Avalada} en la Universidad de Cádiz durante el curso 2013/14. En estos proyectos tienen cabida aquellos trabajos que supongan mejoras en un amplio espectro de objetivos relacionados con la docencia en los títulos de la universidad. En este caso, el titulo de nuestro proyecto fue \emph{Extracción de indicadores objetivos para evaluación del desarrollo de competencias genéricas a partir de registros de actividad del Campus Virtual} (código AAA\_14\_009). En esta actuación se mejoró la herramienta EvalCourse para que pudiera obtener nuevo indicadores y se utilizó la herramienta en una serie de asignaturas del Grado en Ingeniería Informática. 
 
-	\subsection{Actuaciones Avaladas para la Mejora Docente (2014/15)} \label{AA2}
+	\subsection{Estudio de caso CS05} \label{AA2}
 
 		Para este estudio de caso se cursó una solicitud para la realización de un \emph{Proyecto de Actuación Avalada} en la Universidad de Cádiz durante el curso 2014/15. En estos proyectos tienen cabida aquellos trabajos que supongan mejoras en un amplio espectro de objetivos relacionados con la docencia en los títulos de la universidad. En este caso, el titulo de nuestro proyecto fue \emph{Evaluación de competencias genéricas mediante la extracción de indicadores de los registros de actividad del wiki de Moodle} (código sol-201400047964-tra). En esta actuación se mejoró la herramienta EvalCourse para que pudiera obtener indicadores del wiki de Moodle y se aplicó en varias asignaturas del Grado en Ingeniería Informática y una del Grado en Publicidad y RR.PP. 
 
-	\subsection{Alemán como lengua extranjera}
+	\subsection{Estudio de caso CS06}
 
 		Este estudio de caso se llevó a cabo en un instituto en el curso 2014-15, en la asignatura de \emph{Alemán como lengua extranjera}, equivalente al nivel B1 del marco común de referencia europeo (CEFR, del inglés, Common European Framework of Reference). La asignatura contaba con 5 estudiantes matriculados que participaron durante sus clase en varias partidas en un mundo virtual. El profesorado utilizó EvalSim y VWQL para obtener indicadores de la participación de los estudiantes en el mundo virtual y aplicarlos a la evaluación de la competencia genérica de la habilidad para comunicarse en un segundo idioma.
 
@@ -667,7 +753,7 @@ Para probar la independencia de las variables que intervienen en el cuestionario
 \item El \textbf{perfil} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{liderazgo}
 \end{enumerate}
 
-Se construyeron las tablas de contingencia, se calcularon las frecuencias esperadas y se obtuvieron los diferentes valores de $\chi^2$ para cada hipótesis. Una vez realizados los cálculos las hipótesis nulas 1, 2, 4, 5 y 6 no se rechazaron, concluyéndose que con una significación del 5\percentage los datos son independientes. La hipótesis nula 3 sí quedaba rechazada con ese nivel de significación. Para no rechazarla el nivel de significación debía ser de un 0,1\percentage.
+Se construyeron las tablas de contingencia, se calcularon las frecuencias esperadas y se obtuvieron los diferentes valores de $\chi^2$ para cada hipótesis. Una vez realizados los cálculos las hipótesis nulas 1, 2, 4, 5 y 6 no se rechazaron, concluyéndose que con una significación del 5\percentage {  }los datos son independientes. La hipótesis nula 3 sí quedaba rechazada con ese nivel de significación. Para no rechazarla el nivel de significación debía ser de un 0,1\percentage.
 
 El estudio completo puede verse en la sección~\ref{apc:sec:resultados} del apéndice~\ref{Ap:cuestionario}.
 
@@ -721,7 +807,7 @@ Además del cuestionario principal, los docentes que participaron en los proyect
 	\end{tabular}
 \end{table}
 
-En este caso, los resultados vienen desglosados por cada actividad del campus virtual. Cabe destacar que la competencia genérica más evaluable según los docentes es el trabajo autónomo, seguida de la planificación y gestión del tiempo. En el apartado~\ref{ape:AA:resultados} pueden verse al completo las justificaciones de los docente para considerar los registros de cada una de las actividades aquí indicadas como indicadores de competencias genéricas.
+En este caso, los resultados vienen desglosados por cada actividad del campus virtual. Cabe destacar que la competencia genérica a la que más se pueden aplicar los indicadores de actividad del campus virtual para su evaluación según los docentes que participaron en la encuesta es el trabajo autónomo, seguida de la planificación y gestión del tiempo. En la sección~\ref{ape:AA:resultados} del apéndice~\ref{Ap:cuestionarioAA} pueden verse al completo las justificaciones de los docentes para considerar los registros de cada una de las actividades aquí indicadas como indicadores de competencias genéricas.
 
 \subsection{Discusión y análisis}
 
@@ -740,19 +826,19 @@ El cuestionario complementario utilizado en la actuación avalada muestra que lo
 	\subsection*{Revistas}
 
 	\begin{itemize}
-	\item Artículo en la revista Computers in Human Behavior (2014), titulado ``Scalability of assessments of wiki-based learning experiences in higher education´´~\cite{palomo2014scalability}.
-	\item Artículo en la revista International Journal of Engineering Education (2015), titulado ``A Domain Specific Language for Online Learning Competence Assessments´´~\cite{Balderas:2015}.
-	\item Artículo en la Revista Iberoamericana de Tecnologias del Aprendizaje (2015), titulado ``Learning Technologies and Semantic Integration of Learning Resources´´~\cite{dodero2015learning}.
+	\item Artículo en la revista Computers in Human Behavior (2014), titulado ``Scalability of assessments of wiki-based learning experiences in higher education''~\cite{palomo2014scalability}.
+	\item Artículo en la revista International Journal of Engineering Education (2015), titulado ``A Domain Specific Language for Online Learning Competence Assessments''~\cite{Balderas:2015}.
+	%\item Artículo en la Revista Iberoamericana de Tecnologias del Aprendizaje (2015), titulado ``Learning Technologies and Semantic Integration of Learning Resources´´~\cite{dodero2015learning}.
 	\end{itemize}
 
 	\subsection*{Congresos}
 
 	\begin{itemize}
-	\item Artículo presentado en el congreso IX Simposio Pluridisciplinar sobre Diseño, Evaluación y Descripción de Contenidos Educativos (SPDECE 2012), titulado ``Qualitative assessment of wiki-based learning processes´´~\cite{Balderas:2012}.
-	\item Artículo presentado en el I International Conference on Technological Ecosystem for Enhancing Multiculturality (TEEM 2013), titulado ``A generative computer language to customize online learning assessments´´~\cite{balderas2013generative}.
-	\item Artículo presentado en el International Symposium on Computers in Education (SIIE 2014), titulado``Domain-driven competence assessment in virtual learning environments. Application to planning and time management skills´´~\cite{balderas2014domain}.
-	\item Artículo presentado en el III International Conference on Technological Ecosystem for Enhancing Multiculturality (TEEM 2015), titulado ``A Domain Specific Language to retrieve objective indicators for foreign language learning in virtual worlds´´~\cite{balderas2015domain}.
-	\item Artículo presentado en el  III Congreso Internacional Sobre Aprendizaje, Innovación y Competitividad (CINAIC 2015), titulado ``Evaluación del trabajo individual y grupal en un wiki´´~\cite{reinoso2015evaluacion}.
+	\item Artículo presentado en el congreso IX Simposio Pluridisciplinar sobre Diseño, Evaluación y Descripción de Contenidos Educativos (SPDECE 2012), titulado ``Qualitative assessment of wiki-based learning processes''~\cite{Balderas:2012}.
+	\item Artículo presentado en el I International Conference on Technological Ecosystem for Enhancing Multiculturality (TEEM 2013), titulado ``A generative computer language to customize online learning assessments''~\cite{balderas2013generative}.
+	\item Artículo presentado en el International Symposium on Computers in Education (SIIE 2014), titulado``Domain-driven competence assessment in virtual learning environments. Application to planning and time management skills''~\cite{balderas2014domain}.
+	\item Artículo presentado en el III International Conference on Technological Ecosystem for Enhancing Multiculturality (TEEM 2015), titulado ``A Domain Specific Language to retrieve objective indicators for foreign language learning in virtual worlds''~\cite{balderas2015domain}.
+	\item Artículo presentado en el  III Congreso Internacional Sobre Aprendizaje, Innovación y Competitividad (CINAIC 2015), titulado ``Evaluación del trabajo individual y grupal en un wiki''~\cite{reinoso2015evaluacion}.
 	\end{itemize}
 
 

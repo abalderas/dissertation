@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: dissertation.aux
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: 0_frontmatter/title_back.aux
 A level-1 auxiliary file: 0_frontmatter/dedication.aux
 A level-1 auxiliary file: 0_frontmatter/abstract.aux
@@ -29,11 +31,51 @@ I was expecting a `,' or a `}'---line 1357 of file 9_backmatter/references.bib
  :   year={2015}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "turing1950computing"
 Warning--empty journal in chatti2014learning
 Warning--empty journal in midoro2013guidelines
 Warning--can't use both volume and number fields in Petersen:2008
 Warning--there's a number but no series in rashid2008engineering
 Warning--empty year in reinoso2015evaluacion
 Warning--there's a number but no volume in torres2010rubrica
+You've used 105 entries,
+            2118 wiz_defined-function locations,
+            1093 strings with 27608 characters,
+and the built_in function-call counts, 40974 in all, are:
+= -- 4133
+> -- 1962
+< -- 41
++ -- 788
+- -- 670
+* -- 2897
+:= -- 6556
+add.period$ -- 343
+call.type$ -- 105
+change.case$ -- 634
+chr.to.int$ -- 0
+cite$ -- 111
+duplicate$ -- 1572
+empty$ -- 3114
+format.name$ -- 670
+if$ -- 8715
+int.to.chr$ -- 0
+int.to.str$ -- 105
+missing$ -- 115
+newline$ -- 530
+num.names$ -- 210
+pop$ -- 709
+preamble$ -- 1
+purify$ -- 541
+quote$ -- 0
+skip$ -- 1134
+stack$ -- 0
+substring$ -- 2737
+swap$ -- 454
+text.length$ -- 41
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 396
+warning$ -- 6
+while$ -- 410
+width$ -- 108
+write$ -- 1166
 (There were 2 error messages)
