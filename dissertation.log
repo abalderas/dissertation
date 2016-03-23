@@ -1,0 +1,3001 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.20)  24 MAR 2016 00:19
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**dissertation.tex
+(./dissertation.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ga
+lician, catalan, spanish, loaded.
+(./Latex/Classes/PhDthesisPSnPDF.cls
+Document Class: Latex/Classes/PhDthesisPSnPDF 2010/11/26 v3 PhD thesis class
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\captionmargin=\dimen103
+\captionmargin@=\dimen104
+\captionwidth=\dimen105
+\caption@indent=\dimen106
+\caption@parindent=\dimen107
+\caption@hangindent=\dimen108
+)
+\c@ContinuedFloat=\count89
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/eucal.sty
+Package: eucal 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks16
+\footnotemargin=\dimen109
+\c@pp@next@reset=\count90
+\c@@fnserial=\count91
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count92
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count93
+\mult@box=\box26
+\multicol@leftmargin=\dimen110
+\c@unbalance=\count94
+\c@collectmore=\count95
+\doublecol@number=\count96
+\multicoltolerance=\count97
+\multicolpretolerance=\count98
+\full@width=\dimen111
+\page@free=\dimen112
+\premulticols=\dimen113
+\postmulticols=\dimen114
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count99
+\c@finalcolumnbadness=\count100
+\last@try=\dimen115
+\multicolovershoot=\dimen116
+\multicolundershoot=\dimen117
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count101
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2009/04/17 v1.3 Extended ifthen features
+
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count103
+\calc@Bcount=\count104
+\calc@Adimen=\dimen118
+\calc@Bdimen=\dimen119
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count105
+\calc@Cskip=\skip58
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2004/10/17 UCS: Unicode input support
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2012/04/20 UCS: Unicode global data
+)
+\uc@secondtry=\count106
+\uc@combtoks=\toks19
+\uc@combtoksb=\toks20
+\uc@temptokena=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks22
+\ex@=\dimen120
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen121
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count107
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count108
+\leftroot@=\count109
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count110
+\DOTSCASE@=\count111
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen122
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count112
+\c@MaxMatrixCols=\count113
+\dotsspace@=\muskip10
+\c@parentequation=\count114
+\dspbrk@lvl=\count115
+\tag@help=\toks23
+\row@=\count116
+\column@=\count117
+\maxfields@=\count118
+\andhelp@=\toks24
+\eqnshift@=\dimen123
+\alignsep@=\dimen124
+\tagshift@=\dimen125
+\tagwidth@=\dimen126
+\totwidth@=\dimen127
+\lineht@=\dimen128
+\@envbody=\toks25
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/spanish.ldf
+Language: spanish.ldf 2011/10/06 v5.0k Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count119
+\U@D=\dimen129
+)
+\es@datefmt=\count120
+\es@quottoks=\toks27
+\es@quotdepth=\count121
+Package babel Info: Making " an active character on input line 496.
+Package babel Info: Making . an active character on input line 599.
+Package babel Info: Making < an active character on input line 644.
+Package babel Info: Making > an active character on input line 644.
+Package babel Info: Making ' an active character on input line 671.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen130
+\nom@tempdim=\dimen131
+\nomitemsep=\skip62
+)
+\@nomenclaturefile=\write3
+\openout3 = `dissertation.nlo'.
+
+
+Writing nomenclature file dissertation.nlo
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen132
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count124
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `plainpages' set `false' on input line 3941.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 3941.
+
+
+Package hyperref Warning: Values of option `pdfpagelayout':
+(hyperref)                * `SinglePage'
+(hyperref)                * `OneColumn'
+(hyperref)                * `TwoColumnLeft'
+(hyperref)                * `TwoColumnRight'
+(hyperref)                * `TwoPageLeft' (PDF 1.5)
+(hyperref)                * `TwoPageRight' (PDF 1.5)
+(hyperref)                * An empty value disables the option.
+(hyperref)                Unknown value `useoutlines' on input line 3941.
+
+Package hyperref Info: Option `bookmarks' set `true' on input line 3941.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 3941.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 3941
+.
+Package hyperref Info: Option `breaklinks' set `true' on input line 3941.
+Package hyperref Info: Option `linktocpage' set `true' on input line 3941.
+Package hyperref Info: Option `colorlinks' set `false' on input line 3941.
+Package hyperref Info: Option `hyperindex' set `true' on input line 3941.
+Package hyperref Info: Option `hyperfigures' set `true' on input line 3941.
+Package hyperref Info: Hyper figures ON on input line 4060.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing ON on input line 4080.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2010/08/30 v1.36 Bibliographical back referencing
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+\c@Hy@tempcnt=\count125
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count126
+\Field@Width=\dimen133
+\Fld@charsize=\dimen134
+Package hyperref Info: Hyper figures ON on input line 5771.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing ON on input line 5786.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count127
+\c@Item=\count128
+\c@Hfootnote=\count129
+)
+
+Package hyperref Message: Driver: hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+\Fld@listcount=\count130
+\c@bookmark@seq@number=\count131
+\Hy@SectionHShift=\skip63
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/quotchap/quotchap.sty
+Package: quotchap 2011/01/15 v1.0 Decorative Chapter Headings with Quotes
+\@quotebox=\box54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box55
+\beforetitleunit=\skip64
+\aftertitleunit=\skip65
+\ttl@plus=\dimen137
+\ttl@minus=\dimen138
+\ttl@toksa=\toks28
+\titlewidth=\dimen139
+\titlewidthlast=\dimen140
+\titlewidthfirst=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box56
+\shadowsize=\dimen142
+\@Sbox=\box57
+\do@VerbBox=\toks29
+\the@fancyput=\toks30
+\this@fancyput=\toks31
+\EndVerbatimTokens=\toks32
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read1
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count132
+\lst@gtempboxa=\box58
+\lst@token=\toks33
+\lst@length=\count133
+\lst@currlwidth=\dimen143
+\lst@column=\count134
+\lst@pos=\count135
+\lst@lostspace=\dimen144
+\lst@width=\dimen145
+\lst@newlines=\count136
+\lst@lineno=\count137
+\lst@maxwidth=\dimen146
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count138
+\lst@skipnumbers=\count139
+\lst@framebox=\box59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count140
+\rotFPtop=\skip66
+\rotFPbot=\skip67
+\rot@float@box=\box60
+\rot@mess@toks=\toks34
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen147
+\extrarowheight=\dimen148
+\NC@list=\toks35
+\extratabsurround=\skip68
+\backup@length=\skip69
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen149
+\lightrulewidth=\dimen150
+\cmidrulewidth=\dimen151
+\belowrulesep=\dimen152
+\belowbottomsep=\dimen153
+\aboverulesep=\dimen154
+\abovetopsep=\dimen155
+\cmidrulesep=\dimen156
+\cmidrulekern=\dimen157
+\defaultaddspace=\dimen158
+\@cmidla=\count141
+\@cmidlb=\count142
+\@aboverulesep=\dimen159
+\@belowrulesep=\dimen160
+\@thisruleclass=\count143
+\@lastruleclass=\count144
+\@thisrulewidth=\dimen161
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count145
+\LTcapwidth=\dimen162
+\LT@head=\box61
+\LT@firsthead=\box62
+\LT@foot=\box63
+\LT@lastfoot=\box64
+\LT@cols=\count146
+\LT@rows=\count147
+\c@LT@tables=\count148
+\c@LT@chunks=\count149
+\LT@p@ftn=\toks36
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen163
+\TX@old@table=\dimen164
+\TX@old@col=\dimen165
+\TX@target=\dimen166
+\TX@delta=\dimen167
+\TX@cols=\count150
+\TX@ftn=\toks37
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen168
+)
+(./Latex/StyleFiles/slashbox.sty
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box65
+\@slashboxb=\box66
+\@slashboxc=\box67
+\@slashboxwd=\count151
+\@slashboxht=\count152
+\@slashsepl=\dimen169
+\@slashsepr=\dimen170
+) (/usr/share/texlive/texmf-dist/tex/latex/ncctools/watermark.sty
+Package: watermark 2004/12/09 v1.1 Watermarks (NCC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2010/09/21 v2.58 Date Time Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2009/10/02 v1.31
+\c@padzeroesN=\count153
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english 2007/05/26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-UKenglish.def
+File: fc-UKenglish 2007/06/14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-british.def
+File: fc-british 2007/06/14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-USenglish.def
+File: fc-USenglish 2007/06/14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-spanish.def
+File: fc-spanish.def 2007/05/26
+)
+No configuration file fmtcount.cfg found.
+\@DT@modctr=\count154
+\@ordinalctr=\count155
+\@orgargctr=\count156
+\@strctr=\count157
+\@tmpstrctr=\count158
+\@DT@loopN=\count159
+\@DT@X=\count160
+)
+\@day=\count161
+\@month=\count162
+\@year=\count163
+\c@HOUR=\count164
+\c@HOURXII=\count165
+\c@MINUTE=\count166
+\c@TOHOUR=\count167
+\c@TOMINUTE=\count168
+\c@SECOND=\count169
+\currenthour=\count170
+\currentminute=\count171
+\currentsecond=\count172
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 292.
+\@dtctr=\count173
+\dayofyear=\count174
+\dayofweek=\count175
+LaTeX Info: Redefining \today on input line 724.
+ (/usr/share/texlive/texmf-dist/tex/latex/datetime/dt-british.def
+File: dt-british.def 2007/06/15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/dt-spanish.def
+File: dt-spanish.def 2004/10/31
+LaTeX Info: Redefining \datespanish on input line 82.
+)
+\dt@a=\toks38
+\dt@b=\toks39
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language6
+LaTeX Info: Redefining \_ on input line 43.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2012/04/08 v1.5: mdframed
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
+)
+Package: l3names 2012/03/04 v3494 L3 Experimental namespace for primitives
+)
+Package: expl3 2012/04/23 v3570 L3 Experimental code bundle wrapper
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2012/03/04 v3491 L3 Experimental basic definitions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2012/02/26 v3460 L3 Experimental argument expansion
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2012/03/04 v3490 L3 Experimental token lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2012/03/04 v3490 L3 Experimental sequences and stacks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2012/03/04 v3490 L3 Experimental integers
+\c_max_int=\count176
+\l_tmpa_int=\count177
+\l_tmpb_int=\count178
+\l_tmpc_int=\count179
+\g_tmpa_int=\count180
+\g_tmpb_int=\count181
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2012/03/04 v3490 L3 Experimental control structures
+\g_prg_map_int=\count182
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2012/03/04 v3490 L3 Experimental comma separated lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2012/03/04 v3491 L3 Experimental token manipulation
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2012/03/04 v3490 L3 Experimental property lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2012/04/23 v3568 L3 Experimental messages
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2012/03/09 v3520 L3 Experimental file and I/O operations
+\l_iow_stream_int=\count183
+\l_iow_line_length_int=\count184
+\l_iow_target_length_int=\count185
+\l_iow_current_line_int=\count186
+\l_iow_current_word_int=\count187
+\l_iow_current_indentation_int=\count188
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2012/03/05 v3499 L3 Experimental dimensions and skips
+\l_tmpa_dim=\dimen171
+\l_tmpb_dim=\dimen172
+\l_tmpc_dim=\dimen173
+\g_tmpa_dim=\dimen174
+\g_tmpb_dim=\dimen175
+\l_tmpa_skip=\skip74
+\l_tmpb_skip=\skip75
+\l_tmpc_skip=\skip76
+\g_tmpa_skip=\skip77
+\g_tmpb_skip=\skip78
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2012/03/03 v3487 L3 Experimental key-value interfaces
+\g_keyval_level_int=\count189
+\l_keys_choice_int=\count190
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2012/03/04 v3490 L3 Experimental floating-point operations
+\c_one_million=\count191
+\c_one_hundred_million=\count192
+\c_five_hundred_million=\count193
+\c_one_thousand_million=\count194
+\c_fp_pi_by_four_decimal_int=\count195
+\c_fp_pi_by_four_extended_int=\count196
+\c_fp_pi_decimal_int=\count197
+\c_fp_pi_extended_int=\count198
+\c_fp_two_pi_decimal_int=\count199
+\c_fp_two_pi_extended_int=\count200
+\l_fp_count_int=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\l_fp_div_offset_int=\count277
+\l_fp_exp_integer_int=\count278
+\l_fp_exp_decimal_int=\count279
+\l_fp_exp_extended_int=\count280
+\l_fp_exp_exponent_int=\count281
+\l_fp_input_a_sign_int=\count282
+\l_fp_input_a_integer_int=\count283
+\l_fp_input_a_decimal_int=\count284
+\l_fp_input_a_exponent_int=\count285
+\l_fp_input_b_sign_int=\count286
+\l_fp_input_b_integer_int=\count287
+\l_fp_input_b_decimal_int=\count288
+\l_fp_input_b_exponent_int=\count289
+\l_fp_input_a_extended_int=\count290
+\l_fp_input_b_extended_int=\count291
+\l_fp_mul_a_i_int=\count292
+\l_fp_mul_a_ii_int=\count293
+\l_fp_mul_a_iii_int=\count294
+\l_fp_mul_a_iv_int=\count295
+\l_fp_mul_a_v_int=\count296
+\l_fp_mul_a_vi_int=\count297
+\l_fp_mul_b_i_int=\count298
+\l_fp_mul_b_ii_int=\count299
+\l_fp_mul_b_iii_int=\count300
+\l_fp_mul_b_iv_int=\count301
+\l_fp_mul_b_v_int=\count302
+\l_fp_mul_b_vi_int=\count303
+\l_fp_mul_output_int=\count304
+\l_fp_output_sign_int=\count305
+\l_fp_output_integer_int=\count306
+\l_fp_output_decimal_int=\count307
+\l_fp_output_exponent_int=\count308
+\l_fp_output_extended_int=\count309
+\l_fp_round_position_int=\count310
+\l_fp_round_target_int=\count311
+\l_fp_split_sign_int=\count312
+\l_fp_internal_int=\count313
+\l_fp_trig_octant_int=\count314
+\l_fp_trig_sign_int=\count315
+\l_fp_trig_decimal_int=\count316
+\l_fp_trig_extended_int=\count317
+\l_fp_internal_dim=\dimen176
+\l_fp_internal_skip=\skip79
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2012/03/04 v3490 L3 Experimental boxes
+\l_tmpb_box=\box68
+\l_box_top_dim=\dimen177
+\l_box_bottom_dim=\dimen178
+\l_box_left_dim=\dimen179
+\l_box_right_dim=\dimen180
+\l_box_top_new_dim=\dimen181
+\l_box_bottom_new_dim=\dimen182
+\l_box_left_new_dim=\dimen183
+\l_box_right_new_dim=\dimen184
+\l_box_internal_box=\box69
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2012/03/03 v3482 L3 Experimental coffin code layer
+\l_coffin_internal_box=\box70
+\l_coffin_internal_dim=\dimen185
+\l_coffin_offset_x_dim=\dimen186
+\l_coffin_offset_y_dim=\dimen187
+\l_coffin_x_dim=\dimen188
+\l_coffin_y_dim=\dimen189
+\l_coffin_x_prime_dim=\dimen190
+\l_coffin_y_prime_dim=\dimen191
+\l_coffin_Depth_dim=\dimen192
+\l_coffin_Height_dim=\dimen193
+\l_coffin_TotalHeight_dim=\dimen194
+\l_coffin_Width_dim=\dimen195
+\c_empty_coffin=\box71
+\l_coffin_aligned_coffin=\box72
+\l_coffin_aligned_internal_coffin=\box73
+\l_coffin_bounding_shift_dim=\dimen196
+\l_coffin_left_corner_dim=\dimen197
+\l_coffin_right_corner_dim=\dimen198
+\l_coffin_bottom_corner_dim=\dimen199
+\l_coffin_top_corner_dim=\dimen200
+\l_coffin_scaled_total_height_dim=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\l_coffin_scaled_width_dim=\dimen256
+\l_coffin_display_coffin=\box74
+\l_coffin_display_coord_coffin=\box75
+\l_coffin_display_pole_coffin=\box76
+\l_coffin_display_offset_dim=\dimen257
+\l_coffin_display_x_dim=\dimen258
+\l_coffin_display_y_dim=\dimen259
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2011/09/07 v2776 L3 Experimental colour support
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
+\g_cctab_allocate_int=\count318
+\g_cctab_stack_int=\count319
+))
+Package: xparse 2012/04/23 v3570 L3 Experimental document command parser
+\l_xparse_current_arg_int=\count320
+\l_xparse_m_args_int=\count321
+\l_xparse_mandatory_args_int=\count322
+\l_xparse_processor_int=\count323
+\l_xparse_v_nesting_int=\count324
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+\etb@tempcnta=\count325
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+\c@abspage=\count326
+Package zref Info: New property: abspage on input line 62.
+)
+\mdf@templength=\skip80
+\c@mdf@globalstyle@cnt=\count327
+\mdf@skipabove@length=\skip81
+\mdf@skipbelow@length=\skip82
+\mdf@leftmargin@length=\skip83
+\mdf@rightmargin@length=\skip84
+\mdf@innerleftmargin@length=\skip85
+\mdf@innerrightmargin@length=\skip86
+\mdf@innertopmargin@length=\skip87
+\mdf@innerbottommargin@length=\skip88
+\mdf@splittopskip@length=\skip89
+\mdf@splitbottomskip@length=\skip90
+\mdf@outermargin@length=\skip91
+\mdf@innermargin@length=\skip92
+\mdf@linewidth@length=\skip93
+\mdf@innerlinewidth@length=\skip94
+\mdf@middlelinewidth@length=\skip95
+\mdf@outerlinewidth@length=\skip96
+\mdf@roundcorner@length=\skip97
+\mdf@footenotedistance@length=\skip98
+\mdf@userdefinedwidth@length=\skip99
+\mdf@frametitleaboveskip@length=\skip100
+\mdf@frametitlebelowskip@length=\skip101
+\mdf@frametitlerulewidth@length=\skip102
+\mdf@frametitleleftmargin@length=\skip103
+\mdf@frametitlerightmargin@length=\skip104
+\mdf@shadowsize@length=\skip105
+\mdf@frametitlebox=\box77
+\mdf@footnotebox=\box78
+\mdf@splitbox@one=\box79
+\mdf@splitbox@two=\box80
+\mdfsplitboxwidth=\skip106
+\mdfsplitboxtotalwidth=\skip107
+\mdfsplitboxheight=\skip108
+\mdfsplitboxdepth=\skip109
+\mdfsplitboxtotalheight=\skip110
+\mdfframetitleboxwidth=\skip111
+\mdfframetitleboxtotalwidth=\skip112
+\mdfframetitleboxheight=\skip113
+\mdfframetitleboxdepth=\skip114
+\mdfframetitleboxtotalheight=\skip115
+\mdffootnoteboxwidth=\skip116
+\mdffootnoteboxtotalwidth=\skip117
+\mdffootnoteboxheight=\skip118
+\mdffootnoteboxdepth=\skip119
+\mdffootnoteboxtotalheight=\skip120
+\mdftotallinewidth=\skip121
+\mdfboundingboxwidth=\skip122
+\mdfboundingboxtotalwidth=\skip123
+\mdfboundingboxheight=\skip124
+\mdfboundingboxdepth=\skip125
+\mdfboundingboxtotalheight=\skip126
+\mdf@freevspace@length=\skip127
+\mdf@horizontalwidthofbox@length=\skip128
+\mdf@verticalmarginwhole@length=\skip129
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newmdtheoremenv with arg. spec. 'O{} m o m o ' on
+. line 501.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \mdtheorem with arg. spec. ' O{} m o m o ' on line
+. 581.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2012/04/08 v1.5: md-frame-0
+)
+\c@mdf@zref@counter=\count328
+Package zref Info: New property: mdf@pagevalue on input line 782.
+\mdf@horizontalspaceofbox=\skip130
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count329
+)
+(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2011/09/17 v1.7 Yet another Pygments shim for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count330
+\FV@InFile=\read2
+\FV@TabBox=\box81
+\c@FancyVerbLine=\count331
+\FV@StepNumber=\count332
+\FV@OutFile=\write5
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count333
+\float@exts=\toks40
+\float@box=\box82
+\@float@everytoks=\toks41
+\@floatcapt=\box83
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2011/03/01 v1.6 Catch the contents of a file (HO)
+)
+runsystem(uname -s > "dissertation.w18")...executed.
+
+
+(./dissertation.w18)
+runsystem(rm -- "dissertation.w18")...executed.
+
+)
+\minted@bgbox=\box84
+\minted@code=\write6
+\@float@every@listing=\toks42
+\c@listing=\count334
+)
+runsystem(which pygmentize && touch dissertation.aex)...executed.
+
+runsystem(rm dissertation.aex)...executed.
+
+)
+\@input{Latex/Macros/Macros.aux}
+\openout2 = `Latex/Macros/Macros.aux'.
+
+(./Latex/Macros/Macros.tex
+\figwidth=\skip131
+\anchoFigura=\skip132
+\anchoFloat=\skip133
+) (./dissertation.aux
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+ (./0_frontmatter/title_back.aux) (./0_frontmatter/dedication.aux) (./0_frontma
+tter/abstract.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+)
+(./0_frontmatter/acknowledgement.aux)
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+ (./0_frontmatter/glossary.aux)
+(./1_introduction/0_index.aux) (./1_introduction/1_motivation.aux)
+(./1_introduction/2_contexto.aux) (./1_introduction/3_objetivos.aux)
+(./1_introduction/5_metodologia.aux) (./2_state_of_the_art/0_index.aux)
+(./3_problemas/0_index.aux) (./4_overall_methodology/0_index.aux)
+(./5_experiments_and_results/0_index.aux
+
+LaTeX Warning: Label `tab:EvalCourseEj1' multiply defined.
+
+
+LaTeX Warning: Label `fig:EvalCourseInteraccionForo' multiply defined.
+
+) (./6_conclusion/0_index.aux) (./Apendice/Cuestionario.aux)
+(./Apendice/Entrevistas.aux) (./Apendice/EvalMetodo.aux
+
+LaTeX Warning: Label `tab:ap:poblaciones:barras' multiply defined.
+
+
+LaTeX Warning: Label `tab:ap:perfil:barras' multiply defined.
+
+
+LaTeX Warning: Label `tab:ap:sino:participacion:contribucion' multiply defined.
+
+
+
+LaTeX Warning: Label `tab:ap:resumen:competencias' multiply defined.
+
+
+LaTeX Warning: Label `fig:app:barras:programacion:equipo' multiply defined.
+
+
+LaTeX Warning: Label `fig:app:barras:programacion:planificacion' multiply defin
+ed.
+
+
+LaTeX Warning: Label `fig:app:barras:programacion:liderazgo' multiply defined.
+
+
+LaTeX Warning: Label `fig:app:barras:perfil:equipo' multiply defined.
+
+
+LaTeX Warning: Label `fig:app:barras:perfil:planificacion' multiply defined.
+
+
+LaTeX Warning: Label `fig:app:barras:perfil:liderazgo' multiply defined.
+
+
+LaTeX Warning: Label `ape:cuestionario:comentarios' multiply defined.
+
+) (./9_backmatter/declaration.aux))
+\openout1 = `dissertation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 75.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count335
+\scratchdimen=\dimen260
+\scratchbox=\box85
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen261
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks44
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.jpg,.jpeg,.pdf,.gif,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+\AtBeginShipoutBox=\box86
+Package backref Info: ** backref set up for natbib ** on input line 75.
+Package hyperref Info: Link coloring OFF on input line 75.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count341
+)
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
+
+(./dissertation.out) (./dissertation.out)
+\@outlinefile=\write7
+\openout7 = `dissertation.out'.
+
+\c@lstlisting=\count342
+runsystem(pygmentize -S default -f latex > dissertation.pyg)...executed.
+
+ (./dissertation.pyg)
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+
+<0_frontmatter/figures/PNG/UCA_Shield.png, id=486, 468.75125pt x 602.25pt>
+File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
+
+<use 0_frontmatter/figures/PNG/UCA_Shield.png>
+Package pdftex.def Info: 0_frontmatter/figures/PNG/UCA_Shield.png used on input
+ line 90.
+(pdftex.def)             Requested size: 56.9055pt x 73.10312pt.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2012/04/20 UCS: Unicode data U+0000..U+00FF
+) [1
+
+
+
+\FN@pp@footnotehinttrue 
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./0_frontmatter/figures/PN
+G/UCA_Shield.png>] [2
+
+]
+File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
+ <use 0_frontmatter/figures/PNG/UCA_Shield.png>
+Package pdftex.def Info: 0_frontmatter/figures/PNG/UCA_Shield.png used on input
+ line 90.
+(pdftex.def)             Requested size: 56.9055pt x 73.10312pt.
+ [3]
+[4]
+\openout2 = `0_frontmatter/title_back.aux'.
+
+ (./0_frontmatter/title_back.tex
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 34.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [5
+
+] [6
+
+])
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/block.tss
+File: block.tss 2011/12/15
+)
+\openout2 = `0_frontmatter/dedication.aux'.
+
+
+(./0_frontmatter/dedication.texpdfTeX warning (ext4): destination with the same
+ identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 \end{dedication}
+                     [1
+
+
+
+])
+\openout2 = `0_frontmatter/abstract.aux'.
+
+ (./0_frontmatter/abstract.texpdfTeX warning (ext4): destination with the same 
+identifier (name{page.ii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8 \begin{abstracts}
+                             %this creates the heading for the abstract page
+[2
+
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 
+      [3]
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 \end{abstracts}
+                     [4]
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+pdfTeX warning (ext4): destination with the same identifier (name{page.v}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 \end{resumen}
+                   [5
+
+])
+\openout2 = `0_frontmatter/acknowledgement.aux'.
+
+ (./0_frontmatter/acknowledgement.texpdfTeX warning (ext4): destination with th
+e same identifier (name{page.vi}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8 \begin{acknowledgements}
+                             [6
+
+
+
+] [7])
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+ [8
+\FN@pp@footnotehinttrue 
+
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <30> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
+ (./dissertation.toc
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [9]
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [10]
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
+ [11]
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+ [12])
+\tf@toc=\write8
+\openout8 = `dissertation.toc'.
+
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
+ [13] [14
+
+] (./dissertation.lof
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+
+[15])
+\tf@lof=\write9
+\openout9 = `dissertation.lof'.
+
+LaTeX Info: Redefining \. on input line 141.
+LaTeX Info: Redefining \% on input line 141.
+ [16] (./dissertation.lot
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [17
+
+])
+\tf@lot=\write10
+\openout10 = `dissertation.lot'.
+
+LaTeX Info: Redefining \. on input line 148.
+LaTeX Info: Redefining \% on input line 148.
+ [18]
+\openout2 = `0_frontmatter/glossary.aux'.
+
+ (./0_frontmatter/glossary.tex)
+No file dissertation.nls.
+\openout2 = `1_introduction/0_index.aux'.
+
+(./1_introduction/0_index.tex
+Cap\'{\i }tulo 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <90> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
+[1
+
+
+
+
+
+])
+LaTeX Info: Redefining \. on input line 182.
+LaTeX Info: Redefining \% on input line 182.
+ [2]
+\openout2 = `1_introduction/1_motivation.aux'.
+
+ (./1_introduction/1_motivation.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+ [3
+
+
+]
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+ [4]
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+ [5])
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+ [6]
+\openout2 = `1_introduction/2_contexto.aux'.
+
+
+(./1_introduction/2_contexto.tex
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
+ [7
+
+
+]
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+ [8])
+LaTeX Info: Redefining \. on input line 184.
+LaTeX Info: Redefining \% on input line 184.
+ [9]
+\openout2 = `1_introduction/3_objetivos.aux'.
+
+
+(./1_introduction/3_objetivos.tex
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+ [10
+
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 55.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+ [11])
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
+ [12]
+\openout2 = `1_introduction/5_metodologia.aux'.
+
+
+(./1_introduction/5_metodologia.tex
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
+ [13
+
+
+])
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
+ [14]
+\openout2 = `2_state_of_the_art/0_index.aux'.
+
+
+(./2_state_of_the_art/0_index.tex
+Cap\'{\i }tulo 2.
+[15
+
+
+
+]
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+ [16]
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
+ [17]
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
+ [18]
+Overfull \hbox (5.4736pt too wide) in paragraph at lines 88--89
+[]|\OT1/ptm/m/n/12 RSLT| 
+ []
+
+LaTeX Info: Redefining \. on input line 120.
+LaTeX Info: Redefining \% on input line 120.
+[19]
+LaTeX Info: Redefining \. on input line 134.
+LaTeX Info: Redefining \% on input line 134.
+ [20]
+LaTeX Info: Redefining \. on input line 144.
+LaTeX Info: Redefining \% on input line 144.
+ [21]
+LaTeX Info: Redefining \. on input line 157.
+LaTeX Info: Redefining \% on input line 157.
+ [22]
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
+ [23]
+Overfull \hbox (34.44368pt too wide) in paragraph at lines 176--193
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+[24]
+<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=1048, 687.56876pt 
+x 441.65pt>
+File: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png Graphic file (typ
+e png)
+ <use 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png>
+Package pdftex.def Info: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.pn
+g used on input line 264.
+(pdftex.def)             Requested size: 275.02263pt x 176.65686pt.
+LaTeX Info: Redefining \. on input line 275.
+LaTeX Info: Redefining \% on input line 275.
+
+[25]
+LaTeX Info: Redefining \. on input line 275.
+LaTeX Info: Redefining \% on input line 275.
+ [26 <./2_state_of_the_art/figures/PNG/PublicacionesAnuales.png>] [27]
+Overfull \hbox (58.20526pt too wide) in alignment at lines 282--324
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 324
+ []
+
+
+Overfull \hbox (58.20526pt too wide) in alignment at lines 324--327
+ [] [] 
+ []
+
+[28
+
+]
+LaTeX Info: Redefining \. on input line 342.
+LaTeX Info: Redefining \% on input line 342.
+ [29
+
+]
+LaTeX Info: Redefining \. on input line 354.
+LaTeX Info: Redefining \% on input line 354.
+ [30]
+LaTeX Info: Redefining \. on input line 359.
+LaTeX Info: Redefining \% on input line 359.
+ [31]
+LaTeX Info: Redefining \. on input line 371.
+LaTeX Info: Redefining \% on input line 371.
+ [32]
+LaTeX Info: Redefining \. on input line 383.
+LaTeX Info: Redefining \% on input line 383.
+ [33]
+LaTeX Info: Redefining \. on input line 416.
+LaTeX Info: Redefining \% on input line 416.
+ [34] [35]
+<2_state_of_the_art/figures/PNG/Burbujas.png, id=1156, 1678.27pt x 650.43pt>
+File: 2_state_of_the_art/figures/PNG/Burbujas.png Graphic file (type png)
+
+<use 2_state_of_the_art/figures/PNG/Burbujas.png>
+Package pdftex.def Info: 2_state_of_the_art/figures/PNG/Burbujas.png used on in
+put line 421.
+(pdftex.def)             Requested size: 671.29611pt x 260.16739pt.
+
+Overfull \hbox (78.34079pt too wide) in paragraph at lines 421--422
+ [] 
+ []
+
+[36
+
+ <./2_state_of_the_art/figures/PNG/Burbujas.png>]
+LaTeX Info: Redefining \. on input line 450.
+LaTeX Info: Redefining \% on input line 450.
+ [37
+
+]
+LaTeX Info: Redefining \. on input line 459.
+LaTeX Info: Redefining \% on input line 459.
+ [38]
+Overfull \hbox (3.34598pt too wide) in paragraph at lines 523--524
+[]|[]| 
+ []
+
+LaTeX Info: Redefining \. on input line 551.
+LaTeX Info: Redefining \% on input line 551.
+[39]
+LaTeX Info: Redefining \. on input line 551.
+LaTeX Info: Redefining \% on input line 551.
+ [40]
+LaTeX Info: Redefining \. on input line 556.
+LaTeX Info: Redefining \% on input line 556.
+ [41]
+Overfull \hbox (3.34598pt too wide) in paragraph at lines 626--627
+[]|[]| 
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 630--630
+[]|[]| 
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 637--637
+[]|[]| 
+ []
+
+LaTeX Info: Redefining \. on input line 657.
+LaTeX Info: Redefining \% on input line 657.
+[42]
+LaTeX Info: Redefining \. on input line 657.
+LaTeX Info: Redefining \% on input line 657.
+ [43]
+LaTeX Info: Redefining \. on input line 665.
+LaTeX Info: Redefining \% on input line 665.
+ [44]
+Overfull \hbox (3.34598pt too wide) in paragraph at lines 729--730
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 733--733
+[]|[]| 
+ []
+
+LaTeX Info: Redefining \. on input line 754.
+LaTeX Info: Redefining \% on input line 754.
+[45]
+LaTeX Info: Redefining \. on input line 754.
+LaTeX Info: Redefining \% on input line 754.
+ [46]
+LaTeX Info: Redefining \. on input line 779.
+LaTeX Info: Redefining \% on input line 779.
+ [47] [48]
+Overfull \hbox (2.33562pt too wide) in paragraph at lines 796--796
+[]|\OT1/ptm/m/n/12 CONTRIBUCI[]ON| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 801--802
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 811--812
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 815--816
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 821--822
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 827--828
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 829--830
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 831--832
+[]|$[]$| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 834
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 835--836
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 837--838
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 839--840
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 841--842
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 843--844
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 845--846
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 847--848
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 851--852
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 853--854
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 855--856
+[]|$[]$| 
+ []
+
+
+Overfull \hbox (8.5359pt too wide) in paragraph at lines 857--858
+[]|$[]$| 
+ []
+
+[49
+
+] [50] [51]
+LaTeX Info: Redefining \. on input line 936.
+LaTeX Info: Redefining \% on input line 936.
+ [52
+
+]
+LaTeX Info: Redefining \. on input line 936.
+LaTeX Info: Redefining \% on input line 936.
+ [53] [54]
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=1472, 1045.9075pt 
+x 731.73375pt>
+File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png Graphic file (typ
+e png)
+ <use 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png>
+Package pdftex.def Info: 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.pn
+g used on input line 947.
+(pdftex.def)             Requested size: 627.54935pt x 439.04364pt.
+
+Overfull \hbox (34.59402pt too wide) in paragraph at lines 947--948
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 83.87047pt on input line 951.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=1473, 1048.91875pt
+ x 730.73pt>
+File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png Graphic file (typ
+e png)
+ <use 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png>
+Package pdftex.def Info: 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.pn
+g used on input line 955.
+(pdftex.def)             Requested size: 629.35611pt x 438.44138pt.
+
+Overfull \hbox (36.40079pt too wide) in paragraph at lines 955--956
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 83.2682pt on input line 959.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55 <./2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png>] [56 <./2_state
+_of_the_art/figures/PNG/BurbujaCompetencias2.png>]
+LaTeX Info: Redefining \. on input line 1009.
+LaTeX Info: Redefining \% on input line 1009.
+ [57
+
+
+]
+LaTeX Info: Redefining \. on input line 1017.
+LaTeX Info: Redefining \% on input line 1017.
+ [58])
+LaTeX Info: Redefining \. on input line 191.
+LaTeX Info: Redefining \% on input line 191.
+ [59]
+\openout2 = `3_problemas/0_index.aux'.
+
+
+(./3_problemas/0_index.tex [60
+
+
+
+]
+Cap\'{\i }tulo 3.
+[61]
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
+ [62]
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+ [63]
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+ [64])
+LaTeX Info: Redefining \. on input line 195.
+LaTeX Info: Redefining \% on input line 195.
+ [65]
+\openout2 = `4_overall_methodology/0_index.aux'.
+
+ (./4_overall_methodology/0_index.tex [66
+
+
+
+]
+Cap\'{\i }tulo 4.
+[67]
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+ [68]
+<4_overall_methodology/figures/PNG/CCHDiagram.png, id=1560, 833.1125pt x 484.81
+125pt>
+File: 4_overall_methodology/figures/PNG/CCHDiagram.png Graphic file (type png)
+ <use 4_overall_methodology/figures/PNG/CCHDiagram.png>
+Package pdftex.def Info: 4_overall_methodology/figures/PNG/CCHDiagram.png used 
+on input line 58.
+(pdftex.def)             Requested size: 374.89716pt x 218.16304pt.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
+ [69 <./4_overall_methodology/figures/PNG/CCHDiagram.png>]
+
+LaTeX Warning: Reference `sec:tools' on page 70 undefined on input line 67.
+
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
+[70]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 87.
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
+ [71]
+<4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png, id=1591, 431.
+6125pt x 295.1025pt>
+File: 4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png Graphic f
+ile (type png)
+
+<use 4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png>
+Package pdftex.def Info: 4_overall_methodology/figures/PNG/EvalCourseInteraccio
+nForo.png used on input line 152.
+(pdftex.def)             Requested size: 170.71652pt x 116.71954pt.
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
+ [72]
+LaTeX Info: Redefining \. on input line 170.
+LaTeX Info: Redefining \% on input line 170.
+
+[73 <./4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png>]
+LaTeX Info: Redefining \. on input line 174.
+LaTeX Info: Redefining \% on input line 174.
+
+[74]
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
+ [75]
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
+ [76]
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
+ [77]
+LaTeX Info: Redefining \. on input line 215.
+LaTeX Info: Redefining \% on input line 215.
+ [78])
+LaTeX Info: Redefining \. on input line 200.
+LaTeX Info: Redefining \% on input line 200.
+ [79]
+\openout2 = `5_experiments_and_results/0_index.aux'.
+
+ (./5_experiments_and_results/0_index.tex
+[80
+
+
+
+]
+Cap\'{\i }tulo 5.
+[81]
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
+ [82]
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+ [83]
+<5_experiments_and_results/figures/PNG/AmwRubrica.png, id=1682, 1000.73875pt x 
+689.57625pt>
+File: 5_experiments_and_results/figures/PNG/AmwRubrica.png Graphic file (type p
+ng)
+ <use 5_experiments_and_results/figures/PNG/AmwRubrica.png>
+Package pdftex.def Info: 5_experiments_and_results/figures/PNG/AmwRubrica.png u
+sed on input line 62.
+(pdftex.def)             Requested size: 300.22394pt x 206.87447pt.
+
+<5_experiments_and_results/figures/PNG/AmwFormative.png, id=1684, 2007.5pt x 69
+2.5875pt>
+File: 5_experiments_and_results/figures/PNG/AmwFormative.png Graphic file (type
+ png)
+ <use 5_experiments_and_results/figures/PNG/AmwFormative.png>
+Package pdftex.def Info: 5_experiments_and_results/figures/PNG/AmwFormative.png
+ used on input line 74.
+(pdftex.def)             Requested size: 381.42897pt x 131.59299pt.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
+ [84 <./5_experiments_and_results/figures/PNG/AmwRubrica.png>]
+<5_experiments_and_results/figures/PNG/AmwDiagram.png, id=1691, 1298.8525pt x 2
+056.68375pt>
+File: 5_experiments_and_results/figures/PNG/AmwDiagram.png Graphic file (type p
+ng)
+ <use 5_experiments_and_results/figures/PNG/AmwDiagram.png>
+Package pdftex.def Info: 5_experiments_and_results/figures/PNG/AmwDiagram.png u
+sed on input line 90.
+(pdftex.def)             Requested size: 363.67622pt x 575.86754pt.
+
+
+LaTeX Warning: Float too large for page by 38.55212pt on input line 94.
+
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+[85 <./5_experiments_and_results/figures/PNG/AmwFormative.png>]
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+ [86 <./5_experiments_and_results/figures/PNG/AmwDiagram.png>]
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+ [87]
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
+ [88]
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
+ [89]
+LaTeX Info: Redefining \. on input line 141.
+LaTeX Info: Redefining \% on input line 141.
+ [90]
+<5_experiments_and_results/figures/PNG/AmwDiagram2.png, id=1723, 849.1725pt x 5
+30.98375pt>
+File: 5_experiments_and_results/figures/PNG/AmwDiagram2.png Graphic file (type 
+png)
+ <use 5_experiments_and_results/figures/PNG/AmwDiagram2.png>
+Package pdftex.def Info: 5_experiments_and_results/figures/PNG/AmwDiagram2.png 
+used on input line 144.
+(pdftex.def)             Requested size: 382.1241pt x 238.94048pt.
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
+
+[91 <./5_experiments_and_results/figures/PNG/AmwDiagram2.png>]
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
+ [92]
+Overfull \hbox (0.95459pt too wide) in paragraph at lines 172--172
+[]|[]| 
+ []
+
+
+Overfull \hbox (17.68312pt too wide) in paragraph at lines 170--185
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 194.
+LaTeX Info: Redefining \% on input line 194.
+[93]
+LaTeX Info: Redefining \. on input line 224.
+LaTeX Info: Redefining \% on input line 224.
+ [94]
+<5_experiments_and_results/figures/PNG/EvcMetamodel.png, id=1752, 982.67125pt x
+ 742.775pt>
+File: 5_experiments_and_results/figures/PNG/EvcMetamodel.png Graphic file (type
+ png)
+ <use 5_experiments_and_results/figures/PNG/EvcMetamodel.png>
+Package pdftex.def Info: 5_experiments_and_results/figures/PNG/EvcMetamodel.png
+ used on input line 235.
+(pdftex.def)             Requested size: 393.06154pt x 297.10474pt.
+LaTeX Info: Redefining \. on input line 242.
+LaTeX Info: Redefining \% on input line 242.
+
+[95]
+LaTeX Info: Redefining \. on input line 242.
+LaTeX Info: Redefining \% on input line 242.
+ [96 <./5_experiments_and_results/figures/PNG/EvcMetamodel.png>]
+\openout5 = `dissertation.pyg'.
+
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,label=Sintaxis de SASQL,frame=lines,framesep=2mm" -o dissertatio
+n.out.pyg dissertation.pyg)...executed.
+
+
+(./dissertation.out.pyg
+LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <12> not available
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 2.
+)
+runsystem(rm dissertation.out.pyg)...executed.
+
+runsystem(rm dissertation.pyg)...executed.
+
+LaTeX Info: Redefining \. on input line 263.
+LaTeX Info: Redefining \% on input line 263.
+ [97]
+<5_experiments_and_results/figures/PNG/EvcDiagram.png, id=1776, 839.135pt x 509
+.905pt>
+File: 5_experiments_and_results/figures/PNG/EvcDiagram.png Graphic file (type p
+ng)
+ <use 5_experiments_and_results/figures/PNG/EvcDiagram.png>
+Package pdftex.def Info: 5_experiments_and_results/figures/PNG/EvcDiagram.png u
+sed on input line 273.
+(pdftex.def)             Requested size: 377.60725pt x 229.45512pt.
+LaTeX Info: Redefining \. on input line 283.
+LaTeX Info: Redefining \% on input line 283.
+ [98]
+\openout5 = `dissertation.pyg'.
+
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,label=Consulta SASQL participaciones foro,frame=lines,framesep=2
+mm" -o dissertation.out.pyg dissertation.pyg)...executed.
+
+
+(./dissertation.out.pyg)
+runsystem(rm dissertation.out.pyg)...executed.
+
+runsystem(rm dissertation.pyg)...executed.
+
+LaTeX Info: Redefining \. on input line 325.
+LaTeX Info: Redefining \% on input line 325.
+ [99 <./5_experiments_and_results/figures/PNG/EvcDiagram.png>]
+\openout5 = `dissertation.pyg'.
+
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,label=Consulta SASQL interacciones foro,frame=lines,framesep=2mm
+" -o dissertation.out.pyg dissertation.pyg)...executed.
+
+ (./dissertation.out.pyg)
+runsystem(rm dissertation.out.pyg)...executed.
+
+runsystem(rm dissertation.pyg)...executed.
+
+
+<5_experiments_and_results/figures/PNG/EvalCourseInteraccionForo.png, id=1790, 
+431.6125pt x 295.1025pt>
+File: 5_experiments_and_results/figures/PNG/EvalCourseInteraccionForo.png Graph
+ic file (type png)
+
+<use 5_experiments_and_results/figures/PNG/EvalCourseInteraccionForo.png>
+Package pdftex.def Info: 5_experiments_and_results/figures/PNG/EvalCourseIntera
+ccionForo.png used on input line 343.
+(pdftex.def)             Requested size: 170.71652pt x 116.71954pt.
+LaTeX Info: Redefining \. on input line 353.
+LaTeX Info: Redefining \% on input line 353.
+
+[100]
+\openout5 = `dissertation.pyg'.
+
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,frame=lines,framesep=2mm" -o dissertation.out.pyg dissertation.p
+yg)...executed.
+
+ (./dissertation.out.pyg)
+runsystem(rm dissertation.out.pyg)...executed.
+
+runsystem(rm dissertation.pyg)...executed.
+
+LaTeX Info: Redefining \. on input line 368.
+LaTeX Info: Redefining \% on input line 368.
+ [101 <./5_experiments_and_results/figures/PNG/EvalCourseInteraccionForo.png>]
+\openout5 = `dissertation.pyg'.
+
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,frame=lines,framesep=2mm" -o dissertation.out.pyg dissertation.p
+yg)...executed.
+
+ (./dissertation.out.pyg)
+runsystem(rm dissertation.out.pyg)...executed.
+
+runsystem(rm dissertation.pyg)...executed.
+
+\openout5 = `dissertation.pyg'.
+
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,frame=lines,framesep=2mm" -o dissertation.out.pyg dissertation.p
+yg)...executed.
+
+ (./dissertation.out.pyg)
+runsystem(rm dissertation.out.pyg)...executed.
+
+runsystem(rm dissertation.pyg)...executed.
+
+LaTeX Info: Redefining \. on input line 391.
+LaTeX Info: Redefining \% on input line 391.
+[102]
+\openout5 = `dissertation.pyg'.
+
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,frame=lines,framesep=2mm" -o dissertation.out.pyg dissertation.p
+yg)...executed.
+
+ (./dissertation.out.pyg)
+runsystem(rm dissertation.out.pyg)...executed.
+
+runsystem(rm dissertation.pyg)...executed.
+
+LaTeX Info: Redefining \. on input line 403.
+LaTeX Info: Redefining \% on input line 403.
+ [103]
+\openout5 = `dissertation.pyg'.
+
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,frame=lines,framesep=2mm" -o dissertation.out.pyg dissertation.p
+yg)...executed.
+
+ (./dissertation.out.pyg)
+runsystem(rm dissertation.out.pyg)...executed.
+
+runsystem(rm dissertation.pyg)...executed.
+
+LaTeX Info: Redefining \. on input line 424.
+LaTeX Info: Redefining \% on input line 424.
+ [104]
+\openout5 = `dissertation.pyg'.
+
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,label=Sintaxis VWQL,frame=lines,framesep=2mm" -o dissertation.ou
+t.pyg dissertation.pyg)...executed.
+
+
+(./dissertation.out.pyg)
+runsystem(rm dissertation.out.pyg)...executed.
+
+runsystem(rm dissertation.pyg)...executed.
+
+LaTeX Info: Redefining \. on input line 450.
+LaTeX Info: Redefining \% on input line 450.
+ [105]
+<5_experiments_and_results/figures/PNG/EvsDiagram.png, id=1836, 843.15pt x 514.
+92375pt>
+File: 5_experiments_and_results/figures/PNG/EvsDiagram.png Graphic file (type p
+ng)
+ <use 5_experiments_and_results/figures/PNG/EvsDiagram.png>
+Package pdftex.def Info: 5_experiments_and_results/figures/PNG/EvsDiagram.png u
+sed on input line 453.
+(pdftex.def)             Requested size: 337.25401pt x 205.96585pt.
+LaTeX Info: Redefining \. on input line 467.
+LaTeX Info: Redefining \% on input line 467.
+ [106 <./5_experiments_and_results/figures/PNG/EvsDiagram.png>]
+\openout5 = `dissertation.pyg'.
+
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,label=Consulta VWQL 1,frame=lines,framesep=2mm" -o dissertation.
+out.pyg dissertation.pyg)...executed.
+
+ (./dissertation.out.pyg)
+runsystem(rm dissertation.out.pyg)...executed.
+
+runsystem(rm dissertation.pyg)...executed.
+
+LaTeX Info: Redefining \. on input line 509.
+LaTeX Info: Redefining \% on input line 509.
+
+[107]
+\openout5 = `dissertation.pyg'.
+
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,label=Consulta VWQL 2,frame=lines,framesep=2mm" -o dissertation.
+out.pyg dissertation.pyg)...executed.
+
+ (./dissertation.out.pyg)
+runsystem(rm dissertation.out.pyg)...executed.
+
+runsystem(rm dissertation.pyg)...executed.
+
+LaTeX Info: Redefining \. on input line 555.
+LaTeX Info: Redefining \% on input line 555.
+ [108]
+LaTeX Info: Redefining \. on input line 571.
+LaTeX Info: Redefining \% on input line 571.
+ [109]
+LaTeX Info: Redefining \. on input line 604.
+LaTeX Info: Redefining \% on input line 604.
+ [110]
+LaTeX Info: Redefining \. on input line 613.
+LaTeX Info: Redefining \% on input line 613.
+ [111]
+LaTeX Info: Redefining \. on input line 628.
+LaTeX Info: Redefining \% on input line 628.
+ [112]
+LaTeX Info: Redefining \. on input line 641.
+LaTeX Info: Redefining \% on input line 641.
+ [113]
+LaTeX Info: Redefining \. on input line 663.
+LaTeX Info: Redefining \% on input line 663.
+ [114]
+<5_experiments_and_results/figures/PNG/ResultadosParticipantes.png, id=1905, 11
+18.1775pt x 592.2125pt>
+File: 5_experiments_and_results/figures/PNG/ResultadosParticipantes.png Graphic
+ file (type png)
+
+<use 5_experiments_and_results/figures/PNG/ResultadosParticipantes.png>
+Package pdftex.def Info: 5_experiments_and_results/figures/PNG/ResultadosPartic
+ipantes.png used on input line 675.
+(pdftex.def)             Requested size: 335.45584pt x 177.66512pt.
+
+Overfull \hbox (11.2781pt too wide) in paragraph at lines 689--689
+ []|\OT1/ptm/m/n/12 POBLACI[]ON| 
+ []
+
+
+Overfull \hbox (4.82996pt too wide) in paragraph at lines 689--689
+ \OT1/ptm/m/n/12 Aulablog| 
+ []
+
+
+Overfull \hbox (5.21764pt too wide) in paragraph at lines 689--689
+ []|\OT1/ptm/m/n/12 Actuaci[]on 
+ []
+
+
+Overfull \hbox (3.62958pt too wide) in paragraph at lines 689--689
+ []|\OT1/ptm/m/n/12 Media 
+ []
+
+
+Overfull \hbox (4.4549pt too wide) in paragraph at lines 689--689
+ []|\OT1/ptm/m/n/12 Total| 
+ []
+
+
+Overfull \hbox (1.53926pt too wide) in paragraph at lines 694--694
+[]|\OT1/ptm/m/n/12 Conocimientos 
+ []
+
+
+Overfull \hbox (3.41681pt too wide) in paragraph at lines 696--696
+[]|\OT1/ptm/m/n/12 Medios/avanzados| 
+ []
+
+
+Overfull \hbox (52.51953pt too wide) in paragraph at lines 687--709
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 712.
+LaTeX Info: Redefining \% on input line 712.
+[115]
+Underfull \vbox (badness 1888) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 723.
+LaTeX Info: Redefining \% on input line 723.
+ [116 <./5_experiments_and_results/figures/PNG/ResultadosParticipantes.png>]
+Overfull \hbox (24.94339pt too wide) in paragraph at lines 726--736
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 742.
+LaTeX Info: Redefining \% on input line 742.
+[117]
+LaTeX Info: Redefining \. on input line 757.
+LaTeX Info: Redefining \% on input line 757.
+ [118]
+LaTeX Info: Redefining \. on input line 776.
+LaTeX Info: Redefining \% on input line 776.
+ [119]
+LaTeX Info: Redefining \. on input line 812.
+LaTeX Info: Redefining \% on input line 812.
+ [120]
+LaTeX Info: Redefining \. on input line 817.
+LaTeX Info: Redefining \% on input line 817.
+ [121]
+LaTeX Info: Redefining \. on input line 830.
+LaTeX Info: Redefining \% on input line 830.
+ [122])
+LaTeX Info: Redefining \. on input line 204.
+LaTeX Info: Redefining \% on input line 204.
+ [123]
+\openout2 = `6_conclusion/0_index.aux'.
+
+ (./6_conclusion/0_index.tex [124
+
+
+
+]
+Cap\'{\i }tulo 6.
+[125]
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
+ [126]
+<6_conclusion/figures/PNG/SNA-Grafo-Wiki-SD.png, id=1986, 496.85625pt x 477.785
+pt>
+File: 6_conclusion/figures/PNG/SNA-Grafo-Wiki-SD.png Graphic file (type png)
+ <use 6_conclusion/figures/PNG/SNA-Grafo-Wiki-SD.png>
+Package pdftex.def Info: 6_conclusion/figures/PNG/SNA-Grafo-Wiki-SD.png used on
+ input line 55.
+(pdftex.def)             Requested size: 248.4275pt x 238.8919pt.
+)
+LaTeX Info: Redefining \. on input line 208.
+LaTeX Info: Redefining \% on input line 208.
+ [127]
+LaTeX Info: Redefining \. on input line 208.
+LaTeX Info: Redefining \% on input line 208.
+ [128 <./6_conclusion/figures/PNG/SNA-Grafo-Wiki-SD.png (PNG copy)>]
+\openout2 = `Apendice/Cuestionario.aux'.
+
+
+(./Apendice/Cuestionario.tex
+Ap\'{e}ndice A.
+[129
+
+
+
+
+]
+Package mdframed Info: mdframed works in twoside mode on input line 36.
+Package mdframed Info: mdframed works in twoside mode on input line 49.
+Package mdframed Info: mdframed works in twoside mode on input line 64.
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+ [130]
+Package mdframed Info: mdframed works in twoside mode on input line 72.
+
+<Apendice/figures/PNG/santa_pie.png, id=2008, 404.51125pt x 347.2975pt>
+File: Apendice/figures/PNG/santa_pie.png Graphic file (type png)
+
+<use Apendice/figures/PNG/santa_pie.png>
+Package pdftex.def Info: Apendice/figures/PNG/santa_pie.png used on input line 
+90.
+(pdftex.def)             Requested size: 262.92918pt x 225.74069pt.
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+ [131 <./Apendice/figures/PNG/santa_pie.png (PNG copy)>]
+Package mdframed Info: mdframed works in twoside mode on input line 107.
+
+<Apendice/figures/PNG/santa_contribuciones.png, id=2023, 713.66624pt x 470.7587
+4pt>
+File: Apendice/figures/PNG/santa_contribuciones.png Graphic file (type png)
+ <use Apendice/figures/PNG/santa_contribuciones.png>
+Package pdftex.def Info: Apendice/figures/PNG/santa_contribuciones.png used on 
+input line 127.
+(pdftex.def)             Requested size: 356.83224pt x 235.3788pt.
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
+ [132 <./Apendice/figures/PNG/santa_contribuciones.png>]
+<Apendice/figures/PNG/santa_evolution.png, id=2035, 707.64375pt x 470.75874pt>
+File: Apendice/figures/PNG/santa_evolution.png Graphic file (type png)
+
+<use Apendice/figures/PNG/santa_evolution.png>
+Package pdftex.def Info: Apendice/figures/PNG/santa_evolution.png used on input
+ line 137.
+(pdftex.def)             Requested size: 353.82101pt x 235.3788pt.
+Package mdframed Info: mdframed works in twoside mode on input line 145.
+LaTeX Info: Redefining \. on input line 184.
+LaTeX Info: Redefining \% on input line 184.
+ [133 <./Apendice/figures/PNG/santa_evolution.png>]
+LaTeX Info: Redefining \. on input line 186.
+LaTeX Info: Redefining \% on input line 186.
+ [134]
+LaTeX Info: Redefining \. on input line 215.
+LaTeX Info: Redefining \% on input line 215.
+ [135]
+LaTeX Info: Redefining \. on input line 266.
+LaTeX Info: Redefining \% on input line 266.
+ [136]
+Overfull \hbox (11.2781pt too wide) in paragraph at lines 272--272
+ []|\OT1/ptm/m/n/12 POBLACI[]ON| 
+ []
+
+
+Overfull \hbox (4.82996pt too wide) in paragraph at lines 272--272
+ \OT1/ptm/m/n/12 Aulablog| 
+ []
+
+
+Overfull \hbox (5.21764pt too wide) in paragraph at lines 272--272
+ []|\OT1/ptm/m/n/12 Actuaci[]on 
+ []
+
+
+Overfull \hbox (3.62958pt too wide) in paragraph at lines 272--272
+ []|\OT1/ptm/m/n/12 Media 
+ []
+
+
+Overfull \hbox (4.4549pt too wide) in paragraph at lines 272--272
+ []|\OT1/ptm/m/n/12 Total| 
+ []
+
+
+Overfull \hbox (1.53926pt too wide) in paragraph at lines 277--277
+[]|\OT1/ptm/m/n/12 Conocimientos 
+ []
+
+
+Overfull \hbox (3.41681pt too wide) in paragraph at lines 279--279
+[]|\OT1/ptm/m/n/12 Medios/avanzados| 
+ []
+
+
+Overfull \hbox (52.51953pt too wide) in paragraph at lines 270--292
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 301.
+LaTeX Info: Redefining \% on input line 301.
+[137]
+Overfull \hbox (7.37509pt too wide) in paragraph at lines 338--348
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 358.
+LaTeX Info: Redefining \% on input line 358.
+[138]
+<Apendice/figures/PNG/barras_programacion_equipo.png, id=2067, 806.01125pt x 69
+4.595pt>
+File: Apendice/figures/PNG/barras_programacion_equipo.png Graphic file (type pn
+g)
+ <use Apendice/figures/PNG/barras_programacion_equipo.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_programacion_equipo.png us
+ed on input line 365.
+(pdftex.def)             Requested size: 241.80524pt x 208.38011pt.
+Package mdframed Info: mdframed works in twoside mode on input line 373.
+LaTeX Info: Redefining \. on input line 375.
+LaTeX Info: Redefining \% on input line 375.
+ [139 <./Apendice/figures/PNG/barras_programacion_equipo.png>]
+Package mdframed Info: Not enough space on this page on input line 375.
+
+<Apendice/figures/PNG/barras_programacion_planificacion.png, id=2075, 822.07124
+pt x 695.59875pt>
+File: Apendice/figures/PNG/barras_programacion_planificacion.png Graphic file (
+type png)
+
+<use Apendice/figures/PNG/barras_programacion_planificacion.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_programacion_planificacion
+.png used on input line 401.
+(pdftex.def)             Requested size: 246.62328pt x 208.68123pt.
+Package mdframed Info: mdframed works in twoside mode on input line 409.
+LaTeX Info: Redefining \. on input line 421.
+LaTeX Info: Redefining \% on input line 421.
+ [140]
+<Apendice/figures/PNG/barras_programacion_liderazgo.png, id=2085, 798.985pt x 6
+97.60625pt>
+File: Apendice/figures/PNG/barras_programacion_liderazgo.png Graphic file (type
+ png)
+ <use Apendice/figures/PNG/barras_programacion_liderazgo.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_programacion_liderazgo.png
+ used on input line 437.
+(pdftex.def)             Requested size: 239.69734pt x 209.28348pt.
+Package mdframed Info: mdframed works in twoside mode on input line 445.
+LaTeX Info: Redefining \. on input line 447.
+LaTeX Info: Redefining \% on input line 447.
+
+[141 <./Apendice/figures/PNG/barras_programacion_planificacion.png>]
+LaTeX Info: Redefining \. on input line 465.
+LaTeX Info: Redefining \% on input line 465.
+ [142 <./Apendice/figures/PNG/barras_programacion_liderazgo.png>]
+<Apendice/figures/PNG/barras_perfil_equipo.png, id=2096, 811.03pt x 693.59125pt
+>
+File: Apendice/figures/PNG/barras_perfil_equipo.png Graphic file (type png)
+ <use Apendice/figures/PNG/barras_perfil_equipo.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_perfil_equipo.png used on 
+input line 485.
+(pdftex.def)             Requested size: 243.31087pt x 208.07898pt.
+Package mdframed Info: mdframed works in twoside mode on input line 493.
+Package mdframed Info: Not enough space on this page on input line 495.
+LaTeX Info: Redefining \. on input line 495.
+LaTeX Info: Redefining \% on input line 495.
+ [143 <./Apendice/figures/PNG/barras_perfil_equipo.png>]
+Package mdframed Info: Not enough space on this page on input line 495.
+
+<Apendice/figures/PNG/barras_perfil_planificacion.png, id=2104, 842.14626pt x 6
+91.58376pt>
+File: Apendice/figures/PNG/barras_perfil_planificacion.png Graphic file (type p
+ng)
+ <use Apendice/figures/PNG/barras_perfil_planificacion.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_perfil_planificacion.png u
+sed on input line 521.
+(pdftex.def)             Requested size: 252.64583pt x 207.47672pt.
+Package mdframed Info: mdframed works in twoside mode on input line 529.
+LaTeX Info: Redefining \. on input line 541.
+LaTeX Info: Redefining \% on input line 541.
+ [144]
+<Apendice/figures/PNG/barras_perfil_liderazgo.png, id=2111, 798.985pt x 688.572
+5pt>
+File: Apendice/figures/PNG/barras_perfil_liderazgo.png Graphic file (type png)
+ <use Apendice/figures/PNG/barras_perfil_liderazgo.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_perfil_liderazgo.png used 
+on input line 557.
+(pdftex.def)             Requested size: 239.69734pt x 206.57333pt.
+Package mdframed Info: mdframed works in twoside mode on input line 565.
+LaTeX Info: Redefining \. on input line 567.
+LaTeX Info: Redefining \% on input line 567.
+ [145 <./Apendice/figures/PNG/barras_perfil_planificacion.png>]
+Package mdframed Info: Not enough space on this page on input line 567.
+LaTeX Info: Redefining \. on input line 590.
+LaTeX Info: Redefining \% on input line 590.
+ [146 <./Apendice/figures/PNG/barras_perfil_liderazgo.png>]
+LaTeX Info: Redefining \. on input line 605.
+LaTeX Info: Redefining \% on input line 605.
+ [147]
+LaTeX Info: Redefining \. on input line 614.
+LaTeX Info: Redefining \% on input line 614.
+ [148]
+LaTeX Info: Redefining \. on input line 631.
+LaTeX Info: Redefining \% on input line 631.
+ [149]
+LaTeX Info: Redefining \. on input line 648.
+LaTeX Info: Redefining \% on input line 648.
+ [150]
+LaTeX Info: Redefining \. on input line 661.
+LaTeX Info: Redefining \% on input line 661.
+ [151]
+LaTeX Info: Redefining \. on input line 677.
+LaTeX Info: Redefining \% on input line 677.
+ [152]
+LaTeX Info: Redefining \. on input line 694.
+LaTeX Info: Redefining \% on input line 694.
+ [153]
+LaTeX Info: Redefining \. on input line 710.
+LaTeX Info: Redefining \% on input line 710.
+ [154]
+LaTeX Info: Redefining \. on input line 720.
+LaTeX Info: Redefining \% on input line 720.
+
+[155])
+LaTeX Info: Redefining \. on input line 223.
+LaTeX Info: Redefining \% on input line 223.
+ [156]
+\openout2 = `Apendice/Entrevistas.aux'.
+
+ (./Apendice/Entrevistas.tex
+Ap\'{e}ndice B.
+[157
+
+
+
+]
+Package mdframed Info: mdframed works in twoside mode on input line 38.
+LaTeX Info: Redefining \. on input line 53.
+LaTeX Info: Redefining \% on input line 53.
+ [158]
+Package mdframed Info: mdframed works in twoside mode on input line 57.
+Package mdframed Info: mdframed works in twoside mode on input line 74.
+Package mdframed Info: mdframed works in twoside mode on input line 91.
+LaTeX Info: Redefining \. on input line 104.
+LaTeX Info: Redefining \% on input line 104.
+ [159]
+Package mdframed Info: Not enough space on this page on input line 104.
+Package mdframed Info: mdframed works in twoside mode on input line 108.
+
+<Apendice/figures/PNG/aa_accesos.png, id=2185, 873.2625pt x 559.08875pt>
+File: Apendice/figures/PNG/aa_accesos.png Graphic file (type png)
+
+<use Apendice/figures/PNG/aa_accesos.png>
+Package pdftex.def Info: Apendice/figures/PNG/aa_accesos.png used on input line
+ 130.
+(pdftex.def)             Requested size: 392.9645pt x 251.5876pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
+ [160]
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
+
+[161 <./Apendice/figures/PNG/aa_accesos.png>]
+<Apendice/figures/PNG/aa_foros.png, id=2196, 933.4875pt x 541.02126pt>
+File: Apendice/figures/PNG/aa_foros.png Graphic file (type png)
+
+<use Apendice/figures/PNG/aa_foros.png>
+Package pdftex.def Info: Apendice/figures/PNG/aa_foros.png used on input line 1
+49.
+(pdftex.def)             Requested size: 373.38838pt x 216.40466pt.
+
+<Apendice/figures/PNG/aa_wikis.png, id=2198, 927.465pt x 544.0325pt>
+File: Apendice/figures/PNG/aa_wikis.png Graphic file (type png)
+
+<use Apendice/figures/PNG/aa_wikis.png>
+Package pdftex.def Info: Apendice/figures/PNG/aa_wikis.png used on input line 1
+66.
+(pdftex.def)             Requested size: 324.61761pt x 190.41423pt.
+LaTeX Info: Redefining \. on input line 169.
+LaTeX Info: Redefining \% on input line 169.
+ [162]
+LaTeX Info: Redefining \. on input line 177.
+LaTeX Info: Redefining \% on input line 177.
+ [163 <./Apendice/figures/PNG/aa_foros.png>]
+<Apendice/figures/PNG/aa-actividades.png, id=2211, 915.42pt x 542.025pt>
+File: Apendice/figures/PNG/aa-actividades.png Graphic file (type png)
+
+<use Apendice/figures/PNG/aa-actividades.png>
+Package pdftex.def Info: Apendice/figures/PNG/aa-actividades.png used on input 
+line 184.
+(pdftex.def)             Requested size: 366.16151pt x 216.80615pt.
+LaTeX Info: Redefining \. on input line 195.
+LaTeX Info: Redefining \% on input line 195.
+ [164 <./Apendice/figures/PNG/aa_wikis.png>])
+LaTeX Info: Redefining \. on input line 225.
+LaTeX Info: Redefining \% on input line 225.
+ [165 <./Apendice/figures/PNG/aa-actividades.png>]
+\openout2 = `Apendice/EvalMetodo.aux'.
+
+
+(./Apendice/EvalMetodo.tex [166
+
+
+
+]
+Ap\'{e}ndice C.
+[167]
+Package mdframed Info: mdframed works in twoside mode on input line 36.
+Package mdframed Info: mdframed works in twoside mode on input line 45.
+LaTeX Info: Redefining \. on input line 56.
+LaTeX Info: Redefining \% on input line 56.
+ [168]
+Package mdframed Info: mdframed works in twoside mode on input line 60.
+Package mdframed Info: mdframed works in twoside mode on input line 67.
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
+ [169]
+Package mdframed Info: mdframed works in twoside mode on input line 109.
+Package mdframed Info: mdframed works in twoside mode on input line 115.
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
+ [170]
+Package mdframed Info: mdframed works in twoside mode on input line 159.
+Package mdframed Info: mdframed works in twoside mode on input line 173.
+LaTeX Info: Redefining \. on input line 184.
+LaTeX Info: Redefining \% on input line 184.
+ [171]
+LaTeX Info: Redefining \. on input line 213.
+LaTeX Info: Redefining \% on input line 213.
+ [172]
+LaTeX Info: Redefining \. on input line 264.
+LaTeX Info: Redefining \% on input line 264.
+ [173]
+Overfull \hbox (11.2781pt too wide) in paragraph at lines 270--270
+ []|\OT1/ptm/m/n/12 POBLACI[]ON| 
+ []
+
+
+Overfull \hbox (4.82996pt too wide) in paragraph at lines 270--270
+ \OT1/ptm/m/n/12 Aulablog| 
+ []
+
+
+Overfull \hbox (5.21764pt too wide) in paragraph at lines 270--270
+ []|\OT1/ptm/m/n/12 Actuaci[]on 
+ []
+
+
+Overfull \hbox (3.62958pt too wide) in paragraph at lines 270--270
+ []|\OT1/ptm/m/n/12 Media 
+ []
+
+
+Overfull \hbox (4.4549pt too wide) in paragraph at lines 270--270
+ []|\OT1/ptm/m/n/12 Total| 
+ []
+
+
+Overfull \hbox (1.53926pt too wide) in paragraph at lines 275--275
+[]|\OT1/ptm/m/n/12 Conocimientos 
+ []
+
+
+Overfull \hbox (3.41681pt too wide) in paragraph at lines 277--277
+[]|\OT1/ptm/m/n/12 Medios/avanzados| 
+ []
+
+
+Overfull \hbox (52.51953pt too wide) in paragraph at lines 268--290
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 299.
+LaTeX Info: Redefining \% on input line 299.
+[174]
+Overfull \hbox (7.37509pt too wide) in paragraph at lines 336--346
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 356.
+LaTeX Info: Redefining \% on input line 356.
+[175]
+File: Apendice/figures/PNG/barras_programacion_equipo.png Graphic file (type pn
+g)
+ <use Apendice/figures/PNG/barras_programacion_equipo.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_programacion_equipo.png us
+ed on input line 363.
+(pdftex.def)             Requested size: 241.80524pt x 208.38011pt.
+Package mdframed Info: mdframed works in twoside mode on input line 371.
+LaTeX Info: Redefining \. on input line 373.
+LaTeX Info: Redefining \% on input line 373.
+ [176]
+Package mdframed Info: Not enough space on this page on input line 373.
+File: Apendice/figures/PNG/barras_programacion_planificacion.png Graphic file (
+type png)
+
+<use Apendice/figures/PNG/barras_programacion_planificacion.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_programacion_planificacion
+.png used on input line 399.
+(pdftex.def)             Requested size: 246.62328pt x 208.68123pt.
+Package mdframed Info: mdframed works in twoside mode on input line 407.
+LaTeX Info: Redefining \. on input line 419.
+LaTeX Info: Redefining \% on input line 419.
+ [177]
+File: Apendice/figures/PNG/barras_programacion_liderazgo.png Graphic file (type
+ png)
+
+<use Apendice/figures/PNG/barras_programacion_liderazgo.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_programacion_liderazgo.png
+ used on input line 435.
+(pdftex.def)             Requested size: 239.69734pt x 209.28348pt.
+Package mdframed Info: mdframed works in twoside mode on input line 443.
+LaTeX Info: Redefining \. on input line 445.
+LaTeX Info: Redefining \% on input line 445.
+ [178]
+LaTeX Info: Redefining \. on input line 463.
+LaTeX Info: Redefining \% on input line 463.
+ [179]
+File: Apendice/figures/PNG/barras_perfil_equipo.png Graphic file (type png)
+
+<use Apendice/figures/PNG/barras_perfil_equipo.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_perfil_equipo.png used on 
+input line 483.
+(pdftex.def)             Requested size: 243.31087pt x 208.07898pt.
+Package mdframed Info: mdframed works in twoside mode on input line 491.
+Package mdframed Info: Not enough space on this page on input line 493.
+LaTeX Info: Redefining \. on input line 493.
+LaTeX Info: Redefining \% on input line 493.
+ [180]
+Package mdframed Info: Not enough space on this page on input line 493.
+File: Apendice/figures/PNG/barras_perfil_planificacion.png Graphic file (type p
+ng)
+
+<use Apendice/figures/PNG/barras_perfil_planificacion.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_perfil_planificacion.png u
+sed on input line 519.
+(pdftex.def)             Requested size: 252.64583pt x 207.47672pt.
+Package mdframed Info: mdframed works in twoside mode on input line 527.
+LaTeX Info: Redefining \. on input line 539.
+LaTeX Info: Redefining \% on input line 539.
+ [181]
+File: Apendice/figures/PNG/barras_perfil_liderazgo.png Graphic file (type png)
+
+<use Apendice/figures/PNG/barras_perfil_liderazgo.png>
+Package pdftex.def Info: Apendice/figures/PNG/barras_perfil_liderazgo.png used 
+on input line 555.
+(pdftex.def)             Requested size: 239.69734pt x 206.57333pt.
+Package mdframed Info: mdframed works in twoside mode on input line 563.
+LaTeX Info: Redefining \. on input line 565.
+LaTeX Info: Redefining \% on input line 565.
+ [182]
+Package mdframed Info: Not enough space on this page on input line 565.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-32' on page 183 undefined on input line
+ 565.
+
+LaTeX Info: Redefining \. on input line 588.
+LaTeX Info: Redefining \% on input line 588.
+[183]
+LaTeX Info: Redefining \. on input line 603.
+LaTeX Info: Redefining \% on input line 603.
+ [184]
+LaTeX Info: Redefining \. on input line 612.
+LaTeX Info: Redefining \% on input line 612.
+ [185]
+LaTeX Info: Redefining \. on input line 629.
+LaTeX Info: Redefining \% on input line 629.
+ [186]
+LaTeX Info: Redefining \. on input line 646.
+LaTeX Info: Redefining \% on input line 646.
+ [187]
+LaTeX Info: Redefining \. on input line 659.
+LaTeX Info: Redefining \% on input line 659.
+ [188]
+LaTeX Info: Redefining \. on input line 675.
+LaTeX Info: Redefining \% on input line 675.
+ [189]
+LaTeX Info: Redefining \. on input line 692.
+LaTeX Info: Redefining \% on input line 692.
+ [190]
+LaTeX Info: Redefining \. on input line 708.
+LaTeX Info: Redefining \% on input line 708.
+ [191]
+LaTeX Info: Redefining \. on input line 718.
+LaTeX Info: Redefining \% on input line 718.
+ [192])
+LaTeX Info: Redefining \. on input line 227.
+LaTeX Info: Redefining \% on input line 227.
+ [193]
+(./dissertation.bbl (./dissertation.brf)
+\tf@brf=\write11
+\openout11 = `dissertation.brf'.
+
+ [194
+
+
+] [195]
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+ [196]
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2012/04/20 UCS: Unicode data U+2000..U+20FF
+)
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
+ [197]
+LaTeX Info: Redefining \. on input line 205.
+LaTeX Info: Redefining \% on input line 205.
+ [198]
+LaTeX Info: Redefining \. on input line 257.
+LaTeX Info: Redefining \% on input line 257.
+
+[199]
+LaTeX Info: Redefining \. on input line 315.
+LaTeX Info: Redefining \% on input line 315.
+ [200]
+LaTeX Info: Redefining \. on input line 375.
+LaTeX Info: Redefining \% on input line 375.
+ [201]
+LaTeX Info: Redefining \. on input line 429.
+LaTeX Info: Redefining \% on input line 429.
+ [202]
+LaTeX Info: Redefining \. on input line 481.
+LaTeX Info: Redefining \% on input line 481.
+ [203]
+LaTeX Info: Redefining \. on input line 529.
+LaTeX Info: Redefining \% on input line 529.
+ [204]
+
+! Package utf8x Error: MalformedUTF-8sequence.
+
+See the utf8x package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.535 
+      
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-255.def
+File: uni-255.def 2012/04/20 UCS: Unicode data U+FF00..U+FFFF
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uninames.dat
+File: uninames.dat 2012/04/20 UCS: Unicode character names, compressed
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-255.def
+File: uni-255.def 2012/04/20 UCS: Unicode data U+FF00..U+FFFF
+)
+
+! Package ucs Error: Unknown Unicode character 65533 = U+FFFD,
+(ucs)                possibly declared in uni-255.def.
+(ucs)                Type H to see if it is available with options.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.535 
+      
+? 
+LaTeX Info: Redefining \. on input line 583.
+LaTeX Info: Redefining \% on input line 583.
+[205]
+LaTeX Info: Redefining \. on input line 643.
+LaTeX Info: Redefining \% on input line 643.
+ [206])
+LaTeX Info: Redefining \. on input line 300.
+LaTeX Info: Redefining \% on input line 300.
+ [207]
+\openout2 = `9_backmatter/declaration.aux'.
+
+ (./9_backmatter/declaration.tex [208
+
+] [209]) [210
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 306.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 306.
+
+(./dissertation.aux
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+ (./0_frontmatter/title_back.aux)
+(./0_frontmatter/dedication.aux) (./0_frontmatter/abstract.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+)
+(./0_frontmatter/acknowledgement.aux)
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+ (./0_frontmatter/glossary.aux)
+(./1_introduction/0_index.aux) (./1_introduction/1_motivation.aux)
+(./1_introduction/2_contexto.aux) (./1_introduction/3_objetivos.aux)
+(./1_introduction/5_metodologia.aux) (./2_state_of_the_art/0_index.aux)
+(./3_problemas/0_index.aux) (./4_overall_methodology/0_index.aux)
+(./5_experiments_and_results/0_index.aux) (./6_conclusion/0_index.aux)
+(./Apendice/Cuestionario.aux) (./Apendice/Entrevistas.aux)
+(./Apendice/EvalMetodo.aux) (./9_backmatter/declaration.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 306.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 306.
+
+
+Package rerunfilecheck Warning: File `dissertation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `dissertation.out':
+(rerunfilecheck)             Before: FAAF6CC29F5C776F6BBCEF4DA29BB4E3;9920
+(rerunfilecheck)             After:  01499FF7152A37455B5A001C92F90C3F;9920.
+Package rerunfilecheck Info: File `dissertation.brf' has not changed.
+(rerunfilecheck)             Checksum: 236FEF9824C3496F410A2D621FCA1515;21818.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 306.
+ ) 
+Here is how much of TeX's memory you used:
+ 21943 strings out of 494997
+ 345835 string characters out of 3180091
+ 574799 words of memory out of 3000000
+ 23844 multiletter control sequences out of 15000+200000
+ 44452 words of font info for 86 fonts, out of 3000000 for 9000
+ 40 hyphenation exceptions out of 8191
+ 45i,13n,50p,1736b,1220s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{table.caption.129} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.128} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.133} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix*.147} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (234 pages, 2555200 bytes).
+PDF statistics:
+ 2857 PDF objects out of 2984 (max. 8388607)
+ 2538 compressed objects within 26 object streams
+ 652 named destinations out of 1000 (max. 500000)
+ 1111 words of extra memory for PDF output out of 10000 (max. 10000000)
+
