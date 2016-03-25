@@ -1,0 +1,82 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dissertation.aux
+A level-1 auxiliary file: 0_frontmatter/title_back.aux
+A level-1 auxiliary file: 0_frontmatter/dedication.aux
+A level-1 auxiliary file: 0_frontmatter/abstract.aux
+A level-1 auxiliary file: 0_frontmatter/acknowledgement.aux
+A level-1 auxiliary file: 0_frontmatter/glossary.aux
+A level-1 auxiliary file: 1_introduction/0_index.aux
+A level-1 auxiliary file: 1_introduction/1_motivation.aux
+A level-1 auxiliary file: 1_introduction/2_contexto.aux
+A level-1 auxiliary file: 1_introduction/3_objetivos.aux
+A level-1 auxiliary file: 1_introduction/5_metodologia.aux
+A level-1 auxiliary file: 2_state_of_the_art/0_index.aux
+A level-1 auxiliary file: 3_problemas/0_index.aux
+A level-1 auxiliary file: 4_overall_methodology/0_index.aux
+A level-1 auxiliary file: 5_experiments_and_results/0_index.aux
+A level-1 auxiliary file: 6_conclusion/0_index.aux
+A level-1 auxiliary file: Apendice/Cuestionario.aux
+A level-1 auxiliary file: Apendice/Entrevistas.aux
+A level-1 auxiliary file: Apendice/EvalMetodo.aux
+The style file: abbrv.bst
+A level-1 auxiliary file: 9_backmatter/declaration.aux
+Database file #1: 9_backmatter/references.bib
+I was expecting a `,' or a `}'---line 890 of file 9_backmatter/references.bib
+ :   
+ :   year={2003}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1362 of file 9_backmatter/references.bib
+ :   
+ :   year={2015}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in chatti2014learning
+Warning--empty journal in midoro2013guidelines
+Warning--can't use both volume and number fields in Petersen:2008
+Warning--there's a number but no series in rashid2008engineering
+Warning--empty year in reinoso2015evaluacion
+Warning--there's a number but no volume in torres2010rubrica
+You've used 104 entries,
+            2118 wiz_defined-function locations,
+            1088 strings with 27365 characters,
+and the built_in function-call counts, 40385 in all, are:
+= -- 4077
+> -- 1924
+< -- 39
++ -- 773
+- -- 656
+* -- 2846
+:= -- 6466
+add.period$ -- 340
+call.type$ -- 104
+change.case$ -- 626
+chr.to.int$ -- 0
+cite$ -- 110
+duplicate$ -- 1550
+empty$ -- 3079
+format.name$ -- 656
+if$ -- 8589
+int.to.chr$ -- 0
+int.to.str$ -- 104
+missing$ -- 113
+newline$ -- 525
+num.names$ -- 208
+pop$ -- 699
+preamble$ -- 1
+purify$ -- 533
+quote$ -- 0
+skip$ -- 1115
+stack$ -- 0
+substring$ -- 2705
+swap$ -- 443
+text.length$ -- 39
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 394
+warning$ -- 6
+while$ -- 405
+width$ -- 107
+write$ -- 1153
+(There were 2 error messages)

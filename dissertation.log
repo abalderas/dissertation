@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.20)  24 MAR 2016 00:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.20)  25 MAR 2016 13:54
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1066,43 +1066,8 @@ LaTeX Warning: Label `tab:EvalCourseEj1' multiply defined.
 LaTeX Warning: Label `fig:EvalCourseInteraccionForo' multiply defined.
 
 ) (./6_conclusion/0_index.aux) (./Apendice/Cuestionario.aux)
-(./Apendice/Entrevistas.aux) (./Apendice/EvalMetodo.aux
-
-LaTeX Warning: Label `tab:ap:poblaciones:barras' multiply defined.
-
-
-LaTeX Warning: Label `tab:ap:perfil:barras' multiply defined.
-
-
-LaTeX Warning: Label `tab:ap:sino:participacion:contribucion' multiply defined.
-
-
-
-LaTeX Warning: Label `tab:ap:resumen:competencias' multiply defined.
-
-
-LaTeX Warning: Label `fig:app:barras:programacion:equipo' multiply defined.
-
-
-LaTeX Warning: Label `fig:app:barras:programacion:planificacion' multiply defin
-ed.
-
-
-LaTeX Warning: Label `fig:app:barras:programacion:liderazgo' multiply defined.
-
-
-LaTeX Warning: Label `fig:app:barras:perfil:equipo' multiply defined.
-
-
-LaTeX Warning: Label `fig:app:barras:perfil:planificacion' multiply defined.
-
-
-LaTeX Warning: Label `fig:app:barras:perfil:liderazgo' multiply defined.
-
-
-LaTeX Warning: Label `ape:cuestionario:comentarios' multiply defined.
-
-) (./9_backmatter/declaration.aux))
+(./Apendice/Entrevistas.aux) (./Apendice/EvalMetodo.aux)
+(./9_backmatter/declaration.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
@@ -1195,7 +1160,7 @@ LaTeX Info: Redefining \% on input line 77.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 
-<0_frontmatter/figures/PNG/UCA_Shield.png, id=486, 468.75125pt x 602.25pt>
+<0_frontmatter/figures/PNG/UCA_Shield.png, id=458, 468.75125pt x 602.25pt>
 File: 0_frontmatter/figures/PNG/UCA_Shield.png Graphic file (type png)
 
 <use 0_frontmatter/figures/PNG/UCA_Shield.png>
@@ -1338,18 +1303,13 @@ LaTeX Info: Redefining \% on input line 61.
  [10]
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
- [11]
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
- [12])
+ [11])
 \tf@toc=\write8
 \openout8 = `dissertation.toc'.
 
 LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
- [13] [14
-
-] (./dissertation.lof
+ [12] (./dissertation.lof
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 LaTeX Info: Redefining \. on input line 4.
@@ -1360,14 +1320,16 @@ LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
+ [13
 
-[15])
+])
 \tf@lof=\write9
 \openout9 = `dissertation.lof'.
 
 LaTeX Info: Redefining \. on input line 141.
 LaTeX Info: Redefining \% on input line 141.
- [16] (./dissertation.lot
+ [14]
+(./dissertation.lot
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 LaTeX Info: Redefining \. on input line 4.
@@ -1378,7 +1340,7 @@ LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- [17
+ [15
 
 ])
 \tf@lot=\write10
@@ -1386,7 +1348,7 @@ LaTeX Info: Redefining \% on input line 7.
 
 LaTeX Info: Redefining \. on input line 148.
 LaTeX Info: Redefining \% on input line 148.
- [18]
+ [16]
 \openout2 = `0_frontmatter/glossary.aux'.
 
  (./0_frontmatter/glossary.tex)
@@ -1528,8 +1490,8 @@ Overfull \hbox (34.44368pt too wide) in paragraph at lines 176--193
 LaTeX Info: Redefining \. on input line 199.
 LaTeX Info: Redefining \% on input line 199.
 [24]
-<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=1048, 687.56876pt 
-x 441.65pt>
+<2_state_of_the_art/figures/PNG/PublicacionesAnuales.png, id=987, 687.56876pt x
+ 441.65pt>
 File: 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png Graphic file (typ
 e png)
  <use 2_state_of_the_art/figures/PNG/PublicacionesAnuales.png>
@@ -1579,7 +1541,7 @@ LaTeX Info: Redefining \% on input line 383.
 LaTeX Info: Redefining \. on input line 416.
 LaTeX Info: Redefining \% on input line 416.
  [34] [35]
-<2_state_of_the_art/figures/PNG/Burbujas.png, id=1156, 1678.27pt x 650.43pt>
+<2_state_of_the_art/figures/PNG/Burbujas.png, id=1095, 1678.27pt x 650.43pt>
 File: 2_state_of_the_art/figures/PNG/Burbujas.png Graphic file (type png)
 
 <use 2_state_of_the_art/figures/PNG/Burbujas.png>
@@ -1765,7 +1727,7 @@ LaTeX Info: Redefining \% on input line 936.
 LaTeX Info: Redefining \. on input line 936.
 LaTeX Info: Redefining \% on input line 936.
  [53] [54]
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=1472, 1045.9075pt 
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png, id=1410, 1045.9075pt 
 x 731.73375pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias1.png Graphic file (typ
 e png)
@@ -1785,7 +1747,7 @@ LaTeX Warning: Float too large for page by 83.87047pt on input line 951.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=1473, 1048.91875pt
+<2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png, id=1411, 1048.91875pt
  x 730.73pt>
 File: 2_state_of_the_art/figures/PNG/BurbujaCompetencias2.png Graphic file (typ
 e png)
@@ -1852,7 +1814,7 @@ Cap\'{\i }tulo 4.
 LaTeX Info: Redefining \. on input line 43.
 LaTeX Info: Redefining \% on input line 43.
  [68]
-<4_overall_methodology/figures/PNG/CCHDiagram.png, id=1560, 833.1125pt x 484.81
+<4_overall_methodology/figures/PNG/CCHDiagram.png, id=1498, 833.1125pt x 484.81
 125pt>
 File: 4_overall_methodology/figures/PNG/CCHDiagram.png Graphic file (type png)
  <use 4_overall_methodology/figures/PNG/CCHDiagram.png>
@@ -1873,7 +1835,7 @@ nput line 87.
 LaTeX Info: Redefining \. on input line 130.
 LaTeX Info: Redefining \% on input line 130.
  [71]
-<4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png, id=1591, 431.
+<4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png, id=1529, 431.
 6125pt x 295.1025pt>
 File: 4_overall_methodology/figures/PNG/EvalCourseInteraccionForo.png Graphic f
 ile (type png)
@@ -1924,7 +1886,7 @@ LaTeX Info: Redefining \% on input line 51.
 LaTeX Info: Redefining \. on input line 59.
 LaTeX Info: Redefining \% on input line 59.
  [83]
-<5_experiments_and_results/figures/PNG/AmwRubrica.png, id=1682, 1000.73875pt x 
+<5_experiments_and_results/figures/PNG/AmwRubrica.png, id=1620, 1000.73875pt x 
 689.57625pt>
 File: 5_experiments_and_results/figures/PNG/AmwRubrica.png Graphic file (type p
 ng)
@@ -1933,7 +1895,7 @@ Package pdftex.def Info: 5_experiments_and_results/figures/PNG/AmwRubrica.png u
 sed on input line 62.
 (pdftex.def)             Requested size: 300.22394pt x 206.87447pt.
 
-<5_experiments_and_results/figures/PNG/AmwFormative.png, id=1684, 2007.5pt x 69
+<5_experiments_and_results/figures/PNG/AmwFormative.png, id=1622, 2007.5pt x 69
 2.5875pt>
 File: 5_experiments_and_results/figures/PNG/AmwFormative.png Graphic file (type
  png)
@@ -1944,7 +1906,7 @@ Package pdftex.def Info: 5_experiments_and_results/figures/PNG/AmwFormative.png
 LaTeX Info: Redefining \. on input line 83.
 LaTeX Info: Redefining \% on input line 83.
  [84 <./5_experiments_and_results/figures/PNG/AmwRubrica.png>]
-<5_experiments_and_results/figures/PNG/AmwDiagram.png, id=1691, 1298.8525pt x 2
+<5_experiments_and_results/figures/PNG/AmwDiagram.png, id=1629, 1298.8525pt x 2
 056.68375pt>
 File: 5_experiments_and_results/figures/PNG/AmwDiagram.png Graphic file (type p
 ng)
@@ -1974,7 +1936,7 @@ LaTeX Info: Redefining \% on input line 124.
 LaTeX Info: Redefining \. on input line 141.
 LaTeX Info: Redefining \% on input line 141.
  [90]
-<5_experiments_and_results/figures/PNG/AmwDiagram2.png, id=1723, 849.1725pt x 5
+<5_experiments_and_results/figures/PNG/AmwDiagram2.png, id=1661, 849.1725pt x 5
 30.98375pt>
 File: 5_experiments_and_results/figures/PNG/AmwDiagram2.png Graphic file (type 
 png)
@@ -2004,7 +1966,7 @@ LaTeX Info: Redefining \% on input line 194.
 LaTeX Info: Redefining \. on input line 224.
 LaTeX Info: Redefining \% on input line 224.
  [94]
-<5_experiments_and_results/figures/PNG/EvcMetamodel.png, id=1752, 982.67125pt x
+<5_experiments_and_results/figures/PNG/EvcMetamodel.png, id=1691, 982.67125pt x
  742.775pt>
 File: 5_experiments_and_results/figures/PNG/EvcMetamodel.png Graphic file (type
  png)
@@ -2037,7 +1999,7 @@ runsystem(rm dissertation.pyg)...executed.
 LaTeX Info: Redefining \. on input line 263.
 LaTeX Info: Redefining \% on input line 263.
  [97]
-<5_experiments_and_results/figures/PNG/EvcDiagram.png, id=1776, 839.135pt x 509
+<5_experiments_and_results/figures/PNG/EvcDiagram.png, id=1714, 839.135pt x 509
 .905pt>
 File: 5_experiments_and_results/figures/PNG/EvcDiagram.png Graphic file (type p
 ng)
@@ -2075,7 +2037,7 @@ runsystem(rm dissertation.out.pyg)...executed.
 runsystem(rm dissertation.pyg)...executed.
 
 
-<5_experiments_and_results/figures/PNG/EvalCourseInteraccionForo.png, id=1790, 
+<5_experiments_and_results/figures/PNG/EvalCourseInteraccionForo.png, id=1729, 
 431.6125pt x 295.1025pt>
 File: 5_experiments_and_results/figures/PNG/EvalCourseInteraccionForo.png Graph
 ic file (type png)
@@ -2170,7 +2132,7 @@ runsystem(rm dissertation.pyg)...executed.
 LaTeX Info: Redefining \. on input line 450.
 LaTeX Info: Redefining \% on input line 450.
  [105]
-<5_experiments_and_results/figures/PNG/EvsDiagram.png, id=1836, 843.15pt x 514.
+<5_experiments_and_results/figures/PNG/EvsDiagram.png, id=1774, 843.15pt x 514.
 92375pt>
 File: 5_experiments_and_results/figures/PNG/EvsDiagram.png Graphic file (type p
 ng)
@@ -2219,110 +2181,112 @@ LaTeX Info: Redefining \% on input line 604.
 LaTeX Info: Redefining \. on input line 613.
 LaTeX Info: Redefining \% on input line 613.
  [111]
-LaTeX Info: Redefining \. on input line 628.
-LaTeX Info: Redefining \% on input line 628.
+LaTeX Info: Redefining \. on input line 631.
+LaTeX Info: Redefining \% on input line 631.
  [112]
-LaTeX Info: Redefining \. on input line 641.
-LaTeX Info: Redefining \% on input line 641.
+LaTeX Info: Redefining \. on input line 645.
+LaTeX Info: Redefining \% on input line 645.
  [113]
-LaTeX Info: Redefining \. on input line 663.
-LaTeX Info: Redefining \% on input line 663.
+LaTeX Info: Redefining \. on input line 659.
+LaTeX Info: Redefining \% on input line 659.
  [114]
-<5_experiments_and_results/figures/PNG/ResultadosParticipantes.png, id=1905, 11
+LaTeX Info: Redefining \. on input line 678.
+LaTeX Info: Redefining \% on input line 678.
+
+[115]
+<5_experiments_and_results/figures/PNG/ResultadosParticipantes.png, id=1859, 11
 18.1775pt x 592.2125pt>
 File: 5_experiments_and_results/figures/PNG/ResultadosParticipantes.png Graphic
  file (type png)
 
 <use 5_experiments_and_results/figures/PNG/ResultadosParticipantes.png>
 Package pdftex.def Info: 5_experiments_and_results/figures/PNG/ResultadosPartic
-ipantes.png used on input line 675.
+ipantes.png used on input line 693.
 (pdftex.def)             Requested size: 335.45584pt x 177.66512pt.
 
-Overfull \hbox (11.2781pt too wide) in paragraph at lines 689--689
+Overfull \hbox (11.2781pt too wide) in paragraph at lines 707--707
  []|\OT1/ptm/m/n/12 POBLACI[]ON| 
  []
 
 
-Overfull \hbox (4.82996pt too wide) in paragraph at lines 689--689
+Overfull \hbox (4.82996pt too wide) in paragraph at lines 707--707
  \OT1/ptm/m/n/12 Aulablog| 
  []
 
 
-Overfull \hbox (5.21764pt too wide) in paragraph at lines 689--689
+Overfull \hbox (5.21764pt too wide) in paragraph at lines 707--707
  []|\OT1/ptm/m/n/12 Actuaci[]on 
  []
 
 
-Overfull \hbox (3.62958pt too wide) in paragraph at lines 689--689
+Overfull \hbox (3.62958pt too wide) in paragraph at lines 707--707
  []|\OT1/ptm/m/n/12 Media 
  []
 
 
-Overfull \hbox (4.4549pt too wide) in paragraph at lines 689--689
+Overfull \hbox (4.4549pt too wide) in paragraph at lines 707--707
  []|\OT1/ptm/m/n/12 Total| 
  []
 
 
-Overfull \hbox (1.53926pt too wide) in paragraph at lines 694--694
+Overfull \hbox (1.53926pt too wide) in paragraph at lines 712--712
 []|\OT1/ptm/m/n/12 Conocimientos 
  []
 
 
-Overfull \hbox (3.41681pt too wide) in paragraph at lines 696--696
+Overfull \hbox (3.41681pt too wide) in paragraph at lines 714--714
 []|\OT1/ptm/m/n/12 Medios/avanzados| 
  []
 
 
-Overfull \hbox (52.51953pt too wide) in paragraph at lines 687--709
+Overfull \hbox (52.51953pt too wide) in paragraph at lines 705--727
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 712.
-LaTeX Info: Redefining \% on input line 712.
-[115]
-Underfull \vbox (badness 1888) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 723.
-LaTeX Info: Redefining \% on input line 723.
- [116 <./5_experiments_and_results/figures/PNG/ResultadosParticipantes.png>]
-Overfull \hbox (24.94339pt too wide) in paragraph at lines 726--736
+LaTeX Info: Redefining \. on input line 733.
+LaTeX Info: Redefining \% on input line 733.
+[116]
+LaTeX Info: Redefining \. on input line 733.
+LaTeX Info: Redefining \% on input line 733.
+ [117 <./5_experiments_and_results/figures/PNG/ResultadosParticipantes.png>]
+Overfull \hbox (24.94339pt too wide) in paragraph at lines 744--754
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 742.
-LaTeX Info: Redefining \% on input line 742.
-[117]
-LaTeX Info: Redefining \. on input line 757.
-LaTeX Info: Redefining \% on input line 757.
- [118]
-LaTeX Info: Redefining \. on input line 776.
-LaTeX Info: Redefining \% on input line 776.
+LaTeX Info: Redefining \. on input line 760.
+LaTeX Info: Redefining \% on input line 760.
+[118]
+LaTeX Info: Redefining \. on input line 775.
+LaTeX Info: Redefining \% on input line 775.
  [119]
-LaTeX Info: Redefining \. on input line 812.
-LaTeX Info: Redefining \% on input line 812.
+LaTeX Info: Redefining \. on input line 794.
+LaTeX Info: Redefining \% on input line 794.
  [120]
-LaTeX Info: Redefining \. on input line 817.
-LaTeX Info: Redefining \% on input line 817.
+LaTeX Info: Redefining \. on input line 833.
+LaTeX Info: Redefining \% on input line 833.
  [121]
-LaTeX Info: Redefining \. on input line 830.
-LaTeX Info: Redefining \% on input line 830.
- [122])
+LaTeX Info: Redefining \. on input line 835.
+LaTeX Info: Redefining \% on input line 835.
+ [122]
+LaTeX Info: Redefining \. on input line 850.
+LaTeX Info: Redefining \% on input line 850.
+ [123])
 LaTeX Info: Redefining \. on input line 204.
 LaTeX Info: Redefining \% on input line 204.
- [123]
+ [124]
 \openout2 = `6_conclusion/0_index.aux'.
 
- (./6_conclusion/0_index.tex [124
+ (./6_conclusion/0_index.tex
+Cap\'{\i }tulo 6.
+[125
 
 
 
 ]
-Cap\'{\i }tulo 6.
-[125]
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
  [126]
-<6_conclusion/figures/PNG/SNA-Grafo-Wiki-SD.png, id=1986, 496.85625pt x 477.785
+<6_conclusion/figures/PNG/SNA-Grafo-Wiki-SD.png, id=1936, 496.85625pt x 477.785
 pt>
 File: 6_conclusion/figures/PNG/SNA-Grafo-Wiki-SD.png Graphic file (type png)
  <use 6_conclusion/figures/PNG/SNA-Grafo-Wiki-SD.png>
@@ -2355,7 +2319,7 @@ LaTeX Info: Redefining \% on input line 68.
  [130]
 Package mdframed Info: mdframed works in twoside mode on input line 72.
 
-<Apendice/figures/PNG/santa_pie.png, id=2008, 404.51125pt x 347.2975pt>
+<Apendice/figures/PNG/santa_pie.png, id=1958, 404.51125pt x 347.2975pt>
 File: Apendice/figures/PNG/santa_pie.png Graphic file (type png)
 
 <use Apendice/figures/PNG/santa_pie.png>
@@ -2367,7 +2331,7 @@ LaTeX Info: Redefining \% on input line 96.
  [131 <./Apendice/figures/PNG/santa_pie.png (PNG copy)>]
 Package mdframed Info: mdframed works in twoside mode on input line 107.
 
-<Apendice/figures/PNG/santa_contribuciones.png, id=2023, 713.66624pt x 470.7587
+<Apendice/figures/PNG/santa_contribuciones.png, id=1972, 713.66624pt x 470.7587
 4pt>
 File: Apendice/figures/PNG/santa_contribuciones.png Graphic file (type png)
  <use Apendice/figures/PNG/santa_contribuciones.png>
@@ -2377,7 +2341,7 @@ input line 127.
 LaTeX Info: Redefining \. on input line 133.
 LaTeX Info: Redefining \% on input line 133.
  [132 <./Apendice/figures/PNG/santa_contribuciones.png>]
-<Apendice/figures/PNG/santa_evolution.png, id=2035, 707.64375pt x 470.75874pt>
+<Apendice/figures/PNG/santa_evolution.png, id=1984, 707.64375pt x 470.75874pt>
 File: Apendice/figures/PNG/santa_evolution.png Graphic file (type png)
 
 <use Apendice/figures/PNG/santa_evolution.png>
@@ -2446,7 +2410,7 @@ Overfull \hbox (7.37509pt too wide) in paragraph at lines 338--348
 LaTeX Info: Redefining \. on input line 358.
 LaTeX Info: Redefining \% on input line 358.
 [138]
-<Apendice/figures/PNG/barras_programacion_equipo.png, id=2067, 806.01125pt x 69
+<Apendice/figures/PNG/barras_programacion_equipo.png, id=2017, 806.01125pt x 69
 4.595pt>
 File: Apendice/figures/PNG/barras_programacion_equipo.png Graphic file (type pn
 g)
@@ -2460,7 +2424,7 @@ LaTeX Info: Redefining \% on input line 375.
  [139 <./Apendice/figures/PNG/barras_programacion_equipo.png>]
 Package mdframed Info: Not enough space on this page on input line 375.
 
-<Apendice/figures/PNG/barras_programacion_planificacion.png, id=2075, 822.07124
+<Apendice/figures/PNG/barras_programacion_planificacion.png, id=2024, 822.07124
 pt x 695.59875pt>
 File: Apendice/figures/PNG/barras_programacion_planificacion.png Graphic file (
 type png)
@@ -2473,7 +2437,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 409.
 LaTeX Info: Redefining \. on input line 421.
 LaTeX Info: Redefining \% on input line 421.
  [140]
-<Apendice/figures/PNG/barras_programacion_liderazgo.png, id=2085, 798.985pt x 6
+<Apendice/figures/PNG/barras_programacion_liderazgo.png, id=2034, 798.985pt x 6
 97.60625pt>
 File: Apendice/figures/PNG/barras_programacion_liderazgo.png Graphic file (type
  png)
@@ -2489,7 +2453,7 @@ LaTeX Info: Redefining \% on input line 447.
 LaTeX Info: Redefining \. on input line 465.
 LaTeX Info: Redefining \% on input line 465.
  [142 <./Apendice/figures/PNG/barras_programacion_liderazgo.png>]
-<Apendice/figures/PNG/barras_perfil_equipo.png, id=2096, 811.03pt x 693.59125pt
+<Apendice/figures/PNG/barras_perfil_equipo.png, id=2046, 811.03pt x 693.59125pt
 >
 File: Apendice/figures/PNG/barras_perfil_equipo.png Graphic file (type png)
  <use Apendice/figures/PNG/barras_perfil_equipo.png>
@@ -2503,7 +2467,7 @@ LaTeX Info: Redefining \% on input line 495.
  [143 <./Apendice/figures/PNG/barras_perfil_equipo.png>]
 Package mdframed Info: Not enough space on this page on input line 495.
 
-<Apendice/figures/PNG/barras_perfil_planificacion.png, id=2104, 842.14626pt x 6
+<Apendice/figures/PNG/barras_perfil_planificacion.png, id=2054, 842.14626pt x 6
 91.58376pt>
 File: Apendice/figures/PNG/barras_perfil_planificacion.png Graphic file (type p
 ng)
@@ -2515,7 +2479,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 529.
 LaTeX Info: Redefining \. on input line 541.
 LaTeX Info: Redefining \% on input line 541.
  [144]
-<Apendice/figures/PNG/barras_perfil_liderazgo.png, id=2111, 798.985pt x 688.572
+<Apendice/figures/PNG/barras_perfil_liderazgo.png, id=2061, 798.985pt x 688.572
 5pt>
 File: Apendice/figures/PNG/barras_perfil_liderazgo.png Graphic file (type png)
  <use Apendice/figures/PNG/barras_perfil_liderazgo.png>
@@ -2583,7 +2547,7 @@ LaTeX Info: Redefining \% on input line 104.
 Package mdframed Info: Not enough space on this page on input line 104.
 Package mdframed Info: mdframed works in twoside mode on input line 108.
 
-<Apendice/figures/PNG/aa_accesos.png, id=2185, 873.2625pt x 559.08875pt>
+<Apendice/figures/PNG/aa_accesos.png, id=2135, 873.2625pt x 559.08875pt>
 File: Apendice/figures/PNG/aa_accesos.png Graphic file (type png)
 
 <use Apendice/figures/PNG/aa_accesos.png>
@@ -2600,7 +2564,7 @@ LaTeX Info: Redefining \. on input line 139.
 LaTeX Info: Redefining \% on input line 139.
 
 [161 <./Apendice/figures/PNG/aa_accesos.png>]
-<Apendice/figures/PNG/aa_foros.png, id=2196, 933.4875pt x 541.02126pt>
+<Apendice/figures/PNG/aa_foros.png, id=2146, 933.4875pt x 541.02126pt>
 File: Apendice/figures/PNG/aa_foros.png Graphic file (type png)
 
 <use Apendice/figures/PNG/aa_foros.png>
@@ -2608,7 +2572,7 @@ Package pdftex.def Info: Apendice/figures/PNG/aa_foros.png used on input line 1
 49.
 (pdftex.def)             Requested size: 373.38838pt x 216.40466pt.
 
-<Apendice/figures/PNG/aa_wikis.png, id=2198, 927.465pt x 544.0325pt>
+<Apendice/figures/PNG/aa_wikis.png, id=2148, 927.465pt x 544.0325pt>
 File: Apendice/figures/PNG/aa_wikis.png Graphic file (type png)
 
 <use Apendice/figures/PNG/aa_wikis.png>
@@ -2621,7 +2585,7 @@ LaTeX Info: Redefining \% on input line 169.
 LaTeX Info: Redefining \. on input line 177.
 LaTeX Info: Redefining \% on input line 177.
  [163 <./Apendice/figures/PNG/aa_foros.png>]
-<Apendice/figures/PNG/aa-actividades.png, id=2211, 915.42pt x 542.025pt>
+<Apendice/figures/PNG/aa-actividades.png, id=2160, 915.42pt x 542.025pt>
 File: Apendice/figures/PNG/aa-actividades.png Graphic file (type png)
 
 <use Apendice/figures/PNG/aa-actividades.png>
@@ -2651,221 +2615,82 @@ LaTeX Info: Redefining \% on input line 56.
  [168]
 Package mdframed Info: mdframed works in twoside mode on input line 60.
 Package mdframed Info: mdframed works in twoside mode on input line 67.
-LaTeX Info: Redefining \. on input line 105.
-LaTeX Info: Redefining \% on input line 105.
+LaTeX Info: Redefining \. on input line 103.
+LaTeX Info: Redefining \% on input line 103.
  [169]
-Package mdframed Info: mdframed works in twoside mode on input line 109.
-Package mdframed Info: mdframed works in twoside mode on input line 115.
-LaTeX Info: Redefining \. on input line 155.
-LaTeX Info: Redefining \% on input line 155.
+Package mdframed Info: mdframed works in twoside mode on input line 107.
+Package mdframed Info: mdframed works in twoside mode on input line 113.
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
  [170]
-Package mdframed Info: mdframed works in twoside mode on input line 159.
-Package mdframed Info: mdframed works in twoside mode on input line 173.
-LaTeX Info: Redefining \. on input line 184.
-LaTeX Info: Redefining \% on input line 184.
- [171]
-LaTeX Info: Redefining \. on input line 213.
-LaTeX Info: Redefining \% on input line 213.
- [172]
-LaTeX Info: Redefining \. on input line 264.
-LaTeX Info: Redefining \% on input line 264.
- [173]
-Overfull \hbox (11.2781pt too wide) in paragraph at lines 270--270
- []|\OT1/ptm/m/n/12 POBLACI[]ON| 
- []
+\openout5 = `dissertation.pyg'.
 
+runsystem(pygmentize -l pascal -f latex -F tokenmerge            -P linenos -P 
+"verboptions= ,frame=lines,framesep=2mm" -o dissertation.out.pyg dissertation.p
+yg)...executed.
 
-Overfull \hbox (4.82996pt too wide) in paragraph at lines 270--270
- \OT1/ptm/m/n/12 Aulablog| 
- []
+ (./dissertation.out.pyg)
+runsystem(rm dissertation.out.pyg)...executed.
 
+runsystem(rm dissertation.pyg)...executed.
 
-Overfull \hbox (5.21764pt too wide) in paragraph at lines 270--270
- []|\OT1/ptm/m/n/12 Actuaci[]on 
- []
+Package mdframed Info: mdframed works in twoside mode on input line 164.
 
+<Apendice/figures/PNG/ResultadosConsulta.png, id=2197, 953.5625pt x 517.935pt>
+File: Apendice/figures/PNG/ResultadosConsulta.png Graphic file (type png)
 
-Overfull \hbox (3.62958pt too wide) in paragraph at lines 270--270
- []|\OT1/ptm/m/n/12 Media 
- []
-
-
-Overfull \hbox (4.4549pt too wide) in paragraph at lines 270--270
- []|\OT1/ptm/m/n/12 Total| 
- []
-
-
-Overfull \hbox (1.53926pt too wide) in paragraph at lines 275--275
-[]|\OT1/ptm/m/n/12 Conocimientos 
- []
-
-
-Overfull \hbox (3.41681pt too wide) in paragraph at lines 277--277
-[]|\OT1/ptm/m/n/12 Medios/avanzados| 
- []
-
-
-Overfull \hbox (52.51953pt too wide) in paragraph at lines 268--290
- [] 
- []
-
-LaTeX Info: Redefining \. on input line 299.
-LaTeX Info: Redefining \% on input line 299.
-[174]
-Overfull \hbox (7.37509pt too wide) in paragraph at lines 336--346
- [] 
- []
-
-LaTeX Info: Redefining \. on input line 356.
-LaTeX Info: Redefining \% on input line 356.
-[175]
-File: Apendice/figures/PNG/barras_programacion_equipo.png Graphic file (type pn
-g)
- <use Apendice/figures/PNG/barras_programacion_equipo.png>
-Package pdftex.def Info: Apendice/figures/PNG/barras_programacion_equipo.png us
-ed on input line 363.
-(pdftex.def)             Requested size: 241.80524pt x 208.38011pt.
-Package mdframed Info: mdframed works in twoside mode on input line 371.
-LaTeX Info: Redefining \. on input line 373.
-LaTeX Info: Redefining \% on input line 373.
- [176]
-Package mdframed Info: Not enough space on this page on input line 373.
-File: Apendice/figures/PNG/barras_programacion_planificacion.png Graphic file (
-type png)
-
-<use Apendice/figures/PNG/barras_programacion_planificacion.png>
-Package pdftex.def Info: Apendice/figures/PNG/barras_programacion_planificacion
-.png used on input line 399.
-(pdftex.def)             Requested size: 246.62328pt x 208.68123pt.
-Package mdframed Info: mdframed works in twoside mode on input line 407.
-LaTeX Info: Redefining \. on input line 419.
-LaTeX Info: Redefining \% on input line 419.
- [177]
-File: Apendice/figures/PNG/barras_programacion_liderazgo.png Graphic file (type
- png)
-
-<use Apendice/figures/PNG/barras_programacion_liderazgo.png>
-Package pdftex.def Info: Apendice/figures/PNG/barras_programacion_liderazgo.png
- used on input line 435.
-(pdftex.def)             Requested size: 239.69734pt x 209.28348pt.
-Package mdframed Info: mdframed works in twoside mode on input line 443.
-LaTeX Info: Redefining \. on input line 445.
-LaTeX Info: Redefining \% on input line 445.
- [178]
-LaTeX Info: Redefining \. on input line 463.
-LaTeX Info: Redefining \% on input line 463.
- [179]
-File: Apendice/figures/PNG/barras_perfil_equipo.png Graphic file (type png)
-
-<use Apendice/figures/PNG/barras_perfil_equipo.png>
-Package pdftex.def Info: Apendice/figures/PNG/barras_perfil_equipo.png used on 
-input line 483.
-(pdftex.def)             Requested size: 243.31087pt x 208.07898pt.
-Package mdframed Info: mdframed works in twoside mode on input line 491.
-Package mdframed Info: Not enough space on this page on input line 493.
-LaTeX Info: Redefining \. on input line 493.
-LaTeX Info: Redefining \% on input line 493.
- [180]
-Package mdframed Info: Not enough space on this page on input line 493.
-File: Apendice/figures/PNG/barras_perfil_planificacion.png Graphic file (type p
-ng)
-
-<use Apendice/figures/PNG/barras_perfil_planificacion.png>
-Package pdftex.def Info: Apendice/figures/PNG/barras_perfil_planificacion.png u
-sed on input line 519.
-(pdftex.def)             Requested size: 252.64583pt x 207.47672pt.
-Package mdframed Info: mdframed works in twoside mode on input line 527.
-LaTeX Info: Redefining \. on input line 539.
-LaTeX Info: Redefining \% on input line 539.
- [181]
-File: Apendice/figures/PNG/barras_perfil_liderazgo.png Graphic file (type png)
-
-<use Apendice/figures/PNG/barras_perfil_liderazgo.png>
-Package pdftex.def Info: Apendice/figures/PNG/barras_perfil_liderazgo.png used 
-on input line 555.
-(pdftex.def)             Requested size: 239.69734pt x 206.57333pt.
-Package mdframed Info: mdframed works in twoside mode on input line 563.
-LaTeX Info: Redefining \. on input line 565.
-LaTeX Info: Redefining \% on input line 565.
- [182]
-Package mdframed Info: Not enough space on this page on input line 565.
-
-
-LaTeX Warning: Reference `mdf@pagelabel-32' on page 183 undefined on input line
- 565.
-
-LaTeX Info: Redefining \. on input line 588.
-LaTeX Info: Redefining \% on input line 588.
-[183]
-LaTeX Info: Redefining \. on input line 603.
-LaTeX Info: Redefining \% on input line 603.
- [184]
-LaTeX Info: Redefining \. on input line 612.
-LaTeX Info: Redefining \% on input line 612.
- [185]
-LaTeX Info: Redefining \. on input line 629.
-LaTeX Info: Redefining \% on input line 629.
- [186]
-LaTeX Info: Redefining \. on input line 646.
-LaTeX Info: Redefining \% on input line 646.
- [187]
-LaTeX Info: Redefining \. on input line 659.
-LaTeX Info: Redefining \% on input line 659.
- [188]
-LaTeX Info: Redefining \. on input line 675.
-LaTeX Info: Redefining \% on input line 675.
- [189]
-LaTeX Info: Redefining \. on input line 692.
-LaTeX Info: Redefining \% on input line 692.
- [190]
-LaTeX Info: Redefining \. on input line 708.
-LaTeX Info: Redefining \% on input line 708.
- [191]
-LaTeX Info: Redefining \. on input line 718.
-LaTeX Info: Redefining \% on input line 718.
- [192])
+<use Apendice/figures/PNG/ResultadosConsulta.png>
+Package pdftex.def Info: Apendice/figures/PNG/ResultadosConsulta.png used on in
+put line 178.
+(pdftex.def)             Requested size: 381.41824pt x 207.17032pt.
+Package mdframed Info: mdframed works in twoside mode on input line 184.
+LaTeX Info: Redefining \. on input line 191.
+LaTeX Info: Redefining \% on input line 191.
+ [171 <./Apendice/figures/PNG/ResultadosConsulta.png>]
+Package mdframed Info: Not enough space on this page on input line 191.
+LaTeX Info: Redefining \. on input line 195.
+LaTeX Info: Redefining \% on input line 195.
+ [172])
 LaTeX Info: Redefining \. on input line 227.
 LaTeX Info: Redefining \% on input line 227.
- [193]
-(./dissertation.bbl (./dissertation.brf)
+ [173] (./dissertation.bbl (./dissertation.brf)
 \tf@brf=\write11
 \openout11 = `dissertation.brf'.
 
- [194
+
+[174
 
 
-] [195]
+] [175]
 LaTeX Info: Redefining \. on input line 99.
 LaTeX Info: Redefining \% on input line 99.
- [196]
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+ [176] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2012/04/20 UCS: Unicode data U+2000..U+20FF
 )
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
- [197]
+[177]
 LaTeX Info: Redefining \. on input line 205.
 LaTeX Info: Redefining \% on input line 205.
- [198]
+ [178]
 LaTeX Info: Redefining \. on input line 257.
 LaTeX Info: Redefining \% on input line 257.
-
-[199]
-LaTeX Info: Redefining \. on input line 315.
-LaTeX Info: Redefining \% on input line 315.
- [200]
-LaTeX Info: Redefining \. on input line 375.
-LaTeX Info: Redefining \% on input line 375.
- [201]
-LaTeX Info: Redefining \. on input line 429.
-LaTeX Info: Redefining \% on input line 429.
- [202]
-LaTeX Info: Redefining \. on input line 481.
-LaTeX Info: Redefining \% on input line 481.
- [203]
-LaTeX Info: Redefining \. on input line 529.
-LaTeX Info: Redefining \% on input line 529.
- [204]
+ [179]
+LaTeX Info: Redefining \. on input line 316.
+LaTeX Info: Redefining \% on input line 316.
+ [180]
+LaTeX Info: Redefining \. on input line 369.
+LaTeX Info: Redefining \% on input line 369.
+ [181]
+LaTeX Info: Redefining \. on input line 430.
+LaTeX Info: Redefining \% on input line 430.
+ [182]
+LaTeX Info: Redefining \. on input line 482.
+LaTeX Info: Redefining \% on input line 482.
+ [183]
+LaTeX Info: Redefining \. on input line 530.
+LaTeX Info: Redefining \% on input line 530.
+ [184]
 
 ! Package utf8x Error: MalformedUTF-8sequence.
 
@@ -2873,7 +2698,7 @@ See the utf8x package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.535 
+l.536 
       
 ? 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-255.def
@@ -2894,23 +2719,23 @@ See the ucs package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.535 
+l.536 
       
 ? 
-LaTeX Info: Redefining \. on input line 583.
-LaTeX Info: Redefining \% on input line 583.
-[205]
-LaTeX Info: Redefining \. on input line 643.
-LaTeX Info: Redefining \% on input line 643.
- [206])
+LaTeX Info: Redefining \. on input line 584.
+LaTeX Info: Redefining \% on input line 584.
+[185]
+LaTeX Info: Redefining \. on input line 644.
+LaTeX Info: Redefining \% on input line 644.
+ [186])
 LaTeX Info: Redefining \. on input line 300.
 LaTeX Info: Redefining \% on input line 300.
- [207]
+ [187]
 \openout2 = `9_backmatter/declaration.aux'.
 
- (./9_backmatter/declaration.tex [208
+ (./9_backmatter/declaration.tex [188
 
-] [209]) [210
+] [189]) [190
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 306.
@@ -2941,17 +2766,11 @@ LaTeX Info: Redefining \% on input line 44.
 (./Apendice/EvalMetodo.aux) (./9_backmatter/declaration.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 306.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 306.
-
-
-Package rerunfilecheck Warning: File `dissertation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `dissertation.out':
-(rerunfilecheck)             Before: FAAF6CC29F5C776F6BBCEF4DA29BB4E3;9920
-(rerunfilecheck)             After:  01499FF7152A37455B5A001C92F90C3F;9920.
+Package rerunfilecheck Info: File `dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: 650F1D1497DEB05C15C94B707C31CF8D;9306.
 Package rerunfilecheck Info: File `dissertation.brf' has not changed.
-(rerunfilecheck)             Checksum: 236FEF9824C3496F410A2D621FCA1515;21818.
+(rerunfilecheck)             Checksum: 61EB622C9782338E50F3D415EAB0CF2A;21818.
+
 
 LaTeX Warning: There were undefined references.
 
@@ -2961,41 +2780,29 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 306.
  ) 
 Here is how much of TeX's memory you used:
- 21943 strings out of 494997
- 345835 string characters out of 3180091
- 574799 words of memory out of 3000000
- 23844 multiletter control sequences out of 15000+200000
+ 21888 strings out of 494997
+ 345201 string characters out of 3180091
+ 574721 words of memory out of 3000000
+ 23837 multiletter control sequences out of 15000+200000
  44452 words of font info for 86 fonts, out of 3000000 for 9000
  40 hyphenation exceptions out of 8191
  45i,13n,50p,1736b,1220s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.129} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.128} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.133} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.147} has been referenced but does not exi
-st, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
-/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (234 pages, 2555200 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
+es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (212 pages, 2573296 bytes).
 PDF statistics:
- 2857 PDF objects out of 2984 (max. 8388607)
- 2538 compressed objects within 26 object streams
- 652 named destinations out of 1000 (max. 500000)
- 1111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2686 PDF objects out of 2984 (max. 8388607)
+ 2390 compressed objects within 24 object streams
+ 601 named destinations out of 1000 (max. 500000)
+ 1060 words of extra memory for PDF output out of 10000 (max. 10000000)
 
