@@ -5,8 +5,8 @@
 \select@language {spanish}
 \select@language {spanish}
 \select@language {spanish}
-\contentsline {chapter}{\'{I}ndice de figuras}{xiii}{chapter*.2}
-\contentsline {chapter}{\IeC {\'I}ndice de tablas}{xv}{chapter*.3}
+\contentsline {chapter}{\'{I}ndice de figuras}{xv}{chapter*.2}
+\contentsline {chapter}{\IeC {\'I}ndice de tablas}{xvii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Contexto}{7}{section.1.2}
@@ -84,37 +84,42 @@
 \contentsline {subsubsection}{\numberline {5.5.2.4}MediaWiki Espa\IeC {\~n}a}{115}{subsubsection.5.5.2.4}
 \contentsline {subsubsection}{\numberline {5.5.2.5}Jornadas de Innovaci\IeC {\'o}n Docente de la Universidad de C\IeC {\'a}diz}{116}{subsubsection.5.5.2.5}
 \contentsline {subsection}{\numberline {5.5.3}Resultados del cuestionario del m\IeC {\'e}todo y el DSL}{116}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Resultados del cuestionario de indicadores}{116}{subsection.5.5.4}
-\contentsline {subsubsection}{\numberline {5.5.4.1}Perfil de los participantes}{118}{subsubsection.5.5.4.1}
-\contentsline {subsubsection}{\numberline {5.5.4.2}Evaluaci\IeC {\'o}n de competencias gen\IeC {\'e}ricas}{119}{subsubsection.5.5.4.2}
-\contentsline {paragraph}{\numberline {5.5.4.2.1}Independencia de las respuestas}{119}{paragraph.5.5.4.2.1}
-\contentsline {paragraph}{\numberline {5.5.4.2.2}Justificaciones}{120}{paragraph.5.5.4.2.2}
-\contentsline {subsection}{\numberline {5.5.5}Resultados de la encuesta complementaria de indicadores}{122}{subsection.5.5.5}
-\contentsline {subsection}{\numberline {5.5.6}Discusi\IeC {\'o}n y an\IeC {\'a}lisis}{123}{subsection.5.5.6}
-\contentsline {section}{\numberline {5.6}Contribuciones}{124}{section.5.6}
-\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{127}{chapter.6}
-\contentsline {section}{\numberline {6.1}Conclusiones}{127}{section.6.1}
-\contentsline {section}{\numberline {6.2}Trabajo futuro}{129}{section.6.2}
-\contentsline {chapter}{\numberline {A}Cuestionario}{131}{appendix.A}
-\contentsline {section}{\numberline {A.1}Cuestionario}{132}{section.A.1}
-\contentsline {section}{\numberline {A.2}Resultados}{137}{section.A.2}
-\contentsline {subsection}{\numberline {A.2.1}Poblaciones}{137}{subsection.A.2.1}
-\contentsline {subsubsection}{\numberline {A.2.1.1}Curso innovaci\IeC {\'o}n docente}{137}{subsubsection.A.2.1.1}
-\contentsline {subsubsection}{\numberline {A.2.1.2}Taller Aulablog}{137}{subsubsection.A.2.1.2}
-\contentsline {subsubsection}{\numberline {A.2.1.3}Actuaci\IeC {\'o}n avalada}{138}{subsubsection.A.2.1.3}
-\contentsline {subsubsection}{\numberline {A.2.1.4}MediaWiki}{138}{subsubsection.A.2.1.4}
-\contentsline {subsection}{\numberline {A.2.2}Participantes}{138}{subsection.A.2.2}
-\contentsline {subsection}{\numberline {A.2.3}Indicadores de participaci\IeC {\'o}n y de contribuci\IeC {\'o}n}{139}{subsection.A.2.3}
-\contentsline {subsection}{\numberline {A.2.4}Caso de evaluaci\IeC {\'o}n de competencias gen\IeC {\'e}ricas}{140}{subsection.A.2.4}
-\contentsline {subsubsection}{\numberline {A.2.4.1}Conocimientos de programaci\IeC {\'o}n}{140}{subsubsection.A.2.4.1}
-\contentsline {subsubsection}{\numberline {A.2.4.2}Perfil}{145}{subsubsection.A.2.4.2}
-\contentsline {subsubsection}{\numberline {A.2.4.3}Comentarios}{149}{subsubsection.A.2.4.3}
-\contentsline {chapter}{\numberline {B}Cuestionario complementario actuaci\IeC {\'o}n avalada}{159}{appendix.B}
-\contentsline {section}{\numberline {B.1}Cuestionario}{160}{section.B.1}
-\contentsline {section}{\numberline {B.2}Resultados}{163}{section.B.2}
-\contentsline {chapter}{\numberline {C}Evaluaci\IeC {\'o}n del m\IeC {\'e}todo de evaluaci\IeC {\'o}n (DBA) y del lenguaje para dise\IeC {\~n}ar evaluaciones (SASQL)}{169}{appendix.C}
-\contentsline {section}{\numberline {C.1}Cuestionario}{170}{section.C.1}
-\contentsline {section}{\numberline {C.2}Resultados}{175}{section.C.2}
-\contentsline {subsection}{\numberline {C.2.1}Poblaciones}{175}{subsection.C.2.1}
-\contentsline {subsection}{\numberline {C.2.2}Participantes}{175}{subsection.C.2.2}
-\contentsline {chapter}{Bibliograf\'{\i }a}{177}{appendix*.132}
+\contentsline {subsubsection}{\numberline {5.5.3.1}Perfil de los participantes}{116}{subsubsection.5.5.3.1}
+\contentsline {subsubsection}{\numberline {5.5.3.2}Evaluaci\IeC {\'o}n del m\IeC {\'e}todo DBA}{117}{subsubsection.5.5.3.2}
+\contentsline {subsubsection}{\numberline {5.5.3.3}Evaluaci\IeC {\'o}n del DSL}{118}{subsubsection.5.5.3.3}
+\contentsline {subsubsection}{\numberline {5.5.3.4}Evaluaci\IeC {\'o}n de la sintaxis del DSL (consulta tipo)}{119}{subsubsection.5.5.3.4}
+\contentsline {subsubsection}{\numberline {5.5.3.5}Evaluaci\IeC {\'o}n de los resultados}{120}{subsubsection.5.5.3.5}
+\contentsline {subsection}{\numberline {5.5.4}Resultados del cuestionario de indicadores}{121}{subsection.5.5.4}
+\contentsline {subsubsection}{\numberline {5.5.4.1}Perfil de los participantes}{121}{subsubsection.5.5.4.1}
+\contentsline {subsubsection}{\numberline {5.5.4.2}Evaluaci\IeC {\'o}n de competencias gen\IeC {\'e}ricas}{123}{subsubsection.5.5.4.2}
+\contentsline {paragraph}{\numberline {5.5.4.2.1}Independencia de las respuestas}{124}{paragraph.5.5.4.2.1}
+\contentsline {paragraph}{\numberline {5.5.4.2.2}Justificaciones}{125}{paragraph.5.5.4.2.2}
+\contentsline {subsection}{\numberline {5.5.5}Resultados de la encuesta complementaria de indicadores}{126}{subsection.5.5.5}
+\contentsline {subsection}{\numberline {5.5.6}Discusi\IeC {\'o}n y an\IeC {\'a}lisis}{127}{subsection.5.5.6}
+\contentsline {section}{\numberline {5.6}Contribuciones}{128}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusiones y trabajo futuro}{131}{chapter.6}
+\contentsline {section}{\numberline {6.1}Conclusiones}{131}{section.6.1}
+\contentsline {section}{\numberline {6.2}Trabajo futuro}{133}{section.6.2}
+\contentsline {chapter}{\numberline {A}Cuestionario}{135}{appendix.A}
+\contentsline {section}{\numberline {A.1}Cuestionario}{136}{section.A.1}
+\contentsline {section}{\numberline {A.2}Resultados}{141}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Poblaciones}{141}{subsection.A.2.1}
+\contentsline {subsubsection}{\numberline {A.2.1.1}Curso innovaci\IeC {\'o}n docente}{141}{subsubsection.A.2.1.1}
+\contentsline {subsubsection}{\numberline {A.2.1.2}Taller Aulablog}{141}{subsubsection.A.2.1.2}
+\contentsline {subsubsection}{\numberline {A.2.1.3}Actuaci\IeC {\'o}n avalada}{142}{subsubsection.A.2.1.3}
+\contentsline {subsubsection}{\numberline {A.2.1.4}MediaWiki}{142}{subsubsection.A.2.1.4}
+\contentsline {subsection}{\numberline {A.2.2}Participantes}{142}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Indicadores de participaci\IeC {\'o}n y de contribuci\IeC {\'o}n}{143}{subsection.A.2.3}
+\contentsline {subsection}{\numberline {A.2.4}Caso de evaluaci\IeC {\'o}n de competencias gen\IeC {\'e}ricas}{144}{subsection.A.2.4}
+\contentsline {subsubsection}{\numberline {A.2.4.1}Conocimientos de programaci\IeC {\'o}n}{144}{subsubsection.A.2.4.1}
+\contentsline {subsubsection}{\numberline {A.2.4.2}Perfil}{149}{subsubsection.A.2.4.2}
+\contentsline {subsubsection}{\numberline {A.2.4.3}Comentarios}{153}{subsubsection.A.2.4.3}
+\contentsline {chapter}{\numberline {B}Cuestionario complementario actuaci\IeC {\'o}n avalada}{163}{appendix.B}
+\contentsline {section}{\numberline {B.1}Cuestionario}{164}{section.B.1}
+\contentsline {section}{\numberline {B.2}Resultados}{167}{section.B.2}
+\contentsline {chapter}{\numberline {C}Evaluaci\IeC {\'o}n del m\IeC {\'e}todo de evaluaci\IeC {\'o}n (DBA) y del lenguaje para dise\IeC {\~n}ar evaluaciones (SASQL)}{173}{appendix.C}
+\contentsline {section}{\numberline {C.1}Cuestionario}{174}{section.C.1}
+\contentsline {section}{\numberline {C.2}Resultados}{179}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}Poblaciones}{179}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Participantes}{179}{subsection.C.2.2}
+\contentsline {chapter}{Bibliograf\'{\i }a}{181}{appendix*.138}

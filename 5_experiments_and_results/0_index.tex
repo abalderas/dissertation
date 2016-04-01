@@ -682,26 +682,190 @@ En este último caso se recopilaron 31 cuestionarios (cuestionario~\ref{apc:eval
 
 \subsection{Resultados del cuestionario del método y el DSL}
 
-El cuestionario~\ref{apc:eval:metodo:cuestionario} fue completado por 31 docentes en el mes de marzo de 2016 tras asistir a la presentación del método y el DSL en las Jornadas de Innovación Docente. La distribución de los participantes con respecto a la rama que pertenecen se muestra en la figura~\ref{fig:cap:encuesta:rama} y es la que sigue:
+El cuestionario~\ref{apc:eval:metodo:cuestionario} fue completado por 31 docentes en el mes de marzo de 2016 tras asistir a la presentación del método y el DSL en las Jornadas de Innovación Docente. El número de participantes se consideró adecuado en base la guía de Oates, que indica que 30 es el mínimo aceptado para un primer proyecto de investigación.
 
-\begin{itemize}
-\item Arte y humanidades: 5
-\item Ciencias: 5
-\item Ciencias de la salud: 6
-\item Ciencias sociales y jurídicas: 5
-\item Ingeniería y arquitectura: 10
-\end{itemize}
+Antes de completar el cuestionario, los docentes asistieron a una presentación oral en la que se mostró tanto el método DBA como VWQL, el DSL creado para aplicar el método a los mundos virtuales. Además, se mostraron ejemplos de consultas y de resultados asociados a dichas consultas. 
 
-% LA PIE TIENE UN ESTILO DIFERENTE A LA DE POBLACIÓN DEL OTRO CUESTIONARIO (GDOC VS XLS). DEBERÍA UNIFICAR ...
+\subsubsection{Perfil de los participantes}
+
+La distribución de los participantes con respecto a la rama que pertenecen y su sexo se muestran en los diagramas de la figura~\ref{fig:cap:encuesta:ramaysexo}. Además, en la tabla~\ref{tab:cap:encuesta:rama:sexo} se muestra un resumen de esta información.
+
 
 \begin{figure}
   \begin{center}
-    \includegraphics[scale=0.5]{EncuestaRamasPie.png}
+    \includegraphics[scale=0.3]{JornadasPoblacion.png}
   \end{center}
-  \caption{Distribución de los participantes por rama}
-  \label{fig:cap:encuesta:rama}
+  \caption{Distribución de los participantes por rama y sexo}
+  \label{fig:cap:encuesta:ramaysexo}
 \end{figure}
 
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{| l | r | r | r | r |}
+    \hline
+    Rama \ Sexo & Hombre & Mujer & Ns/Nc & Total \\
+    \hline
+    \hline
+    Arte y humanidades & 1 & 4 & 0 & 5  \\
+    \hline
+    Ciencias & 3 & 2 & 0 & 5  \\
+    \hline
+    Ciencias de la salud & 6 & 0 & 0 & 6  \\
+    \hline
+    Ciencias sociales y jurídicas & 2 & 2 & 1 & 5  \\
+    \hline
+    Ingeniería y arquitectura & 6 & 4 & 0 & 10 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption{Resumen de distribución de participantes por rama y sexo}
+\label{tab:cap:encuesta:rama:sexo}
+\end{table}
+
+% LA PIE TIENE UN ESTILO DIFERENTE A LA DE POBLACIÓN DEL OTRO CUESTIONARIO (GDOC VS XLS). DEBERÍA UNIFICAR ...
+
+
+\subsubsection{Evaluación del método DBA}
+
+Para evaluar el método se preguntó a los docentes si consideraban el método DBA adecuado para obtener automáticamente indicadores de entornos de aprendizaje virtual. A esta pregunta fueron 26 de los 31 docentes encuestados (84\%) los que consideraron el método DBA adecuado (figura~\ref{fig:cap:encuesta:metodoDBA}).
+
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.4]{EncuestaMetodoDBA.png}
+  \end{center}
+  \caption{Respuestas de los encuestados a la pregunta sobre el método DBA}
+  \label{fig:cap:encuesta:metodoDBA}
+\end{figure}
+
+En general se puede decir que los docentes consideran el método como válido. Pero también es necesario determinar si existe relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,6142, muy superior al umbral de significación del 0,005.
+
+Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las Ciencias natutales, Ciencias de la salud e Ingeniería (\emph{EHSE, Earth & Health Sciences and Engineering}) o a Ciencias Sociales y Humanidades (\emph{SSH, Social Sciences and Humanities}). Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,2955, superior al umbral de significación del 0,005.
+
+El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:metodoDBA:rama}.
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{| l | l | r | r | r |}
+    \hline
+    & Rama & Sí & No & Total \\
+    \hline
+    \hline
+    \multirow{2}{2.5cm}{SSH} & Arte y humanidades & 4 & 1 & 5  \\
+    \cline{2-5}
+    & Ciencias sociales y jurídicas & 3 & 2 & 5  \\
+    \hline
+    \multirow{3}{2.5cm}{EHSE} & Ciencias & 5 & 0 & 5  \\
+    \cline{2-5}
+    & Ciencias de la salud & 5 & 1 & 6  \\
+    \cline{2-5}
+    & Ingeniería y arquitectura & 9 & 1 & 10 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption{Consideración de idoneidad del método DBA por ramas}
+\label{tab:cap:encuesta:metodoDBA:rama}
+\end{table}
+
+\subsubsection{Evaluación del DSL}
+
+Para evaluar el DSL se preguntó a los docentes si consideraban el lenguaje presentado útil para diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de los entornos de aprendizaje virtual. A esta pregunta también fueron 26 de los 31 docentes encuestados (84\%) los que consideraron el lenguaje adecuado.
+
+Por tanto se puede decir que los docentes consideran el método como válido. Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el lenguaje sea o no útil es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,6142, muy superior al umbral de significación del 0,005.
+
+Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las EHSE o a  las SSH. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el lenguaje sea o no válido es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar tampoco la hipótesis con un p-valor de 0,2955, superior al umbral de significación del 0,005.
+
+El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:DSL:rama}.
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{| l | l | r | r | r |}
+    \hline
+    & Rama & Sí & No & Total \\
+    \hline
+    \hline
+    \multirow{2}{2.5cm}{SSH} & Arte y humanidades & 4 & 1 & 5  \\
+    \cline{2-5}
+    & Ciencias sociales y jurídicas & 3 & 2 & 5  \\
+    \hline
+    \multirow{3}{2.5cm}{EHSE} & Ciencias & 5 & 0 & 5  \\
+    \cline{2-5}
+    & Ciencias de la salud & 5 & 1 & 6  \\
+    \cline{2-5}
+    & Ingeniería y arquitectura & 9 & 1 & 10 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption{Consideración de idoneidad del DSL por ramas}
+\label{tab:cap:encuesta:DSL:rama}
+\end{table}
+
+\subsubsection{Evaluación de la sintaxis del DSL (consulta tipo)}
+
+Para evaluar la sintaxis del DSL se mostró una consulta de ejemplo y se preguntó a los docentes si consideraban la consulta entendible. A esta pregunta fueron 24 de los 31 docentes encuestados (77\%) los que consideraron entendible la consulta.
+
+Por tanto se puede decir que los docentes consideran el método como válido. Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que si la consulta es o no entendible es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,121, superior al umbral de significación del 0,005.
+
+Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las EHSE o a  las SSH. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que la consulta es o no entendible es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar tampoco la hipótesis con un p-valor de 0,021, superior al umbral de significación del 0,005.
+
+El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:consulta:rama}.
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{| l | l | r | r | r |}
+    \hline
+    & Rama & Sí & No & Total \\
+    \hline
+    \hline
+    \multirow{2}{2.5cm}{SSH} & Arte y humanidades & 2 & 3 & 5  \\
+    \cline{2-5}
+    & Ciencias sociales y jurídicas & 3 & 2 & 5  \\
+    \hline
+    \multirow{3}{2.5cm}{EHSE} & Ciencias & 5 & 0 & 5  \\
+    \cline{2-5}
+    & Ciencias de la salud & 5 & 1 & 6  \\
+    \cline{2-5}
+    & Ingeniería y arquitectura & 9 & 1 & 10 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption{Consideración de la consulta como entendible o no por ramas}
+\label{tab:cap:encuesta:consulta:rama}
+\end{table}
+
+\subsubsection{Evaluación de los resultados}
+
+Para evaluar los resultados devueltos por el DSL se mostró como ejemplo los resultados que devolvería la consulta de ejemplo y se preguntó a los docentes si consideraban dichos resultados entendibles. A esta pregunta fueron 20 de los 31 docentes encuestados (64\%) los que consideraron entendible la consulta.
+
+Por tanto se puede decir que los docentes consideran el método como válido. Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que si los resultados son o no entendibles es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,010, superior al umbral de significación del 0,005.
+
+Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las EHSE o a  las SSH. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que los resultados son o no entendibles es independiente de si dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar tampoco la hipótesis con un p-valor de 0,013, superior al umbral de significación del 0,005.
+
+El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:resultados:rama}.
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{| l | l | r | r | r |}
+    \hline
+    & Rama & Sí & No & Total \\
+    \hline
+    \hline
+    \multirow{2}{2.5cm}{SSH} & Arte y humanidades & 3 & 2 & 5  \\
+    \cline{2-5}
+    & Ciencias sociales y jurídicas & 0 & 5 & 5  \\
+    \hline
+    \multirow{3}{2.5cm}{EHSE} & Ciencias & 5 & 0 & 5  \\
+    \cline{2-5}
+    & Ciencias de la salud & 5 & 1 & 6  \\
+    \cline{2-5}
+    & Ingeniería y arquitectura & 7 & 3 & 10 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption{Consideración de los resultados como entendibles o no por ramas}
+\label{tab:cap:encuesta:resultados:rama}
+\end{table}
 
 
 \subsection{Resultados del cuestionario de indicadores}
