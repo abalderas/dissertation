@@ -741,7 +741,7 @@ Para evaluar el método se preguntó a los docentes si consideraban el método D
 
 En general se puede decir que los docentes consideran el método como válido. Pero también es necesario determinar si existe relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,6142, muy superior al umbral de significación del 0,005.
 
-Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las Ciencias natutales, Ciencias de la salud e Ingeniería (\emph{EHSE, Earth & Health Sciences and Engineering}) o a Ciencias Sociales y Humanidades (\emph{SSH, Social Sciences and Humanities}). Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,2955, superior al umbral de significación del 0,005.
+Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las Ciencias natutales, Ciencias de la salud e Ingeniería (\emph{EHSE, Earth \& Health Sciences and Engineering}) o a Ciencias Sociales y Humanidades (\emph{SSH, Social Sciences and Humanities}). Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,2955, superior al umbral de significación del 0,005.
 
 El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:metodoDBA:rama}.
 
@@ -766,6 +766,39 @@ El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:metod
 \end{center}
 \caption{Consideración de idoneidad del método DBA por ramas}
 \label{tab:cap:encuesta:metodoDBA:rama}
+\end{table}
+
+\paragraph{Características del método DBA}
+
+Para continuar con la evaluación del método, se preguntó a los encuestados sobre su consideración acerca de en qué medida el método DBA satisface cada una de las características que se esperan del mismo. Estas características son objetividad, adaptabilidad, sistematicidad, flexibilidad y fiabilidad. Para su evaluación se preguntó sobre ellos en una escala likert de cinco puntos: totalmente de acuerdo, de acuerdo, ni de acuerdo ni en desacuerdo, en desacuerdo y totalmente en desacuerdo. 
+
+En la tabla~\ref{tab:cap:encuesta:metodoDBA:caracteristicas} puede verse el porcentaje de votos que obtuvo cada uno de los puntos para cada característica. Las características de la adaptabilidad, la sistematicidad y la flexibilidad son las más aceptadas para el método, ya que sumando los ''totalmente de acuerdo'' con los ''de acuerdo'' alcanzan más de la mitad de los votos, esto es, 61, 70 y 61\% respectivamente. Mientras que sumando los ''en desacuerdo'' con los ''totalmente en desacuerdo'' tienen 16, 10 y 13\% respectivamente. Por tanto, se podría decir que la mayoría de los docentes consideran que el método les proporciona estas características.
+
+Para la objetividad tenemos un 46\% a favor (sumando los ''totalmente de acuerdo'' con los ''de acuerdo'') y un 22\% en contra (sumando los ''en desacuerdo'' con los ''totalmente en desacuerdo''), mientras que para la fiabilidad tenemos un 45\% a favor y un 29\% en contra, contando ambas características con un 26\% de docentes que mantienen una opinión neutral, es decir, ni de acuerdo ni en desacuerdo. Por tanto, podemos decir que aunque con menor porcentaje de docentes a favor, tanto la objetividad como la fiabilidad son también aceptadas como características del método.
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{| l | r | r | r | r | r |}
+    \hline
+    \multirow{3}{1.9cm}{Características} & \multirow{3}{1.9cm}{\centering Totalmente de acuerdo} & \multirow{3}{1.2cm}{\centering De acuerdo} & \multirow{3}{2.3cm}{\centering Ni de acuerdo ni en desacuerdo} & \multirow{3}{1.8cm}{\centering En desacuerdo} & \multirow{3}{1.9cm}{\centering Totalmente en desacuerdo} \\
+    & & & & & \\
+    & & & & & \\
+    \hline
+    \hline
+    Objetividad & 23\% & 23\% & \textbf{32\%} & 19\% & 3\% \\
+    \hline
+    Adaptabilidad & 16\% & \textbf{45\%} & 23\% & 13\% & 3\% \\
+    \hline
+    Sistematicidad & \textbf{40\%} & 30\% & 20\% & 10\% & 0\% \\
+    \hline
+    Flexibilidad & 19\% & \textbf{42\%} & 26\% & 13\% & 0\% \\
+    \hline
+    Fiabilidad & 6\% & \textbf{39\%} & 26\% & 23\% & 6\% \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption{Evaluación de las características del método DBA}
+\label{tab:cap:encuesta:metodoDBA:caracteristicas}
 \end{table}
 
 \subsubsection{Evaluación del DSL}
@@ -800,6 +833,10 @@ El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:DSL:r
 \caption{Consideración de idoneidad del DSL por ramas}
 \label{tab:cap:encuesta:DSL:rama}
 \end{table}
+
+\paragraph{Características del DSL}
+
+Facilidad de aprendizaje	Eficacia	Ahorra tiempo	Escalabilidad	Capacidad de reutilización	Fiabilidad
 
 \subsubsection{Evaluación de la sintaxis del DSL (consulta tipo)}
 
