@@ -125,7 +125,7 @@
 \contentsline {subsection}{\numberline {C.2.2}Evaluaci\IeC {\'o}n del m\IeC {\'e}todo DBA}{183}{subsection.C.2.2}
 \contentsline {subsubsection}{\numberline {C.2.2.1}Caracter\IeC {\'\i }sticas del m\IeC {\'e}todo DBA}{184}{subsubsection.C.2.2.1}
 \contentsline {subsection}{\numberline {C.2.3}Evaluaci\IeC {\'o}n del DSL}{191}{subsection.C.2.3}
-\contentsline {subsubsection}{\numberline {C.2.3.1}Caracter\IeC {\'\i }sticas del DSL}{193}{subsubsection.C.2.3.1}
-\contentsline {subsection}{\numberline {C.2.4}Evaluaci\IeC {\'o}n de la sintaxis del DSL (consulta tipo)}{202}{subsection.C.2.4}
-\contentsline {subsection}{\numberline {C.2.5}Evaluaci\IeC {\'o}n de los resultados}{203}{subsection.C.2.5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{205}{appendix*.182}
+\contentsline {subsubsection}{\numberline {C.2.3.1}Caracter\IeC {\'\i }sticas del DSL}{192}{subsubsection.C.2.3.1}
+\contentsline {subsection}{\numberline {C.2.4}Evaluaci\IeC {\'o}n de la sintaxis del DSL (consulta tipo)}{199}{subsection.C.2.4}
+\contentsline {subsection}{\numberline {C.2.5}Evaluaci\IeC {\'o}n de los resultados}{200}{subsection.C.2.5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{201}{appendix*.182}
