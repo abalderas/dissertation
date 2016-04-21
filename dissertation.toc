@@ -6,7 +6,7 @@
 \select@language {spanish}
 \select@language {spanish}
 \contentsline {chapter}{\'{I}ndice de figuras}{xv}{chapter*.2}
-\contentsline {chapter}{\IeC {\'I}ndice de tablas}{xvii}{chapter*.3}
+\contentsline {chapter}{\IeC {\'I}ndice de tablas}{xix}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Contexto}{7}{section.1.2}
@@ -57,17 +57,16 @@
 \contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{81}{section.5.1}
 \contentsline {section}{\numberline {5.2}Antecedentes}{82}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Introducci\IeC {\'o}n}{82}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}AssessMediaWiki (AMW)}{83}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}AssessMediaWiki (AMW)}{84}{subsection.5.2.2}
 \contentsline {subsubsection}{\numberline {5.2.2.1}Ejemplo de uso}{85}{subsubsection.5.2.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2.2}Conclusiones}{93}{subsubsection.5.2.2.2}
-\contentsline {section}{\numberline {5.3}Herramientas}{94}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Lenguajes de dominio}{94}{subsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.1.1}EvalCourse (EVC) y SASQL}{95}{subsubsection.5.3.1.1}
-\contentsline {paragraph}{\numberline {5.3.1.1.1}Descripci\IeC {\'o}n}{95}{paragraph.5.3.1.1.1}
-\contentsline {paragraph}{\numberline {5.3.1.1.2}Ejemplo}{98}{paragraph.5.3.1.1.2}
-\contentsline {subsubsection}{\numberline {5.3.1.2}EvalSim (EVS) y VWQL}{104}{subsubsection.5.3.1.2}
-\contentsline {paragraph}{\numberline {5.3.1.2.1}Descripci\IeC {\'o}n}{104}{paragraph.5.3.1.2.1}
-\contentsline {paragraph}{\numberline {5.3.1.2.2}Ejemplo}{106}{paragraph.5.3.1.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Conclusiones}{94}{subsubsection.5.2.2.2}
+\contentsline {section}{\numberline {5.3}Lenguajes de dominio}{94}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}EvalCourse (EVC) y SASQL}{94}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Descripci\IeC {\'o}n}{95}{subsubsection.5.3.1.1}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Ejemplo}{97}{subsubsection.5.3.1.2}
+\contentsline {subsection}{\numberline {5.3.2}EvalSim (EVS) y VWQL}{104}{subsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2.1}Descripci\IeC {\'o}n}{104}{subsubsection.5.3.2.1}
+\contentsline {subsubsection}{\numberline {5.3.2.2}Ejemplo}{106}{subsubsection.5.3.2.2}
 \contentsline {section}{\numberline {5.4}Estudios de caso}{110}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Estudio de caso CS01}{110}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Estudio de caso CS02}{111}{subsection.5.4.2}
@@ -122,6 +121,11 @@
 \contentsline {chapter}{\numberline {C}Evaluaci\IeC {\'o}n del m\IeC {\'e}todo de evaluaci\IeC {\'o}n (DBA) y del lenguaje para dise\IeC {\~n}ar evaluaciones (SASQL)}{177}{appendix.C}
 \contentsline {section}{\numberline {C.1}Cuestionario}{178}{section.C.1}
 \contentsline {section}{\numberline {C.2}Resultados}{183}{section.C.2}
-\contentsline {subsection}{\numberline {C.2.1}Poblaciones}{183}{subsection.C.2.1}
-\contentsline {subsection}{\numberline {C.2.2}Participantes}{183}{subsection.C.2.2}
-\contentsline {chapter}{Bibliograf\'{\i }a}{185}{appendix*.142}
+\contentsline {subsection}{\numberline {C.2.1}Participantes}{183}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Evaluaci\IeC {\'o}n del m\IeC {\'e}todo DBA}{183}{subsection.C.2.2}
+\contentsline {subsubsection}{\numberline {C.2.2.1}Caracter\IeC {\'\i }sticas del m\IeC {\'e}todo DBA}{184}{subsubsection.C.2.2.1}
+\contentsline {subsection}{\numberline {C.2.3}Evaluaci\IeC {\'o}n del DSL}{191}{subsection.C.2.3}
+\contentsline {subsubsection}{\numberline {C.2.3.1}Caracter\IeC {\'\i }sticas del DSL}{193}{subsubsection.C.2.3.1}
+\contentsline {subsection}{\numberline {C.2.4}Evaluaci\IeC {\'o}n de la sintaxis del DSL (consulta tipo)}{202}{subsection.C.2.4}
+\contentsline {subsection}{\numberline {C.2.5}Evaluaci\IeC {\'o}n de los resultados}{203}{subsection.C.2.5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{205}{appendix*.182}

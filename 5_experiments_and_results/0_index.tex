@@ -24,11 +24,17 @@ The logic of validation allows us to move between the two limits of dogmatism an
 
 En este capítulo se evalúa si los objetivos de esta tesis se han alcanzado, es decir, la idoneidad del método propuesto para la evaluación de competencias genéricas, así como las herramientas que lo implementan.
 
-El capítulo comienza con la descripción de las herramientas que implementan el método DBA y su ilustración con varios ejemplos. En segundo lugar, se presentan los estudios de caso en los que se ha implementado el método. En tercer lugar, se analiza el cuestionario de evaluación y sus resultados. En cuarto lugar, se presentan las contribuciones surgidas de esta tesis doctoral. En último lugar, el capítulo termina con la discusión y las conclusiones del proceso de evaluación.
+El capítulo comienza con la descripción de las herramientas que implementan el método DBA y su ilustración con varios ejemplos. En segundo lugar, se presentan los estudios de caso en los que se ha implementado el método. En tercer lugar, se analizan los cuestionarios de evaluación y sus resultados. En cuarto lugar, se presentan las contribuciones surgidas de esta tesis doctoral. En último lugar, el capítulo termina con la discusión y las conclusiones del proceso de evaluación.
 
 \section{Introducción}
 
-	Para evaluar la idoneidad del método DBA se han implementado tres herramientas que se han utilizado en otros tantos entornos educativos. En los antecedentes se trabaja en la extracción de indicadores sobre un wiki de MediaWiki, mientras que después se presentan dos DSLs para la extracción de indicadores. El primero de ellos a partir de los registros de un VLE (Moodle), mientras que el segundo lo hace a partir de los registros de un mundo virtual basado en OpenSim.
+	Para evaluar la idoneidad del método DBA se han implementado tres herramientas que se han utilizado en otros tantos entornos educativos. El trabajo comenzó en el curso 2011-12, cuando se desarrolló una herramienta web para la evaluación de competencias genéricas y específicas a partir del trabajo de los estudiantes en un wiki basado en MediaWiki. Esta aplicación se describe en los  antecedentes (sección~\ref{subcha:antecedentes}). En el siguiente curso se desarrolló una herramienta de tipo DSL para la evaluación de competencias genéricas a partir de la actividad generada por los estudiantes en el VLE (apartado~\ref{subcha:evc}). La última herramienta desarrollada también es de tipo DSL y se utilizó para la evaluación de competencias genéricas a partir de la actividad generada por los estudiantes en un mundo virtual (apartado~\ref{subcha:evs}). 
+
+%En los antecedentes se trabaja en la extracción de indicadores sobre un wiki de MediaWiki, mientras que después se presentan dos DSLs para la extracción de indicadores. El primero de ellos a partir de los registros de un VLE (Moodle), mientras que el segundo lo hace a partir de los registros de un mundo virtual basado en OpenSim.
+
+
+
+%	El método DBA se ha utilizado en la extracción de competencias genéricas de tres entornos educativos virtuales. Para ello se ha implementado una herramienta diferente para cada entorno. 
 
 Las herramientas se utilizaron en varias experiencias para la evaluación de competencias genéricas en asignaturas de la Universidad de Cádiz. Estas experiencias se presentan en diferentes casos de estudio que han sido después presentados en congresos y publicados en revistas.
 
@@ -65,7 +71,7 @@ El capítulo comienza con una introducción a la problemática surgida con los w
   \label{fig:AmwRubrica}
 \end{figure}
 
-		AMW implementa dos roles de usuario distintos: supervisores y estudiantes. Los estudiantes pueden elegir entre distintas opciones: evaluar una revisión, comprobar sus propias aportaciones evaluadas y verificar las evaluaciones ya enviadas. Por otro lado, los supervisores tienen un mayor número de opciones, como definir la rúbrica que los estudiantes deberán completar al realizar sus evaluaciones, modificar los parámetros de los programas o vigilar las evaluaciones que los estudiantes vayan haciendo. AMW implementa una función de selección parcialmente aleatoria. Cuando un estudiante va a realizar una evaluación, el sistema elige automáticamente una de entre el 30\percentage más significativa que aún no ha sido evaluada.
+		AMW implementa dos roles de usuario distintos: supervisores y estudiantes. Los estudiantes pueden elegir entre distintas opciones: evaluar una revisión, comprobar sus propias aportaciones evaluadas y verificar las evaluaciones ya enviadas. Por otro lado, los supervisores tienen un mayor número de opciones, como definir la rúbrica que los estudiantes deberán completar al realizar sus evaluaciones, modificar los parámetros de los programas o vigilar las evaluaciones que los estudiantes vayan haciendo. AMW implementa una función de selección parcialmente aleatoria. Cuando un estudiante va a realizar una evaluación, el sistema elige automáticamente una de entre el 30\percentage{ }más significativa que aún no ha sido evaluada.
 
 		Al revisar sus evaluaciones, los estudiantes puede revisar las notas recibidas y sus justificaciones, así como ver a qué contribución en particular se refiere (figura~\ref{fig:AmwFormative}). Si el estudiante no está de acuerdo con la calificación puede replicar utilizando para ello una rúbrica similar a la que se utilizó en su evaluación, indicando las calificaciones que considera que merece y sus correspondientes justificaciones. Después el docente revisará la disputa y pondrá la nota definitiva.
 
@@ -175,7 +181,7 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
     \hline
     Trabajo en equipo  & Ratio de miembros del equipo que trabajaron en un mismo criterio  & Ratio de miembros del equipo que contribuyeron a una misma página del wiki en las páginas de su proyecto \\
     \hline
-    Comunicación y aplicación del conocimiento  & Media de las notas recibidas por todos los miembros del grupo  & Porcentaje de miembros del equipo que contribuyeron al menos a un 20\percentage del trabajo realizado \\
+    Comunicación y aplicación del conocimiento  & Media de las notas recibidas por todos los miembros del grupo  & Porcentaje de miembros del equipo que contribuyeron al menos a un 20\percentage{}del trabajo realizado \\
     \hline
     Mantener la calidad del trabajo producido  & Media de las notas que cada estudiante individualmente recibió  & Contribución individual en bytes \\
     \hline
@@ -194,13 +200,14 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 			Sin embargo, en la aplicación de AMW nos encontramos con que se dan algunos de los problemas detectados en la revisión de la literatura para este tipo de herramientas de evaluación asistida. En primer lugar, delegar la evaluación en los estudiantes genera situaciones de subjetividad, pues pueden existir apartados en la rúbrica que los estudiantes interpreten o valoren de forma diferente. Y en segundo lugar, como vemos en el diagrama, el profesorado también revisa las evaluaciones de sus estudiantes, y más aún si estos replican, con lo que los problemas de escalabilidad también aparecerían.
 
 
-\section{Herramientas}
+%\section{Herramientas}
+\section{Lenguajes de dominio}
 
-	El método DBA se ha utilizado en la extracción de competencias genéricas de tres entornos educativos virtuales. Para ello se ha implementado una herramienta diferente para cada entorno. El trabajo comenzó en el curso 2011-12, cuando se desarrolló una herramienta web para la evaluación de competencias genéricas y específicas a partir del trabajo de los estudiantes en un wiki basado en MediaWiki. Esta aplicación se ha descrito en los  antecedentes (sección~\ref{subcha:antecedentes}). En el siguiente curso se desarrolló una herramienta de tipo DSL para la evaluación de competencias genéricas a partir de la actividad generada por los estudiantes en el VLE (apartado~\ref{subcha:evc}). La otra herramienta desarrollada también es de tipo DSL y se utilizó para la evaluación de competencias genéricas a partir de la actividad generada por los estudiantes en un mundo virtual (apartado~\ref{subcha:evs}).
+		A continuación se presentan los dos DSL que se han desarrollado para la implementación del método, cada uno aplicable a un contexto diferente. En el apartado~\ref{subcha:evc} se presenta el primer DSL, orientado para obtener indicadores de los VLEs, mientras que en el apartado~\ref{subcha:evs} se presenta el segundo DSL, orientado a los mundos virtuales.
 
 % TIC https://consultasescritura.wordpress.com/2013/03/14/tic-tics-tics-o-tic/
 
-	\subsection{Lenguajes de dominio}
+%	\subsection{Lenguajes de dominio}
 
 %		Un DSL es un pequeño lenguaje de programación de gran potencia expresiva que se enfoca a un dominio particular. Los beneficios de utilizar un DSL son~\cite{vanDeursen:2000}:
 %		\begin{itemize}
@@ -211,9 +218,8 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 %			\item Mejora la capacidad de ser probado.
 %		\end{itemize} 
 
-		A continuación se presentan los dos DSL que se han desarrollado para la implementación del método, cada uno aplicable a un contexto diferente. En el apartado~\ref{subcha:evc} se presenta el primer DSL, orientado para obtener indicadores de los VLEs, mientras que en el apartado~\ref{subcha:evs} se presenta el segundo DSL, orientado a los mundos virtuales. 
 
-		\subsubsection{EvalCourse (EVC) y SASQL} \label{subcha:evc}
+		\subsection{EvalCourse (EVC) y SASQL} \label{subcha:evc}
 
  %, los investigadores de diferentes áreas han colaborado para extraerlos, realizar minería de datos y utilizarlos para mejorar el aprendizaje~\cite{park2015development}.
 
@@ -222,7 +228,7 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 % ¿Quitar la cita de vanDeursen? Está antes?
 	El VLE es el núcleo de los cursos virtuales, donde los estudiantes acceden para interactuar con el curso. La interacción de los estudiantes genera gran cantidad de información que queda registrada en el VLE. Esta interacción será la base para los indicadores del desempeño de competencias genéricas.
 
-			\paragraph{Descripción} % Análisis y diseño
+			\subsubsection{Descripción} % Análisis y diseño
 
 			Para diseñar evaluaciones a partir de los indicadores del VLE se crea \emph{Simple Assessment Specific Query Language} (SASQL). SASQL es un lenguaje formal para la ejecución automática de consultas simples escritas utilizando un lenguaje específico de evaluación. SASQL tiene una sintaxis simple, con términos del dominio docente y orientado a la evaluación de competencias genéricas~\cite{Balderas:2013}. De esta forma, los docentes pueden fácilmente obtener indicadores almacenados de la actividad en el VLE sin requerir conocimientos técnicos en bases de datos o programación informática.
 
@@ -262,7 +268,7 @@ Evidence indicator_name:
 			El objetivo es que EvalCourse pueda ser utilizado para cualquier VLE, pero esta primera versión ha sido implementada para funcionar en Moodle\footnote{https://moodle.org/}. Moodle es un sistema de gestión de aprendizaje de código abierto con más de 64.000 sitios registrados\footnote{https://moodle.net/stats}.
 
 
-			\paragraph{Ejemplo}
+			\subsubsection{Ejemplo}
 
 			Para evaluar las competencias genéricas el docente deberá definir los indicadores que serán extraídos de la actividad de cada estudiante en el VLE. Ilustraremos el método a partir de un ejemplo de uso de EvalCourse y su ejecución con los foros del VLE. Los foros suelen ser una de las herramientas incorporadas por los VLEs para la interacción entre los estudiantes. Es evidente que la comunicación oral es una manera muy rica de comunicarse, que proporciona múltiples signos no verbales como las expresiones faciales o el tono de voz. En contraste, las comunicaciones escritas proporcionan otras ventajas. Una de las más importantes para la educación es que el estudiante dispone de un tiempo para la reflexión. Por esta razón, podría preferirse la comunicación escrita a la oral cuando se busca un aprendizaje cognitivo~\cite{garrison1999critical}.
 
@@ -410,7 +416,7 @@ Evidence planificacion:
 	in assignments.
 \end{minted}
 
-		\subsubsection{EvalSim (EVS) y VWQL} \label{subcha:evs}
+		\subsection{EvalSim (EVS) y VWQL} \label{subcha:evs}
 
 		La segunda propuesta de DSL se aplica a los mundos virtuales. Aunque muchos investigadores han reconocido la potencia educativa y motivacional de los videojuegos, hay pocos estudios empíricos que hayan investigado recientemente su impacto en el aprendizaje de los estudiantes~\cite{berns2013game}. Lo mismo se puede decir de los entornos de aprendizaje como los mundos virtuales (Second Life, OpenCobalt, etc.)~\cite{hew2010use}. Esto se debe a que normalmente no se distribuyen bajo licencia libre y, por consiguiente, los docentes no pueden analizar las interacciones de los estudiantes o analizar su impacto en el aprendizaje y en los resultados de aprendizaje~\cite{cruz2015discovering,moreno2014serious}. 
 
@@ -418,7 +424,7 @@ Evidence planificacion:
 
 		A continuación se explicará cómo a partir de la actividad generada por los estudiantes se obtendrán indicadores para el diseño de evaluaciones de competencias genéricas.
 
-			\paragraph{Descripción}
+			\subsubsection{Descripción}
 
 			Para este trabajo se creó VWQL (\emph{Virtual Worl Query language}). VWQL es un DSL creado para obtener indicadores objetivos de OpenSim. EvalSim es el sistema que procesa las consultas de VWQL. Ha sido desarrollado bajo un enfoque MDE para modelar procesos para la obtención de los indicadores que se requieran. Fue también implementado utilizando Xtext~\cite{eysholdt2010xtext} dentro del Eclipse Modeling Framework.
 
@@ -444,7 +450,7 @@ Evidence name_of_the_evidence:
          | time | points )+
 \end{minted}
 
-			\paragraph{Ejemplo}
+			\subsubsection{Ejemplo}
 
 			En el juego los estudiantes interactúan entre ellos por medio de un chat. Las conversaciones quedan almacenadas en la base de datos de EvalSim. Utilizando el \emph{ciclo de contraste de hipótesis} los docentes obtendrán indicadores del trabajo de sus estudiantes (figura~\ref{fig:EvsDiagram}).
 
@@ -596,7 +602,7 @@ Evidence palabras_turno:
 
 	\subsection{Estudio de caso CS01}
 
-		Este estudio se llevó a cabo en la asignatura de \emph{Administración de Sistemas Operativos} durante los cursos 2010-11 y 2011-12, con 38 y 40 estudiantes respectivamente. Esta asignatura tenía lugar en el segundo semestre del tercer (y último) curso de la titulación de Ingeniería Técnica en Informática de Sistemas. Los estudiantes tuvieron que desarrollar varias tareas durante el curso, dos de ellas en un wiki público~\footnote{http://wikis.uca.es/wikiASO}. La primera consistió en un proyecto de migración de la infraestructura de red de una empresa, mientras que la segunda consistía en documentar un programa Unix para tareas del sistema operativo. Utilizando AMW cada estudiante evaluó 10 contribuciones de sus compañeros al wiki. El docente utilizó AMW y las evaluaciones de los estudiantes para evaluar competencias del \emph{trabajo en equipo}, \emph{capacidad crítica}, la \emph{comunicación}, la \emph{aplicación del conocimiento}, la \emph{capacidad para mantener la calidad del trabajo producido} y la \emph{capacidad crítica de sus estudiantes}.
+		Este estudio se llevó a cabo en la asignatura de \emph{Administración de Sistemas Operativos} durante los cursos 2010-11 y 2011-12, con 38 y 40 estudiantes respectivamente. Esta asignatura tenía lugar en el segundo semestre del tercer (y último) curso de la titulación de Ingeniería Técnica en Informática de Sistemas. Los estudiantes tuvieron que desarrollar varias tareas durante el curso, dos de ellas en un wiki público\footnote{http://wikis.uca.es/wikiASO}. La primera consistió en un proyecto de migración de la infraestructura de red de una empresa, mientras que la segunda consistía en documentar un programa Unix para tareas del sistema operativo. Utilizando AMW cada estudiante evaluó 10 contribuciones de sus compañeros al wiki. El docente utilizó AMW y las evaluaciones de los estudiantes para evaluar competencias del \emph{trabajo en equipo}, \emph{capacidad crítica}, la \emph{comunicación}, la \emph{aplicación del conocimiento}, la \emph{capacidad para mantener la calidad del trabajo producido} y la \emph{capacidad crítica de sus estudiantes}.
 
 	\subsection{Estudio de caso CS02}
 
@@ -639,7 +645,7 @@ Para valorar la consecución de los objetivos se plantearon las siguientes hipó
 \item \emph{H2}: El DSL permite a los docentes diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de los entornos de aprendizaje virtual
 \end{itemize}
 
-Para evaluar tanto \emph{H1} como \emph{H2} se utilizó el cuestionario~\ref{apc:eval:metodo:cuestionario}. En dicho cuestionario se realizaron diversas cuestiones relacionadas con el método DBA y con el DSL a docentes de diferentes ramas. De esta forma no sólo se persigue saber si los docentes dan validez al método o el DSL, sino también que la consideración de alguno de los aspectos de estos es independiente de la rama de cada docente.
+Para evaluar tanto \emph{H1} como \emph{H2} se utilizó el cuestionario~\ref{apc:eval:metodo:cuestionario}. En dicho cuestionario se realizaron diversas preguntas relacionadas con el método DBA y con el DSL a docentes de diferentes ramas. De esta forma no sólo se persigue saber si los docentes dan validez al método o el DSL, sino también que la consideración de alguno de los aspectos de estos es independiente de la rama de cada docente.
 
 Además, para saber si los docentes consideran válidos los indicadores obtenidos mediante el método DBA y la herramienta EvalCourse para evaluar las competencias genéricas se utilizaron los cuestionarios~\ref{apc:sec:cuestionario} y~\ref{apc:AA:cuestionario}. Para ello se planteó en el cuestionario un estudio de caso de ejemplo, preguntándose a los participantes si consideraban los indicadores obtenidos mediante el método DBA y la herramienta EvalCourse válidos para evaluar las competencias genéricas.%, corroborando si su respuesta es independiente del perfil tecnológico de los participantes en el cuestionario.
 
@@ -657,7 +663,7 @@ A los asistentes al curso, que fueron todos docentes de la Universidad de Cádiz
 
 	\subsubsection{Taller Aulablog}
 
-		Los días 6, 7 y 8 de julio del 2015 se celebró en Ubrique (Cádiz) el X encuentro Aulablog~\footnote{http://www.aulablog.com/blog/encuentro10/}. Aulablog es una reunión de docentes de toda España donde se ponen en común experiencias  dentro del ámbito de las tecnologías educativas. En dicho encuentro impartimos un taller sobre wikis en educación. El taller constó de una sesión de 3 horas en la que se explicó cómo trabajar en clase con wikis y se propusieron enfoques para favorecer el desempeño de competencias genéricas de los estudiantes, presentándose el método DBA y la herramienta EvalCourse. Al taller asistieron 20 docentes.
+		Los días 6, 7 y 8 de julio del 2015 se celebró en Ubrique (Cádiz) el X encuentro Aulablog\footnote{http://www.aulablog.com/blog/encuentro10/}. Aulablog es una reunión de docentes de toda España donde se ponen en común experiencias  dentro del ámbito de las tecnologías educativas. En dicho encuentro impartimos un taller sobre wikis en educación. El taller constó de una sesión de 3 horas en la que se explicó cómo trabajar en clase con wikis y se propusieron enfoques para favorecer el desempeño de competencias genéricas de los estudiantes, presentándose el método DBA y la herramienta EvalCourse. Al taller asistieron 20 docentes.
 
 A los asistentes al taller, que fueron docentes de varios niveles educativos, se les envió el cuestionario~\ref{apc:sec:cuestionario}, siendo 14 los que lo completaron.
 
@@ -772,9 +778,9 @@ El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:metod
 
 Para continuar con la evaluación del método, se preguntó a los encuestados sobre su consideración acerca de en qué medida el método DBA satisface cada una de las características que se esperan del mismo. Estas características son \emph{objetividad}, \emph{adaptabilidad}, \emph{sistematicidad}, \emph{flexibilidad} y \emph{fiabilidad}. Para su evaluación se preguntó sobre ellos en una escala Likert de cinco puntos: totalmente de acuerdo, de acuerdo, ni de acuerdo ni en desacuerdo, en desacuerdo y totalmente en desacuerdo. 
 
-En la tabla~\ref{tab:cap:encuesta:metodoDBA:caracteristicas} puede verse el porcentaje de votos que obtuvo cada uno de los puntos para cada característica. Las características de la \emph{adaptabilidad}, la \emph{sistematicidad} y la \emph{flexibilidad} son las más aceptadas para el método, ya que sumando los ''totalmente de acuerdo'' con los ''de acuerdo'' alcanzan más de la mitad de los votos, esto es, 61, 70 y 61\percentage respectivamente. Mientras que sumando los ''en desacuerdo'' con los ''totalmente en desacuerdo'' tienen 16, 10 y 13\percentage respectivamente. Por tanto, se podría decir que la mayoría de los docentes consideran que el método les proporciona estas características.
+En la tabla~\ref{tab:cap:encuesta:metodoDBA:caracteristicas} puede verse el porcentaje de votos que obtuvo cada uno de los puntos para cada característica. Las características de la \emph{adaptabilidad}, la \emph{sistematicidad} y la \emph{flexibilidad} son las más aceptadas para el método, ya que sumando los ''totalmente de acuerdo'' con los ''de acuerdo'' alcanzan más de la mitad de los votos, esto es, 61, 70 y 61\percentage{ }respectivamente. Mientras que sumando los ''en desacuerdo'' con los ''totalmente en desacuerdo'' tienen 16, 10 y 13\percentage{ }respectivamente. Por tanto, se podría decir que la mayoría de los docentes consideran que el método les proporciona estas características.
 
-Para la \emph{objetividad} tenemos un 46\percentage a favor (sumando los ''totalmente de acuerdo'' con los ''de acuerdo'') y un 22\percentage en contra (sumando los ''en desacuerdo'' con los ''totalmente en desacuerdo''), mientras que para la \emph{fiabilidad} tenemos un 45\percentage a favor y un 29\percentage en contra, contando ambas características con un 26\percentage de docentes que mantienen una opinión neutral, es decir, ni de acuerdo ni en desacuerdo. Por tanto, podemos decir que aunque con menor porcentaje de docentes a favor, tanto la \emph{objetividad} como la \emph{fiabilidad} son también aceptadas como características del método.
+Para la \emph{objetividad} tenemos un 46\percentage{ }a favor (sumando los ''totalmente de acuerdo'' con los ''de acuerdo'') y un 22\percentage{ }en contra (sumando los ''en desacuerdo'' con los ''totalmente en desacuerdo''), mientras que para la \emph{fiabilidad} tenemos un 45\percentage{ }a favor y un 29\percentage{ }en contra, contando ambas características con un 26\percentage{ }de docentes que mantienen una opinión neutral, es decir, ni de acuerdo ni en desacuerdo. Por tanto, podemos decir que aunque con menor porcentaje de docentes a favor, tanto la \emph{objetividad} como la \emph{fiabilidad} son también aceptadas como características del método.
 
 \begin{table}
   \begin{center}
@@ -838,9 +844,9 @@ El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:DSL:r
 
 Para continuar con la evaluación del DSL, se preguntó a los encuestados sobre su consideración acerca de en qué medida el DSL satisface cada una de las características que se esperan del mismo. Estas características son \emph{facilidad de aprendizaje}, \emph{eficacia}, \emph{ahorra tiempo}, \emph{escalabilidad}, \emph{capacidad de reutilización} y \emph{fiabilidad}. Para su evaluación se preguntó sobre ellos en una escala Likert de cinco puntos: totalmente de acuerdo, de acuerdo, ni de acuerdo ni en desacuerdo, en desacuerdo y totalmente en desacuerdo. 
 
-En la tabla~\ref{tab:cap:encuesta:DSL:caracteristicas} puede verse el porcentaje de votos que obtuvo cada uno de los puntos para cada característica. En primer lugar cabe destacar que el punto más votado en cuatro de las seis características fue el neutral, es decir, ni de acuerdo ni en desacuerdo. Estas cuatro características son la \emph{fiabilidad} con un 42\percentage, la \emph{facilidad de aprendizaje} con un 39\percentage, la \emph{escalabilidad} con un 35\percentage y el \emph{ahorro de tiempo} con un 32\percentage (en este último caso hay empate con el punto ''totalmente de acuerdo'').
+En la tabla~\ref{tab:cap:encuesta:DSL:caracteristicas} puede verse el porcentaje de votos que obtuvo cada uno de los puntos para cada característica. En primer lugar cabe destacar que el punto más votado en cuatro de las seis características fue el neutral, es decir, ni de acuerdo ni en desacuerdo. Estas cuatro características son la \emph{fiabilidad} con un 42\percentage, la \emph{facilidad de aprendizaje} con un 39\percentage, la \emph{escalabilidad} con un 35\percentage{ }y el \emph{ahorro de tiempo} con un 32\percentage{ }(en este último caso hay empate con el punto ''totalmente de acuerdo'').
 
-A pesar de esta ''neutralidad'', también es importante resaltar que hay un bajo porcentaje de desacuerdos para las características, siendo todos los porcentajes inferiores al 20\percentage, excepto para la fiablidad que es un 23\percentage. Además, para todas las características son más los docentes que están de acuerdo que los que no, superando en cuatro de seis el 50\percentage de votos a favor (\emph{facilidad de aprendizaje} con un 51\percentage, \emph{eficacia} con un 58\percentage, \emph{ahorro de tiempo} con un 55\percentage y \emph{capacidad de reutilización} con un 58\percentage.
+A pesar de esta ''neutralidad'', también es importante resaltar que hay un bajo porcentaje de desacuerdos para las características, siendo todos los porcentajes inferiores al 20\percentage, excepto para la fiablidad que es un 23\percentage. Además, para todas las características son más los docentes que están de acuerdo que los que no, superando en cuatro de seis el 50\percentage{ }de votos a favor (\emph{facilidad de aprendizaje} con un 51\percentage, \emph{eficacia} con un 58\percentage, \emph{ahorro de tiempo} con un 55\percentage{ }y \emph{capacidad de reutilización} con un 58\percentage.
 
 \begin{table}
   \begin{center}
@@ -851,17 +857,17 @@ A pesar de esta ''neutralidad'', también es importante resaltar que hay un bajo
     & & & & & \\
     \hline
     \hline
-    Facilidad de aprendizaje & 19\percentage & 32\percentage & \textbf{39\percentage } & 7\percentage & 3\percentage \\
+    Facilidad de aprendizaje & 19\percentage & 32\percentage & \textbf{39\percentage} & 7\percentage & 3\percentage \\
     \hline
-    Eficacia & 13\percentage & \textbf{45\percentage } & 26\percentage & 16\percentage & 0\percentage \\
+    Eficacia & 13\percentage & \textbf{45\percentage} & 26\percentage & 16\percentage & 0\percentage \\
     \hline
-    Ahorra tiempo & \textbf{32\percentage } & 23\percentage & \textbf{32\percentage } & 13\percentage & 0\percentage \\
+    Ahorra tiempo & \textbf{32\percentage} & 23\percentage & \textbf{32\percentage} & 13\percentage & 0\percentage \\
     \hline
-    Escalabilidad & 23\percentage & 23\percentage & \textbf{35\percentage } & 19\percentage & 0\percentage \\
+    Escalabilidad & 23\percentage & 23\percentage & \textbf{35\percentage} & 19\percentage & 0\percentage \\
     \hline
-    Capacidad de reutilización & 26\percentage & \textbf{32\percentage } & 29\percentage & 6,5\percentage & 6,5\percentage \\
+    Capacidad de reutilización & 26\percentage & \textbf{32\percentage} & 29\percentage & 6,5\percentage & 6,5\percentage \\
     \hline
-    Fiabilidad & 6\percentage & 29\percentage & \textbf{42\percentage } & 23\percentage & 0\percentage \\
+    Fiabilidad & 6\percentage & 29\percentage & \textbf{42\percentage} & 23\percentage & 0\percentage \\
     \hline
   \end{tabular}
 \end{center}
@@ -1025,7 +1031,7 @@ Para probar la independencia de las variables que intervienen en el cuestionario
 \item El \textbf{perfil} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{liderazgo}
 \end{enumerate}
 
-Se construyeron las tablas de contingencia, se calcularon las frecuencias esperadas y se obtuvieron los diferentes valores de $\chi^2$ para cada hipótesis. Una vez realizados los cálculos las hipótesis nulas 1, 2, 4, 5 y 6 no se rechazaron, concluyéndose que con una significación del 5\percentage {  }los datos son independientes. La hipótesis nula 3 sí quedaba rechazada con ese nivel de significación. Para no rechazarla el nivel de significación debía ser de un 0,1\percentage.
+Se construyeron las tablas de contingencia, se calcularon las frecuencias esperadas y se obtuvieron los diferentes valores de $\chi^2$ para cada hipótesis. Una vez realizados los cálculos las hipótesis nulas 1, 2, 4, 5 y 6 no se rechazaron, concluyéndose que con una significación del 5\percentage{ }los datos son independientes. La hipótesis nula 3 sí quedaba rechazada con ese nivel de significación. Para no rechazarla el nivel de significación debía ser de un 0,1\percentage.
 
 El estudio completo puede verse en la sección~\ref{apc:sec:resultados} del apéndice~\ref{Ap:cuestionario}.
 
@@ -1086,13 +1092,13 @@ En este caso, los resultados vienen desglosados por cada actividad del campus vi
 Los resultados de los cuestionarios son muy satisfactorios. En primer lugar, se han evaluado el método DBA y el DSL que implementa el método, con el fin de medir la consecución de las hipótesis planteadas en esta tesis para medir la consecuión de los objetivos. En segundo lugar, se han evaluado los resultados obtenidos mediante el DSL, con el fin de valorar su aplicabilidad en la evaluación de diferentes competencias genéricas.
 
 \paragraph*{Método DBA y DSL}
-El 84\percentage de los docentes encuestados consideran adecuado el método DBA para obtener indicadores de entornos de aprendizaje virtual y consideran el DSL útil para diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de dichos entornos. 
+El 84\percentage{ }de los docentes encuestados consideran adecuado el método DBA para obtener indicadores de entornos de aprendizaje virtual y consideran el DSL útil para diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de dichos entornos. 
 
 A las encuestas se les pasó el test exacto de Fisher para valorar si las respuestas de los docentes son independientes de la rama a la que pertenecen. No se pudo rechazar la hipótesis de independencia de las respuestas para ningún caso, quedando en ambos casos el estadístico muy por encima del valor umbral.
 
 Para afinar aún más en el detalle, se volvió a realizar el test estadístico de Fisher tras agrupar a los docentes en dos grupos, según pertenezcan a las SSH (\emph{Social Science and Humanities}) o a las EHSE (\emph{Earth and Healt Science and Engineering}). En este caso, tampoco se pudo rechazar la hipótesis de independencia, quedando siempre el valor del estadístico por encima del valor umbral.
 
-Además, el 77\percentage considera entendibles la sintaxis utilizada para definir las consultas en el DSL, mientras que el 64\% considera entendibles los resultados obtenidos a partir de la ejecución de dichas consultas.
+Además, el 77\percentage{ }considera entendibles la sintaxis utilizada para definir las consultas en el DSL, mientras que el 64\% considera entendibles los resultados obtenidos a partir de la ejecución de dichas consultas.
 
 También en estos casos se aplicó el test exacto de Fisher para valorar la independencia de los resultados, primero con respecto a las ramas de los docentes y segundo con respecto al agrupamiento de dichas ramas según sean de SSH o de EHSE. En todos los casos, el estadístico quedó por encima del umbral, aunque no con una diferencia tan amplia como en los casos anteriores. Sobre todo es llamativo lo que ocurre con los resultados, donde todos los docentes del area de Ciencias Sociales marcaron como no entendibles los resultados que devolvía el DSL. A pesar de ello, se sigue sin poder rechazar la hipótesis de independencia.
 
@@ -1106,7 +1112,7 @@ Además, se ha preguntado a los encuestados tanto si el método DBA como el DSL 
 
 Más de la mitad de los docentes (entre el 60 y el 70\percentage) considera que el método DBA satisfacen las características de la \emph{adaptabilidad},\emph{sistematicidad} y la \emph{flexibilidad}. Las características de la \emph{objetividad} y la \emph{fiabilidad} también tienen un mayor porcentaje de votos a favor que en contra, aunque con menor porcentaje  (en torno al 45\percentage).
 
-Con respecto a las características del DSL siguen siendo, para todas las características, más los docentes que están a favor que los que están en contra. Sin embargo, en torno un tercio de los encuestados para cada característica se situa en la posición neutra. Las características de la \emph{facilidad de aprendizaje}, la \emph{eficacia}, el \emph{ahorro de tiempo} y la \emph{capacidad de reutilización} tiene un porcentaje de docentes a favor de entre el 50 y el 58\percentage. La \emph{escalabilidad} cuenta con 46\percentage a favor y la \emph{fiabilidad} con un 35\percentage. 
+Con respecto a las características del DSL siguen siendo, para todas las características, más los docentes que están a favor que los que están en contra. Sin embargo, en torno un tercio de los encuestados para cada característica se situa en la posición neutra. Las características de la \emph{facilidad de aprendizaje}, la \emph{eficacia}, el \emph{ahorro de tiempo} y la \emph{capacidad de reutilización} tiene un porcentaje de docentes a favor de entre el 50 y el 58\percentage. La \emph{escalabilidad} cuenta con 46\percentage{ }a favor y la \emph{fiabilidad} con un 35\percentage. 
 
 \paragraph*{Indicadores de competencias genéricas}
 Aunque en esta tesis se propone un método y una herramienta para la evaluación de competencias genéricas, no es un objetivo de esta tesis establecer un indicador fehaciente para ninguna de ellas. En los ejemplos mostrados se proponen ejemplos de indicadores, y según el criterio de cada participante en el cuestionario, unos son más válidos que otros. Para la competencia del \emph{trabajo en equipo} prácticamente hay un empate entre el `sí` (26) y el `no`(25). Mientras que en la \emph{planificación y gestión del tiempo} domina el `sí` (40 a 11), en la competencia del \emph{liderazgo} domina el `no` (17 a 34). Las justificaciones de los participantes en muchos casos para dar el `no` van en la línea de la necesidad de completar el indicador con información previa. Esto podría ser un ejercicio de redefinición de la hipótesis inicial o un rediseño de la evaluación.
