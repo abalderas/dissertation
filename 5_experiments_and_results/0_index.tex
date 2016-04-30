@@ -43,7 +43,8 @@ Por último se realizó un cuestionario para que expertos en el dominio evaluase
 
 \section{Antecedentes} \label{subcha:antecedentes}
 
-En los antecedentes se presenta \emph{AssessMediaWiki} (AMW)\footnote{http://assessmediawiki.forja.rediris.es}, una herramienta que se desarrolló para realizar un evaluación cualitativa del trabajo de los estudiantes en el wiki y que surgió para complementar el análisis que realizaba la herramienta \emph{StatMediaWiki} (SMW)\footnote{http://statmediawiki.forja.rediris.es/}. SMW realizaba un análisis de las contribuciones de los estudiantes en el wiki meramente cuantitativo, pero que en su aplicación se topó con algunos inconvenientes que requerían una aproximación cualitativa.
+En los antecedentes se presenta \emph{AssessMediaWiki} (AMW)\footnote{http://assessmediawiki.forja.rediris.es}, una herramienta que se desarrolló para realizar un evaluación cualitativa del trabajo de los estudiantes en el wiki y que surgió para complementar el análisis que realizaba la herramienta \emph{StatMediaWiki} (SMW)\footnote{http://statmediawiki.forja.rediris.es/}. SMW es una herramienta que realiza un análisis meramente cuantitativo de las contribuciones de los estudiantes en el wiki.
+% SMW realizaba un análisis de las contribuciones de los estudiantes en el wiki meramente cuantitativo, pero que en su aplicación se topó con algunos inconvenientes que requeríanz una aproximación cualitativa.
 
 El capítulo comienza con una introducción a la problemática surgida con los wikis, a continuación se presenta AMW y se finaliza con las conclusiones.
 
@@ -51,7 +52,7 @@ El capítulo comienza con una introducción a la problemática surgida con los w
 
 \subsection{Introducción}
 
-	El uso educacional de los wikis para las experiencias de trabajo colaborativo está en auge debido a las numerosas ventajas que aporta sobre los modelos tradicionales~\cite{elgort2008wiki}. Algunas de las ventajas sobre los medios tradicionales, ya sean en formato impreso o en documentos digitales, es que éstos no llevan un registro de ediciones, no permiten la colaboración distribuida y asíncrona y no pueden ser monitorizados por el docente mientras los estudiantes completan el trabajo.
+	El uso educacional de los wikis para las experiencias de trabajo colaborativo está en auge debido a las numerosas ventajas que aporta sobre los modelos tradicionales~\cite{elgort2008wiki}. Algunas de las ventajas sobre los medios tradicionales, ya sean en formato impreso o en documentos digitales, es que éstos no llevan un registro de ediciones, no facilitan la colaboración distribuida y asíncrona y no pueden ser monitorizados por el docente mientras los estudiantes completan el trabajo.
 
 	Para evaluar el trabajo final de un grupo de estudiantes en una página del wiki nos bastaría con leer la última versión de dicha página, como hacíamos con los métodos tradicionales. Pero una de las características más interesantes de los wikis es que no sólo almacenan la información de la versión final de cada documento, sino que también almacenan todas las versiones intermedias creadas como resultado de las contribuciones hechas por cada usuario~\cite{trentin2009using}. Esto lo consigue manteniendo un registro con las diferencias entre las ediciones consecutivas de las páginas, registro que se podría utilizar para la obtención de indicadores de diferentes competencias~\cite{ortega2011new}. Las páginas creadas de manera colaborativa podrían ser evaluadas considerando la contribución de cada autor y las dinámicas de grupo en la creación de la página en tiempo real. Por desgracia, realizar una evaluación detallada de cada contribución realizada en el wiki es imposible de abordar cuando hay muchos usuarios y éstos participan activamente.
 
@@ -61,7 +62,7 @@ El capítulo comienza con una introducción a la problemática surgida con los w
 
 		\subsection{AssessMediaWiki (AMW)}
 
-		AMW es una aplicación web de código abierto que, al conectarse a una instalación MediaWiki, proporciona procedimientos de autoevaluación, evaluación entre iguales y evaluación del docente, a la vez que mantiene información sobre esas evaluaciones. AMW pone a disposición de los estudiantes una rúbrica previamente definida por el docente para que realicen la evaluación (figura\ref{fig:AmwRubrica}). 
+		AMW es una aplicación web de código abierto que, al conectarse a una instalación MediaWiki, proporciona procedimientos de autoevaluación, evaluación entre iguales y evaluación del docente, a la vez que mantiene información sobre esas evaluaciones. AMW pone a disposición de los estudiantes una rúbrica previamente definida por el docente para que realicen la evaluación (figura~\ref{fig:AmwRubrica}). 
 
 \begin{figure}
   \begin{center}
@@ -71,7 +72,7 @@ El capítulo comienza con una introducción a la problemática surgida con los w
   \label{fig:AmwRubrica}
 \end{figure}
 
-		AMW implementa dos roles de usuario distintos: supervisores y estudiantes. Los estudiantes pueden elegir entre distintas opciones: evaluar una revisión, comprobar sus propias aportaciones evaluadas y verificar las evaluaciones ya enviadas. Por otro lado, los supervisores tienen un mayor número de opciones, como definir la rúbrica que los estudiantes deberán completar al realizar sus evaluaciones, modificar los parámetros de los programas o vigilar las evaluaciones que los estudiantes vayan haciendo. AMW implementa una función de selección parcialmente aleatoria. Cuando un estudiante va a realizar una evaluación, el sistema elige automáticamente una de entre el 30\percentage{ }más significativa que aún no ha sido evaluada.
+		AMW implementa dos roles de usuario distintos: supervisores y estudiantes. Los estudiantes pueden elegir entre distintas opciones: evaluar una revisión, comprobar sus propias aportaciones evaluadas y verificar las evaluaciones ya enviadas. Por otro lado, los supervisores tienen un mayor número de opciones, como definir la rúbrica que los estudiantes deberán completar al realizar sus evaluaciones, modificar los parámetros de los programas o supervisar las evaluaciones que los estudiantes vayan haciendo. AMW implementa una función de selección parcialmente aleatoria. Cuando un estudiante va a realizar una evaluación, el sistema elige automáticamente una de entre el 30\percentage{ }de las más significativas que aún no han sido evaluadas.
 
 		Al revisar sus evaluaciones, los estudiantes puede revisar las notas recibidas y sus justificaciones, así como ver a qué contribución en particular se refiere (figura~\ref{fig:AmwFormative}). Si el estudiante no está de acuerdo con la calificación puede replicar utilizando para ello una rúbrica similar a la que se utilizó en su evaluación, indicando las calificaciones que considera que merece y sus correspondientes justificaciones. Después el docente revisará la disputa y pondrá la nota definitiva.
 
@@ -115,7 +116,7 @@ Por ejemplo, en la primera evaluación, se asigna la contribución realizada a l
 Cabe destacar también otras situaciones interesantes. En la versión \emph{R5} de la página vemos como se realiza una autoevaluación, ya que el estudiante rojo, autor de la versión, es el mismo que tiene que evaluar su contribución. Vemos también que en \emph{R3} es el docente el que realiza la evaluación de la contribución del estudiante rojo. Esto puede deberse a que el estudiante manualmente detecta una contribución que considera oportuna evaluar o a que, utilizando la herramienta SMW, detecta un comportamiento extraño en el wiki y quiere contrastar la situación. 
 Puede verse también que hay contribuciones que no reciben evaluación alguna, como ocurre con \emph{R6}. Está claro que sería deseable que todas las contribuciones significativas fueran evaluadas, pero no es escalable.
 				\item \emph{Revisión de las evaluaciones recibidas}. Los estudiantes pueden revisar las evaluaciones recibidas. Ellos pueden no sólo ver las notas que han recibido con las justificaciones y comentarios que añadieron sus evaluadores, sino también el enlace a la contribución. De esta forma, los estudiantes evaluados reciben una retroalimentación formativa. En la primera de las evaluaciones del diagrama de ejemplo puede verse como el estudiante rojo puede ver su evaluación (\emph{4}).
-				\item \emph{Réplica}. Si el estudiante evaluado no está de acuerdo con la evaluación recibida tiene la opción de replicarla justificando el motivo de dicha réplica. En el diagrama de ejemplo puede verse como el estudiante rojo considera injusta su evaluación y realiza una réplica (\emph{5}). El docente deberá resolver la réplica en la siguiente etapa.
+				\item \emph{Réplica}. Si el estudiante evaluado no está de acuerdo con la evaluación recibida tiene la opción de replicarla justificando el motivo de dicha réplica. En el diagrama de ejemplo puede verse como el estudiante rojo considera no apropiada su evaluación y realiza una réplica (\emph{5}). El docente deberá resolver la réplica en la siguiente etapa.
 				\item \emph{Evaluación final del wiki}. El docente evalúa la versión final de la página del wiki desarrollada por cada grupo de estudiantes. Esta evaluación es necesaria ya que el objetivo principal de la tarea es que los estudiantes realicen un buen trabajo en una página del wiki. Como cualquier otra tarea, deberá ser evaluada por el docente conforme al programa de estudios. Además, algunos de los criterios de evaluación sólo pueden ser evaluados en la versión final de la página, como por ejemplo, la coherencia del texto. De esta forma, aquellas contribuciones del wiki descartadas por la función de selección serán ahora implícitamente evaluadas ya que están integradas en el entregable final. Puede verse la evaluación al final del diagrama de ejemplo (\emph{Rf}), y cómo afecta al grupo de estudiantes completo.
 \end{itemize}
 
@@ -124,9 +125,9 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 			Un componente interesante de nuestro algoritmo es qué contribución wiki podrá ser asignada a cada estudiante para su evaluación. Es lo que llamamos \emph{función de selección}, y tiene varios aspectos a tener en cuenta:
 
 			\begin{itemize}
-				\item \emph{¿Debería cierta contribución en el wiki ser evaluada por más de un estudiante?} En realidad, tener varias evaluaciones de estudiantes diferentes sobre una misma contribución podría ser interesante para perfeccionar su evaluación y podría proporcionar información al docente para evaluar no sólo al estudiante autor de la contribución, sino también a los evaluadores. De hecho, el número de contribuciones a ser evaluadas es dependiente del objetivo del experimento y su configuración. Cuánto más grande sea el experimento, más contribuciones susceptibles de ser evaluadas tendrá. Sin embargo, el número de evaluaciones que un estudiante puede realizar es limitado (para que siga siendo formativo). Por lo que cada evaluación adicional a la misma contribución provocará que otras contribuciones sean más pobremente evaluadas o que no lo sean.
+				\item \emph{¿Debería cierta contribución en el wiki ser evaluada por más de un estudiante?} En realidad, tener varias evaluaciones de estudiantes diferentes sobre una misma contribución podría ser interesante para perfeccionar su evaluación y podría proporcionar información al docente para evaluar no sólo al estudiante autor de la contribución, sino también a los evaluadores. De hecho, el número de contribuciones a ser evaluadas es dependiente del objetivo del experimento y su configuración. Cuánto más grande sea el experimento, más contribuciones susceptibles de ser evaluadas tendrá. Sin embargo, el número de evaluaciones que un estudiante puede realizar es limitado (para que siga siendo formativo). Por lo que cada evaluación adicional a la misma contribución provocará que otras contribuciones sean peor evaluadas o que no lo sean.
 				\item \emph{¿Qué contribuciones deberían ser evaluadas?} La importancia de evaluar cada contribución puede variar. Por ejemplo, evaluar al menos una mínima cantidad de contribuciones por cada estudiante, página o categoría sería interesante. Pero algunas contribuciones que añadan ciertas características al trabajo pueden ser relevantes o informativas sobre el trabajo realizado por un estudiante. Por ejemplo, aunque las contribuciones que añadan gran cantidad de texto suelan ser más interesantes que las contribuciones pequeñas, una contribución pequeña puede ir relacionada con el cambio de sentido de alguna frase o párrafo. De cualquier forma, un estudiante puede solicitar que una contribución en particular sea evaluada, aunque ésta quede fuera de la función de selección.
-				\item \emph{¿Quién evalúa cada contribución?} Depende de la importancia que se quiera dar a la autoevaluación, la evaluación del compañero y la del docente. De nuevo, se debería balancear el esfuerzo requerido y el detalle a exigir en las evaluaciones.
+				\item \emph{¿Quién evalúa cada contribución?} Depende de la importancia que se quiera dar a la autoevaluación, la evaluación del compañero y la del docente. De nuevo, se debería equilibrar el esfuerzo requerido y el detalle a exigir en las evaluaciones.
 			\end{itemize}
 
 
@@ -136,12 +137,12 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 
 			\begin{itemize}
 				\item Resolución de las réplicas: el docente revisa las réplicas indicando si proceden o no. En caso de que procedan, modifica la calificación. En el diagrama se puede ver como en la primera contribución, el estudiante rojo realiza una réplica (\emph{5}) sobre la evaluación reciba por el usuario azul (\emph{3}). El docente revisa la réplica, la considera apropiada y modifica la calificación (\emph{6}). En un segundo ejemplo, en la evaluación realizada por el estudiante de color amarillo sobre la contribución realizada por el usuario de color verde puede verse como el docente no acepta la réplica realizada por este último, y mantiene la calificación otorgada inicialmente por el estudiante amarillo.
-				\item Revisión de evaluaciones no replicadas: el docente puede revisar aleatoriamente otras evaluaciones realizadas por los estudiantes que no hayan sido replicadas. En el diagrama puede verse como en el docente revisa las evaluaciones realizadas sobre las contribuciones representadas en \emph{R2} y en \emph{R7}, disminuyendo la calificación de la primera y manteniendo la segunda.
+				\item Revisión de evaluaciones no replicadas: el docente puede revisar aleatoriamente otras evaluaciones realizadas por los estudiantes que no hayan sido replicadas. En el diagrama puede verse como el docente revisa las evaluaciones realizadas sobre las contribuciones representadas en \emph{R2} y en \emph{R7}, disminuyendo la calificación de la primera y manteniendo la segunda.
 			\end{itemize}
 
 			\paragraph*{B. Evaluación de competencias genéricas}
 
-			El método para la evaluación de competencias genéricas se basa en el \emph{ciclo de contraste de hipótesis}. En la figura~\ref{fig:AmwDiagram2} puede verse la descripción del ciclo. Esta evaluación se puede llevar a cabo durante o después de que los estudiantes hayan realizado su trabajo en el wiki y sus evaluaciones con AMW. Evidentemente, cuánto más avanzado esté el trabajo más datos habrá para analizar. 
+			El método para la evaluación de competencias genéricas se basa en el \emph{ciclo de contraste de hipótesis} (véase sección~\ref{cha:met-sec:dba}). En la figura~\ref{fig:AmwDiagram2} puede verse la descripción del ciclo para el caso de AMW. Esta evaluación se puede llevar a cabo durante o después de que los estudiantes hayan realizado su trabajo en el wiki y sus evaluaciones con AMW. Evidentemente, cuánto más avanzado esté el trabajo más datos habrá para analizar. 
 
 			El ciclo comienza con el diseño de un indicador por parte del docente que podría plasmar en una hoja de cálculo a partir de los datos que recibirá de las evaluaciones (a). A continuación, el docente realiza la petición a AMW que le proporcionará los datos (b). AMW consulta y procesa los datos en las bases de datos de MediaWiki y AMW (c) y se los envía al docente (d). El docente los integra en la hoja de cálculo previamente diseñada y los analiza (e). Si son válidos para la evaluación finaliza el proceso (f). Por el contrario, si necesitan algún tipo de refinamiento el docente puede rediseñar la evaluación (g) y hacer una nueva petición.
 
@@ -173,7 +174,7 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 
 \begin{table}
   \begin{center}
-  \begin{tabular}{| m{3.2cm} | m{4.9cm} | m{5.1cm} |}
+  \begin{tabular}{| m{3.2cm} | >{\raggedright}m{4.9cm} | m{5.1cm} |}
     \hline 
     \multirow{2}{*}{COMPETENCIAS}  & INDICADORES  & INDICADORES  \\
       &  CUALITATIVOS  &  CUANTITATIVOS \\
@@ -181,7 +182,7 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
     \hline
     Trabajo en equipo  & Ratio de miembros del equipo que trabajaron en un mismo criterio  & Ratio de miembros del equipo que contribuyeron a una misma página del wiki en las páginas de su proyecto \\
     \hline
-    Comunicación y aplicación del conocimiento  & Media de las notas recibidas por todos los miembros del grupo  & Porcentaje de miembros del equipo que contribuyeron al menos a un 20\percentage{}del trabajo realizado \\
+    Comunicación y aplicación del conocimiento  & Media de las notas recibidas por todos los miembros del grupo  & Porcentaje de miembros del equipo que contribuyeron al menos a un 20\percentage{ }del trabajo realizado \\
     \hline
     Mantener la calidad del trabajo producido  & Media de las notas que cada estudiante individualmente recibió  & Contribución individual en bytes \\
     \hline
@@ -195,7 +196,7 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 
 			\subsubsection{Conclusiones}
 
-			AMW es una herramienta de evaluación asistida que proporciona un análisis cualitativo interesante, pues al análisis cuantitativo proporcionado por StatMediaWiki, se podría añadir una información cualitativa que impidiera el engaño de los estudiantes. Por ejemplo, la contribución de un estudiante que copiase y pegase una gran cantidad de texto en una página del wiki sería considerada a efectos cuantitavos como una contribución de peso. Sin embargo, desde un punto de vista cualitativo, podría detectarse que la contribución había sido plagiada de internet con el fin de engañar al sistema.
+			AMW es una herramienta de evaluación asistida que proporciona un análisis cualitativo interesante, pues al análisis cuantitativo proporcionado por StatMediaWiki, se podría añadir una información cualitativa que ayudase a detectar hábitos no deseados de los estudiantes. Por ejemplo, la contribución de un estudiante que copiase y pegase una gran cantidad de texto en una página del wiki sería considerada a efectos cuantitavos como una contribución de peso. Sin embargo, desde un punto de vista cualitativo, podría detectarse que la contribución había sido plagiada de internet con el fin de engañar al sistema.
 
 			Sin embargo, en la aplicación de AMW nos encontramos con que se dan algunos de los problemas detectados en la revisión de la literatura para este tipo de herramientas de evaluación asistida. En primer lugar, delegar la evaluación en los estudiantes genera situaciones de subjetividad, pues pueden existir apartados en la rúbrica que los estudiantes interpreten o valoren de forma diferente. Y en segundo lugar, como vemos en el diagrama, el profesorado también revisa las evaluaciones de sus estudiantes, y más aún si estos replican, con lo que los problemas de escalabilidad también aparecerían.
 
@@ -254,18 +255,17 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 \begin{minted}[	label=Sintaxis de SASQL,
 		linenos,
 		frame=lines,
-               	framesep=2mm]{pascal}
+               	framesep=2mm]{sql}
 Evidence indicator_name:
  get students 
  show milestones | participation | access 
 	| interaction | assessment | grade
- in assignment | forum | campus | workshop 
 	| wiki [list of ids]
  between YYYY-MM-DD and YYYY-MM-DD
  from course id | backup.
 \end{minted}
 
-			El objetivo es que EvalCourse pueda ser utilizado para cualquier VLE, pero esta primera versión ha sido implementada para funcionar en Moodle\footnote{https://moodle.org/}. Moodle es un sistema de gestión de aprendizaje de código abierto con más de 64.000 sitios registrados\footnote{https://moodle.net/stats}.
+			El objetivo es que EvalCourse pueda ser utilizado para cualquier VLE, pero las primeras versiones han sido implementadas para funcionar en Moodle\footnote{https://moodle.org/}. Moodle es un sistema de gestión de aprendizaje de código abierto con más de 64.000 sitios registrados\footnote{https://moodle.net/stats}.
 
 
 			\subsubsection{Ejemplo}
@@ -413,7 +413,7 @@ Evidence pensamiento_critico:
 Evidence planificacion:  
 	get students 
 	show milestones 
-	in assignments.
+	in assignment.
 \end{minted}
 
 		\subsection{EvalSim (EVS) y VWQL} \label{subcha:evs}
@@ -443,7 +443,7 @@ Evidence planificacion:
 \begin{minted}[	label=Sintaxis VWQL,
 		linenos,
 		frame=lines,
-               	framesep=2mm]{pascal}
+               	framesep=2mm]{sql}
 Evidence name_of_the_evidence:
     get students [id_of_the_student]
     show ( words [dict] | sentences | turns | single |
@@ -614,11 +614,11 @@ Evidence palabras_turno:
 
 	\subsection{Estudio de caso CS04} \label{AA1}
 
-		Para este estudio de caso se cursó una solicitud para la realización de un \emph{Proyecto de Actuación Avalada} en la Universidad de Cádiz durante el curso 2013/14. En estos proyectos tienen cabida aquellos trabajos que supongan mejoras en un amplio espectro de objetivos relacionados con la docencia en los títulos de la universidad. En este caso, el titulo de nuestro proyecto fue \emph{Extracción de indicadores objetivos para evaluación del desarrollo de competencias genéricas a partir de registros de actividad del Campus Virtual} (código AAA\_14\_009). En esta actuación se mejoró la herramienta EvalCourse para que pudiera obtener nuevo indicadores y se utilizó la herramienta en una serie de asignaturas del Grado en Ingeniería Informática. 
+		Para este estudio de caso se cursó una solicitud para la realización de un \emph{Proyecto de Actuación Avalada} en la Universidad de Cádiz durante el curso 2013/14. En estos proyectos tienen cabida aquellos trabajos que supongan mejoras en un amplio espectro de objetivos relacionados con la docencia en los títulos de la universidad. En este caso, el titulo de nuestro proyecto fue \emph{Extracción de indicadores objetivos para evaluación del desarrollo de competencias genéricas a partir de registros de actividad del Campus Virtual} (código AAA\_14\_009). En esta actuación se mejoró la herramienta EvalCourse para que pudiera obtener nuevos indicadores y se utilizó la herramienta en una serie de asignaturas del Grado en Ingeniería Informática. 
 
 	\subsection{Estudio de caso CS05} \label{AA2}
 
-		Para este estudio de caso se cursó una solicitud para la realización de un \emph{Proyecto de Actuación Avalada} en la Universidad de Cádiz durante el curso 2014/15. En estos proyectos tienen cabida aquellos trabajos que supongan mejoras en un amplio espectro de objetivos relacionados con la docencia en los títulos de la universidad. En este caso, el titulo de nuestro proyecto fue \emph{Evaluación de competencias genéricas mediante la extracción de indicadores de los registros de actividad del wiki de Moodle} (código sol-201400047964-tra). En esta actuación se mejoró la herramienta EvalCourse para que pudiera obtener indicadores del wiki de Moodle y se aplicó en varias asignaturas del Grado en Ingeniería Informática y una del Grado en Publicidad y RR.PP. 
+		Para este estudio de caso se cursó una solicitud para la realización de un \emph{Proyecto de Actuación Avalada} en la Universidad de Cádiz durante el curso 2014/15. En este caso, el titulo de nuestro proyecto fue \emph{Evaluación de competencias genéricas mediante la extracción de indicadores de los registros de actividad del wiki de Moodle} (código sol-201400047964-tra). En esta actuación se mejoró la herramienta EvalCourse para que pudiera obtener indicadores del wiki de Moodle y se aplicó en varias asignaturas del Grado en Ingeniería Informática y una del Grado en Publicidad y RR.PP. 
 
 	\subsection{Estudio de caso CS06}
 
@@ -745,9 +745,9 @@ Para evaluar el método se preguntó a los docentes si consideraban el método D
   \label{fig:cap:encuesta:metodoDBA}
 \end{figure}
 
-En general se puede decir que los docentes consideran el método como válido. Pero también es necesario determinar si existe relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,6142, muy superior al umbral de significación del 0,005.
+En general se puede decir que los docentes consideran el método como válido. Pero también es necesario determinar si existe relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,6142, muy superior al umbral de significación del 0,005.
 
-Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las Ciencias natutales, Ciencias de la salud e Ingeniería (\emph{EHSE, Earth \& Health Sciences and Engineering}) o a Ciencias Sociales y Humanidades (\emph{SSH, Social Sciences and Humanities}). Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,2955, superior al umbral de significación del 0,005.
+Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las Ciencias natutales, Ciencias de la salud e Ingeniería (\emph{EHSE, Earth \& Health Sciences and Engineering}) o a Ciencias Sociales y Humanidades (\emph{SSH, Social Sciences and Humanities}). Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,2955, superior al umbral de significación del 0,005.
 
 El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:metodoDBA:rama}.
 
@@ -811,9 +811,9 @@ Para la \emph{objetividad} tenemos un 46\percentage{ }a favor (sumando los ''tot
 
 Para evaluar el DSL se preguntó a los docentes si consideraban el lenguaje presentado útil para diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de los entornos de aprendizaje virtual. A esta pregunta también fueron 26 de los 31 docentes encuestados (84\percentage) los que consideraron el lenguaje adecuado.
 
-Por tanto se puede decir que los docentes consideran el método como válido. Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el lenguaje sea o no útil es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,6142, muy superior al umbral de significación del 0,005.
+Por tanto se puede decir que los docentes consideran el método como válido. Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el lenguaje sea o no útil es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,6142, muy superior al umbral de significación del 0,005.
 
-Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las EHSE o a  las SSH. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el lenguaje sea o no válido es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar tampoco la hipótesis con un p-valor de 0,2955, superior al umbral de significación del 0,005.
+Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las EHSE o a  las SSH. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el lenguaje sea o no válido es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar tampoco la hipótesis con un p-valor de 0,2955, superior al umbral de significación del 0,005.
 
 El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:DSL:rama}.
 
@@ -879,9 +879,9 @@ A pesar de esta ''neutralidad'', también es importante resaltar que hay un bajo
 
 Para evaluar la sintaxis del DSL se mostró una consulta de ejemplo y se preguntó a los docentes si consideraban la consulta entendible. A esta pregunta fueron 24 de los 31 docentes encuestados (77\percentage) los que consideraron entendible la consulta.
 
-Por tanto se puede decir que los docentes consideran el método como válido. Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que si la consulta es o no entendible es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,121, superior al umbral de significación del 0,005.
+Por tanto se puede decir que los docentes consideran el método como válido. Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que si la consulta es o no entendible es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,121, superior al umbral de significación del 0,005.
 
-Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las EHSE o a  las SSH. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que la consulta es o no entendible es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar tampoco la hipótesis con un p-valor de 0,021, superior al umbral de significación del 0,005.
+Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las EHSE o a  las SSH. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que la consulta es o no entendible es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar tampoco la hipótesis con un p-valor de 0,021, superior al umbral de significación del 0,005.
 
 El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:consulta:rama}.
 
@@ -912,9 +912,9 @@ El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:consu
 
 Para evaluar los resultados devueltos por el DSL se mostró como ejemplo los resultados que devolvería la consulta de ejemplo y se preguntó a los docentes si consideraban dichos resultados entendibles. A esta pregunta fueron 20 de los 31 docentes encuestados (64\percentage) los que consideraron entendible la consulta.
 
-Por tanto se puede decir que los docentes consideran el método como válido. Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que si los resultados son o no entendibles es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,010, superior al umbral de significación del 0,005.
+Por tanto se puede decir que los docentes consideran el método como válido. Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que si los resultados son o no entendibles es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,010, superior al umbral de significación del 0,005.
 
-Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las EHSE o a  las SSH. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que los resultados son o no entendibles es independiente de si dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test exacto de Fisher, no pudiéndose rechazar tampoco la hipótesis con un p-valor de 0,013, superior al umbral de significación del 0,005.
+Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las EHSE o a  las SSH. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que los resultados son o no entendibles es independiente de si dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar tampoco la hipótesis con un p-valor de 0,013, superior al umbral de significación del 0,005.
 
 El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:resultados:rama}.
 
@@ -1026,16 +1026,16 @@ Para probar la independencia de las variables que intervienen en el cuestionario
 \item Los \textbf{conocimientos de programación} son independientes de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{trabajo en equipo}
 \item Los \textbf{conocimientos de programación} son independientes de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{planificación y gestión del tiempo}
 \item Los \textbf{conocimientos de programación} son independientes de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{liderazgo}
-\item El \textbf{perfil} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{trabajo en equipo}
-\item El \textbf{perfil} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{planificación y gestión del tiempo}
-\item El \textbf{perfil} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{liderazgo}
+\item El \textbf{perfil en relación a la docencia} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{trabajo en equipo}
+\item El \textbf{perfil en relación a la docencia} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{planificación y gestión del tiempo}
+\item El \textbf{perfil en relación a la docencia} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{liderazgo}
 \end{enumerate}
 
 Se construyeron las tablas de contingencia, se calcularon las frecuencias esperadas y se obtuvieron los diferentes valores de $\chi^2$ para cada hipótesis. Una vez realizados los cálculos las hipótesis nulas 1, 2, 4, 5 y 6 no se rechazaron, concluyéndose que con una significación del 5\percentage{ }los datos son independientes. La hipótesis nula 3 sí quedaba rechazada con ese nivel de significación. Para no rechazarla el nivel de significación debía ser de un 0,1\percentage.
 
 El estudio completo puede verse en la sección~\ref{apc:sec:resultados} del apéndice~\ref{Ap:cuestionario}.
 
-\paragraph{Justificaciones}
+\paragraph{Análisis de las justificaciones}
 
 Los participantes en el cuestionario podían justificar con un comentario el porqué daban el `sí` o el `no` a la posibilidad de utilizar los indicadores a cada competencia. El listado de justificaciones completo puede verse en el apartado~\ref{ape:cuestionario:comentarios}. A continuación se resumen los justificaciones para cada competencia.
 
@@ -1053,7 +1053,7 @@ En esta ocasión, los comentarios para no utilizar este indicador van en la lín
 
 \paragraph*{Liderazgo}
 
-Para justificar el liderazgo la mayoría de los participantes se basan en el nivel de participación, es decir, consideran que un estudiante ha ejercido un papel de liderazgo porque ha contribuido al wiki más que sus compañeros. Además, inciden en qué el líder dedica al wiki más tiempo que sus compañeros, con contribuciones iniciales que animan a los demás, y con contribuciones finales, para corregir o supervisar el trabajo de estos.
+Para justificar el liderazgo la mayoría de los participantes se basan en el nivel de participación, es decir, consideran que un estudiante ha ejercido un papel de liderazgo porque ha contribuido al wiki más que sus compañeros. Además, inciden en que el líder dedica al wiki más tiempo que sus compañeros, con contribuciones iniciales que animan a los demás, y con contribuciones finales, para corregir o supervisar el trabajo de estos.
 
 Los participantes que abogan por el `no` se basan principalmente en que el nivel de participación no implica liderazgo, por lo que descartan totalmente el indicador proporcionado para medir el liderazgo. Se propone como alternativa opuesta que un indicador de liderazgo podría ser considerar precisamente qué usuario es el que menos trabaja, siendo necesario complementar este indicador con otro relativo a la comunicación entre los miembros del equipo.
 
@@ -1094,13 +1094,13 @@ Los resultados de los cuestionarios son muy satisfactorios. En primer lugar, se 
 \paragraph*{Método DBA y DSL}
 El 84\percentage{ }de los docentes encuestados consideran adecuado el método DBA para obtener indicadores de entornos de aprendizaje virtual y consideran el DSL útil para diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de dichos entornos. 
 
-A las encuestas se les pasó el test exacto de Fisher para valorar si las respuestas de los docentes son independientes de la rama a la que pertenecen. No se pudo rechazar la hipótesis de independencia de las respuestas para ningún caso, quedando en ambos casos el estadístico muy por encima del valor umbral.
+A las encuestas se les pasó el test de Fisher para valorar si las respuestas de los docentes son independientes de la rama a la que pertenecen. No se pudo rechazar la hipótesis de independencia de las respuestas para ningún caso, quedando en ambos casos el estadístico muy por encima del valor umbral.
 
-Para afinar aún más en el detalle, se volvió a realizar el test estadístico de Fisher tras agrupar a los docentes en dos grupos, según pertenezcan a las SSH (\emph{Social Science and Humanities}) o a las EHSE (\emph{Earth and Healt Science and Engineering}). En este caso, tampoco se pudo rechazar la hipótesis de independencia, quedando siempre el valor del estadístico por encima del valor umbral.
+Para afinar aún más en el detalle, se volvió a realizar el test de Fisher tras agrupar a los docentes en dos grupos, según pertenezcan a las SSH (\emph{Social Science and Humanities}) o a las EHSE (\emph{Earth and Healt Science and Engineering}). En este caso, tampoco se pudo rechazar la hipótesis de independencia, quedando siempre el valor del estadístico por encima del valor umbral.
 
-Además, el 77\percentage{ }considera entendibles la sintaxis utilizada para definir las consultas en el DSL, mientras que el 64\% considera entendibles los resultados obtenidos a partir de la ejecución de dichas consultas.
+Además, el 77\percentage{ }considera entendible la sintaxis utilizada para definir las consultas en el DSL, mientras que el 64\% considera entendibles los resultados obtenidos a partir de la ejecución de dichas consultas.
 
-También en estos casos se aplicó el test exacto de Fisher para valorar la independencia de los resultados, primero con respecto a las ramas de los docentes y segundo con respecto al agrupamiento de dichas ramas según sean de SSH o de EHSE. En todos los casos, el estadístico quedó por encima del umbral, aunque no con una diferencia tan amplia como en los casos anteriores. Sobre todo es llamativo lo que ocurre con los resultados, donde todos los docentes del area de Ciencias Sociales marcaron como no entendibles los resultados que devolvía el DSL. A pesar de ello, se sigue sin poder rechazar la hipótesis de independencia.
+También en estos casos se aplicó el test de Fisher para valorar la independencia de los resultados, primero con respecto a las ramas de los docentes y segundo con respecto al agrupamiento de dichas ramas según sean de SSH o de EHSE. En todos los casos, el estadístico quedó por encima del umbral, aunque no con una diferencia tan amplia como en los casos anteriores. Sobre todo es llamativo lo que ocurre con los resultados, donde todos los docentes del area de Ciencias Sociales marcaron como no entendibles los resultados que devolvía el DSL. A pesar de ello, se sigue sin poder rechazar la hipótesis de independencia.
 
 Por tanto, a partir de los resultados obtenidos se acepta la consecución de las hipótesis planteadas en esta tesis:
 \begin{itemize}
@@ -1110,37 +1110,59 @@ Por tanto, a partir de los resultados obtenidos se acepta la consecución de las
 
 Además, se ha preguntado a los encuestados tanto si el método DBA como el DSL han satisfecho las características que se les espera. 
 
-Más de la mitad de los docentes (entre el 60 y el 70\percentage) considera que el método DBA satisfacen las características de la \emph{adaptabilidad},\emph{sistematicidad} y la \emph{flexibilidad}. Las características de la \emph{objetividad} y la \emph{fiabilidad} también tienen un mayor porcentaje de votos a favor que en contra, aunque con menor porcentaje  (en torno al 45\percentage).
+Más de la mitad de los docentes (entre el 60 y el 70\percentage) considera que el método DBA satisface las características de la \emph{adaptabilidad}, \emph{sistematicidad} y la \emph{flexibilidad}. Las características de la \emph{objetividad} y la \emph{fiabilidad} también tienen un mayor porcentaje de votos a favor que en contra, aunque con menor porcentaje  (en torno al 45\percentage).
 
 Con respecto a las características del DSL siguen siendo, para todas las características, más los docentes que están a favor que los que están en contra. Sin embargo, en torno un tercio de los encuestados para cada característica se situa en la posición neutra. Las características de la \emph{facilidad de aprendizaje}, la \emph{eficacia}, el \emph{ahorro de tiempo} y la \emph{capacidad de reutilización} tiene un porcentaje de docentes a favor de entre el 50 y el 58\percentage. La \emph{escalabilidad} cuenta con 46\percentage{ }a favor y la \emph{fiabilidad} con un 35\percentage. 
 
 \paragraph*{Indicadores de competencias genéricas}
-Aunque en esta tesis se propone un método y una herramienta para la evaluación de competencias genéricas, no es un objetivo de esta tesis establecer un indicador fehaciente para ninguna de ellas. En los ejemplos mostrados se proponen ejemplos de indicadores, y según el criterio de cada participante en el cuestionario, unos son más válidos que otros. Para la competencia del \emph{trabajo en equipo} prácticamente hay un empate entre el `sí` (26) y el `no`(25). Mientras que en la \emph{planificación y gestión del tiempo} domina el `sí` (40 a 11), en la competencia del \emph{liderazgo} domina el `no` (17 a 34). Las justificaciones de los participantes en muchos casos para dar el `no` van en la línea de la necesidad de completar el indicador con información previa. Esto podría ser un ejercicio de redefinición de la hipótesis inicial o un rediseño de la evaluación.
+Aunque en esta tesis se propone un método y una herramienta para la evaluación de competencias genéricas, no es un objetivo de esta tesis establecer un indicador fehaciente para ninguna de ellas. Eso sería un objetivo más propio de investigación en ciencias sociales y de la educación. En los ejemplos mostrados se proponen ejemplos de indicadores, y según el criterio de cada participante en el cuestionario, unos son más válidos que otros. Para la competencia del \emph{trabajo en equipo} prácticamente hay un empate entre el `sí` (26) y el `no`(25). Mientras que en la \emph{planificación y gestión del tiempo} domina el `sí` (40 a 11), en la competencia del \emph{liderazgo} domina el `no` (17 a 34). Las justificaciones de los participantes en muchos casos para dar el `no` van en la línea de la necesidad de completar el indicador con información previa. Esto podría ser un ejercicio de redefinición de la hipótesis inicial o un rediseño de la evaluación.
 
-En segundo lugar, partiendo de los diferentes perfiles de los participantes en la encuesta se demuestra que sus respuestas son independientes tanto de su perfil docente como de su perfil más o menos técnico. De esta manera se descarta que las propuestas de diseño de evaluación de competencia genérica tengan una orientación demasiado técnica y que por tanto sean estos los únicos que acepten los diseños, o que esté más cercano a un docente de perfil universitario. El establecimiento de una serie de hipótesis nulas y la prueba $\chi^2$ de Pearson así lo han demostrado.
+%En segundo lugar, partiendo de los diferentes perfiles de los participantes en la encuesta se demuestra que sus respuestas son independientes tanto de su perfil docente como de su perfil más o menos técnico. De esta manera se descarta que las propuestas de diseño de evaluación de competencia genérica tengan una orientación demasiado técnica y que por tanto sean estos los únicos que acepten los diseños, o que esté más cercano a un docente de perfil universitario. El establecimiento de una serie de hipótesis nulas y la prueba $\chi^2$ de Pearson así lo han demostrado.
+
+En segundo lugar, hay evidencias significativas a favor de que las respuestas de los participantes en la encuestas son independientes tanto del perfil docente como del perfil más o menos técnico de estos. A esta conclusión se llega después haber establecido una serie de hipótesis nulas y haber aplicado la prueba $\chi^2$ de Pearson. De esta manera se descarta que las propuestas de diseño de evaluación de competencia genérica tengan una orientación demasiado técnica y que por tanto sean los usuario con perfil técnico los únicos que acepten los diseños, o que esté más cercano a un docente de perfil universitario. 
 
 Hay que comentar que el hecho de que la hipótesis nula número 3 fuese más difícil de demostrar tiene una explicación. La mayoría de los usuarios que dijo `sí` a la posibilidad de evaluar la competencia de liderazgo fueron los participantes en el curso de innovación y el taller de Aulablog. En dichas sesiones, con más interactividad que otras actuaciones, se mostraron ejemplos de cómo detectar a un usuario que ejercía una labor de liderazgo en un equipo de trabajo en wiki y esto pudo influir en el hecho de que a dichos participantes les costase menos interpretar en dichos indicadores la posibilidad de utilizarlos para realizar la evaluación que a otros. % innovación y el taller de Aulablog  (14 de los 17 síes).
 
-El cuestionario complementario utilizado en la actuación avalada muestra que los docentes consideraron aplicar los indicadores obtenidos mediante EvalCourse en el campus virtual de Moodle a varias competencias genéricas. Las respuestas de los participantes difieren prácticamente para cada actividad y competencia genérica. Este hecho, al igual que la diferencia de criterio en las respuestas a `sí`y `no` a las competencias genéricas del cuestionario principal, respaldan aún más si cabe la propuesta de esta tesis doctoral, es decir, la necesidad de proponer este método a los docentes para que cada uno sea capaz de construir los indicadores que les sean válidos.
+El cuestionario complementario utilizado en la actuación avalada muestra que los docentes consideraron aplicar los indicadores obtenidos mediante EvalCourse en el campus virtual de Moodle a varias competencias genéricas. Las respuestas de los participantes difieren prácticamente para cada actividad y competencia genérica. Este hecho, al igual que la diferencia de criterio en las respuestas a `sí` y `no` a las competencias genéricas del cuestionario principal, respaldan aún más si cabe la propuesta de esta tesis doctoral, es decir, la necesidad de proponer este método a los docentes para que cada uno sea capaz de construir los indicadores que les sean válidos.
 
 \section{Contribuciones} \label{eva:contribuciones}
 
 	A continuación se indican las aportaciones principales que se han realizado durante la elaboración de este trabajo de investigación:
 
+
+
 	\subsection*{Revistas}
 
 	\begin{itemize}
 	\item Artículo en la revista Computers in Human Behavior (2014), titulado ``Scalability of assessments of wiki-based learning experiences in higher education''~\cite{palomo2014scalability}.
+	\end{itemize} 
+
+\setlength{\fboxsep}{2pt}
+\fcolorbox{grey}{grey}{\parbox{0.7\textwidth}{%
+   \color{black}%
+ISI JCR 2014: Q1, T1 (PSI, Multidisciplinary)
+}}
+
+
+	\begin{itemize}
 	\item Artículo en la revista International Journal of Engineering Education (2015), titulado ``A Domain Specific Language for Online Learning Competence Assessments''~\cite{Balderas:2015}.
+
 	%\item Artículo en la Revista Iberoamericana de Tecnologias del Aprendizaje (2015), titulado ``Learning Technologies and Semantic Integration of Learning Resources´´~\cite{dodero2015learning}.
 	\end{itemize}
+
+\fcolorbox{grey}{grey}{\parbox{0.7\textwidth}{%
+   \color{black}%
+ISI JCR 2014: Q3, T3 (Engineering, Multidisciplinary) \\
+ISI JCR 2014: Q4, T3 (Education, Scientific Disciplines)
+}}
+
 
 	\subsection*{Congresos}
 
 	\begin{itemize}
 	\item Artículo presentado en el congreso IX Simposio Pluridisciplinar sobre Diseño, Evaluación y Descripción de Contenidos Educativos (SPDECE 2012), titulado ``Qualitative assessment of wiki-based learning processes''~\cite{Balderas:2012}.
 	\item Artículo presentado en el I International Conference on Technological Ecosystem for Enhancing Multiculturality (TEEM 2013), titulado ``A generative computer language to customize online learning assessments''~\cite{balderas2013generative}.
-	\item Artículo presentado en el International Symposium on Computers in Education (SIIE 2014), titulado``Domain-driven competence assessment in virtual learning environments. Application to planning and time management skills''~\cite{balderas2014domain}.
+	\item Artículo presentado en el International Symposium on Computers in Education (SIIE 2014), titulado ``Domain-driven competence assessment in virtual learning environments. Application to planning and time management skills''~\cite{balderas2014domain}.
 	\item Artículo presentado en el III International Conference on Technological Ecosystem for Enhancing Multiculturality (TEEM 2015), titulado ``A Domain Specific Language to retrieve objective indicators for foreign language learning in virtual worlds''~\cite{balderas2015domain}.
 	\item Artículo presentado en el  III Congreso Internacional Sobre Aprendizaje, Innovación y Competitividad (CINAIC 2015), titulado ``Evaluación del trabajo individual y grupal en un wiki''~\cite{reinoso2015evaluacion}.
 	\end{itemize}

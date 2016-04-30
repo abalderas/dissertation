@@ -70,19 +70,21 @@ Este apéndice contiene el cuestionario utilizado para la evaluación de EvalCou
 	\paragraph*{C.1 Consulta de indicadores 1}
 
 \begin{mdframed}[style=cuestionarioST]
-			A la vista de la figura~\ref{fig:SantaPie} obtenida con la consulta~\ref{code:apconsulta1}: ¿Sería capaz de valorar si los tres estudiantes han participado activamente en el wiki?
+			A la vista de la figura~\ref{fig:SantaPie} obtenida con la \emph{consulta de indicadores 1}: ¿Sería capaz de valorar si los tres estudiantes han participado activamente en el wiki?
 			\begin{itemize}
 				\item Sí
 				\item No
 			\end{itemize}
 
-			\rule{30mm}{1pt} \newline
-\begin{lstlisting}[caption=Consulta participación de los estudiantes en el wiki,label=code:apconsulta1, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, wiki, between, and, workshop, interaction, assessment, grade, from, course, backup}]
+%			\rule{30mm}{1pt} \newline
+\begin{minted}[	label=Consulta de indicadores 1,
+		frame=topline,
+               	framesep=4mm]{sql}
 Evidence Participacion: 
 	get students 
 	show participation 
 	in wiki.
-\end{lstlisting}
+\end{minted}
 \end{mdframed}
 
 \begin{figure}[h]
@@ -106,7 +108,7 @@ Evidence Participacion:
 
 \begin{mdframed}[style=cuestionarioST]
 
-			A la vista de las figuras~\ref{fig:SantaContribuciones} y~\ref{fig:SantaEvolucion} obtenidos mediante la consulta~\ref{code:apconsulta2}: ¿Sería capaz de valorar si los estudiantes contribuyeron al wiki de forma continua?
+			A la vista de las figuras~\ref{fig:SantaContribuciones} y~\ref{fig:SantaEvolucion} obtenidos mediante la  \emph{consulta de indicadores 2}: ¿Sería capaz de valorar si los estudiantes contribuyeron al wiki de forma continua?
 			\begin{itemize}
 				\item Sí
 				\item No
@@ -114,12 +116,14 @@ Evidence Participacion:
 
 			\rule{30mm}{1pt} \newline
 
-\begin{lstlisting}[caption=Consulta contribuciones de los estudiantes en el wiki,label=code:apconsulta2, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, wiki, between, and, workshop, interaction, assessment, grade, from, course, backup}]
+\begin{minted}[	label=Consulta de indicadores 2,
+		frame=topline,
+               	framesep=4mm]{sql}
 Evidence Contribuciones: 
 	get students 
 	show interaction 
 	in wiki.
-\end{lstlisting}
+\end{minted}
 \end{mdframed}
 
 \begin{figure}[h]

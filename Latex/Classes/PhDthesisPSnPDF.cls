@@ -232,6 +232,8 @@
 \usepackage{tabularx}
 \usepackage{multirow}
 
+\usepackage{ragged2e}
+
 % Introduce slash \
 \usepackage{Latex/StyleFiles/slashbox}
 
