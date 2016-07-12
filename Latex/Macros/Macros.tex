@@ -238,3 +238,7 @@
 
 % Color gris para cuadros JCR
 \definecolor{grey}{gray}{0.6}
+
+% Alineación columnas tablas
+\newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}m{#1}}
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}m{#1}}

@@ -3,10 +3,10 @@
 % content in this file will be fed into the main document
 
 %: ----------------------- introduction file header -----------------------
-\begin{savequote}[50mm]
-The logic of validation allows us to move between the two limits of dogmatism and skepticism. 
-\qauthor{Paul Ricoeur}
-\end{savequote}
+%\begin{savequote}[50mm]
+%The logic of validation allows us to move between the two limits of dogmatism and skepticism. 
+%\qauthor{Paul Ricoeur}
+%\end{savequote}
 
 
 \chapter{Resultados de la investigación}
@@ -22,15 +22,15 @@ The logic of validation allows us to move between the two limits of dogmatism an
 
 %------------------------------------------------------------------------- 
 
-En este capítulo se evalúa si los objetivos de esta tesis se han alcanzado, es decir, la idoneidad del método propuesto para la evaluación de competencias genéricas, así como las herramientas que lo implementan.
+En este capítulo se evalúa si los objetivos de esta tesis se han alcanzado, es decir, la idoneidad del método propuesto para la evaluación de competencias genéricas, así como las herramientas que lo implementan. A lo largo del capítulo se hacen referencias a diferentes competencias genéricas. Para estas referencias se utilizan los identificadores de competencias que se listan en el apéndice~\ref{Ap:Competencias}.
 
-El capítulo comienza con la descripción de las herramientas que implementan el método DBA y su ilustración con varios ejemplos. En segundo lugar, se presentan los estudios de caso en los que se ha implementado el método. En tercer lugar, se analizan los cuestionarios de evaluación y sus resultados. En cuarto lugar, se presentan las contribuciones surgidas de esta tesis doctoral. En último lugar, el capítulo termina con la discusión y las conclusiones del proceso de evaluación.
+El capítulo comienza con la descripción de las herramientas que implementan el método DBA y su ilustración con varios ejemplos. En segundo lugar, se presentan los estudios de caso en los que se ha implementado el método. En tercer lugar, se analizan los cuestionarios de evaluación y sus resultados. En último lugar, el capítulo termina con la discusión y las conclusiones del proceso de evaluación.
 
 \section{Introducción}
 
-	Para evaluar la idoneidad del método DBA se han implementado tres herramientas que se han utilizado en otros tantos entornos educativos. El trabajo comenzó en el curso 2011-12, cuando se desarrolló una herramienta web para la evaluación de competencias genéricas y específicas a partir del trabajo de los estudiantes en un wiki basado en MediaWiki. Esta aplicación se describe en los  antecedentes (sección~\ref{subcha:antecedentes}). En el siguiente curso se desarrolló una herramienta de tipo DSL para la evaluación de competencias genéricas a partir de la actividad generada por los estudiantes en el VLE (apartado~\ref{subcha:evc}). La última herramienta desarrollada también es de tipo DSL y se utilizó para la evaluación de competencias genéricas a partir de la actividad generada por los estudiantes en un mundo virtual (apartado~\ref{subcha:evs}). 
+	Para evaluar la idoneidad del método DBA se han implementado tres herramientas que se han utilizado en otros tantos entornos educativos. El trabajo comenzó en el curso 2011-12, cuando se desarrolló una herramienta web para la evaluación de competencias genéricas y específicas a partir del trabajo de los estudiantes en un wiki basado en MediaWiki. Esta aplicación se describe en los  antecedentes (sección~\ref{subcha:antecedentes}). En el siguiente curso se desarrolló una herramienta de tipo DSL para la evaluación de competencias genéricas a partir de la actividad generada por los estudiantes en el LMS (apartado~\ref{subcha:evc}). La última herramienta desarrollada también es de tipo DSL y se utilizó para la evaluación de competencias genéricas a partir de la actividad generada por los estudiantes en un mundo virtual (apartado~\ref{subcha:evs}). 
 
-%En los antecedentes se trabaja en la extracción de indicadores sobre un wiki de MediaWiki, mientras que después se presentan dos DSLs para la extracción de indicadores. El primero de ellos a partir de los registros de un VLE (Moodle), mientras que el segundo lo hace a partir de los registros de un mundo virtual basado en OpenSim.
+%En los antecedentes se trabaja en la extracción de indicadores sobre un wiki de MediaWiki, mientras que después se presentan dos DSLs para la extracción de indicadores. El primero de ellos a partir de los registros de un LMS (Moodle), mientras que el segundo lo hace a partir de los registros de un mundo virtual basado en OpenSim.
 
 
 
@@ -43,18 +43,18 @@ Por último se realizó un cuestionario para que expertos en el dominio evaluase
 
 \section{Antecedentes} \label{subcha:antecedentes}
 
-En los antecedentes se presenta \emph{AssessMediaWiki} (AMW)\footnote{http://assessmediawiki.forja.rediris.es}, una herramienta que se desarrolló para realizar un evaluación cualitativa del trabajo de los estudiantes en el wiki y que surgió para complementar el análisis que realizaba la herramienta \emph{StatMediaWiki} (SMW)\footnote{http://statmediawiki.forja.rediris.es/}. SMW es una herramienta que realiza un análisis meramente cuantitativo de las contribuciones de los estudiantes en el wiki.
+En los antecedentes se presenta \emph{AssessMediaWiki} (AMW)\footnote{\url{http://assessmediawiki.forja.cica.es}}, una herramienta que se desarrolló para realizar una evaluación cualitativa del trabajo de los estudiantes en el wiki y que surgió para complementar el análisis que realizaba la herramienta \emph{StatMediaWiki} (SMW)\footnote{\url{http://statmediawiki.forja.cica.es}}. SMW es una herramienta que realiza un análisis meramente cuantitativo de las contribuciones de los estudiantes en el wiki.
 % SMW realizaba un análisis de las contribuciones de los estudiantes en el wiki meramente cuantitativo, pero que en su aplicación se topó con algunos inconvenientes que requeríanz una aproximación cualitativa.
 
-El capítulo comienza con una introducción a la problemática surgida con los wikis, a continuación se presenta AMW y se finaliza con las conclusiones.
+El capítulo comienza con un desarrollo de la problemática surgida con los wikis, a continuación se presenta AMW y se finaliza con las conclusiones.
 
 % SEGUIR POR AQUÍ. VER CÓMO ENCAJAR LO DE ARRIBA Y LO DE ABAJO.
 
-\subsection{Introducción}
+\subsection{Desarrollo}
 
 	El uso educacional de los wikis para las experiencias de trabajo colaborativo está en auge debido a las numerosas ventajas que aporta sobre los modelos tradicionales~\cite{elgort2008wiki}. Algunas de las ventajas sobre los medios tradicionales, ya sean en formato impreso o en documentos digitales, es que éstos no llevan un registro de ediciones, no facilitan la colaboración distribuida y asíncrona y no pueden ser monitorizados por el docente mientras los estudiantes completan el trabajo.
 
-	Para evaluar el trabajo final de un grupo de estudiantes en una página del wiki nos bastaría con leer la última versión de dicha página, como hacíamos con los métodos tradicionales. Pero una de las características más interesantes de los wikis es que no sólo almacenan la información de la versión final de cada documento, sino que también almacenan todas las versiones intermedias creadas como resultado de las contribuciones hechas por cada usuario~\cite{trentin2009using}. Esto lo consigue manteniendo un registro con las diferencias entre las ediciones consecutivas de las páginas, registro que se podría utilizar para la obtención de indicadores de diferentes competencias~\cite{ortega2011new}. Las páginas creadas de manera colaborativa podrían ser evaluadas considerando la contribución de cada autor y las dinámicas de grupo en la creación de la página en tiempo real. Por desgracia, realizar una evaluación detallada de cada contribución realizada en el wiki es imposible de abordar cuando hay muchos usuarios y éstos participan activamente.
+	Evaluar el trabajo desarrollado por un grupo de estudiantes en una página del wiki atendiendo a la última versión de la página correspondiente, como se hace con los métodos tradicionales supondría una aproximación muy limitada. Una de las características más interesantes de los wikis es que no sólo almacenan la información de la versión final de cada documento, sino que también almacenan todas las versiones intermedias creadas como resultado de las contribuciones hechas por cada usuario~\cite{trentin2009using}. Esto lo consigue manteniendo un registro con las diferencias entre las ediciones consecutivas de las páginas, registro que se podría utilizar para la obtención de indicadores de diferentes competencias~\cite{ortega2011new}. Las páginas creadas de manera colaborativa podrían ser evaluadas considerando la contribución de cada autor y las dinámicas de grupo en la creación de la página en tiempo real. Por desgracia, realizar una evaluación detallada de cada contribución realizada en el wiki es difícil de abordar por problemas de escalabilidad cuando hay muchos usuarios y éstos participan activamente.
 
 	En un proyecto anterior, para poder evaluar el trabajo de los estudiantes en las páginas de un wiki se desarrolló SMW, una herramienta que proporciona al docente información cuantitativa sobre la distribución del trabajo de los estudiantes en las páginas del wiki, es decir, qué parte del trabajo realizado en una página del wiki corresponde a cada estudiante~\cite{duarte2012wikis}.  A partir de esa información cuantitativa se midieron las competencias de la adaptación al cambio, el trabajo en equipo, el aprendizaje y la innovación. Sin embargo, el aspecto cualitativo quedó fuera, ya que el experimento sólo consideró el número, el momento y el tamaño de las contribuciones~\cite{palomo2014assessment}.
 
@@ -68,13 +68,13 @@ El capítulo comienza con una introducción a la problemática surgida con los w
   \begin{center}
     \includegraphics[scale=0.3]{AmwRubrica.png}
   \end{center}
-  \caption{Rúbrica de AMW}
+  \caption{Una rúbrica de ejemplo en AMW}
   \label{fig:AmwRubrica}
 \end{figure}
 
 		AMW implementa dos roles de usuario distintos: supervisores y estudiantes. Los estudiantes pueden elegir entre distintas opciones: evaluar una revisión, comprobar sus propias aportaciones evaluadas y verificar las evaluaciones ya enviadas. Por otro lado, los supervisores tienen un mayor número de opciones, como definir la rúbrica que los estudiantes deberán completar al realizar sus evaluaciones, modificar los parámetros de los programas o supervisar las evaluaciones que los estudiantes vayan haciendo. AMW implementa una función de selección parcialmente aleatoria. Cuando un estudiante va a realizar una evaluación, el sistema elige automáticamente una de entre el 30\percentage{ }de las más significativas que aún no han sido evaluadas.
 
-		Al revisar sus evaluaciones, los estudiantes puede revisar las notas recibidas y sus justificaciones, así como ver a qué contribución en particular se refiere (figura~\ref{fig:AmwFormative}). Si el estudiante no está de acuerdo con la calificación puede replicar utilizando para ello una rúbrica similar a la que se utilizó en su evaluación, indicando las calificaciones que considera que merece y sus correspondientes justificaciones. Después el docente revisará la disputa y pondrá la nota definitiva.
+		Al revisar sus evaluaciones, los estudiantes pueden revisar las notas recibidas y sus justificaciones, así como ver a qué contribución en particular se refiere (figura~\ref{fig:AmwFormative}). Si el estudiante no está de acuerdo con la calificación puede replicar utilizando para ello una rúbrica similar a la que se utilizó en su evaluación, indicando las calificaciones que considera que merece y sus correspondientes justificaciones. Después el docente revisará las propuestas y pondrá la nota definitiva.
 
 \begin{figure}
   \begin{center}
@@ -84,54 +84,54 @@ El capítulo comienza con una introducción a la problemática surgida con los w
   \label{fig:AmwFormative}
 \end{figure}
 
-			\subsubsection{Ejemplo de uso}
+			\subsubsection*{Ejemplo de uso}
 
 			El método para la evaluación del trabajo y las competencias desempeñadas en el wiki consta de dos partes: una primera parte en la que lo que se evalúa es el trabajo del wiki (A), basada en procedimientos de autoevaluación, evaluación entre iguales y evaluación del docente; y una segunda parte en la que se evalúan las competencias genéricas (B) y en la que se pone en práctica el \emph{ciclo de contraste de hipótesis}.
 
 			\paragraph*{A. Evaluación del trabajo en el wiki.}
 
-			El método para la evaluación del trabajo en el wiki se divide también en tres fases: una primera fase en la que los estudiantes realizan sus trabajos en las páginas del wiki, una segunda fase de evaluación y una tercera fase de revisión del docente. En la figura~\ref{fig:AmwDiagram} puede verse un diagrama de flujo de trabajo que muestra cada una de las fases del método de evaluación realizado sobre una página del wiki en la que participan varios estudiantes y el docente. A continuación se describen cada una de estas fases.
+			El método para la evaluación del trabajo en el wiki se divide también en tres fases: una primera fase en la que los estudiantes realizan sus trabajos en las páginas del wiki (F1), una segunda fase de evaluación (F2) y una tercera fase de revisión del docente (F3). En la figura~\ref{fig:AmwDiagram} puede verse un diagrama de flujo de trabajo que muestra cada una de las fases del método de evaluación realizado sobre una página del wiki en la que participan varios estudiantes y el docente. A continuación se describen cada una de estas fases.
 
 \begin{figure}
   \begin{center}
-    \includegraphics[scale=0.28]{AmwDiagram.png}
+    \includegraphics[scale=0.27]{AmwDiagram.png}
   \end{center}
-  \caption{Ejemplo de flujo de trabajo para la evaluación cualitativa del wiki utilizando AMW}
+  \caption{Ejemplo de flujo de trabajo para la evaluación cualitativa de un wiki utilizando AMW}
   \label{fig:AmwDiagram}
 \end{figure}
 
-			\subparagraph*{Fase 1: Desarrollo del trabajo en el wiki.}
+			\subparagraph*{F1: Desarrollo del trabajo en el wiki.}
 
 			Esta fase se representa en la columna de la izquierda de la figura~\ref{fig:AmwDiagram}, y es en la que los estudiantes realizan el trabajo en las páginas del wiki. Normalmente, cada grupo de estudiantes tendrá que desarrollar su trabajo en una página del wiki. En la zona más alta de la columna se representa el comienzo del trabajo con una página en blanco. El autor de cada contribución se muestra con una figura de color junto a la misma. Para comenzar, el usuario de color rojo crea una página vacía (\emph{R1}). Después, el usuario azul añade contenido a la página (\emph{R2}). En tercer lugar, el usuario rojo modifica de nuevo la página añadiendo texto a la versión dejada anteriormente por el usuario azul (\emph{R3}) y así sucesivamente. Esta fase termina cuando llega la fecha marcada por el docente para que los trabajos estén finalizados (\emph{Rf} es la versión final de la página).
 
-			Puede verse que, aunque los estudiantes responsables de la página de ejemplo del wiki fuesen el rojo, el azul y el verde, otros estudiantes, como el naranja en la revisión séptima, podrían contribuir a la página del wiki. En ese caso, los miembros del grupo y responsables de la página deben decidir si la contribución debe conservarse o no.
+			Puede verse que, aunque los estudiantes responsables de la página de ejemplo del wiki fuesen el rojo, el azul y el verde, otros estudiantes, como el naranja en la revisión séptima, podrían contribuir a la página del wiki. En ese caso, los miembros del grupo y responsables de la página deben decidir si la contribución debe conservarse, modificarse o eliminarse.
 
-			\subparagraph*{Fase 2: Evaluación.}
+			\subparagraph*{F2: Evaluación.}
 
 			Esta fase se muestra en la columna central y comprende las siguientes actividades:
 
 			\begin{itemize}
-				\item \emph{Autoevaluación, evaluación entre iguales y evaluación del docente}. Las contribuciones a ser evaluadas se asignan a los estudiantes.  Cada contribución es la diferencia entre dos revisiones consecutivas de una página del wiki. El estudiante encargado de evaluar dicha contribución se representa en el gráfico como un usuario coloreado que recibe dos flechas de las revisiones, una de la revisión anterior a la contribución y otra de la revisión que incorpora ya la contribución. Para la evaluación los estudiantes utilizan una rúbrica definida por el docente. Cada contribución sólo se refiere a una contribución atómica de las realizadas a una página del wiki por un único estudiante, por lo que dicha contribución podría ser utilizada como un indicador de la contribución al wiki de dicho estudiante. El estudiante que realizó cada contribución se representa con una figura pegada a la revisión de la página en cada momento.
+				\item \emph{Autoevaluación, evaluación entre iguales y evaluación del docente}. Cada contribución es la diferencia entre dos revisiones consecutivas de una página del wiki. Las contribuciones a ser evaluadas se asignan a los estudiantes. El estudiante encargado de evaluar dicha contribución se representa en el gráfico como un usuario coloreado que recibe dos flechas de las revisiones, una del estado de la página antes de la contribución y otra de la revisión que incorpora ya la contribución. Para la evaluación los estudiantes utilizan una rúbrica definida por el docente. Cada contribución sólo se refiere a una contribución concreta de las realizadas a una página del wiki por un único estudiante, por lo que dicha contribución podría ser utilizada como un indicador de la aportación al wiki de dicho estudiante. El estudiante que realizó cada contribución se representa con una figura pegada a la revisión de la página en cada momento.
 Por ejemplo, en la primera evaluación, se asigna la contribución realizada a la página del wiki por el estudiante rojo (\emph{1}) al estudiante azul. El estudiante azul comprueba ambas versiones para ver las diferencias entre ambas versiones (\emph{2}) y realiza la evaluación completando la rúbrica proporcionada por el docente (\emph{3}).
-Cabe destacar también otras situaciones interesantes. En la versión \emph{R5} de la página vemos como se realiza una autoevaluación, ya que el estudiante rojo, autor de la versión, es el mismo que tiene que evaluar su contribución. Vemos también que en \emph{R3} es el docente el que realiza la evaluación de la contribución del estudiante rojo. Esto puede deberse a que el estudiante manualmente detecta una contribución que considera oportuna evaluar o a que, utilizando la herramienta SMW, detecta un comportamiento extraño en el wiki y quiere contrastar la situación. 
-Puede verse también que hay contribuciones que no reciben evaluación alguna, como ocurre con \emph{R6}. Está claro que sería deseable que todas las contribuciones significativas fueran evaluadas, pero no es escalable.
+Cabe destacar también otras situaciones interesantes. En la versión \emph{R5} de la página se ve que se realiza una autoevaluación, ya que el estudiante rojo, autor de la versión, es el mismo que tiene que evaluar su contribución. Vemos también que en \emph{R3} es el docente el que realiza la evaluación de la contribución del estudiante rojo. Esto puede deberse a que el docente manualmente detecta una contribución que considera oportuna evaluar o a que, utilizando la herramienta SMW, detecta un comportamiento extraño en el wiki y quiere contrastar la situación. 
+Puede verse también que hay contribuciones que no reciben evaluación alguna, como ocurre con \emph{R6}. 
 				\item \emph{Revisión de las evaluaciones recibidas}. Los estudiantes pueden revisar las evaluaciones recibidas. Ellos pueden no sólo ver las notas que han recibido con las justificaciones y comentarios que añadieron sus evaluadores, sino también el enlace a la contribución. De esta forma, los estudiantes evaluados reciben una retroalimentación formativa. En la primera de las evaluaciones del diagrama de ejemplo puede verse como el estudiante rojo puede ver su evaluación (\emph{4}).
 				\item \emph{Réplica}. Si el estudiante evaluado no está de acuerdo con la evaluación recibida tiene la opción de replicarla justificando el motivo de dicha réplica. En el diagrama de ejemplo puede verse como el estudiante rojo considera no apropiada su evaluación y realiza una réplica (\emph{5}). El docente deberá resolver la réplica en la siguiente etapa.
-				\item \emph{Evaluación final del wiki}. El docente evalúa la versión final de la página del wiki desarrollada por cada grupo de estudiantes. Esta evaluación es necesaria ya que el objetivo principal de la tarea es que los estudiantes realicen un buen trabajo en una página del wiki. Como cualquier otra tarea, deberá ser evaluada por el docente conforme al programa de estudios. Además, algunos de los criterios de evaluación sólo pueden ser evaluados en la versión final de la página, como por ejemplo, la coherencia del texto. De esta forma, aquellas contribuciones del wiki descartadas por la función de selección serán ahora implícitamente evaluadas ya que están integradas en el entregable final. Puede verse la evaluación al final del diagrama de ejemplo (\emph{Rf}), y cómo afecta al grupo de estudiantes completo.
+				\item \emph{Evaluación final del wiki}. El docente evalúa la versión final de la página del wiki desarrollada por cada grupo de estudiantes. Esta evaluación es recomendable ya que el objetivo principal de la tarea es que los estudiantes realicen un buen trabajo en una página del wiki. Como cualquier otra tarea, deberá ser evaluada por el docente conforme al programa de estudios. Además, algunos de los criterios de evaluación sólo pueden ser evaluados en la versión final de la página, como por ejemplo, la coherencia del texto. De esta forma, aquellas contribuciones del wiki no evaluadas anteriormente serán ahora implícitamente evaluadas ya que están integradas en el entregable final. Puede verse la evaluación al final del diagrama de ejemplo (\emph{Rf}), y cómo afecta al grupo de estudiantes completo.
 \end{itemize}
 
-			El diagrama no recoge algunas situaciones que también podrían darse. Por ejemplo, alguna contribución podría ser evaluada por más de un usuario, ya fuera otro estudiante o el docente. También, para simplificar, el diagrama sólo muestra una calificación para la contribución (A, A+, B, ... etc.), pero las evaluaciones son multidimensionales.
+			El diagrama no recoge algunas situaciones que también podrían darse. Por ejemplo, alguna contribución podría ser evaluada por más de un usuario, ya fuera otro estudiante o el docente. También, para simplificar, el diagrama sólo muestra una calificación para la contribución (A, A+, B, etc.), pero las evaluaciones se realizan con rúbricas multidimensionales.
 
-			Un componente interesante de nuestro algoritmo es qué contribución wiki podrá ser asignada a cada estudiante para su evaluación. Es lo que llamamos \emph{función de selección}, y tiene varios aspectos a tener en cuenta:
+			Un componente interesante de nuestro algoritmo es qué contribución al wiki podrá ser asignada a cada estudiante para su evaluación. Es lo que llamamos \emph{función de selección}, y tiene varios aspectos a tener en cuenta:
 
 			\begin{itemize}
-				\item \emph{¿Debería cierta contribución en el wiki ser evaluada por más de un estudiante?} En realidad, tener varias evaluaciones de estudiantes diferentes sobre una misma contribución podría ser interesante para perfeccionar su evaluación y podría proporcionar información al docente para evaluar no sólo al estudiante autor de la contribución, sino también a los evaluadores. De hecho, el número de contribuciones a ser evaluadas es dependiente del objetivo del experimento y su configuración. Cuánto más grande sea el experimento, más contribuciones susceptibles de ser evaluadas tendrá. Sin embargo, el número de evaluaciones que un estudiante puede realizar es limitado (para que siga siendo formativo). Por lo que cada evaluación adicional a la misma contribución provocará que otras contribuciones sean peor evaluadas o que no lo sean.
-				\item \emph{¿Qué contribuciones deberían ser evaluadas?} La importancia de evaluar cada contribución puede variar. Por ejemplo, evaluar al menos una mínima cantidad de contribuciones por cada estudiante, página o categoría sería interesante. Pero algunas contribuciones que añadan ciertas características al trabajo pueden ser relevantes o informativas sobre el trabajo realizado por un estudiante. Por ejemplo, aunque las contribuciones que añadan gran cantidad de texto suelan ser más interesantes que las contribuciones pequeñas, una contribución pequeña puede ir relacionada con el cambio de sentido de alguna frase o párrafo. De cualquier forma, un estudiante puede solicitar que una contribución en particular sea evaluada, aunque ésta quede fuera de la función de selección.
+				\item \emph{¿Debería cierta contribución en el wiki ser evaluada por más de un estudiante?} En realidad, tener varias evaluaciones de estudiantes diferentes sobre una misma contribución podría ser interesante para perfeccionar su evaluación y podría proporcionar información al docente para evaluar no sólo al estudiante autor de la contribución, sino también a los evaluadores. De hecho, el número de contribuciones a ser evaluadas es dependiente del objetivo del experimento y su configuración. Cuánto más grande sea el experimento, más contribuciones susceptibles de ser evaluadas tendrá. Sin embargo, el número de evaluaciones que un estudiante puede realizar es limitado (para que siga siendo formativo).
+				\item \emph{¿Qué contribuciones deberían ser evaluadas?} La importancia de evaluar cada contribución puede variar. Por ejemplo, evaluar al menos una mínima cantidad de contribuciones por cada estudiante, página o categoría sería interesante. Pero algunas contribuciones que añadan ciertas características al trabajo pueden ser relevantes o informativas sobre el trabajo realizado por un estudiante. Por ejemplo, aunque las contribuciones que añadan gran cantidad de texto suelan ser más interesantes que las contribuciones pequeñas, una contribución pequeña puede ir relacionada con el cambio de sentido de alguna frase o párrafo. De cualquier forma, un estudiante podría solicitar que una contribución en particular sea evaluada, aunque ésta quede fuera de la función de selección.
 				\item \emph{¿Quién evalúa cada contribución?} Depende de la importancia que se quiera dar a la autoevaluación, la evaluación del compañero y la del docente. De nuevo, se debería equilibrar el esfuerzo requerido y el detalle a exigir en las evaluaciones.
 			\end{itemize}
 
 
-			\subparagraph*{Fase 3: Revisión del docente.}
+			\subparagraph*{F3: Revisión del docente.}
 
 			En esta última columna se representan dos actividades que corresponden al docente:
 
@@ -158,35 +158,35 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 
 				Los indicadores que se mencionan en este punto han sido utilizados en los estudios de caso realizados para este trabajo, pero como se ha mencionado desde un primer momento, este método proporciona indicadores y es el docente el que los utilizará para evaluar las competencias genéricas que considere oportunas.
 
-			\subparagraph*{Trabajo en equipo.}
-			El indicador considerado para el \emph{trabajo en equipo} es el \emph{ratio de miembros del equipo que trabajaron en un mismo criterio.} La rúbrica que utilizan los estudiantes para evaluar se compone de un conjunto de criterios. Cada criterio puede hacer referencia a una parte del trabajo. En todas las ediciones de un wiki no se trabajan en las mismas partes del trabajo, por lo que al ser evaluado, un estudiante puede tener nota en unos criterios y no tenerla en otros. Si más de un estudiante ha trabajado en la misma parte de una página wiki y su aportación ha sido significativa, tendrán nota en dicho criterio. Por tanto, partiendo de la cantidad de criterios que tiene un trabajo y del ratio de miembros del equipo que ha trabajado en cada criterio tendremos un indicador del \emph{trabajo en equipo}.
+			\subparagraph*{Trabajo en equipo (TMW)}
+			El indicador considerado para el TMW es el \emph{ratio de miembros del equipo que trabajaron en un mismo criterio.} La rúbrica que utilizan los estudiantes para evaluar se compone de un conjunto de criterios. Cada criterio puede hacer referencia a una parte del trabajo. En todas las ediciones de un wiki no se trabajan en las mismas partes del trabajo, por lo que al ser evaluado, un estudiante puede tener nota en unos criterios y no tenerla en otros. Si más de un estudiante ha trabajado en la misma parte de una página wiki y su aportación ha sido significativa, tendrán nota en dicho criterio. Por tanto, partiendo de la cantidad de criterios que tiene un trabajo y del ratio de miembros del equipo que ha trabajado en cada criterio tendremos un indicador del TMW.
 
-			\subparagraph*{Comunicación y aplicación del conocimiento.}
-			El indicador considerado para la comunicación y la aplicación del conocimiento es la \emph{media de las notas recibidas por todos los miembros del grupo}. Este indicador mide la incidencia que tuvieron las contribuciones realizadas en el éxito del proyecto. Una calificación pobre en una contribución puede significar  que alguna contribución wiki obtuvo una buena nota en un cierto criterio de la rúbrica pero una mala nota en el otro (el autor de la contribución soluciona un problema y crea uno nuevo). Probablemente, esto se debió a una mala comunicación entre los miembros del equipo o poco compromiso de un determinado estudiante en el objetivo global del grupo. 
+			\subparagraph*{Comunicación y aplicación del conocimiento (COM y KNO)}
+			El indicador considerado para la COM y KNO es la \emph{media de las notas recibidas por todos los miembros del grupo}. Este indicador mide la incidencia que tuvieron las contribuciones realizadas en el éxito del proyecto. Una calificación pobre en una contribución puede significar  que alguna contribución wiki obtuvo una buena nota en un cierto criterio de la rúbrica pero una mala nota en el otro (el autor de la contribución soluciona un problema y crea uno nuevo). Probablemente, esto se debió a una mala comunicación entre los miembros del equipo o poco compromiso de un determinado estudiante en el objetivo global del grupo. 
 
-			\subparagraph*{Mantener la calidad del trabajo producido.}
-			El indicador considerado para el mantenimiento de la calidad del trabajo producido es la \emph{media de las notas que cada estudiante individualmente recibió}. Unas calificaciones altas en las evaluaciones recibidas pueden significar que el trabajo que el estudiante está produciendo es de calidad. Si el estudiante produjese mucho contenido, pero este no fuese de calidad, las calificaciones no serían buenas. Es decir, sus calificaciones están teniendo en cuenta el aspecto cualitativo del trabajo y por tanto una nota alta significaría un trabajo de calidad.
+			\subparagraph*{Calidad del trabajo producido (QUA)}
+			El indicador considerado para la QUA es la \emph{media de las notas que cada estudiante individualmente recibió}. Unas calificaciones altas en las evaluaciones recibidas pueden significar que el trabajo que el estudiante está produciendo es de calidad. Si el estudiante produjese mucho contenido, pero este no fuese de calidad, las calificaciones no serían buenas. Es decir, sus calificaciones están teniendo en cuenta el aspecto cualitativo del trabajo y por tanto una nota alta significaría un trabajo de calidad.
 
-			\subparagraph*{Capacidad crítica.}
-			El indicador considerado para la capacidad crítica es el \emph{número de evaluaciones que el estudiante realizó con respecto al número de dichas evaluaciones cuya nota fue modificada por el docente}. Este indicador mide la competencia de un estudiante para evaluar el trabajo hecho por otros. Si recibiera un número fijado de réplicas en sus revisiones y estas fueran revisadas por el docente modificando las calificaciones, podríamos considerar que dicho estudiante no ha desempeñado bien dicha competencia.
+			\subparagraph*{Capacidad crítica (CRI)}
+			El indicador considerado para la CRI es el \emph{número de evaluaciones que el estudiante realizó con respecto al número de dichas evaluaciones cuya nota fue modificada por el docente}. Este indicador mide la competencia de un estudiante para evaluar el trabajo hecho por otros. Si recibiera un número fijado de réplicas en sus revisiones y estas fueran revisadas por el docente modificando las calificaciones, podríamos considerar que dicho estudiante no ha desempeñado bien dicha competencia.
 
 			En la tabla~\ref{tab:ResumenIndicadoresCualiCuanti} puede verse una comparación entre los indicadores considerados a partir de la evaluación cualitativa que se realizaría con AMW y los que se obtienen a partir de la evaluación cuantitativa realizada con SMW.
 
 \begin{table}
   \begin{center}
-  \begin{tabular}{| m{3.2cm} | >{\raggedright}m{4.9cm} | m{5.1cm} |}
+  \begin{tabular}{| L{1.5cm} | L{5.5cm} | L{5.5cm} |}
     \hline 
-    \multirow{2}{*}{COMPETENCIAS}  & INDICADORES  & INDICADORES  \\
-      &  CUALITATIVOS  &  CUANTITATIVOS \\
+    \multirow{2}{*}{COMP.}  & INDICADORES  & INDICADORES  \\
+      &  CUALITATIVOS (AMW) &  CUANTITATIVOS (SMW) \\
     \hline
     \hline
-    Trabajo en equipo  & Ratio de miembros del equipo que trabajaron en un mismo criterio  & Ratio de miembros del equipo que contribuyeron a una misma página del wiki en las páginas de su proyecto \\
+    TMW  & Ratio de miembros del equipo que trabajaron en un mismo criterio (en la misma o distinta página del grupo)  & Ratio de miembros del equipo que contribuyeron a una misma página del wiki en las páginas de su proyecto \\
     \hline
-    Comunicación y aplicación del conocimiento  & Media de las notas recibidas por todos los miembros del grupo  & Porcentaje de miembros del equipo que contribuyeron al menos a un 20\percentage{ }del trabajo realizado \\
+    COM - KNO  & Media de las notas recibidas por todos los miembros del grupo  & Porcentaje de miembros del equipo que contribuyeron al menos a un 20\percentage{ }del trabajo realizado \\
     \hline
-    Mantener la calidad del trabajo producido  & Media de las notas que cada estudiante individualmente recibió  & Contribución individual en bytes \\
+    QUA  & Media de las notas que cada estudiante individualmente recibió  & Tamaño de la contribución individual en bytes \\
     \hline
-    Capacidad crítica  & Número de evaluaciones que el estudiante realizó con respecto al número de dichas evaluaciones cuya nota fue modificada por el docente  & No considerada \\
+    CRI  & Número de evaluaciones que el estudiante realizó con respecto al número de dichas evaluaciones cuya nota fue modificada por el docente  & No considerada \\
     \hline
   \end{tabular}
 \end{center}
@@ -194,17 +194,19 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 \label{tab:ResumenIndicadoresCualiCuanti}
 \end{table}
 
-			\subsubsection{Conclusiones}
+			\subsubsection*{Conclusiones}
 
-			AMW es una herramienta de evaluación asistida que proporciona un análisis cualitativo interesante, pues al análisis cuantitativo proporcionado por StatMediaWiki, se podría añadir una información cualitativa que ayudase a detectar hábitos no deseados de los estudiantes. Por ejemplo, la contribución de un estudiante que copiase y pegase una gran cantidad de texto en una página del wiki sería considerada a efectos cuantitavos como una contribución de peso. Sin embargo, desde un punto de vista cualitativo, podría detectarse que la contribución había sido plagiada de internet con el fin de engañar al sistema.
+			AMW es una herramienta de evaluación asistida que proporciona un análisis cualitativo interesante, pues al análisis cuantitativo proporcionado por SMW, se podría añadir una información cualitativa que ayudase a detectar hábitos no deseados de los estudiantes. Por ejemplo, la contribución de un estudiante que copiase y pegase una gran cantidad de texto en una página del wiki sería considerada a efectos cuantitativos como una contribución de peso. Pero desde un punto de vista cualitativo, podría detectarse que la contribución había sido plagiada de Internet.
 
-			Sin embargo, en la aplicación de AMW nos encontramos con que se dan algunos de los problemas detectados en la revisión de la literatura para este tipo de herramientas de evaluación asistida. En primer lugar, delegar la evaluación en los estudiantes genera situaciones de subjetividad, pues pueden existir apartados en la rúbrica que los estudiantes interpreten o valoren de forma diferente. Y en segundo lugar, como vemos en el diagrama, el profesorado también revisa las evaluaciones de sus estudiantes, y más aún si estos replican, con lo que los problemas de escalabilidad también aparecerían.
+			Sin embargo, en la aplicación de AMW nos encontramos con que se dan algunos de los problemas detectados en la revisión de la literatura para este tipo de herramientas de evaluación asistida. En primer lugar, delegar la evaluación en los estudiantes genera situaciones de subjetividad, pues pueden existir apartados en la rúbrica que los estudiantes interpreten o valoren de forma diferente. Y en segundo lugar, como vemos en el diagrama, el profesorado también revisa las evaluaciones de sus estudiantes, y más aún si estos replican, con lo que los problemas de escalabilidad comentados en la sección~\ref{cha:pro-sec:aut} también podría darse.
 
 
 %\section{Herramientas}
 \section{Lenguajes de dominio}
 
-		A continuación se presentan los dos DSL que se han desarrollado para la implementación del método, cada uno aplicable a un contexto diferente. En el apartado~\ref{subcha:evc} se presenta el primer DSL, orientado para obtener indicadores de los VLEs, mientras que en el apartado~\ref{subcha:evs} se presenta el segundo DSL, orientado a los mundos virtuales.
+	Después de analizar la experiencia llevada a cabo con la herramienta AMW, aparecieron algunos de los problemas encontrados en la revisión de la literatura, por lo que se decidió considerar otro tipo de herramienta para la implementación del método. Esta herramienta debía no sólo evitar dichos problemas, sino cumplir los requisitos de cercanía al dominio, personalización de las evaluaciones y de usabilidad (subsección~\ref{cha:met-sec:req}). A tenor de estas condiciones se optó por la implementación de un lenguaje de programación orientado al dominio (DSL), que tuviera una sintaxis sencilla y que diese a los usuarios la posibilidad de diseñar sus propias evaluaciones.
+
+		A continuación se presentan los dos DSL que se han desarrollado para la implementación del método, cada uno aplicable a un contexto diferente. En el apartado~\ref{subcha:evc} se presenta el primer DSL, orientado al cálculo de indicadores de los entornos virtuales de aprendizaje, mientras que en el apartado~\ref{subcha:evs} se presenta el segundo DSL, orientado a los mundos virtuales.
 
 % TIC https://consultasescritura.wordpress.com/2013/03/14/tic-tics-tics-o-tic/
 
@@ -220,22 +222,22 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
 %		\end{itemize} 
 
 
-		\subsection{EvalCourse (EVC) y SASQL} \label{subcha:evc}
+		\subsection{EvalCourse y SASQL} \label{subcha:evc}
 
  %, los investigadores de diferentes áreas han colaborado para extraerlos, realizar minería de datos y utilizarlos para mejorar el aprendizaje~\cite{park2015development}.
 
 		%Además, los autores de algunos de los trabajo recopilados en el estado del arte (capítulo~\ref{cha:State of the Art}) confirman la relación entre la interacción que llevan a cabo los estudiantes en el VLE y su rendimiento en el desempeño de varias competencias genéricas~\cite{fidalgo:2015,rayon2014web}.
 
 % ¿Quitar la cita de vanDeursen? Está antes?
-	El VLE es el núcleo de los cursos virtuales, donde los estudiantes acceden para interactuar con el curso. La interacción de los estudiantes genera gran cantidad de información que queda registrada en el VLE. Esta interacción será la base para los indicadores del desempeño de competencias genéricas.
+	El LMS es el núcleo de los cursos virtuales, donde los estudiantes acceden para interactuar con el curso. La interacción de los estudiantes genera gran cantidad de información que queda registrada en el LMS. Esta interacción será la base para los indicadores del desempeño de competencias genéricas.
 
-			\subsubsection{Descripción} % Análisis y diseño
+			\subsubsection*{Descripción} % Análisis y diseño
 
-			Para diseñar evaluaciones a partir de los indicadores del VLE se crea \emph{Simple Assessment Specific Query Language} (SASQL). SASQL es un lenguaje formal para la ejecución automática de consultas simples escritas utilizando un lenguaje específico de evaluación. SASQL tiene una sintaxis simple, con términos del dominio docente y orientado a la evaluación de competencias genéricas~\cite{Balderas:2013}. De esta forma, los docentes pueden fácilmente obtener indicadores almacenados de la actividad en el VLE sin requerir conocimientos técnicos en bases de datos o programación informática.
+			Para diseñar evaluaciones a partir de los indicadores del LMS se define \emph{Simple Assessment Specific Query Language} (SASQL). SASQL es un lenguaje formal para la ejecución automática de consultas simples escritas utilizando un lenguaje específico de evaluación. SASQL tiene una sintaxis simple, con términos del dominio docente y orientado a la evaluación de competencias genéricas~\cite{Balderas:2013}. De esta forma, los docentes pueden fácilmente diseñar indicadores a partir de la actividad registrada en el LMS sin requerir conocimientos técnicos en bases de datos o programación informática.
 
-			También se implementa \emph{EvalCourse}, una herramienta informática que ejecuta instrucciones escritas en SASQL, proporcionando como resultado los indicadores solicitados. EvalCourse se comunica con el VLE para extraer la información del registro de actividad. EvalCourse\footnote{https://www.assembla.com/spaces/evalcourse} está basado en el IDE de la plataforma Eclipse, fue implementado utilizando Xtext~\cite{eysholdt2010xtext} dentro del Eclipse Modeling Framework y está disponible como software libre bajo licencia GNU GPL.
+			También se implementa \emph{EvalCourse}, una herramienta informática que ejecuta instrucciones escritas en SASQL, proporcionando como resultado los valores para los indicadores solicitados. EvalCourse se comunica con el LMS para extraer la información del registro de actividad. EvalCourse\footnote{\url{https://www.assembla.com/spaces/evalcourse}} está basado en el IDE de la plataforma Eclipse, fue implementado utilizando Xtext~\cite{eysholdt2010xtext} dentro del Eclipse Modeling Framework y está disponible como software libre bajo licencia GNU GPL.
 
-			El desarrollo de EvalCourse y SASQL se basa en los principios y técnicas de la ingeniería dirigida por modelos (MDE, del inglés Model-Driven Engineering). Este enfoque promueve la construcción de artefactos software de un modo flexible y rápido mediante el desarrollo de modelos y sus transformaciones. Nuestro DSL se define en términos de su sintaxis abstracta o metamodelo, su sintaxis concreta y un conjunto de plantillas para la transformación de modelos de consulta en código ejecutable dependiente del VLE.
+			El desarrollo de EvalCourse y SASQL se basa en los principios y técnicas de la ingeniería dirigida por modelos (MDE, del inglés Model-Driven Engineering). Este enfoque promueve la construcción de artefactos software de un modo flexible y rápido mediante el desarrollo de modelos y sus transformaciones. Nuestro DSL se define en términos de su sintaxis abstracta o metamodelo, su sintaxis concreta y un conjunto de plantillas para la transformación de modelos de consulta en código ejecutable dependiente del LMS. \nomenclature{MDE}{Ingeniería dirigida por modelos (Model-Driven Engineering)}
 
 \begin{figure}
   \begin{center}
@@ -245,7 +247,7 @@ Puede verse también que hay contribuciones que no reciben evaluación alguna, c
   \label{fig:EvcMetamodel}
 \end{figure}
 
-			El metamodelo de SASQL puede verse en la figura~\ref{fig:EvcMetamodel}. La entidad principal es el indicador o evidencia (\emph{evidence}). Esta evidencia se aplicará a una herramienta (\emph{tool}) que puede ser tarea (\emph{assignment}), foro (\emph{forum}), campus (\emph{campus}), taller (\emph{workshop}) o wiki (\emph{wiki}), en las que se observará un indicio (\emph{sign}), que puede ser participación (\emph{participation}), entregas (\emph{milestones}), accesos (\emph{access}), evaluaciones (\emph{assessment}), interacción (\emph{interaction}) o calificación (\emph{grade}). Además, puede actuarse sobre una actividad específica (\emph{entity}) o sobre todas las actividades de un tipo que se han dado en el VLE. La conexión a la base de datos del curso se declara en la entidad \emph{connection}. 
+			El metamodelo de SASQL puede verse en la figura~\ref{fig:EvcMetamodel}. La entidad principal es el indicador o evidencia (\emph{evidence}). Esta evidencia se aplicará a una herramienta (\emph{tool}) que puede ser tarea (\emph{assignment}), foro (\emph{forum}), campus (\emph{campus}), taller (\emph{workshop}) o wiki (\emph{wiki}), en las que se observará un indicio (\emph{sign}), que puede ser participación (\emph{participation}), entregas (\emph{milestones}), accesos (\emph{access}), evaluaciones (\emph{assessment}), interacción (\emph{interaction}) o calificación (\emph{grade}). Además, puede actuarse sobre una actividad específica (\emph{entity}) o sobre todas las actividades de un tipo que se han dado en el LMS. La conexión a la base de datos del curso se declara en la entidad \emph{connection}. 
 
 			En el siguiente código puede verse la sintaxis de SASQL. En la primera línea se comienza con la palabra reservada \emph{Evidence} seguida del nombre que se dará al indicador. Ese nombre será el que tengan todos los ficheros de salida. En la segunda línea se escriben los términos obligatorios \emph{get students}. En la tercera, se indica qué indicio se quiere extraer (\emph{show milestones | participation | access | interaction | assessment | grade}). En la consulta, la tercera línea se divide en dos (tercera y cuarta) para que puedan ser visualizadas todas las opciones. En la quinta, se indica sobre qué herramienta se quiere obtener el indicio (\emph{ in assignment | forum | campus | workshop | wiki [list of ids]}). También la quinta línea se divide en dos (quinta y sexta). En la séptima línea, que es opcional, se indica el rango de fechas sobre los que se extraerá la información. Y por último, en la octava se especifica si la conexión se realizará directamente a la base de datos o sobre una copia de seguridad almacenada en un fichero.
 
@@ -265,14 +267,14 @@ Evidence indicator_name:
  from course id | backup.
 \end{minted}
 
-			El objetivo es que EvalCourse pueda ser utilizado para cualquier VLE, pero las primeras versiones han sido implementadas para funcionar en Moodle\footnote{https://moodle.org/}. Moodle es un sistema de gestión de aprendizaje de código abierto con más de 64.000 sitios registrados\footnote{https://moodle.net/stats}.
+			El objetivo es que EvalCourse pueda ser utilizado para cualquier LMS, pero las primeras versiones han sido implementadas para funcionar en Moodle\footnote{\url{https://moodle.org}}. Moodle es un sistema de gestión de aprendizaje de código abierto con más de 64.000 sitios registrados\footnote{\url{https://moodle.net/stats}}.
 
 
-			\subsubsection{Ejemplo}
+			\subsubsection*{Ejemplo}
 
-			Para evaluar las competencias genéricas el docente deberá definir los indicadores que serán extraídos de la actividad de cada estudiante en el VLE. Ilustraremos el método a partir de un ejemplo de uso de EvalCourse y su ejecución con los foros del VLE. Los foros suelen ser una de las herramientas incorporadas por los VLEs para la interacción entre los estudiantes. Es evidente que la comunicación oral es una manera muy rica de comunicarse, que proporciona múltiples signos no verbales como las expresiones faciales o el tono de voz. En contraste, las comunicaciones escritas proporcionan otras ventajas. Una de las más importantes para la educación es que el estudiante dispone de un tiempo para la reflexión. Por esta razón, podría preferirse la comunicación escrita a la oral cuando se busca un aprendizaje cognitivo~\cite{garrison1999critical}.
+			Para evaluar las competencias genéricas el docente deberá definir los indicadores que serán extraídos de la actividad de cada estudiante en el LMS. Se ilustra el método a partir de un ejemplo de uso de EvalCourse y su ejecución con los foros del LMS. Los foros suelen ser una de las herramientas incorporadas por los LMS para la interacción entre los estudiantes. Es evidente que la comunicación oral es una manera muy rica de comunicarse, que proporciona múltiples signos no verbales como las expresiones faciales o el tono de voz. En contraste, las comunicaciones escritas proporcionan otras ventajas. Una de las más importantes para la educación es que el estudiante dispone de un tiempo para la reflexión. Por esta razón, podría preferirse la comunicación escrita a la oral cuando se busca un aprendizaje cognitivo~\cite{garrison1999critical}.
 
-			La obtención de indicadores se basará en el \emph{ciclo de contraste de hipótesis} (figura~\ref{fig:EVCDiagram}). En primer lugar, es necesario que los estudiantes hayan interactuado en el VLE, de manera que su actividad haya quedado registrada. Entonces, el docente propone un diseño de evaluación mediante una consulta SASQL (a) y envía esta consulta a EvalCourse (b). EvalCourse procesa la consulta, realiza la petición a la base de datos y recoge los datos (c). Entonces EvalCourse devuelve los resultados (d). El docente analiza los resultados conforme a su propuesta de evaluación de competencias (e), terminando el proceso si éstos son válidos para él (f). Por el contrario, si los resultados no son válidos como indicadores de la competencia, entonces el docente podrá rediseñar la evaluación (g). En cualquier caso, el docente podrá reutilizar el diseño cuántas veces sea necesaria a lo largo del curso y monitorizar la evolución de los indicadores de cada estudiante.
+			La obtención de indicadores se basará en el \emph{ciclo de contraste de hipótesis} (figura~\ref{fig:EVCDiagram}). En primer lugar, es necesario que los estudiantes hayan interactuado en el LMS, de manera que su actividad haya quedado registrada. Entonces, el docente propone un diseño de evaluación mediante una consulta SASQL (a) y envía esta consulta a EvalCourse (b). EvalCourse procesa la consulta, realiza la petición a la base de datos y recoge los datos (c). Entonces EvalCourse devuelve los resultados (d). El docente analiza los resultados conforme a su propuesta de evaluación de competencias (e), terminando el proceso si éstos son válidos para él (f). Por el contrario, si los resultados no son válidos como indicadores de la competencia, entonces el docente podrá rediseñar la evaluación (g). En cualquier caso, el docente podrá reutilizar el diseño cuántas veces sea necesaria a lo largo del curso y monitorizar la evolución de los indicadores de cada estudiante.
 
 \begin{figure}
   \begin{center}
@@ -282,15 +284,15 @@ Evidence indicator_name:
   \label{fig:EVCDiagram}
 \end{figure}
 
-			En este ejemplo, el docente pretende obtener indicadores del uso del foro para evaluar la competencia genérica de las habilidades interpersonales. Durante el curso, los estudiantes interactuarán en el foro conforme a las instrucciones proporcionadas por el docente. Cuando lo desee, el docente podrá utilizar EvalCourse para obtener los indicadores.
+			En este ejemplo, el docente pretende obtener indicadores del uso del foro para evaluar la competencia genérica de las habilidades interpersonales (INT). Durante el curso, los estudiantes interactuarán en el foro conforme a las instrucciones proporcionadas por el docente. Cuando lo desee, el docente podrá utilizar EvalCourse para obtener los indicadores.
 
 % Estos indicadores deben ser publicados para que los estudiantes sepan cómo serán evaluados % FRASE ELIMINADA DEL MEDIO DEL PÁRRAFO ANTERIOR
 
-			El docente considera que podría diseñar un indicador válido a partir del número de mensajes que ha escrito cada estudiante en un periodo de tiempo particular y plantea la siguiente hipótesis: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro}. Para ello se diseña la consulta que se muestra a continuación (consulta SASQL participaciones foro). EvalCourse procesa la consulta y devuelve los resultados que se pueden ver en la tabla~\ref{tab:EvalCourseEj1}.
+			El docente considera que podría diseñar un indicador válido a partir del número de mensajes que ha escrito cada estudiante en un período de tiempo particular y plantea la siguiente hipótesis: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las INT si ha escrito al menos dos mensajes en el foro en la semana}. Para ello se diseña la consulta que se muestra a continuación (consulta SASQL participaciones foro). EvalCourse procesa la consulta y devuelve los resultados que se pueden ver en la tabla~\ref{tab:EvalCourseEj1}.
 
 
 
-%\begin{lstlisting}[caption=Consulta para obtener la participación en el foro en un periodo concreto de tiempo ,label=code:sasqlejemplo1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
+%\begin{lstlisting}[caption=Consulta para obtener la participación en el foro en un período concreto de tiempo ,label=code:sasqlejemplo1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
 
 
 
@@ -307,7 +309,7 @@ Evidence participacion_foro:
 
 \begin{table}
 	\centering
-	\caption{Información sobre la participación en el foro de los estudiantes en un periodo concreto de tiempo}
+	\caption{Información sobre la participación en el foro de los estudiantes en un período concreto de tiempo}
 	\label{tab:EvalCourseEj1}
 	\begin{tabular}{|l|l|c|c|c|c|c|}
 		\hline
@@ -327,9 +329,9 @@ Evidence participacion_foro:
 	\end{tabular}
 \end{table}
 
-			A la vista de los resultados, y en base a la hipótesis inicial, se podría decir que todos los estudiantes menos el 3 (\emph{student3}) habrían desempeñado correctamente la competencia. Sin embargo, el docente considera que esta primera aproximación es un poco pobre y decide completar su hipótesis de la siguiente manera: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las habilidades interpersonales si ha escrito al menos dos mensajes en el foro y ha interactuado con más de un compañero}. Para ello escribe la consulta SASQL interacciones foro.
+			A la vista de los resultados, y en base a la hipótesis inicial, se podría decir que todos los estudiantes menos el 3 (\emph{student3}) habrían desempeñado correctamente la competencia. Sin embargo, el docente considera que esta primera aproximación es un poco pobre y decide completar su hipótesis de la siguiente manera: \emph{se considerará que un estudiante ha desempeñado satisfactoriamente la competencia genérica de las INT si ha escrito al menos dos mensajes en el foro y ha interactuado con más de un compañero en la semana}. Para ello escribe la consulta SASQL interacciones foro.
 
-%\begin{lstlisting}[caption=Consulta para obtener la interacción en el foro en un periodo de tiempo determinado, label=code:sasqlejemplo2,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
+%\begin{lstlisting}[caption=Consulta para obtener la interacción en el foro en un período de tiempo determinado, label=code:sasqlejemplo2,numbers=left, captionpos=b, morekeywords={Evidence,get, students, show, milestones, participation, access, in, assignment, forum, campus, workshop, interaction, between, and}]
 
 \begin{minted}[	label=Consulta SASQL interacciones foro,
 		linenos,
@@ -347,7 +349,7 @@ Evidence interacciones_foro:
 \begin{figure}
 	\centering
 	\includegraphics[width=6cm]{{EvalCourseInteraccionForo.png}}
-	\caption{Interacción en el foro en un periodo de tiempo.}
+	\caption{Interacción en el foro en un período de tiempo.}
 	\label{fig:EvalCourseInteraccionForo}
 \end{figure}
 
@@ -355,10 +357,11 @@ Evidence interacciones_foro:
 
 			\paragraph*{Propuesta de indicadores para el ejemplo}
 
-			En este apartado se muestra una propuesta de uso de indicadores obtenidos mediante EvalCourse para la evaluación de competencias genéricas~\cite{Balderas:2015}. Pero al igual que ocurre con el resto de herramientas, estos indicadores podrían ser válidos para unos docentes y no serlos para otros, así como que habrá otras muchas formas de combinar la información del registro para obtener indicadores válidos para otras competencias genéricas.
+			En este apartado se muestra una propuesta de uso de indicadores obtenidos mediante EvalCourse para la evaluación de competencias genéricas. Al igual que ocurre con el resto de herramientas, estos indicadores podrían ser válidos para unos docentes y no serlos para otros, así como que habrá otras muchas formas de combinar la información del registro para obtener indicadores válidos para otras competencias genéricas.
 
-				\paragraph*{Habilidades interpersonales}
-				Para la evaluación de esta competencia genérica se propone utilizar la participación en el foro. Al crear grupos de trabajo en el VLE se puede crear un foro para cada grupo. Durante el curso se fomenta que los estudiantes intervengan en dichos foros para comunicarse entre los miembros del equipo y dejar constancia de los mensajes de cara al docente. Por tanto, si no utilizan el foro, los estudiantes no tienen calificación en esta competencia. Por ejemplo, podría fijarse que un estudiante con tres o más intervenciones en el foro tuviera una evaluación positiva en la competencia. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado con los mensajes iniciados, las respuestas dadas y el total de mensajes de cada estudiante en el foro, siendo este último valor el que utilizaríamos como indicador positivo para quellos estudiantes que tengan tres o más participaciones.
+
+				\paragraph*{Habilidades interpersonales (INT)}
+				Para la evaluación de esta competencia genérica se propone utilizar la participación en el foro. Al crear grupos de trabajo en el LMS se puede crear un foro para cada grupo. Durante el curso se fomenta que los estudiantes intervengan en dichos foros para comunicarse entre los miembros del equipo y dejar constancia de los mensajes de cara al docente. Por tanto, si no utilizan el foro, los estudiantes no tienen calificación en esta competencia. Por ejemplo, podría fijarse que un estudiante con tres o más intervenciones en el foro tuviera una evaluación positiva en la competencia. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado con los mensajes iniciados, las respuestas dadas y el total de mensajes de cada estudiante en el foro, siendo este último valor el que utilizaríamos como indicador positivo para aquellos estudiantes que tengan tres o más participaciones.
 
 % label=Habilidades interpersonales en SASQL,
 \begin{minted}[linenos,frame=lines,
@@ -369,8 +372,8 @@ Evidence habilidades_interpersonales:
 	in forum.
 \end{minted}
 
-				\paragraph*{Liderazgo}
-				Para evaluar el liderazgo de los estudiantes se proponen también los foros creados para la comunicación de los equipos de trabajo. Para ello se podría considerar la cantidad de debates que cada estudiante ha iniciado. Por ejemplo, un estudiante que iniciara dos o más debates tendría una evaluación positiva en la competencia de liderazgo. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado con los mensajes iniciados, las respuestas dadas y el total de mensajes de cada estudiante en el foro, siendo el primer valor el que utilizaríamos como indicador positivo para quellos estudiantes que tengan dos o más participaciones.
+				\paragraph*{Liderazgo (LEA)}
+				Para evaluar la competencia LEA de los estudiantes se proponen también los foros creados para la comunicación de los equipos de trabajo. Para ello se podría considerar la cantidad de debates que cada estudiante ha iniciado. Por ejemplo, un estudiante que iniciara dos o más debates tendría una evaluación positiva en la competencia LEA. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado con los mensajes iniciados, las respuestas dadas y el total de mensajes de cada estudiante en el foro, siendo el primer valor el que utilizaríamos como indicador positivo para aquellos estudiantes que tengan dos o más participaciones (véase como ejemplo el listado mostrado anteriormente en la tabla~\ref{tab:EvalCourseEj1}).
 
 % label=Liderazgo en foro con SASQL,
 \begin{minted}[linenos,frame=lines,
@@ -381,7 +384,8 @@ Evidence liderazgo_foro:
 	in forum.
 \end{minted}
 
-				El wiki de Moodle también se podría prestar a la evaluación de esta competencia genérica. Si tenemos registros de un usuario que se encarga de las primeras ediciones de una página del wiki (organizando el trabajo del equipo) y registros de actividad de ese usuario tras los registros de actividad de sus compañeros (revisando el trabajo de estos), podría considerarse que ese usuario está ejerciendo una labor de líder en el equipo. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado con el momento y el peso de las contribuciones de cada estudiante. El docente utilizaría estos valores contrastaría los valores de los otros estudiantes para valorar si ha ejercido o no de líder.
+
+				El wiki de Moodle también se podría prestar a la evaluación de la competencia genérica de LEA. Si tenemos registros de un usuario que se encarga de las primeras ediciones de una página del wiki (organizando el trabajo del equipo) y registros de actividad de ese usuario tras los registros de actividad de sus compañeros (revisando el trabajo de estos), podría considerarse que ese usuario está ejerciendo una labor de líder en el equipo. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado con el momento y el peso de las contribuciones de cada estudiante. El docente utilizaría estos valores contrastaría los valores de los otros estudiantes para valorar si ha ejercido o no de líder.
 
 % label=Liderazgo en wiki con SASQL,
 \begin{minted}[linenos,frame=lines,
@@ -392,8 +396,47 @@ Evidence liderazgo_wiki:
 	in wiki.
 \end{minted}
 
-				\paragraph*{Pensamiento crítico}
-				En Moodle hay una actividad que son los talleres (\emph{workshops}). En esta actividad, los estudiantes tienen que entregar un ejercicio conforme a las instrucciones del docente que podrá ser autoevaluada o evaluada por uno o varios compañeros. Por ejemplo, podría plantearse que cada estudiante tuviera que hacer varias tareas. Una vez entregada cada tarea, el docente pondría la solución del ejercicio a disposición de los estudiantes, y cada tarea sería evaluada por dos compañeros y por el propio estudiante. Para evaluar la competencia del pensamiento crítico, el docente utilizaría para cada tarea la diferencia entre la media de las notas dadas por sus compañeros y la que se asignó el propio estudiante. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado de estudiantes con tres columnas adicionales, la primera con la calificación fruto de la autoevaluación y las dos siguiente de la evaluación realizada por los otros estudiantes. El docente utilizaría la diferencia entre estos valores para valorar la competencia genérica.
+Además del listado, la consulta devuelve un gráfico con las contribuciones realizadas semanalmente por cada estudiante a la página del wiki. A partir del ejemplo mostrado en la figura~\ref{cha:eval-fig:ejemplo-liderazgo}, se muestra cómo podría interpretarse dicha figura para evaluar en este caso la competencia LEA. Puede verse como durante 9 semanas los estudiantes han estado trabajando en su página del wiki. Dicho trabajo tenía 2 entregas, una en la semana 5 y otra en la semana 9. Puede verse como antes de dichas semanas todos los estudiantes trabajan en la página. Sin embargo, puede verse también como el estudiante 4 (\emph{Student4}) es el único que realiza contribuciones justo antes de la entrega. Esto podría ser interpretado por el docente como una labor de coordinación y de ajuste del trabajo realizado por el equipo en los días previos. Este estudiante probablemente se ha dedicado a dar coherencia al texto creado por el resto del equipo, así como a corregir errores para dejar el trabajo apunto para la revisión del docente.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.6]{EvcEjemploLiderazgoWiki.png}
+  \end{center}
+  \caption{Gráfico de contribuciones semanales de cada estudiante a la página del wiki utilizable para evaluar la competencia LEA}
+  \label{cha:eval-fig:ejemplo-liderazgo}
+\end{figure}
+
+				\paragraph*{Pensamiento crítico (CRI)}
+				En Moodle hay una actividad que son los talleres (\emph{workshops}). En esta actividad, los estudiantes tienen que entregar un ejercicio conforme a las instrucciones del docente que podrá ser autoevaluada o evaluada por uno o varios compañeros. Por ejemplo, podría plantearse que cada estudiante tuviera que hacer varias tareas. Una vez entregada cada tarea, el docente pondría la solución del ejercicio a disposición de los estudiantes, y cada tarea sería evaluada por dos compañeros y por el propio estudiante. Para evaluar la competencia CRI, el docente utilizaría para cada tarea la diferencia entre la media de las notas dadas por sus compañeros y la que se asignó el propio estudiante. Para obtener la información que permita utilizar este indicador se usará la consulta mostrada a continuación, que devolvería como resultado el listado de estudiantes con tres columnas adicionales, la primera con la calificación fruto de la autoevaluación y las dos siguientes de la evaluación realizada por los otros dos estudiantes (véase el ejemplo mostrado en la tabla~\ref{cha_eval-tab:ejemplo-critico}). El docente utilizaría la diferencia entre estos valores para valorar la competencia genérica.
+
+
+\begin{table}[h]
+	\centering
+	\caption{Listado de estudiantes generado por la consulta para la evaluación del CRI}
+	\label{cha_eval-tab:ejemplo-critico}
+	\begin{tabular}{|l|l|r|r|r|}
+		\hline
+		id & username & auto & peer1 & peer2 \\
+		\hline
+		\hline
+		1 & student1 & 8 & 9 & 8  \\
+		\hline
+		2 & student2 & 7 & 4 & 5  \\
+		\hline
+		3 & student3 & 9 & 9 & 8  \\
+		\hline
+		4 & student4 & 10 & 7 & 9  \\
+		\hline
+		5 & student5 & 10 & 8 & 10  \\
+		\hline
+		6 & student6 & 9 & 9 & 8  \\
+		\hline
+		7 & student7 & 8 & 9 & 8  \\
+		\hline
+		8 & student8 & 6 & 5 & 7  \\
+		\hline
+	\end{tabular}
+\end{table}
 
 % label=Liderazgo en wiki con SASQL,
 \begin{minted}[linenos,frame=lines,
@@ -404,8 +447,8 @@ Evidence pensamiento_critico:
 	in workshop.
 \end{minted}
 
-				\paragraph*{Planificación y gestión del tiempo}
-				Las tareas programadas en el VLE tienen una fecha límite de entrega. Sin embargo, el docente puede configurar la actividad para que permita envíos retrasados. El docente podría establecer un número mínimo de trabajos entregados antes de la fecha límite para considerar que esta se ha entregado a tiempo. De esta manera, un docente podría considerar que si las tareas se han entregado tarde, pero son correctas, tengan una buena calificación en lo que a las habilidades y conocimientos específicos que requería la tarea se refiere. Pero con respecto a la planificación y gestión del tiempo de ese estudiante la calificación sería negativa, dado que ha incumplido la planificación y los plazos que se acordaron a comienzos del curso. Para obtener la información que nos permita utilizar este indicador utilizaríamos la consulta mostrada a continuación, que devolvería como resultado el listado de estudiantes indicándose para cada uno la cantidad de tareas entregadas, las que ha entregado a tiempo de estas y las que han quedado pendientes. A partir de esta información el docente podrá evaluar la planificación y gestión del tiempo de sus estudiantes.
+				\paragraph*{Planificación y gestión del tiempo (PLA)}
+				Las tareas programadas en el LMS tienen una fecha límite de entrega. Sin embargo, el docente puede configurar la actividad para que permita envíos retrasados. El docente podría establecer un número mínimo de trabajos entregados antes de la fecha límite para considerar que gestionó bien el tiempo. De esta manera, un docente podría considerar que si las tareas se han entregado tarde, pero son correctas, tengan una buena calificación en lo que a las habilidades y conocimientos específicos que requería la tarea. Pero con respecto al desempeño de la competencia PLA llevada a cabo por ese estudiante la calificación sería negativa, dado que ha incumplido la planificación y los plazos que se acordaron a comienzos del curso. Para obtener la información que nos permita utilizar este indicador se usará la consulta mostrada a continuación, que devolvería como resultado el listado de estudiantes indicándose para cada uno la cantidad de tareas entregadas, las que ha entregado a tiempo de estas y las que han quedado pendientes. A partir de esta información el docente podrá evaluar la competencia PLA de sus estudiantes.
 
 % label=Liderazgo en wiki con SASQL,
 \begin{minted}[linenos,frame=lines,
@@ -416,24 +459,51 @@ Evidence planificacion:
 	in assignment.
 \end{minted}
 
-		\subsection{EvalSim (EVS) y VWQL} \label{subcha:evs}
+\paragraph*{Resumen}
 
-		La segunda propuesta de DSL se aplica a los mundos virtuales. Aunque muchos investigadores han reconocido la potencia educativa y motivacional de los videojuegos, hay pocos estudios empíricos que hayan investigado recientemente su impacto en el aprendizaje de los estudiantes~\cite{berns2013game}. Lo mismo se puede decir de los entornos de aprendizaje como los mundos virtuales (Second Life, OpenCobalt, etc.)~\cite{hew2010use}. Esto se debe a que normalmente no se distribuyen bajo licencia libre y, por consiguiente, los docentes no pueden analizar las interacciones de los estudiantes o analizar su impacto en el aprendizaje y en los resultados de aprendizaje~\cite{cruz2015discovering,moreno2014serious}. 
+En la tabla~\ref{tab:ResumenIndicadoresEVC} se muestra el resumen con los indicadores propuestos para la evaluación de competencias genéricas a partir del uso de la herramienta EvalCourse y el lenguaje SASQL. Algunos de estos indicadores fueron utilizados en la experiencia presentada en~\cite{Balderas:2015}. 
 
-		Ante esta situación, en un trabajo previo desarrollamos nuestro propio mundo virtual, basado en OpenSim (software de código abierto)~\cite{berns2013using}. De esta forma se podría evaluar la competencia de la comunicación en una segunda lengua a partir de las interacciones llevadas a cabo por los estudiantes en el mundo virtual.
+\begin{table}[h]
+  \begin{center}
+  \begin{tabular}{| L{3cm} | L{3cm} | L{6.5cm} |}
+    \hline 
+    COMPETENCIA & ACTIVIDAD DEL LMS & INDICADOR \\
+    \hline
+    \hline
+    INT  & Foro & Número mínimo de intervenciones \\
+    \hline
+    LEA & Foro & Conversaciones iniciadas en los foros del equipo de trabajo \\
+    \hline
+    LEA & Wiki & Contribuciones a la página justo antes de la entrega final \\
+    \hline
+    CRI & Taller & Diferencia entre la media de las calificaciones recibidas por el estudiante y la que él mismo se asignó \\
+    \hline
+    PLA & Tarea & Entrega antes de la fecha límite \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption{Resumen de propuesta de indicadores a partir del uso de EvalCourse}
+\label{tab:ResumenIndicadoresEVC}
+\end{table}
 
-		A continuación se explicará cómo a partir de la actividad generada por los estudiantes se obtendrán indicadores para el diseño de evaluaciones de competencias genéricas.
 
-			\subsubsection{Descripción}
+		\subsection{EvalSim y VWQL} \label{subcha:evs}
 
-			Para este trabajo se creó VWQL (\emph{Virtual Worl Query language}). VWQL es un DSL creado para obtener indicadores objetivos de OpenSim. EvalSim es el sistema que procesa las consultas de VWQL. Ha sido desarrollado bajo un enfoque MDE para modelar procesos para la obtención de los indicadores que se requieran. Fue también implementado utilizando Xtext~\cite{eysholdt2010xtext} dentro del Eclipse Modeling Framework.
+		La segunda propuesta de DSL se aplica a los mundos virtuales. Aunque muchos investigadores han reconocido la potencia educativa y motivacional de los videojuegos, hay pocos estudios empíricos que hayan investigado recientemente su impacto en el aprendizaje de los estudiantes~\cite{berns2013game}. Lo mismo se puede decir de los entornos de aprendizaje como los mundos virtuales (Second Life, OpenCobalt, etc.)~\cite{hew2010use}. Esto se debe a que normalmente no se distribuyen bajo licencia libre ni ofrecen API de consulta y, por consiguiente, los docentes difícilmente pueden analizar las interacciones de los estudiantes o analizar su impacto en el aprendizaje y en los resultados de aprendizaje~\cite{cruz2015discovering,moreno2014serious}. 
+
+		Ante esta situación, en un trabajo previo desarrollamos nuestro propio mundo virtual, basado en OpenSim (software de código abierto)~\cite{berns2013using}. De esta forma se podría evaluar la competencia de la comunicación en lengua extranjera (LAN) a partir de las interacciones llevadas a cabo por los estudiantes en el mundo virtual. A continuación se explicará cómo.
+
+			\subsubsection*{Descripción}
+
+			Para este trabajo se creó VWQL (\emph{Virtual Worl Query language}). VWQL es un DSL creado para diseñar indicadores a partir de la actividad registrada en un mundo virtual basado en OpenSim. EvalSim es el sistema que procesa las consultas de VWQL. Ha sido desarrollado bajo un enfoque MDE para modelar procesos para el cálculo de los indicadores que se requieran. 
+
 
 			La sintaxis del lenguaje (versión beta 0.1) puede verse en el cuadro de sintaxis VWQL. La primera línea especifica el nombre del indicador (\emph{name\_of\_the\_indicator}) y se utiliza para diferenciar los diferentes archivos producidos por EvalSim. La segunda línea comienza obligatoriamente con \emph{get students} y a continuación se ha de especificar si se quiere obtener la información para todos los estudiantes que participaron en la experiencia o sólo para algunos de los que participaron (indicando sus identificadores numéricos de usuario). La última línea indica el tipo de información a extraer tras el término obligatorio \emph{show}, y esta información puede ser de alguno de los siguientes tipos:
 
 \begin{itemize}
-\item \emph{words}: número de palabras escritas en el chat de texto. Por defecto cuenta todas las palabras, a no ser que se indique un idioma, en cuyo caso únicamente muestra, de las palabras introducidas en el chat de texto, las palabras en dicho idioma.
+\item \emph{words}: número de palabras escritas en el chat de texto. Por defecto cuenta todas las palabras, a no ser que se indique un diccionario, en cuyo caso únicamente muestra, de las palabras introducidas en el chat de texto, las palabras en dicho diccionario.
 \item \emph{sentences}: número de frases escritas en el chat de texto.
-\item \emph{single}: número de frases compuestas por una sola palabra escritas en el chat de texto.
+\item \emph{single}: número de intervenciones de una sola palabra escritas en el chat de texto.
 \item \emph{turns}: número de turnos empleados en chat de texto. Un turno es un conjunto de frases consecutivas escritas por el mismo usuario.
 \item \emph{time}: número de minutos jugados en el mundo virtual.
 \item \emph{points}: número de puntos obtenidos en el mundo virtual. La manera en que los puntos se obtengan dependerá específicamente del mundo virtual jugado.
@@ -448,11 +518,12 @@ Evidence name_of_the_evidence:
     get students [id_of_the_student]
     show ( words [dict] | sentences | turns | single |
          | time | points )+
+    between YYYY-MM-DD and YYYY-MM-DD
 \end{minted}
 
-			\subsubsection{Ejemplo}
+			\subsubsection*{Ejemplo}
 
-			En el juego los estudiantes interactúan entre ellos por medio de un chat. Las conversaciones quedan almacenadas en la base de datos de EvalSim. Utilizando el \emph{ciclo de contraste de hipótesis} los docentes obtendrán indicadores del trabajo de sus estudiantes (figura~\ref{fig:EvsDiagram}).
+			En el juego los estudiantes interactúan entre ellos por medio de un chat de texto. Las conversaciones quedan almacenadas en la base de datos de EvalSim. Utilizando el \emph{ciclo de contraste de hipótesis} los docentes definirán indicadores a partir de la actividad sus estudiantes (figura~\ref{fig:EvsDiagram}).
 
 \begin{figure}
   \begin{center}
@@ -467,9 +538,9 @@ Evidence name_of_the_evidence:
 
 			%\paragraph{Ejemplo de uso}
 
-			En este ejemplo se parte de que el mundo virtual se está utilizando en una asignatura de idiomas. En un ejercicio práctico confeccionado por el docente, los estudiantes han de participar en un juego de roles (\emph{role-play}) y son advertidos de que deben explayarse en sus respuestas a fin de utilizar los recursos lingüísticos aprendidos en clase.
+			En este ejemplo se parte de que el mundo virtual se está utilizando en una asignatura de idioma alemán. En un ejercicio práctico confeccionado por el docente, los estudiantes han de participar en un juego de roles (\emph{role-play}) y son advertidos de que deben explayarse adecuadamente en sus respuestas a fin de aplicar los recursos lingüísticos aprendidos en clase.
 
-			Una vez que todos los estudiantes han participado el juego, el docente decide utilizar como indicador el número de frases de una sola palabra utilizada por los estudiantes. De esta manera, todos aquellos estudiantes que hayan utilizado una sola palabra para responder a alguna pregunta tendrán una evaluación negativa en el desempeño de la competencia. Puede verse el código empleado en la consulta VWQL 1.
+			Una vez que todos los estudiantes han participado el juego, el docente decide utilizar como indicador el número de intervenciones de una sola palabra utilizada por los estudiantes. De esta manera, todos aquellos estudiantes que hayan utilizado una sola palabra para responder a alguna pregunta tendrán una evaluación negativa en el desempeño de la competencia correspondiente. Puede verse el código empleado en la consulta VWQL 1.
 
 %\begin{lstlisting}[caption=Consulta para obtener la cantidad de respuestas de una sola palabra de cada estudiante, label=code:vqwlej1,numbers=left, captionpos=b, morekeywords={Evidence,get, students, single, show, words, sentences, turns, time, points}]
 \begin{minted}[label=Consulta VWQL 1,
@@ -481,7 +552,7 @@ Evidence respuestas_cortas:
     show single.
 \end{minted}
 
-			Como resultado a la consulta, el sistema devuelve el listado que puede verse en la tabla~\ref{tab:EvsListEj1}. A la vista de los mismos, el docente considera que hay situaciones en las que una respuesta corta podría admitirse como válida, por lo que decide admitir como mucho dos respuestas cortas en la participación de cada estudiante. Ante este enfoque, el docente considera que los estudiantes 3, 6 y 7 (\emph{student3, student6 y student7}) tuvieron un desempeño bajo en la competencia al haber empleado cuatro, cuatro y tres respuestas cortas respectivamente.
+			Como resultado a la consulta, el sistema devuelve el listado que puede verse en la tabla~\ref{tab:EvsListEj1}. A la vista del mismo, el docente considera que hay situaciones en las que una respuesta corta podría admitirse como válida, por lo que decide aceptar hasta dos respuestas cortas en la participación de cada estudiante. Ante este enfoque, el docente considera que los estudiantes 3, 6 y 7 (\emph{student3, student6 y student7}) tuvieron un desempeño bajo en la competencia al haber empleado cuatro, cuatro y tres respuestas cortas respectivamente.
 
 \begin{table}
 	\centering
@@ -557,24 +628,75 @@ Evidence palabras_turno:
 
 			\paragraph*{Propuesta de indicadores para el ejemplo}
 
-			El mundo virtual se ha desarrollado para asignaturas de idiomas, por lo que la competencia genérica para la que más se han utilizado los indicadores obtenidos ha sido para la \emph{habilidad para comunicarse en un segundo idioma}. No obstante, los indicadores podrían ser utilizados en la evaluación de otras competencias genéricas bajo el criterio del docente que diseña la evaluación.
+			El mundo virtual se ha desarrollado para asignaturas de idiomas, por lo que la competencia genérica para la que más se han utilizado los indicadores obtenidos ha sido para la \emph{habilidad para comunicarse en lengua extranjera} (LAN). No obstante, los indicadores podrían ser utilizados en la evaluación de otras competencias genéricas bajo el criterio del docente que diseña la evaluación.
 
 % Hipótesis: un estudiante tiene dificultades para hacerse entender si necesita dos o más frases por turno para comunicarse con su compañero.
 
-			\subparagraph*{Segundo idioma}
+			\subparagraph*{Lengua extranjera (LAN)}
 \begin{itemize}
-\item \emph{Ritmo}: número de frases escritas por minuto. Según la experiencia desarrollada podría ser un indicador positivo o negativo del desempeño de la competencia. Si el estudiante tiene que contar una historia o expresarse sin restricción, el hecho de que escriba muchas frases por minuto es un indicador positivo de su dominio del idioma. Sin embargo, si el estudiante tiene que enviar a su compañero un mensaje concreto y tiene dificultades  para hacerse entender, puede necesitar más de una frase por minuto para hacerse entender, siendo entonces un indicador negativo.
-\item \emph{Frases por turno}: número de frases escritas por turno. Igual que en el caso anterior, puede tomarse como un indicador positivo o negativo dependiendo del caso. Si el estudiante tiene un buen dominio del idioma y no hay restricción impuesta, puede ser un indicador positivo que escriba muchas frases por turno. Mientras que si necesita muchas frases para transmitir un mensaje concreto, que tenga que escribir muchas frases por turno puede ser un indicador negativo del desempeño de la competencia.
-\item \emph{Palabras solas}: número de frases de una sola palabra escritas por el estudiante. Un abuso del uso de frases de una sola palabra puede ser utilizado como un indicador del bajo nivel de conocimiento del segundo idioma.
+\item \emph{Ritmo (fluidez)}: número de frases escritas por minuto. Según la experiencia desarrollada, un valor alto podría ser un indicador positivo o negativo del desempeño de la competencia. Si el estudiante tiene que contar una historia o expresarse sin restricción, el hecho de que escriba muchas frases por minuto es un indicador positivo de su dominio del idioma. Sin embargo, si el estudiante tiene que enviar a su compañero un mensaje concreto y tiene dificultades  para hacerse entender, puede necesitar más de una frase por minuto para hacerse entender, siendo entonces un indicador negativo.
+\item \emph{Frases por turno}: número de frases escritas por turno. Igual que en el caso anterior, puede interpretarse de distinta forma según el caso. Si el estudiante tiene un buen dominio del idioma y no hay restricción impuesta, puede ser un indicador positivo que escriba muchas frases por turno. Mientras que si necesita muchas frases para transmitir un mensaje concreto, que tenga que escribir muchas frases por turno puede ser un indicador negativo del desempeño de la competencia.
+\item \emph{Intervenciones de una palabra}: número de frases o intervenciones de una sola palabra escritas por el estudiante. Un abuso del uso de frases de una sola palabra puede ser utilizado como un indicador del bajo nivel de conocimiento de la lengua extranjera.
 \end{itemize}
 
-			\subparagraph*{Capacidad de aprender y mantenerse al día con el aprendizaje}
+			\subparagraph*{Capacidad de aprender y mantenerse al día con el aprendizaje (LLL)}
 			Si un estudiante tiene dificultades para desenvolverse en el idioma, el hecho de que dedicase muchos minutos a jugar en el mundo virtual podría ser un indicador de que dicho estudiante está comprometido con su aprendizaje, y quiere mejorar. Sin embargo, si un estudiante tiene malos resultados, y además pasa pocos minutos practicando, sería un indicador negativo de esta competencia.
 
-\section{Estudios de caso}
 
-	Entre los cursos 2010-11 y 2014-15 se han realizado diversas experiencias para la evaluación de competencias genéricas utilizando el método DBA y las herramientas que lo implementan. A continuación se describen brevemente dichas experiencias, mientras que las publicaciones en las que se han presentado se resumen en la tabla~\ref{tab:ResumenCS} y se describen en el apartado~\ref{eva:contribuciones}.
 
+\paragraph*{Resumen}
+
+En la tabla~\ref{tab:ResumenIndicadoresEVS} se muestra el resumen con los indicadores propuestos para la evaluación de competencias genéricas a partir del uso de la herramienta EvalSim y el lenguaje VWQL. Los indicadores para medir la competencia LAM fueron utilizados en la experiencia presentada en~\cite{balderas2015domain}. 
+
+\begin{table}[h]
+  \begin{center}
+  \begin{tabular}{| L{3cm} | L{9.5cm} |}
+    \hline 
+    COMPETENCIA & INDICADOR \\
+    \hline
+    \hline
+    LAN  & Frases escritas por minuto \\
+    \hline
+    LAN  & Frases escritas por turno \\
+    \hline
+    LAN  & Abuso del uso de intervenciones de una sola palabra \\
+    \hline
+    LLL & Tiempo dedicado a practicar en el mundo virtual \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption{Resumen de propuesta de indicadores a partir del uso de EvalSim}
+\label{tab:ResumenIndicadoresEVS}
+\end{table}
+
+\section{Estudios de caso} \label{cha:eva-sec:cs}
+
+	Entre los cursos 2010-11 y 2014-15 se han realizado diversas experiencias para la evaluación de competencias genéricas utilizando el método DBA y las herramientas que lo implementan. El resumen de herramientas utilizadas, junto con las competencias evaluadas se muestra en la tabla~\ref{tab:ResumenHerramientasCompetenciasCS}, mientras que las publicaciones en las que se han presentado estos estudios de caso se detallan en la tabla~\ref{tab:ResumenCS}. A continuación se describen brevemente cada uno de los estudios de caso.
+
+\begin{table}
+	\centering
+	\caption{Resumen de competencias medidas en cada estudio de caso}
+	\label{tab:ResumenHerramientasCompetenciasCS}
+	\setlength\tabcolsep{2.5pt}
+	\begin{tabular}{|L{1.3cm}|c|c|c|c|c|c|c|c|c|c|c|}
+		\hline
+		Estudio de caso & AUT & COM & CRI & INT & KNO & LAN & LEA & PLA & PRO & QUA & TMW \\
+		\hline
+		\hline
+		CS01 & & X & X & & X & & & & & X & \\
+		\hline
+		CS02 & &  &  & X &  & & X & & &  & \\
+		\hline
+		CS03 & &  & X &  &  & &  & & &  & \\
+		\hline
+		CS04 & X &  &  & X & X  & &  & X &  X &  & X \\
+		\hline
+		CS05 & X &  &  & X & X  & &  & X &  X &  & X  \\
+		\hline
+		CS06 & &  &  &  &  & X &  & & &  & \ \\
+		\hline
+	\end{tabular}
+\end{table}
 
 \begin{table}
 	\centering
@@ -585,44 +707,50 @@ Evidence palabras_turno:
 		Estudio de caso & Congreso & Revista \\
 		\hline
 		\hline
-		CS01 & SPDECE 2012 (\cite{Balderas:2012}) & CHB 2014 (\cite{palomo2014scalability})  \\
+		CS01 & SPDECE 2012 (\cite{Balderas:2012}) & CHB (\cite{palomo2014scalability})  \\
 		\hline
-		CS02 & TEEM 2013 (\cite{balderas2013generative}) & IJEE 2015 (\cite{Balderas:2015})  \\
+		CS02 & \multirow{2}{*}{TEEM 2013 (\cite{balderas2013generative})} & \multirow{4}{*}{IJEE (\cite{Balderas:2015})}  \\
+		\cline{1-1}
+		CS04 &    &  \\
+		\cline{1-2}
+		CS03 & \multirow{2}{*}{SIIE 2014 (\cite{balderas2014domain})}   &  \\
+		\cline{1-1}
+		CS05 &   &   \\
 		\hline
-		CS03 & SIIE 2014 (\cite{balderas2014domain})  & IJEE 2015 (\cite{Balderas:2015}) \\
-		\hline
-		CS04 & TEEM 2013 (\cite{balderas2013generative})   & IJEE 2015 (\cite{Balderas:2015})  \\
-		\hline
-		CS05 & SIIE 2014 (\cite{balderas2014domain}) &  IJEE 2015 (\cite{Balderas:2015}) \\
-		\hline
-		CS06 & TEEM 2015 (\cite{balderas2015domain}) & JITR 2016 (In process) \\
+		CS06 & TEEM 2015 (\cite{balderas2015domain}) & JITR (In process) \\
 		\hline
 	\end{tabular}
 \end{table}
 
 	\subsection{Estudio de caso CS01}
 
-		Este estudio se llevó a cabo en la asignatura de \emph{Administración de Sistemas Operativos} durante los cursos 2010-11 y 2011-12, con 38 y 40 estudiantes respectivamente. Esta asignatura tenía lugar en el segundo semestre del tercer (y último) curso de la titulación de Ingeniería Técnica en Informática de Sistemas. Los estudiantes tuvieron que desarrollar varias tareas durante el curso, dos de ellas en un wiki público\footnote{http://wikis.uca.es/wikiASO}. La primera consistió en un proyecto de migración de la infraestructura de red de una empresa, mientras que la segunda consistía en documentar un programa Unix para tareas del sistema operativo. Utilizando AMW cada estudiante evaluó 10 contribuciones de sus compañeros al wiki. El docente utilizó AMW y las evaluaciones de los estudiantes para evaluar competencias del \emph{trabajo en equipo}, \emph{capacidad crítica}, la \emph{comunicación}, la \emph{aplicación del conocimiento}, la \emph{capacidad para mantener la calidad del trabajo producido} y la \emph{capacidad crítica de sus estudiantes}.
+		Este estudio se llevó a cabo en la asignatura de \emph{Administración de Sistemas Operativos} durante los cursos 2010-11 y 2011-12, con 38 y 40 estudiantes respectivamente. Esta asignatura tenía lugar en el segundo semestre del tercer (y último) curso de la titulación de Ingeniería Técnica en Informática de Sistemas. Los estudiantes tuvieron que desarrollar varias tareas durante el curso, dos de ellas en un wiki público\footnote{\url{http://wikis.uca.es/wikiASO}}. La primera consistió en un proyecto de migración de la infraestructura de red de una empresa, mientras que la segunda consistía en documentar un programa Unix para tareas del sistema operativo. Utilizando AMW cada estudiante evaluó 10 contribuciones de sus compañeros al wiki. El docente utilizó AMW y las evaluaciones de los estudiantes para evaluar las competencias TMW, CRI, COM, KNO y QUA.
+
+% TMW, \emph{capacidad crítica}, la \emph{comunicación}, la \emph{aplicación del conocimiento}, la \emph{capacidad para mantener la calidad del trabajo producido} y la \emph{capacidad crítica de sus estudiantes}.
 
 	\subsection{Estudio de caso CS02}
 
-		El primer estudio de caso con EvalCourse tuvo lugar en la asignatura de \emph{Procesadores de Lenguajes II} del curso 2012-13, con 36 estudiantes matriculados. Esta era una asignatura obligatoria, que tenía lugar en el primer semestre del quinto (y último) curso de la titulación de Ingeniería en Informática. Durante el semestre, los estudiantes tuvieron que trabajar en pequeños equipos de dos o tres miembros. Cada equipo del curso tenía un foro para la comunicación interna. El docente utilizó la primera versión de EvalCourse y SASQL para evaluar las competencias genéricas de las habilidades interpersonales y el liderazgo desempeñadas por los estudiantes en el foro de cada equipo. 
+		El primer estudio de caso con EvalCourse tuvo lugar en la asignatura de \emph{Procesadores de Lenguajes II} del curso 2012-13, con 36 estudiantes matriculados. Esta era una asignatura obligatoria, que tenía lugar en el primer semestre del quinto (y último) curso de la titulación de Ingeniería en Informática. Durante el semestre, los estudiantes tuvieron que trabajar en pequeños equipos de dos o tres miembros. Cada equipo del curso tenía un foro para la comunicación interna. El docente utilizó la primera versión de EvalCourse y SASQL para evaluar las competencias genéricas de INT y LEA.
+
+%las habilidades interpersonales y el liderazgo desempeñadas por los estudiantes en el foro de cada equipo. 
 
 	\subsection{Estudio de caso CS03}
 
-		El segundo estudio de caso con EvalCourse se desarrolló en la asignatura de \emph{Programación Funcional} del curso 2012-13, en la que había 19 estudiantes matriculados. Esta era una asignatura optativa que tenía lugar en el segundo semestre del quinto (y último) curso de la titulación de Ingeniería en Informática. Los estudiantes tuvieron que trabajar en cuatro talleres a lo largo del curso. En Moodle, un taller es un entregable que, conforme a las instrucciones del docente, puede ser evaluado por otro u otros estudiantes o auto-evaluado. El docente utilizó la primera versión de EvalCourse y SASQL para evaluar la competencia genérica del pensamiento crítico desempeñado por los estudiantes en los talleres.
+		El segundo estudio de caso con EvalCourse se desarrolló en la asignatura de \emph{Programación Funcional} del curso 2012-13, en la que había 19 estudiantes matriculados. Esta era una asignatura optativa que tenía lugar en el segundo semestre del quinto (y último) curso de la titulación de Ingeniería en Informática. Los estudiantes tuvieron que trabajar en cuatro talleres a lo largo del curso. En Moodle, un taller es un entregable que, conforme a las instrucciones del docente, puede ser evaluado por otro u otros estudiantes o auto-evaluado. El docente utilizó la primera versión de EvalCourse y SASQL para evaluar la competencia genérica CRI a partir del trabajo desempeñado por los estudiantes en los talleres.
+
+%l pensamiento crítico desempeñado por los estudiantes en los talleres.
 
 	\subsection{Estudio de caso CS04} \label{AA1}
 
-		Para este estudio de caso se cursó una solicitud para la realización de un \emph{Proyecto de Actuación Avalada} en la Universidad de Cádiz durante el curso 2013/14. En estos proyectos tienen cabida aquellos trabajos que supongan mejoras en un amplio espectro de objetivos relacionados con la docencia en los títulos de la universidad. En este caso, el titulo de nuestro proyecto fue \emph{Extracción de indicadores objetivos para evaluación del desarrollo de competencias genéricas a partir de registros de actividad del Campus Virtual} (código AAA\_14\_009). En esta actuación se mejoró la herramienta EvalCourse para que pudiera obtener nuevos indicadores y se utilizó la herramienta en una serie de asignaturas del Grado en Ingeniería Informática. 
+		Para este estudio de caso se cursó una solicitud para la realización de un \emph{Proyecto de Actuación Avalada para la Mejora Docente} en la Universidad de Cádiz durante el curso 2013/14. En estos proyectos tienen cabida aquellos trabajos que supongan mejoras en un amplio espectro de objetivos relacionados con la docencia en los títulos de la universidad. En este caso, el titulo de nuestro proyecto fue \emph{Extracción de indicadores objetivos para evaluación del desarrollo de competencias genéricas a partir de registros de actividad del Campus Virtual} (código AAA\_14\_009). En esta actuación se mejoró la herramienta EvalCourse para que pudiera obtener nuevos indicadores y se utilizó la herramienta en una serie de asignaturas del Grado en Ingeniería Informática. 
 
 	\subsection{Estudio de caso CS05} \label{AA2}
 
-		Para este estudio de caso se cursó una solicitud para la realización de un \emph{Proyecto de Actuación Avalada} en la Universidad de Cádiz durante el curso 2014/15. En este caso, el titulo de nuestro proyecto fue \emph{Evaluación de competencias genéricas mediante la extracción de indicadores de los registros de actividad del wiki de Moodle} (código sol-201400047964-tra). En esta actuación se mejoró la herramienta EvalCourse para que pudiera obtener indicadores del wiki de Moodle y se aplicó en varias asignaturas del Grado en Ingeniería Informática y una del Grado en Publicidad y RR.PP. 
+		Para este estudio de caso se cursó una solicitud para la realización de un \emph{Proyecto de Actuación Avalada para la Mejora Docente} en la Universidad de Cádiz durante el curso 2014/15. En este caso, el titulo de nuestro proyecto fue \emph{Evaluación de competencias genéricas mediante la extracción de indicadores de los registros de actividad del wiki de Moodle} (código sol-201400047964-tra). En esta actuación se mejoró la herramienta EvalCourse para que pudiera obtener indicadores del wiki de Moodle y se aplicó en varias asignaturas del Grado en Ingeniería Informática y una del Grado en Publicidad y Relaciones Públicas. 
 
 	\subsection{Estudio de caso CS06}
 
-		Este estudio de caso se llevó a cabo en un instituto en el curso 2014-15, en la asignatura de \emph{Alemán como lengua extranjera}, equivalente al nivel B1 del marco común de referencia europeo (CEFR, del inglés, Common European Framework of Reference). La asignatura contaba con 5 estudiantes matriculados que participaron durante sus clase en varias partidas en un mundo virtual. El profesorado utilizó EvalSim y VWQL para obtener indicadores de la participación de los estudiantes en el mundo virtual y aplicarlos a la evaluación de la competencia genérica de la habilidad para comunicarse en un segundo idioma.
+		Este estudio de caso se llevó a cabo en un instituto en el curso 2014-15, en la asignatura de \emph{Alemán como lengua extranjera}, equivalente al nivel B1 del marco común de referencia europeo (CEFR, del inglés, Common European Framework of Reference). 5 estudiantes participaron durante sus clase en varias partidas en un mundo virtual. El profesorado utilizó EvalSim y VWQL para obtener indicadores de la participación de los estudiantes en el mundo virtual y aplicarlos a la evaluación de la competencia genérica LAN. \nomenclature{CEFR}{Marco común de referencia europe (Common European Framework of Reference)}
 
 \section{Cuestionarios de evaluación}
 
@@ -634,54 +762,54 @@ Evidence palabras_turno:
 El objetivo de los cuestionarios es evaluar si los objetivos de esta tesis se han alcanzado. Cabe recordar que los objetivos de esta tesis son los siguientes:
 
 \begin{itemize}
-\item \emph{O1}: Definir un método que permita al docente obtener de manera automática un conjunto de indicadores de los entornos de aprendizaje virtual
-\item \emph{O2}: Definir un DSL que permita a los docentes diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de los entornos de aprendizaje virtual
+\item \emph{O1}: Definir un método que permita al docente obtener de manera automática un conjunto de indicadores de los entornos virtuales de aprendizaje
+\item \emph{O2}: Definir un DSL que permita a los docentes diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de los entornos virtuales de aprendizaje
 \end{itemize}
 
 Para valorar la consecución de los objetivos se plantearon las siguientes hipótesis:
 
 \begin{itemize}
-\item \emph{H1}: El método DBA permite obtener de manera automática indicadores de los entornos de aprendizaje virtual
-\item \emph{H2}: El DSL permite a los docentes diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de los entornos de aprendizaje virtual
+\item \emph{H1}: El método DBA permite obtener de manera automática indicadores de los entornos virtuales de aprendizaje
+\item \emph{H2}: El DSL permite a los docentes diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de los entornos virtuales de aprendizaje
 \end{itemize}
 
 Para evaluar tanto \emph{H1} como \emph{H2} se utilizó el cuestionario~\ref{apc:eval:metodo:cuestionario}. En dicho cuestionario se realizaron diversas preguntas relacionadas con el método DBA y con el DSL a docentes de diferentes ramas. De esta forma no sólo se persigue saber si los docentes dan validez al método o el DSL, sino también que la consideración de alguno de los aspectos de estos es independiente de la rama de cada docente.
 
 Además, para saber si los docentes consideran válidos los indicadores obtenidos mediante el método DBA y la herramienta EvalCourse para evaluar las competencias genéricas se utilizaron los cuestionarios~\ref{apc:sec:cuestionario} y~\ref{apc:AA:cuestionario}. Para ello se planteó en el cuestionario un estudio de caso de ejemplo, preguntándose a los participantes si consideraban los indicadores obtenidos mediante el método DBA y la herramienta EvalCourse válidos para evaluar las competencias genéricas.%, corroborando si su respuesta es independiente del perfil tecnológico de los participantes en el cuestionario.
 
-Como se puede observar en esta tesis a tenor de los objetivos, lo que se propone es un método y la herramienta (DSL) para diseñar evaluaciones de competencias genéricas. Esto significa que los indicadores que se proponen a lo largo de los ejemplos y los estudios de caso mostrados no son fijos, es decir, que lo que es válido para un docente como indicador de una competencia puede no serlo para otro y viceversa. Por tanto, un número elevado de docentes que considere válido los indicadores no justificaría en exclusiva la validez de los resultados. Para dar validez a los resultados, además hay que demostrar que el hecho de que un número de docentes lo acepte y otros no debe estar marcado única y exclusivamente por el criterio de cada docente, y no porque sus habilidades tecnológicas le confieran mayor pericia y conocimiento en el manejo del DSL que proporciona los indicadores.
+Como se puede observar en esta tesis a tenor de los objetivos, lo que se propone es un método y la herramienta (DSL) para diseñar evaluaciones de competencias genéricas. Esto significa que los indicadores que se proponen a lo largo de los ejemplos y los estudios de caso mostrados no son fijos, es decir, que lo que es válido para un docente como indicador de una competencia puede no serlo para otro. Por tanto, un número elevado de docentes que considere válido los indicadores no justificaría en exclusiva la validez de los resultados. Para dar validez a los resultados, además hay que demostrar que el hecho de que un número de docentes lo acepte y otros no debe estar marcado única y exclusivamente por el criterio de cada docente, y no porque sus habilidades tecnológicas le confieran mayor pericia y conocimiento en el manejo del DSL que proporciona los indicadores.
 
-\subsection{Participantes} \label{eva:participantes}
+\subsection{Distribución} \label{eva:participantes}
 
 Los cuestionarios fueron completados por diferentes colectivos de profesionales de la docencia y las TIC. De esta forma se pretendía abordar dos cuestiones importantes. En primer lugar, obtener un número representativo de cuestionarios completados, algo que suele resultar complicado cuando se depende de la buena voluntad y el tiempo de los encuestados. Y en segundo lugar, poder analizar la percepción de la herramienta y el método desde la perspectiva de diferentes colectivos relacionados con el dominio. A continuación se describe cada uno de estos colectivos.
 
-	\subsubsection{Curso wiki innovación}
+	\subsubsection*{Curso formación PDI}
 
-		Durante el curso 2014-15 se impartió a docentes de la Universidad de Cádiz un curso de innovación docente sobre wikis cuyo título fue \emph{Introducción al uso educativo de wikis}. El curso se impartió en los cuatros campus de la Universidad de Cádiz, asistiendo en total unos 30 docentes. El curso constó de dos sesiones de 4 horas cada una en las que se explicó cómo trabajar en clase con wikis, se propusieron enfoques para favorecer el desempeño de competencias genéricas de los estudiantes, presentándose el método DBA y la herramienta EvalCourse.  Además, se incluyeron actividades prácticas que se desarrollaron en las mismas sesiones. 
+		Durante el curso 2014-15 se impartió a docentes de la Universidad de Cádiz un curso de formación sobre wikis cuyo título fue \emph{Introducción al uso educativo de wikis}. El curso se impartió en los cuatros campus de la Universidad de Cádiz, asistiendo en total unos 30 docentes. Cada edición del curso constó de dos sesiones de 4 horas cada una en las que se explicó cómo trabajar en clase con wikis, se propusieron enfoques para favorecer el desempeño de competencias genéricas de los estudiantes, presentándose el método DBA y la herramienta EvalCourse.  Además, se incluyeron actividades prácticas que se desarrollaron en las mismas sesiones. 
 
 A los asistentes al curso, que fueron todos docentes de la Universidad de Cádiz, se les envió el cuestionario~\ref{apc:sec:cuestionario}, siendo 11 los que lo completaron.
 
-	\subsubsection{Taller Aulablog}
+	\subsubsection*{Taller Aulablog}
 
-		Los días 6, 7 y 8 de julio del 2015 se celebró en Ubrique (Cádiz) el X encuentro Aulablog\footnote{http://www.aulablog.com/blog/encuentro10/}. Aulablog es una reunión de docentes de toda España donde se ponen en común experiencias  dentro del ámbito de las tecnologías educativas. En dicho encuentro impartimos un taller sobre wikis en educación. El taller constó de una sesión de 3 horas en la que se explicó cómo trabajar en clase con wikis y se propusieron enfoques para favorecer el desempeño de competencias genéricas de los estudiantes, presentándose el método DBA y la herramienta EvalCourse. Al taller asistieron 20 docentes.
+		Los días 6, 7 y 8 de julio del 2015 se celebró en Ubrique (Cádiz) el X encuentro Aulablog\footnote{\url{http://www.aulablog.com/blog/encuentro10}}. Aulablog es una reunión de docentes de toda España donde se ponen en común experiencias  dentro del ámbito de las tecnologías educativas. En dicho encuentro impartimos un taller sobre wikis en educación. El taller constó de una sesión de 3 horas en la que se explicó cómo trabajar en clase con wikis y se propusieron enfoques para favorecer el desempeño de competencias genéricas de los estudiantes, presentándose el método DBA y la herramienta EvalCourse. Al taller asistieron 20 docentes.
 
 A los asistentes al taller, que fueron docentes de varios niveles educativos, se les envió el cuestionario~\ref{apc:sec:cuestionario}, siendo 14 los que lo completaron.
 
-	\subsubsection{Actuación avalada}
+	\subsubsection*{Actuación avalada}
 
-		Durante los cursos 2013-14 y 2014-15 dirigimos dos proyectos de tipo de actuación avalada dentro de los programas de innovación docente de la Universidad de Cádiz. En dichas experiencias colaboraron varios docentes responsables de varias asignaturas de los Grados en Ingeniería Informática y en Publicidad y RR.PP. Una vez finalizado cada curso se aplicó EvalCourse y se pusieron los indicadores obtenidos a disposición de los docentes para que lo utilizasen y propusiesen mejoras tanto de posibles indicadores a obtener como de mejoras en la herramienta.
+		Durante los cursos 2013-14 y 2014-15 dirigimos dos proyectos de Actuación Avalada para la Mejora Docente dentro de las Convocatorias de Innovación Docente de la Universidad de Cádiz. En dichas experiencias colaboraron varios docentes responsables de varias asignaturas de los Grados en Ingeniería Informática y en Publicidad y Relaciones Públicas. Una vez finalizado cada curso se aplicó EvalCourse y se pusieron los indicadores obtenidos a disposición de los docentes para que lo utilizasen y propusiesen mejoras tanto de posibles indicadores a obtener como de mejoras en la herramienta.
 
 A partir de este proyecto se consiguieron 8 cuestionarios completados (cuestionario~\ref{apc:sec:cuestionario}). Este grupo además completó un cuestionario complementario en el que indicaban para qué competencias genéricas podrían utilizar en sus asignaturas los indicadores proporcionados por EvalCourse (Cuestionario~\ref{apc:AA:cuestionario}).
 
-	\subsubsection{MediaWiki España}
+	\subsubsection*{Wikimedia España}
 
-	Se implicó a profesionales del ámbito de las TIC, y más en concreto de las wikis, pero no necesariamente ligados a la docencia. Mediante correo electrónico enviado a los miembros de MediaWiki España, se les explicó el método DBA, la herramienta EvalCourse y se les invita a completar el cuestionario.		
+	Se implicó a expertos en trabajo colaborativo en wikis, pero no necesariamente ligados a la docencia. Mediante correo electrónico enviado a los miembros de Wikimedia España, se les explicó el método DBA, la herramienta EvalCourse y se les invita a completar el cuestionario.		
 
 En este caso se consiguieron 19 cuestionarios completados (cuestionario~\ref{apc:sec:cuestionario}).
 
-	\subsubsection{Jornadas de Innovación Docente de la Universidad de Cádiz}
+	\subsubsection*{Jornadas de Innovación Docente}
 
-	En estas jornadas celebradas en el mes de marzo de 2016 se presentaron tanto el método DBA como el DSL que lo implementa. Los participantes eran docentes de todas las ramas de la universidad que presencialmente completaron la encuesta. 
+	En estas jornadas celebradas en el mes de marzo de 2016 se presentaron tanto el método DBA como el DSL que lo implementa en los mundos virtuales (VWQL). Los participantes eran docentes de todas las ramas de la universidad que presencialmente completaron la encuesta. 
 
 En este último caso se recopilaron 31 cuestionarios (cuestionario~\ref{apc:eval:metodo:cuestionario}). 
 
@@ -692,14 +820,14 @@ El cuestionario~\ref{apc:eval:metodo:cuestionario} fue completado por 31 docente
 
 Antes de completar el cuestionario, los docentes asistieron a una presentación oral en la que se mostró tanto el método DBA como VWQL, el DSL creado para aplicar el método a los mundos virtuales. Además, se mostraron ejemplos de consultas y de resultados asociados a dichas consultas. 
 
-\subsubsection{Perfil de los participantes}
+\subsubsection*{Perfil de los participantes}
 
 La distribución de los participantes con respecto a la rama que pertenecen y su sexo se muestran en los diagramas de la figura~\ref{fig:cap:encuesta:ramaysexo}. Además, en la tabla~\ref{tab:cap:encuesta:rama:sexo} se muestra un resumen de esta información.
 
 
 \begin{figure}
   \begin{center}
-    \includegraphics[scale=0.3]{JornadasPoblacion.png}
+    \includegraphics[scale=0.4]{JornadasPoblacionVertical.png}
   \end{center}
   \caption{Distribución de los participantes por rama y sexo}
   \label{fig:cap:encuesta:ramaysexo}
@@ -710,7 +838,7 @@ La distribución de los participantes con respecto a la rama que pertenecen y su
   \begin{center}
   \begin{tabular}{| l | r | r | r | r |}
     \hline
-    Rama \ Sexo & Hombre & Mujer & Ns/Nc & Total \\
+    Rama\textbackslash Sexo & Hombre & Mujer & Ns/Nc & Total \\
     \hline
     \hline
     Arte y humanidades & 1 & 4 & 0 & 5  \\
@@ -729,17 +857,17 @@ La distribución de los participantes con respecto a la rama que pertenecen y su
 \label{tab:cap:encuesta:rama:sexo}
 \end{table}
 
-% LA PIE TIENE UN ESTILO DIFERENTE A LA DE POBLACIÓN DEL OTRO CUESTIONARIO (GDOC VS XLS). DEBERÍA UNIFICAR ...
+% LA PIE TIENE UN ESTILO DIFERENTE A LA DE POBLACIÓN DEL OTRO CUESTIONARIO (GDOC VS XLS). DEBERÍA UNIFICAR 
 
 
-\subsubsection{Evaluación del método DBA}
+\subsubsection*{Evaluación del método DBA}
 
-Para evaluar el método se preguntó a los docentes si consideraban el método DBA adecuado para obtener automáticamente indicadores de entornos de aprendizaje virtual. A esta pregunta fueron 26 de los 31 docentes encuestados (84\percentage) los que consideraron el método DBA adecuado (figura~\ref{fig:cap:encuesta:metodoDBA}).
+Para evaluar el método se preguntó a los docentes si consideraban el método DBA adecuado para obtener automáticamente indicadores de los entornos virtuales de aprendizaje. A esta pregunta fueron 26 de los 31 docentes encuestados (84\percentage) los que consideraron el método DBA adecuado (figura~\ref{fig:cap:encuesta:metodoDBA}).
 
 
 \begin{figure}
   \begin{center}
-    \includegraphics[scale=0.4]{EncuestaMetodoDBA.png}
+    \includegraphics[scale=0.4]{EncuestaMetodoDBAgrande.png}
   \end{center}
   \caption{Respuestas de los encuestados a la pregunta sobre el método DBA}
   \label{fig:cap:encuesta:metodoDBA}
@@ -747,7 +875,7 @@ Para evaluar el método se preguntó a los docentes si consideraban el método D
 
 En general se puede decir que los docentes consideran el método como válido. Pero también es necesario determinar si existe relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,6142, muy superior al umbral de significación del 0,005.
 
-Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las Ciencias natutales, Ciencias de la salud e Ingeniería (\emph{EHSE, Earth \& Health Sciences and Engineering}) o a Ciencias Sociales y Humanidades (\emph{SSH, Social Sciences and Humanities}). Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,2955, superior al umbral de significación del 0,005.
+Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las ciencias naturales, ciencias de la salud e ingeniería (\emph{EHSE, Earth \& Health Sciences and Engineering}) o a ciencias sociales y humanidades (\emph{SSH, Social Sciences and Humanities}). Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el método DBA sea o no válido es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,2955, superior al umbral de significación del 0,005.
 
 El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:metodoDBA:rama}.
 
@@ -774,9 +902,9 @@ El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:metod
 \label{tab:cap:encuesta:metodoDBA:rama}
 \end{table}
 
-\paragraph{Características del método DBA}
+\paragraph*{Características del método DBA}
 
-Para continuar con la evaluación del método, se preguntó a los encuestados sobre su consideración acerca de en qué medida el método DBA satisface cada una de las características que se esperan del mismo. Estas características son \emph{objetividad}, \emph{adaptabilidad}, \emph{sistematicidad}, \emph{flexibilidad} y \emph{fiabilidad}. Para su evaluación se preguntó sobre ellos en una escala Likert de cinco puntos: totalmente de acuerdo, de acuerdo, ni de acuerdo ni en desacuerdo, en desacuerdo y totalmente en desacuerdo. 
+Para continuar con la evaluación del método, se preguntó a los encuestados en qué medida consideran que el método DBA satisface cada una de las características que se esperan del mismo. Estas características son \emph{objetividad}, \emph{adaptabilidad}, \emph{sistematicidad}, \emph{flexibilidad} y \emph{fiabilidad}. Para su evaluación se preguntó sobre ellos en una escala Likert de cinco puntos: totalmente de acuerdo, de acuerdo, ni de acuerdo ni en desacuerdo, en desacuerdo y totalmente en desacuerdo. 
 
 En la tabla~\ref{tab:cap:encuesta:metodoDBA:caracteristicas} puede verse el porcentaje de votos que obtuvo cada uno de los puntos para cada característica. Las características de la \emph{adaptabilidad}, la \emph{sistematicidad} y la \emph{flexibilidad} son las más aceptadas para el método, ya que sumando los ''totalmente de acuerdo'' con los ''de acuerdo'' alcanzan más de la mitad de los votos, esto es, 61, 70 y 61\percentage{ }respectivamente. Mientras que sumando los ''en desacuerdo'' con los ''totalmente en desacuerdo'' tienen 16, 10 y 13\percentage{ }respectivamente. Por tanto, se podría decir que la mayoría de los docentes consideran que el método les proporciona estas características.
 
@@ -807,9 +935,9 @@ Para la \emph{objetividad} tenemos un 46\percentage{ }a favor (sumando los ''tot
 \label{tab:cap:encuesta:metodoDBA:caracteristicas}
 \end{table}
 
-\subsubsection{Evaluación del DSL}
+\subsubsection*{Evaluación del DSL}
 
-Para evaluar el DSL se preguntó a los docentes si consideraban el lenguaje presentado útil para diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de los entornos de aprendizaje virtual. A esta pregunta también fueron 26 de los 31 docentes encuestados (84\percentage) los que consideraron el lenguaje adecuado.
+Para evaluar el DSL se preguntó a los docentes si consideraban el lenguaje presentado útil para diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de los entornos virtuales de aprendizaje. A esta pregunta también fueron 26 de los 31 docentes encuestados (84\percentage) los que consideraron el lenguaje adecuado.
 
 Por tanto se puede decir que los docentes consideran el método como válido. Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que el lenguaje sea o no útil es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,6142, muy superior al umbral de significación del 0,005.
 
@@ -840,17 +968,17 @@ El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:DSL:r
 \label{tab:cap:encuesta:DSL:rama}
 \end{table}
 
-\paragraph{Características del DSL}
+\paragraph*{Características del DSL}
 
 Para continuar con la evaluación del DSL, se preguntó a los encuestados sobre su consideración acerca de en qué medida el DSL satisface cada una de las características que se esperan del mismo. Estas características son \emph{facilidad de aprendizaje}, \emph{eficacia}, \emph{ahorra tiempo}, \emph{escalabilidad}, \emph{capacidad de reutilización} y \emph{fiabilidad}. Para su evaluación se preguntó sobre ellos en una escala Likert de cinco puntos: totalmente de acuerdo, de acuerdo, ni de acuerdo ni en desacuerdo, en desacuerdo y totalmente en desacuerdo. 
 
 En la tabla~\ref{tab:cap:encuesta:DSL:caracteristicas} puede verse el porcentaje de votos que obtuvo cada uno de los puntos para cada característica. En primer lugar cabe destacar que el punto más votado en cuatro de las seis características fue el neutral, es decir, ni de acuerdo ni en desacuerdo. Estas cuatro características son la \emph{fiabilidad} con un 42\percentage, la \emph{facilidad de aprendizaje} con un 39\percentage, la \emph{escalabilidad} con un 35\percentage{ }y el \emph{ahorro de tiempo} con un 32\percentage{ }(en este último caso hay empate con el punto ''totalmente de acuerdo'').
 
-A pesar de esta ''neutralidad'', también es importante resaltar que hay un bajo porcentaje de desacuerdos para las características, siendo todos los porcentajes inferiores al 20\percentage, excepto para la fiablidad que es un 23\percentage. Además, para todas las características son más los docentes que están de acuerdo que los que no, superando en cuatro de seis el 50\percentage{ }de votos a favor (\emph{facilidad de aprendizaje} con un 51\percentage, \emph{eficacia} con un 58\percentage, \emph{ahorro de tiempo} con un 55\percentage{ }y \emph{capacidad de reutilización} con un 58\percentage.
+A pesar de esta ''neutralidad'', también es importante resaltar que hay un bajo porcentaje de desacuerdos para las características, siendo todos los porcentajes inferiores al 20\percentage, excepto para la fiabilidad que es un 23\percentage. Además, para todas las características son más los docentes que están de acuerdo que los que no, superando en cuatro de seis el 50\percentage{ }de votos a favor (\emph{facilidad de aprendizaje} con un 51\percentage, \emph{eficacia} con un 58\percentage, \emph{ahorro de tiempo} con un 55\percentage{ }y \emph{capacidad de reutilización} con un 58\percentage.
 
 \begin{table}
   \begin{center}
-  \begin{tabular}{| m{2.5cm} | r | r | r | r | r |}
+  \begin{tabular}{| L{2.5cm} | r | r | r | r | r |}
     \hline
     \multirow{3}{2.5cm}{Características} & \multirow{3}{1.9cm}{\centering Totalmente de acuerdo} & \multirow{3}{1.2cm}{\centering De acuerdo} & \multirow{3}{2.3cm}{\centering Ni de acuerdo ni en desacuerdo} & \multirow{3}{1.8cm}{\centering En desacuerdo} & \multirow{3}{1.9cm}{\centering Totalmente en desacuerdo} \\
     & & & & & \\
@@ -875,11 +1003,11 @@ A pesar de esta ''neutralidad'', también es importante resaltar que hay un bajo
 \label{tab:cap:encuesta:DSL:caracteristicas}
 \end{table}
 
-\subsubsection{Evaluación de la sintaxis del DSL (consulta tipo)}
+\subsubsection*{Evaluación de la sintaxis del DSL (consulta tipo)}
 
-Para evaluar la sintaxis del DSL se mostró una consulta de ejemplo y se preguntó a los docentes si consideraban la consulta entendible. A esta pregunta fueron 24 de los 31 docentes encuestados (77\percentage) los que consideraron entendible la consulta.
+Para evaluar la sintaxis del DSL se mostró una consulta de ejemplo y se preguntó a los docentes si consideraban la consulta entendible. A esta pregunta fueron 24 de los 31 docentes encuestados (77\percentage) los que consideraron entendible la consulta. Por tanto se puede decir que los docentes consideran el método como válido.
 
-Por tanto se puede decir que los docentes consideran el método como válido. Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que si la consulta es o no entendible es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,121, superior al umbral de significación del 0,005.
+Pero también se quiso determinar si existía relación entre la respuesta de cada docente y su rama. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que si la consulta es o no entendible es independiente de la rama de dicho docente}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar la hipótesis con un p-valor de 0,121, superior al umbral de significación del 0,005.
 
 Para afinar un poco más se decidió además agrupar los docentes según si pertenecen a las EHSE o a  las SSH. Para ello, se define como hipótesis nula que \emph{la consideración por parte de un docente de que la consulta es o no entendible es independiente de si  dicho docente es de EHSE o de SSH}. Para contrastar la hipótesis se utilizó el test de Fisher, no pudiéndose rechazar tampoco la hipótesis con un p-valor de 0,021, superior al umbral de significación del 0,005.
 
@@ -908,7 +1036,7 @@ El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:consu
 \label{tab:cap:encuesta:consulta:rama}
 \end{table}
 
-\subsubsection{Evaluación de los resultados}
+\subsubsection*{Evaluación de los resultados}
 
 Para evaluar los resultados devueltos por el DSL se mostró como ejemplo los resultados que devolvería la consulta de ejemplo y se preguntó a los docentes si consideraban dichos resultados entendibles. A esta pregunta fueron 20 de los 31 docentes encuestados (64\percentage) los que consideraron entendible la consulta.
 
@@ -944,37 +1072,38 @@ El resumen de las respuestas puede verse en la tabla~\ref{tab:cap:encuesta:resul
 
 \subsection{Resultados del cuestionario de indicadores}
 
-El cuestionario (apéndice~\ref{Ap:cuestionario}) fue enviado en el mes de julio de 2015 a los diferentes colectivos. En este cuestionario se presentaba un estudio de caso de ejemplo en un wiki de Moodle, se mostraban dos consultas escritas en SASQL para la extracción de indicadores aplicables en la evaluación de competencias genéricas y se mostraban algunos de los indicadores y figuras obtenidas mediante la ejecución de dichas consultas en EvalCourse. 
+El cuestionario de indicadores (apéndice~\ref{Ap:cuestionario}) fue enviado en el mes de julio de 2015 a los diferentes colectivos. En este cuestionario se presentaba un estudio de caso de ejemplo en un wiki de Moodle, se mostraban dos consultas escritas en SASQL para la extracción de indicadores aplicables en la evaluación de competencias genéricas y se mostraban algunos de los indicadores y figuras obtenidas mediante la ejecución de dichas consultas en EvalCourse. 
 
-En total se consiguieron 51 cuestionarios completados, cifra que consideramos adecuada a partir de la guía de Oates, que indica que 30 es el mínimo aceptado en una muestra adecuada para un primer proyecto de investigación. La distribución de los participantes con respecto a los grupos a los que pertenecen se muestra en la figura~\ref{fig:ResultadosParticipantes}.
+En total se consiguieron 51 cuestionarios completados, cifra que es adecuada a partir de la guía de Oates, que indica que 30 es el mínimo aceptado en una muestra adecuada para un primer proyecto de investigación. La distribución de los participantes con respecto a los grupos a los que pertenecen se muestra en la figura~\ref{fig:ResultadosParticipantes}.
 
 \begin{figure}
   \begin{center}
-    \includegraphics[scale=0.3]{ResultadosParticipantes.png}
+    \includegraphics[scale=0.4]{ResultadosParticipantesNew.png}
   \end{center}
   \caption{Distribución de los participantes en el cuestionario}
   \label{fig:ResultadosParticipantes}
 \end{figure}
 
-\subsubsection{Perfil de los participantes}
+\subsubsection*{Perfil de los participantes}
 
 El perfil de los participantes gira en torno a dos atributos. Estos atributos son los conocimientos de programación y la relación con la docencia. En la tabla~\ref{tab:eva:perfil} se muestra la distribución de los participantes en base a estos atributos.
 
 \begin{table}
   \begin{center}
-  \begin{tabular}{| c | m{3cm} | c | c | c | c | c |}
+  \setlength\tabcolsep{2.5pt}
+  \begin{tabular}{| c | m{2.2cm} | r | r | r | r | r |}
     \hline
-     &  \multirow{3}{2cm}{\centering POBLACIÓN}  & \multirow{3}{1.7cm}{\centering Curso innovación docente}   & \multirow{3}{1.4cm}{\centering Taller Aulablog}  & \multirow{3}{1.55cm}{\centering  Actuación avalada} &  \multirow{3}{0.95cm}{\centering Media Wiki}  &  \multirow{3}{0.7cm}{\centering Total} \\
+     &  \multirow{3}{*}{\centering Población}  & \multirow{3}{1.8cm}{\centering Curso formación PDI}   & \multirow{3}{1.5cm}{\centering Taller Aulablog}  & \multirow{3}{1.65cm}{\centering  Actuación Avalada} &  \multirow{3}{1cm}{\centering Media Wiki Es.}  &  \multirow{3}{*}{\centering Total} \\
      &   &    &   &  &  &  \\
      &  &    &   &   &  &  \\
     \hline
     \hline
-     \multirow{2}{2.5cm}{Conocimientos programación} & Nulos/básicos & 11 & 9 & 0 & 6 & 26 (51\percentage) \\
+     \multirow{2}{2.5cm}{Conocimientos programación} & Nulos/ básicos & 11 & 9 & 0 & 6 & 26 (51\percentage) \\
     \cline{2-7}
-      & Medios/avanzados & 0 & 5 & 7 & 13 & 25 (49\percentage) \\
+      & Medios/ avanzados & 0 & 5 & 7 & 13 & 25 (49\percentage) \\
     \hline
 	\hline
-     & totales & 11 & 14 & 7 & 19 & 51 \\
+     & Totales & 11 & 14 & 7 & 19 & 51 \\
 	\hline
     \hline
      \multirow{3}{2.5cm}{Relación con la docencia} & Universitario & 11 & 2 & 7 & 1 & 21 (41\percentage) \\
@@ -991,19 +1120,19 @@ El perfil de los participantes gira en torno a dos atributos. Estos atributos so
 
 Con respecto a los conocimientos técnicos prácticamente hay un empate (26 con conocimientos nulos o básicos y 25 con conocimientos medios y avanzados). Hay que reseñar que fue necesario unir las respuestas de los participantes, ya que las poblaciones intermedias resultaron ser poco significativas y a la hora de aplicar estadísticos se requería un mínimo de población. Por eso los usuarios con conocimiento medio se unieron al grupo de los de conocimiento avanzado y los de conocimiento básico se unieron al grupo de los de conocimiento nulo.
 
-Con respecto a la relación con la docencia vemos que también está repartido (25 docentes universitarios, 12 docentes no universitarios y 35 no docentes). En este caso ocurrió lo mismo. Los docentes no universitarios estaban repartidos entre docentes de infantil, primaria y secundaria. Estos grupos por separado resultaron ser muy poco significativos, por lo que se unieron también en un único grupo a fin de poder aplicar los estadísticos.
+Con respecto a la relación con la docencia vemos que también está bastante repartido (25 docentes universitarios, 12 docentes no universitarios y 35 no docentes). En este caso ocurrió lo mismo. Los docentes no universitarios estaban repartidos entre docentes de infantil, primaria y secundaria. Estos grupos por separado resultaron ser muy poco significativos, por lo que se unieron también en un único grupo a fin de poder aplicar los estadísticos.
 
 A partir de esta distribución de los usuarios se procede a evaluar la idoneidad del método y la herramienta para la evaluación de competencias genéricas en el siguiente apartado.
 
-\subsubsection{Evaluación de competencias genéricas}
+\subsubsection*{Evaluación de competencias genéricas}
 
-En el cuestionario se pregunta por, según el criterio del participante, la idoneidad de un conjunto de indicadores para evaluar las competencias genéricas del \emph{trabajo en equipo}, la \emph{planificación y gestión del tiempo} y el \emph{liderazgo}. El resumen de las respuestas dadas puede verse en la tabla~\ref{tab:eva::competencias}. 
+En el cuestionario se pregunta por, según el criterio del participante, la idoneidad de un conjunto de indicadores para evaluar las competencias genéricas TMW, PLA y LEA. El resumen de las respuestas dadas puede verse en la tabla~\ref{tab:eva::competencias}. 
 
 \begin{table}
   \begin{center}
   \begin{tabular}{| c | c | c | c |}
     \hline
-    RESPUESTA & Trabajo en equipo & Planificación y gestión del tiempo & Liderazgo \\
+    RESPUESTA & TMW & PLA & LEA \\
     \hline
     \hline
     Sí & 26 (51\percentage) & 40 (78,4\percentage) & 17 (33,3\percentage)  \\
@@ -1016,83 +1145,83 @@ En el cuestionario se pregunta por, según el criterio del participante, la idon
 \label{tab:eva::competencias}
 \end{table}
 
-Vemos que la tendencia de las respuestas de los participantes es diferente para cada competencia. Mientras que para evaluar el \emph{trabajo en equipo} podríamos decir que hay un empate entre el `sí` y el `no` (26 y 25 respectivamente), en la competencia de la \emph{planificación y gestión del tiempo} gana ampliamente el `sí` (40 a 11) y en la competencia del \emph{liderazgo} gana, aunque no tan ampliamente, el no (17 a 34). Como puede verse las cifras son diferentes para cada competencia, lo que viene a confirmar lo que se viene apostillando en esta tesis desde un principio. El indicador que es válido para un docente para evaluar competencias genéricas puede no serlo para otro. Para abordar ahora la independencia de las respuestas de los participantes en base a su perfil y sus conocimientos técnicos vamos a utilizar la prueba $\chi^2$ (\emph{chi cuadrado}) de Pearson. 
+Vemos que la tendencia de las respuestas de los participantes es diferente para cada competencia. Mientras que para evaluar la competencia TMW podríamos decir que hay un empate entre el `sí` y el `no` (26 y 25 respectivamente), en la competencia PLA gana ampliamente el `sí` (40 a 11) y en la competencia LEA gana, aunque no tan ampliamente, el no (17 a 34). Como puede verse las cifras son diferentes para cada competencia, lo que viene a confirmar lo que se viene apostillando en esta tesis desde un principio: el indicador que es válido para un docente para evaluar competencias genéricas puede no serlo para otro. A continuación se aborda la independencia de las respuestas de los participantes en base a su perfil y sus conocimientos técnicos. 
 
-\paragraph{Independencia de las respuestas}
+\paragraph*{Independencia de las respuestas}
 
-Para probar la independencia de las variables que intervienen en el cuestionario se utilizará la prueba $\chi^2$ de Pearson mediante la presentación de los datos en tablas de contingencia. Para cada competencia genérica se lanzaron dos hipótesis nulas. La primera con el objetivo de demostrar la independencia entre la respuesta de los participantes al uso o no de los indicadores y sus conocimientos de programación. La segunda para demostrar la independencia entre la respuesta y el perfil docente del participante. En total seis hipótesis nulas que fueron las siguientes:
+Para probar la independencia de las variables que intervienen en el cuestionario se utiliza la prueba $\chi^2$ de Pearson mediante la presentación de los datos en tablas de contingencia. Para cada competencia genérica se lanzaron dos hipótesis nulas. La primera con el objetivo de demostrar la independencia entre la respuesta de los participantes al uso o no de los indicadores y sus conocimientos de programación. La segunda para demostrar la independencia entre la respuesta y el perfil docente del participante. En total seis hipótesis nulas que fueron las siguientes:
 
 \begin{enumerate}
-\item Los \textbf{conocimientos de programación} son independientes de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{trabajo en equipo}
-\item Los \textbf{conocimientos de programación} son independientes de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{planificación y gestión del tiempo}
-\item Los \textbf{conocimientos de programación} son independientes de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{liderazgo}
-\item El \textbf{perfil en relación a la docencia} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{trabajo en equipo}
-\item El \textbf{perfil en relación a la docencia} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{planificación y gestión del tiempo}
-\item El \textbf{perfil en relación a la docencia} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia de \textbf{liderazgo}
+\item Los \textbf{conocimientos de programación} son independientes de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia \textbf{TMW}
+\item Los \textbf{conocimientos de programación} son independientes de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia \textbf{PLA}
+\item Los \textbf{conocimientos de programación} son independientes de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia \textbf{LEA}
+\item El \textbf{perfil en relación a la docencia} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia \textbf{TMW}
+\item El \textbf{perfil en relación a la docencia} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia \textbf{PLA}
+\item El \textbf{perfil en relación a la docencia} del individuo es independiente de que el individuo considere que les son válidos los indicadores extraídos para medir la competencia \textbf{LEA}
 \end{enumerate}
 
-Se construyeron las tablas de contingencia, se calcularon las frecuencias esperadas y se obtuvieron los diferentes valores de $\chi^2$ para cada hipótesis. Una vez realizados los cálculos las hipótesis nulas 1, 2, 4, 5 y 6 no se rechazaron, concluyéndose que con una significación del 5\percentage{ }los datos son independientes. La hipótesis nula 3 sí quedaba rechazada con ese nivel de significación. Para no rechazarla el nivel de significación debía ser de un 0,1\percentage.
+Se construyeron las tablas de contingencia, se calcularon las frecuencias esperadas y se obtuvieron los diferentes valores de $\chi^2$ para cada hipótesis. Una vez realizados los cálculos las hipótesis nulas 1, 2, 4, 5 y 6 no se rechazaron, concluyéndose que con una significación del 5\percentage{ }los datos son independientes. La hipótesis nula 3 sí quedaba rechazada con ese nivel de significación. Para no rechazarla el nivel de significación debía ser de un 0,1\percentage. El hecho de que la hipótesis nula 3 fuese más difícil de demostrar se debe a que la mayoría de los usuarios que dijo `sí` a la posibilidad de evaluar la competencia LEA fueron los participantes en el curso de formación de PDI y el taller de Aulablog. En dichas sesiones, con más interactividad que otras actuaciones, se mostraron ejemplos de cómo detectar a un usuario que ejercía una labor de liderazgo en un equipo de trabajo en wiki y esto pudo influir en el hecho de que a dichos participantes les costase menos interpretar en dichos indicadores la posibilidad de utilizarlos para realizar la evaluación que a otros.
 
 El estudio completo puede verse en la sección~\ref{apc:sec:resultados} del apéndice~\ref{Ap:cuestionario}.
 
-\paragraph{Análisis de las justificaciones}
+\paragraph*{Análisis de las justificaciones}
 
 Los participantes en el cuestionario podían justificar con un comentario el porqué daban el `sí` o el `no` a la posibilidad de utilizar los indicadores a cada competencia. El listado de justificaciones completo puede verse en el apartado~\ref{ape:cuestionario:comentarios}. A continuación se resumen los justificaciones para cada competencia.
 
-\paragraph*{Trabajo en equipo}
+\subparagraph*{Trabajo en equipo (TMW).}
 
-Los participantes que consideran que sí se puede evaluar el trabajo en equipo argumentan que los indicadores reflejan cómo se han coordinado los estudiantes, la periodicidad de sus contribuciones y sobre todo el volumen de lo aportado al trabajo.
+Los participantes que consideran que sí se puede evaluar el TMW argumentan que los indicadores reflejan cómo se han coordinado los estudiantes, la periodicidad de sus contribuciones y sobre todo el volumen de lo aportado al trabajo.
 
-Sin embargo, encontramos participantes que en estos indicadores sólo ven aportaciones individuales, y que demandan que para medir un trabajo en equipo necesitarían otro indicador que mida la interacción de los miembros, si ha habido un reparto de trabajo o si alguno está desempeñando algún rol.
+Sin embargo, encontramos participantes que en estos indicadores sólo ven aportaciones individuales, y demandan que para medir la competencia TMW necesitarían otro indicador que mida la interacción de los miembros, si ha habido un reparto de trabajo o si alguno está desempeñando algún rol.
 
-\paragraph*{Planificación y gestión del tiempo}
+\subparagraph*{Planificación y gestión del tiempo (PLA).}
 
-En esta competencia el indicador que más defienden los participantes para evaluar el trabajo en equipo es la periodicidad de las contribuciones. De esta forman consideran que queda justificado si se ha distribuido el trabajo a lo largo del curso y por tanto se ha tenido una buena planificación.
+En esta competencia el indicador que más defienden los participantes para evaluar la competencia PLA es la periodicidad de las contribuciones. De esta forma consideran que queda justificado si se ha distribuido el trabajo a lo largo del curso y por tanto se ha tenido una buena planificación.
 
 En esta ocasión, los comentarios para no utilizar este indicador van en la línea de la falta de información previa. Es decir, para saber si se han planificado bien, tengo que saber de antemano en qué consistía el trabajo, cómo estaba organizado el curso, si pueden haber existido otros factores que hayan influido, etc. 
 
-\paragraph*{Liderazgo}
+\subparagraph*{Liderazgo (LEA).}
 
 Para justificar el liderazgo la mayoría de los participantes se basan en el nivel de participación, es decir, consideran que un estudiante ha ejercido un papel de liderazgo porque ha contribuido al wiki más que sus compañeros. Además, inciden en que el líder dedica al wiki más tiempo que sus compañeros, con contribuciones iniciales que animan a los demás, y con contribuciones finales, para corregir o supervisar el trabajo de estos.
 
-Los participantes que abogan por el `no` se basan principalmente en que el nivel de participación no implica liderazgo, por lo que descartan totalmente el indicador proporcionado para medir el liderazgo. Se propone como alternativa opuesta que un indicador de liderazgo podría ser considerar precisamente qué usuario es el que menos trabaja, siendo necesario complementar este indicador con otro relativo a la comunicación entre los miembros del equipo.
+Los participantes que abogan por el `no` se basan principalmente en que el nivel de participación no implica liderazgo, por lo que descartan totalmente el indicador proporcionado para medir la competencia LEA. Se propone como alternativa opuesta que un indicador de LEA podría ser considerar precisamente qué usuario es el que menos trabaja, siendo necesario complementar este indicador con otro relativo a la comunicación entre los miembros del equipo.
 
 \subsection{Resultados de la encuesta complementaria de indicadores}
 
-Además del cuestionario principal, los docentes que participaron en los proyectos de actuación avalada recibieron un cuestionario en el que valoraban para qué competencias genéricas consideraban útiles los indicadores proporcionados por la herramienta EvalCourse (apéndice~\ref{Ap:cuestionarioAA}). Esta encuesta también tuvo lugar en julio de 2015, siendo 8 los docentes que participaron en la misma. La tabla~\ref{tab:indicador:competencia} muestra para cada competencia genérica (filas) cuántos docentes la consideraron evaluable a partir de alguno de los indicadores (columnas).
+Además del cuestionario principal, los docentes que participaron en las actuaciones avaladas recibieron un cuestionario en el que valoraban para qué competencias genéricas consideraban útiles los indicadores proporcionados por la herramienta EvalCourse (apéndice~\ref{Ap:cuestionarioAA}). Esta encuesta también tuvo lugar en julio de 2015, siendo 8 los docentes que participaron en la misma. La tabla~\ref{tab:indicador:competencia} muestra para cada competencia genérica (filas) cuántos docentes la consideraron evaluable a partir de alguno de los indicadores (columnas).
 
 \begin{table}
 	\centering
 	\caption{Cuadro de indicadores considerados para cada competencia}
 	\label{tab:indicador:competencia}
-	\begin{tabular}{|m{3.8cm}|c|c|c|c|c|}
+	\begin{tabular}{|L{3.8cm}|r|r|r|r|r|}
 		\hline
 		Competencia & Accesos & Foros & Actividades & Wiki & Talleres \\
 		\hline
 		\hline
-		Trabajo en equipo & 1 & 2 & 2 & 4 & 0  \\
+		TMW & 1 & 2 & 2 & 4 & 0  \\
 		\hline
-		Planificación y gestión del tiempo & 5 & 2 & 6 & 5 & 0  \\
+		PLA & 5 & 2 & 6 & 5 & 0  \\
 		\hline
-		Razonamiento crítico y autocrítico & 0 & 4 & 2 & 1 & 0  \\
+		CRI & 0 & 4 & 2 & 1 & 0  \\
 		\hline
-		Capacidad para identificar, plantear y resolver problemas & 0 & 5 & 4 & 2 & 1 \\
+		PRO & 0 & 5 & 4 & 2 & 1 \\
 		\hline
-		Habilidades de interacción interpersonal & 2 & 6 & 0 & 3 & 1 \\
+		INT & 2 & 6 & 0 & 3 & 1 \\
 		\hline
-		Trabajo autónomo & 6 & 3 & 5 & 7 & 1 \\
+		AUT & 6 & 3 & 5 & 7 & 1 \\
 		\hline
 	\end{tabular}
 \end{table}
 
-En este caso, los resultados vienen desglosados por cada actividad del campus virtual. Cabe destacar que la competencia genérica a la que más se pueden aplicar los indicadores de actividad del campus virtual para su evaluación según los docentes que participaron en la encuesta es el trabajo autónomo, seguida de la planificación y gestión del tiempo. En la sección~\ref{ape:AA:resultados} del apéndice~\ref{Ap:cuestionarioAA} pueden verse al completo las justificaciones de los docentes para considerar los registros de cada una de las actividades aquí indicadas como indicadores de competencias genéricas.
+En este caso, los resultados vienen desglosados por cada actividad del campus virtual. Cabe destacar que la competencia genérica a la que más se pueden aplicar los indicadores de actividad del campus virtual para su evaluación según los docentes que participaron en la encuesta es el trabajo autónomo (AUT), seguida de la planificación y gestión del tiempo (PLA). En la sección~\ref{ape:AA:resultados} del apéndice~\ref{Ap:cuestionarioAA} pueden verse al completo las justificaciones de los docentes para considerar los registros de cada una de las actividades aquí indicadas como indicadores de competencias genéricas.
 
 \subsection{Discusión y análisis}
 
-Los resultados de los cuestionarios son muy satisfactorios. En primer lugar, se han evaluado el método DBA y el DSL que implementa el método, con el fin de medir la consecución de las hipótesis planteadas en esta tesis para medir la consecuión de los objetivos. En segundo lugar, se han evaluado los resultados obtenidos mediante el DSL, con el fin de valorar su aplicabilidad en la evaluación de diferentes competencias genéricas.
+Los resultados de los cuestionarios son muy satisfactorios. En primer lugar, se han evaluado el método DBA y el DSL que implementa el método, con el fin de medir la consecución de las hipótesis planteadas en esta tesis para medir la consecución de los objetivos. En segundo lugar, se han evaluado los resultados obtenidos mediante el DSL, con el fin de valorar su aplicabilidad en la evaluación de diferentes competencias genéricas.
 
 \paragraph*{Método DBA y DSL}
-El 84\percentage{ }de los docentes encuestados consideran adecuado el método DBA para obtener indicadores de entornos de aprendizaje virtual y consideran el DSL útil para diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de dichos entornos. 
+El 84\percentage{ }de los docentes encuestados consideran adecuado el método DBA para obtener indicadores de los entornos virtuales de aprendizaje y consideran el DSL útil para diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de dichos entornos. 
 
 A las encuestas se les pasó el test de Fisher para valorar si las respuestas de los docentes son independientes de la rama a la que pertenecen. No se pudo rechazar la hipótesis de independencia de las respuestas para ningún caso, quedando en ambos casos el estadístico muy por encima del valor umbral.
 
@@ -1100,72 +1229,31 @@ Para afinar aún más en el detalle, se volvió a realizar el test de Fisher tra
 
 Además, el 77\percentage{ }considera entendible la sintaxis utilizada para definir las consultas en el DSL, mientras que el 64\% considera entendibles los resultados obtenidos a partir de la ejecución de dichas consultas.
 
-También en estos casos se aplicó el test de Fisher para valorar la independencia de los resultados, primero con respecto a las ramas de los docentes y segundo con respecto al agrupamiento de dichas ramas según sean de SSH o de EHSE. En todos los casos, el estadístico quedó por encima del umbral, aunque no con una diferencia tan amplia como en los casos anteriores. Sobre todo es llamativo lo que ocurre con los resultados, donde todos los docentes del area de Ciencias Sociales marcaron como no entendibles los resultados que devolvía el DSL. A pesar de ello, se sigue sin poder rechazar la hipótesis de independencia.
+También en estos casos se aplicó el test de Fisher para valorar la independencia de los resultados, primero con respecto a las ramas de los docentes y segundo con respecto al agrupamiento de dichas ramas según sean de SSH o de EHSE. En todos los casos, el estadístico quedó por encima del umbral, aunque no con una diferencia tan amplia como en los casos anteriores. Sobre todo es llamativo lo que ocurre con los resultados, donde todos los docentes del area de ciencias sociales marcaron como no entendibles los resultados que devolvía el DSL. A pesar de ello, se sigue sin poder rechazar la hipótesis de independencia.
 
 Por tanto, a partir de los resultados obtenidos se acepta la consecución de las hipótesis planteadas en esta tesis:
 \begin{itemize}
-\item \emph{H1}: El método DBA permite obtener de manera automática indicadores de los entornos de aprendizaje virtual
-\item \emph{H2}: El DSL permite a los docentes diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de los entornos de aprendizaje virtual
+\item \emph{H1}: El método DBA permite obtener de manera automática indicadores de los entornos virtuales de aprendizaje
+\item \emph{H2}: El DSL permite a los docentes diseñar y contrastar estrategias de evaluación a partir de los registros de actividad de los entornos virtuales de aprendizaje
 \end{itemize}
 
-Además, se ha preguntado a los encuestados tanto si el método DBA como el DSL han satisfecho las características que se les espera. 
+Además, se ha preguntado a los encuestados tanto si el método DBA como el DSL han satisfecho las características que se les espera. Más de la mitad de los docentes (entre el 60 y el 70\percentage) considera que el método DBA satisface las características de la \emph{adaptabilidad}, \emph{sistematicidad} y la \emph{flexibilidad}. Las características de la \emph{objetividad} y la \emph{fiabilidad} también tienen una mayor cantidad de votos a favor que en contra, aunque con menor ventaja que las anteriores.
 
-Más de la mitad de los docentes (entre el 60 y el 70\percentage) considera que el método DBA satisface las características de la \emph{adaptabilidad}, \emph{sistematicidad} y la \emph{flexibilidad}. Las características de la \emph{objetividad} y la \emph{fiabilidad} también tienen un mayor porcentaje de votos a favor que en contra, aunque con menor porcentaje  (en torno al 45\percentage).
-
-Con respecto a las características del DSL siguen siendo, para todas las características, más los docentes que están a favor que los que están en contra. Sin embargo, en torno un tercio de los encuestados para cada característica se situa en la posición neutra. Las características de la \emph{facilidad de aprendizaje}, la \emph{eficacia}, el \emph{ahorro de tiempo} y la \emph{capacidad de reutilización} tiene un porcentaje de docentes a favor de entre el 50 y el 58\percentage. La \emph{escalabilidad} cuenta con 46\percentage{ }a favor y la \emph{fiabilidad} con un 35\percentage. 
+Con respecto a las características del DSL siguen siendo, para todas las características, más los docentes que están a favor que los que están en contra. Sin embargo, en torno un tercio de los encuestados para cada característica se sitúa en la posición neutra. Las características de la \emph{facilidad de aprendizaje}, la \emph{eficacia}, el \emph{ahorro de tiempo} y la \emph{capacidad de reutilización} tiene un porcentaje de docentes a favor de entre el 50 y el 58\percentage. La \emph{escalabilidad} cuenta con 46\percentage{ }a favor y la \emph{fiabilidad} con un 35\percentage. 
 
 \paragraph*{Indicadores de competencias genéricas}
-Aunque en esta tesis se propone un método y una herramienta para la evaluación de competencias genéricas, no es un objetivo de esta tesis establecer un indicador fehaciente para ninguna de ellas. Eso sería un objetivo más propio de investigación en ciencias sociales y de la educación. En los ejemplos mostrados se proponen ejemplos de indicadores, y según el criterio de cada participante en el cuestionario, unos son más válidos que otros. Para la competencia del \emph{trabajo en equipo} prácticamente hay un empate entre el `sí` (26) y el `no`(25). Mientras que en la \emph{planificación y gestión del tiempo} domina el `sí` (40 a 11), en la competencia del \emph{liderazgo} domina el `no` (17 a 34). Las justificaciones de los participantes en muchos casos para dar el `no` van en la línea de la necesidad de completar el indicador con información previa. Esto podría ser un ejercicio de redefinición de la hipótesis inicial o un rediseño de la evaluación.
+Aunque en esta tesis se propone un método y una herramienta para la evaluación de competencias genéricas, no es un objetivo de esta tesis establecer un indicador fehaciente para ninguna de ellas. Eso objetivo necesitaría una investigación específica en ciencias sociales y de la educación. En los ejemplos mostrados se proponen ejemplos de indicadores, y según el criterio de cada participante en el cuestionario, unos son más válidos que otros. Para la competencia TMW prácticamente hay un empate entre el `sí` (26) y el `no`(25). Mientras que en la competencia PLA domina el `sí` (40 a 11), en la competencia LEA domina el `no` (17 a 34). Las justificaciones de los participantes en muchos casos para dar el `no` van en la línea de la necesidad de completar el indicador con información previa. Esto podría ser un ejercicio de redefinición de la hipótesis inicial o un rediseño de la evaluación.
 
 %En segundo lugar, partiendo de los diferentes perfiles de los participantes en la encuesta se demuestra que sus respuestas son independientes tanto de su perfil docente como de su perfil más o menos técnico. De esta manera se descarta que las propuestas de diseño de evaluación de competencia genérica tengan una orientación demasiado técnica y que por tanto sean estos los únicos que acepten los diseños, o que esté más cercano a un docente de perfil universitario. El establecimiento de una serie de hipótesis nulas y la prueba $\chi^2$ de Pearson así lo han demostrado.
 
 En segundo lugar, hay evidencias significativas a favor de que las respuestas de los participantes en la encuestas son independientes tanto del perfil docente como del perfil más o menos técnico de estos. A esta conclusión se llega después haber establecido una serie de hipótesis nulas y haber aplicado la prueba $\chi^2$ de Pearson. De esta manera se descarta que las propuestas de diseño de evaluación de competencia genérica tengan una orientación demasiado técnica y que por tanto sean los usuario con perfil técnico los únicos que acepten los diseños, o que esté más cercano a un docente de perfil universitario. 
 
-Hay que comentar que el hecho de que la hipótesis nula número 3 fuese más difícil de demostrar tiene una explicación. La mayoría de los usuarios que dijo `sí` a la posibilidad de evaluar la competencia de liderazgo fueron los participantes en el curso de innovación y el taller de Aulablog. En dichas sesiones, con más interactividad que otras actuaciones, se mostraron ejemplos de cómo detectar a un usuario que ejercía una labor de liderazgo en un equipo de trabajo en wiki y esto pudo influir en el hecho de que a dichos participantes les costase menos interpretar en dichos indicadores la posibilidad de utilizarlos para realizar la evaluación que a otros. % innovación y el taller de Aulablog  (14 de los 17 síes).
+%Hay que recordar que el hecho de que la hipótesis nula número 3 fuese más difícil de demostrar se debe a que la mayoría de los usuarios que dijo `sí` a la posibilidad de evaluar la competencia LEA fueron los participantes en el curso de formación de PDI y el taller de Aulablog. En dichas sesiones, con más interactividad que otras actuaciones, se mostraron ejemplos de cómo detectar a un usuario que ejercía una labor de liderazgo en un equipo de trabajo en wiki y esto pudo influir en el hecho de que a dichos participantes les costase menos interpretar en dichos indicadores la posibilidad de utilizarlos para realizar la evaluación que a otros. % innovación y el taller de Aulablog  (14 de los 17 síes).
 
-El cuestionario complementario utilizado en la actuación avalada muestra que los docentes consideraron aplicar los indicadores obtenidos mediante EvalCourse en el campus virtual de Moodle a varias competencias genéricas. Las respuestas de los participantes difieren prácticamente para cada actividad y competencia genérica. Este hecho, al igual que la diferencia de criterio en las respuestas a `sí` y `no` a las competencias genéricas del cuestionario principal, respaldan aún más si cabe la propuesta de esta tesis doctoral, es decir, la necesidad de proponer este método a los docentes para que cada uno sea capaz de construir los indicadores que les sean válidos.
-
-\section{Contribuciones} \label{eva:contribuciones}
-
-	A continuación se indican las aportaciones principales que se han realizado durante la elaboración de este trabajo de investigación:
+El cuestionario complementario utilizado en las Actuaciones Avaladas muestra que los docentes consideraron aplicar los indicadores obtenidos mediante EvalCourse en el campus virtual de Moodle a varias competencias genéricas. Las respuestas de los participantes difieren prácticamente para cada actividad y competencia genérica. Este hecho, al igual que la diferencia de criterio en las respuestas a `sí` y `no` a las competencias genéricas del cuestionario principal, respaldan aún más si cabe la propuesta de esta tesis doctoral, es decir, la necesidad de proponer este método a los docentes para que cada uno sea capaz de construir los indicadores que les sean válidos.
 
 
 
-	\subsection*{Revistas}
-
-	\begin{itemize}
-	\item Artículo en la revista Computers in Human Behavior (2014), titulado ``Scalability of assessments of wiki-based learning experiences in higher education''~\cite{palomo2014scalability}.
-	\end{itemize} 
-
-\setlength{\fboxsep}{2pt}
-\fcolorbox{grey}{grey}{\parbox{0.7\textwidth}{%
-   \color{black}%
-ISI JCR 2014: Q1, T1 (PSI, Multidisciplinary)
-}}
-
-
-	\begin{itemize}
-	\item Artículo en la revista International Journal of Engineering Education (2015), titulado ``A Domain Specific Language for Online Learning Competence Assessments''~\cite{Balderas:2015}.
-
-	%\item Artículo en la Revista Iberoamericana de Tecnologias del Aprendizaje (2015), titulado ``Learning Technologies and Semantic Integration of Learning Resources´´~\cite{dodero2015learning}.
-	\end{itemize}
-
-\fcolorbox{grey}{grey}{\parbox{0.7\textwidth}{%
-   \color{black}%
-ISI JCR 2014: Q3, T3 (Engineering, Multidisciplinary) \\
-ISI JCR 2014: Q4, T3 (Education, Scientific Disciplines)
-}}
-
-
-	\subsection*{Congresos}
-
-	\begin{itemize}
-	\item Artículo presentado en el congreso IX Simposio Pluridisciplinar sobre Diseño, Evaluación y Descripción de Contenidos Educativos (SPDECE 2012), titulado ``Qualitative assessment of wiki-based learning processes''~\cite{Balderas:2012}.
-	\item Artículo presentado en el I International Conference on Technological Ecosystem for Enhancing Multiculturality (TEEM 2013), titulado ``A generative computer language to customize online learning assessments''~\cite{balderas2013generative}.
-	\item Artículo presentado en el International Symposium on Computers in Education (SIIE 2014), titulado ``Domain-driven competence assessment in virtual learning environments. Application to planning and time management skills''~\cite{balderas2014domain}.
-	\item Artículo presentado en el III International Conference on Technological Ecosystem for Enhancing Multiculturality (TEEM 2015), titulado ``A Domain Specific Language to retrieve objective indicators for foreign language learning in virtual worlds''~\cite{balderas2015domain}.
-	\item Artículo presentado en el  III Congreso Internacional Sobre Aprendizaje, Innovación y Competitividad (CINAIC 2015), titulado ``Evaluación del trabajo individual y grupal en un wiki''~\cite{reinoso2015evaluacion}.
-	\end{itemize}
 
 
 %\section{Conclusiones}

@@ -1,0 +1,47 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{AMW}]\begingroup AssessMediaWiki\nomeqref {0}\nompageref{xx}
+  \item [{CEFR}]\begingroup Marco común de referencia europe (Common European Framework of Reference)\nomeqref {5.0}
+		\nompageref{111}
+  \item [{CTMTC}]\begingroup Comprehensive Training Model of the Teamwork Competence\nomeqref {2.0}
+		\nompageref{45}
+  \item [{DBA}]\begingroup Evaluación basada en el diseño (Design-Based Assessment)\nomeqref {0}
+		\nompageref{xx}
+  \item [{DBR}]\begingroup Investigación basada en el diseño (Design-Based Research)\nomeqref {1.0}
+		\nompageref{5}
+  \item [{DSL}]\begingroup Lenguaje específico de dominio (Domain-Specific Language)\nomeqref {0}
+		\nompageref{xx}
+  \item [{e-portfolio}]\begingroup Portfolio digital (electronic portfolio)\nomeqref {2.0}
+		\nompageref{35}
+  \item [{GBL}]\begingroup Aprendizaje basado en juegos (Game-Based Learning)\nomeqref {2.0}
+		\nompageref{42}
+  \item [{LMS}]\begingroup Sistema de gestión de aprendizaje (Learning Management System)\nomeqref {1.0}
+		\nompageref{4}
+  \item [{MDE}]\begingroup Ingeniería dirigida por modelos (Model-Driven Engineering)\nomeqref {5.0}
+		\nompageref{91}
+  \item [{MOOC}]\begingroup Cursos online masivos y abiertos (Massive Open Online Courses)\nomeqref {1.0}
+		\nompageref{4}
+  \item [{PBL}]\begingroup Aprendizaje basado en problemas (Problem-Based Learning)\nomeqref {2.0}
+		\nompageref{35}
+  \item [{SASQL}]\begingroup Simple Assessment Specific Query Language\nomeqref {0}
+		\nompageref{xx}
+  \item [{SMS}]\begingroup Estudio de mapeo sistemático (Systematic Mapping Study)\nomeqref {2.0}
+		\nompageref{14}
+  \item [{SNA}]\begingroup Análisis de redes sociales (Social Network Analysis)\nomeqref {0}
+		\nompageref{xx}
+  \item [{SQL}]\begingroup Structured Query Language\nomeqref {4.0}
+		\nompageref{75}
+  \item [{TBL}]\begingroup Aprendizaje basado en equipos (Team-Based Learning)\nomeqref {2.0}
+		\nompageref{35}
+  \item [{TEL}]\begingroup Aprendizaje mejorado por la tecnología (Technology Enhanced Learning)\nomeqref {1.0}
+		\nompageref{3}
+  \item [{TIC}]\begingroup Tecnologías de la Información y la Comunicación\nomeqref {1.0}
+		\nompageref{2}
+  \item [{VLE}]\begingroup Entornos de aprendizaje virtual (Virtual Learning Environment)\nomeqref {1.0}
+		\nompageref{4}
+  \item [{VWQL}]\begingroup Virtual World Query Languaje\nomeqref {0}
+		\nompageref{xx}
+
+\end{thenomenclature}

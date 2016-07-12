@@ -58,7 +58,7 @@
 \textsignatureadvisor{El director}
 \cityofbirth{Puerto Real, Cádiz}
 %\degreedate{\monthname \ \the\year}
-\degreedate{\monthname \ \the\year}
+\degreedate{julio, 2016}
 
 
 % ----------------------------------------------------------------------
@@ -145,6 +145,8 @@
 
 % Tie in external source file for definitions: /0_frontmatter/glossary.tex
 % Glossary entries can also be defined in the main text. See glossary.tex
+\makenomenclature
+
 \include{0_frontmatter/glossary}
 
 %\begin{multicols}{2} % \begin{multicols}{#columns}[header text][space]
@@ -179,12 +181,18 @@
 
 %: ----------------------- introduction ------------------------
 % introduction
-\include{1_introduction/0_index}	
-\include{1_introduction/1_motivation}		
-\include{1_introduction/2_contexto}
-\include{1_introduction/3_objetivos}	
-%\include{1_introduction/4_estrategia}	
-\include{1_introduction/5_metodologia}
+
+% LA INTRODUCCION ESTABA DIVIDIDA, POR LO QUE CADA SUBSECCION CAIA EN HOJAS NUEVAS
+% COMENTO TODOS Y LOS PONGO TODOS EN UN SOLO TEX PARA QUE NO HAYA SALTOS
+
+%\include{1_introduction/0_index}	
+%\include{1_introduction/1_motivation}		
+%\include{1_introduction/2_contexto}
+%\include{1_introduction/3_objetivos}	
+%\include{1_introduction/5_metodologia}
+
+% ESTE ES EL QUE LOS TRAE TODOS
+\include{1_introduction/0_index_all}
 
 %: ----------------------- related work ------------------------
 % introduction
@@ -205,7 +213,10 @@
 	
 %: ----------------------- conclusion ------------------------
 % introduction
-\include{6_conclusion/0_index}	
+\include{6_conclusion/0_index}
+
+\include{7_conclusion_en/0_index}
+
 	
 
 % --------------------------------------------------------------
@@ -225,6 +236,8 @@
 \include{Apendice/Entrevistas}
 % Metodo y DSL
 \include{Apendice/EvalMetodo}
+% Competencias
+\include{Apendice/Competencias}
 
 %: ----------------------- bibliography ------------------------
 

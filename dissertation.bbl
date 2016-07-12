@@ -13,6 +13,13 @@ A.~Al-Ajlan and H.~Zedan.
 \newblock In {\em Future Trends of Distributed Computing Systems, 2008.
   FTDCS'08. 12th IEEE International Workshop on}, pages 58--64. IEEE, 2008.
 
+\bibitem{alario2013glue}
+C.~Alario-Hoyos, M.~L. Bote-Lorenzo, E.~G{\'o}Mez-S{\'a}Nchez, J.~I.
+  Asensio-P{\'e}Rez, G.~Vega-Gorgojo, and A.~Ruiz-Calleja.
+\newblock Glue!: An architecture for the integration of external tools in
+  virtual learning environments.
+\newblock {\em Computers \& Education}, 60(1):122--137, 2013.
+
 \bibitem{anderson2012design}
 T.~Anderson and J.~Shattuck.
 \newblock Design-based research a decade of progress in education research?
@@ -28,7 +35,8 @@ M.~Andr{\'e}, M.~G. Baldoqu{\'\i}n, and S.~T. Acu{\~n}a.
 F.~G. Andr{\'e}s.
 \newblock Los beneficios de la tecnolog{\'i}a en la educaci{\'o}n.
 \newblock
-  \url{http://www.labrechadigital.org/labrecha/Articulos/los-beneficios-de-la-tecnologia-en-la-educacion.html}.
+  \url{http://www.labrechadigital.org/labrecha/Articulos/los-beneficios-de-la-tecnologia-en-la-educacion.html},
+  2015.
 \newblock Accessed: 2016-01-11.
 
 \bibitem{arno2011promoting}
@@ -94,8 +102,8 @@ A.~Balderas, I.~Ruiz-Rube, M.~Palomo-Duarte, and J.~M. Dodero.
 \bibitem{bedek2011behavioral}
 M.~Bedek, S.~A. Petersen, and T.~Heikura.
 \newblock From behavioral indicators to contextualized competence assessment.
-\newblock In {\em Advanced Learning Technologies (ICALT), 2011 11th IEEE
-  International Conference on}, pages 277--281. IEEE, 2011.
+\newblock In {\em 11th IEEE International Conference on Advanced Learning
+  Technologies (ICALT), 2011}, pages 277--281. IEEE, 2011.
 
 \bibitem{bell2001characteristics}
 B.~Bell and B.~Cowie.
@@ -107,9 +115,9 @@ J.~Benlloch-Dualde and S.~Blanc-Clavero.
 \newblock Adapting teaching and assessment strategies to enhance
   competence-based learning in the framework of the european convergence
   process.
-\newblock In {\em Frontiers In Education Conference-Global Engineering:
-  Knowledge Without Borders, Opportunities Without Passports, 2007. FIE'07.
-  37th Annual}, pages S3B--1. IEEE, 2007.
+\newblock In {\em 37th Annual Frontiers In Education Conference-Global
+  Engineering: Knowledge Without Borders, Opportunities Without Passports,
+  2007. FIE'07.}, pages S3B--1. IEEE, 2007.
 
 \bibitem{berns2013game}
 A.~Berns, A.~Gonzalez-Pardo, and D.~Camacho.
@@ -120,8 +128,14 @@ A.~Berns, A.~Gonzalez-Pardo, and D.~Camacho.
 A.~Berns, M.~Palomo-Duarte, J.~M. Dodero, and C.~Valero-Franco.
 \newblock Using a {3D} online game to assess students’ foreign language
   acquisition and communicative competence.
-\newblock In {\em Scaling up learning for sustained impact}, pages 19--31.
-  Springer, 2013.
+\newblock {\em Lecture Notes in Computer Science (including subseries Lecture
+  Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 8095
+  LNCS:19--31, 2013.
+
+\bibitem{bostock2000student}
+S.~Bostock.
+\newblock Student peer assessment.
+\newblock {\em Learning Technology}, 2000.
 
 \bibitem{carreras2013promotion}
 A.~Carreras~Mar{\'\i}n, Y.~Blasco, M.~Badia-Mir{\'o}, M.~Bosch~Pr{\'\i}ncep,
@@ -147,7 +161,7 @@ N.~Charlier, O.~Michela, B.~Remmele, and N.~Whitton.
 M.~A. Chatti, V.~Lukarov, H.~Th{\"u}s, A.~Muslim, A.~M.~F. Yousef, U.~Wahid,
   C.~Greven, A.~Chakrabarti, and U.~Schroeder.
 \newblock Learning analytics: Challenges and future research directions.
-\newblock 2014.
+\newblock {\em E-Learning \& Education}, 10(1), 2014.
 
 \bibitem{Chebil:2012}
 H.~Chebil, J.~Girardot, and C.~Courtin.
@@ -165,7 +179,8 @@ C.-h. Chen.
 \bibitem{cole2005being}
 R.~Cole, S.~Purao, M.~Rossi, and M.~Sein.
 \newblock Being proactive: where action research meets design research.
-\newblock {\em ICIS 2005 Proceedings}, page~27, 2005.
+\newblock In {\em Proceedings - International Conference on Information System
+  (ICIS), 2005}, page~27, 2005.
 
 \bibitem{collins2004design}
 A.~Collins, D.~Joseph, and K.~Bielaczyc.
@@ -177,7 +192,7 @@ B.~Communiqu{\'e}.
 \newblock Making the most of our potential: Consolidating the european higher
   education area.
 \newblock In {\em 2012 Ministerial Conference and 3rd Bologna Policy Forum
-  Documents}, 2012.
+  Documents}, Bucharest, 2012.
 
 \bibitem{conde2015exploring}
 M.~A. Conde, F.~J. Garc{\'\i}a-Peñalvo, D.-A. Gómez-Aguilar, and R.~Theron.
@@ -252,8 +267,8 @@ C.~European.
 \newblock {The Lifelong Learning Programme}.
 \newblock In {\em {Decision No 1720/2006/EC of the European Parliament and of
   the Council of 15 November 2006 establishing an action programme in the field
-  of lifelong learning}}, chapter~1, pages 327/48 -- 327/49. Official Journal
-  of the European Union, Nov. 2006.
+  of lifelong learning}}, chapter~1, pages 327/48 -- 327/49. {Official Journal
+  of the European Union}, nov 2006.
 
 \bibitem{eysholdt2010xtext}
 M.~Eysholdt and H.~Behrens.
@@ -261,6 +276,13 @@ M.~Eysholdt and H.~Behrens.
 \newblock In {\em Proceedings of the ACM international conference companion on
   Object oriented programming systems languages and applications companion},
   pages 307--309. ACM, 2010.
+
+\bibitem{balta2016coddii}
+B.~Fern{\'a}ndez-Manj{\'o}n, P.~Moreno-Ger, M.~Freire, and
+  I.~Mart{\'i}nez-Ortiz.
+\newblock {\em Juegos Serios - Informe CODDII - Conferencia de Decanos y
+  Directores de Ingeniería Informática}.
+\newblock Facultad de Informática, Universidad Complutense de Madrid, 2016.
 
 \bibitem{ficapal2015learning}
 P.~Ficapal-Cus{\'\i} and J.~Boada-Grau.
@@ -310,8 +332,8 @@ F.~Gates.
 
 \bibitem{gonzalez2005tuning}
 J.~Gonz{\'a}lez and R.~Wagenaar.
-\newblock Tuning educational structures in europe ii. universitites’
-  contribution to the bologna process.
+\newblock {Tuning Educational Structures in Europe II. Universitites’
+  contribution to the Bologna Process}.
 \newblock {\em University of Deusto}, 2005.
 
 \bibitem{guenaga2013serious}
@@ -364,21 +386,21 @@ A.~Huhta.
 \bibitem{izquierdo2012community}
 J.~L.~C. Izquierdo and J.~Cabot.
 \newblock Community-driven language development.
-\newblock In {\em Modeling in Software Engineering (MISE), 2012 ICSE Workshop
-  on}, pages 29--35. IEEE, 2012.
+\newblock In {\em ICSE Workshop on Modeling in Software Engineering (MISE),
+  2012}, pages 29--35. IEEE, 2012.
 
-\bibitem{Kitchenham:2010}
-B.~Kitchenham, R.~Pretorius, D.~Budgen, O.~Pearl~Brereton, M.~Turner, M.~Niazi,
-  and S.~Linkman.
-\newblock Systematic literature reviews in software engineering - a tertiary
-  study.
-\newblock {\em Information and Software Technology}, 52(8):792--805, Aug. 2010.
+\bibitem{keele2007guidelines}
+B.~Kitchenham and C.~Stuart.
+\newblock Guidelines for performing systematic literature reviews in software
+  engineering.
+\newblock In {\em Technical report, Ver. 2.3 EBSE Technical Report.} EBSE,
+  2007.
 
 \bibitem{lacuesta2009active}
 R.~Lacuesta, G.~Palacios, and L.~Fern{\'a}ndez.
 \newblock Active learning through problem based learning methodology in
   engineering education.
-\newblock In {\em Frontiers in Education Conference, 2009. FIE'09. 39th IEEE},
+\newblock In {\em 39th IEEE Frontiers in Education Conference, 2009. FIE'09.},
   pages 1--6. IEEE, 2009.
 
 \bibitem{lasa2013problem}
@@ -390,9 +412,9 @@ A.~Lasa, I.~Txurruka, E.~Sim{\'o}n, and J.~Miranda.
 
 \bibitem{laurillard2012teaching}
 D.~Laurillard.
-\newblock Teaching as a design science.
-\newblock {\em Building pedagogical patterns for learning and technology},
-  2012.
+\newblock {\em Teaching as a design science. Building pedagogical patterns for
+  learning and technology}.
+\newblock Routledge London, 2012.
 
 \bibitem{lidz1987dynamic}
 C.~S.~E. Lidz.
@@ -416,7 +438,7 @@ M.~Mart{\'\i}n-Brice{\~n}o and S.~Prashar.
 J.~E.~P. Martinez, J.~Garc{\'\i}a~Mart{\'\i}n, and A.~S. Alonso.
 \newblock Teamwork competence and academic motivation in computer science
   engineering studies.
-\newblock In {\em Global Engineering Education Conference (EDUCON), 2014 IEEE},
+\newblock In {\em IEEE Global Engineering Education Conference (EDUCON), 2014},
   pages 778--783. IEEE, 2014.
 
 \bibitem{masip2013self}
@@ -425,7 +447,7 @@ A.~Masip-{\'A}lvarez, C.~Hervada-Sala, T.~P{\`a}mies-G{\'o}mez, A.~Arias-Pujol,
   F.~Nejjari-Akhi-Elarab, M.~Alvarez-del Castillo, M.~Roca-Lefler, et~al.
 \newblock Self-video recording for the integration and assessment of generic
   competencies.
-\newblock In {\em Global Engineering Education Conference (EDUCON), 2013 IEEE},
+\newblock In {\em IEEE Global Engineering Education Conference (EDUCON), 2013},
   pages 436--441. IEEE, 2013.
 
 \bibitem{mason2009employability}
@@ -436,22 +458,23 @@ G.~Mason, G.~Williams, and S.~Cranmer.
 
 \bibitem{midoro2013guidelines}
 V.~Midoro.
-\newblock Guidelines on adaptation of the {UNESCO ICT} competency framework for
-  teachers.
-\newblock 2013.
+\newblock {\em Guidelines on adaptation of the {UNESCO ICT} Competency
+  Framework for Teachers}.
+\newblock UNESCO Institute for Information Technologies in Education, 2013.
 
 \bibitem{moreno2014serious}
 P.~Moreno-Ger, I.~Martinez-Ortiz, M.~Freire, B.~Manero, and
   B.~Fernandez-Manjon.
 \newblock Serious games: A journey from research to application.
-\newblock In {\em Frontiers in Education Conference (FIE), 2014 IEEE}, pages
+\newblock In {\em IEEE Frontiers in Education Conference (FIE), 2014}, pages
   1--4. IEEE, 2014.
 
 \bibitem{munoz2003cuestionario}
 T.~G. Mu{\~n}oz.
 \newblock El cuestionario como instrumento de investigaci{\'o}n/evaluaci{\'o}n.
 \newblock
-  \url{http://cvonline.uaeh.edu.mx/Cursos/Maestria/MTE/Gen02/seminario_de_tesis/Unidad_4_anterior/Lect_El_Cuestionario.pdf}.
+  \url{http://cvonline.uaeh.edu.mx/Cursos/Maestria/MTE/Gen02/seminario_de_tesis/Unidad_4_anterior/Lect_El_Cuestionario.pdf},
+  2003.
 \newblock Accessed: 2016-05-01.
 
 \bibitem{oates2006researching}
@@ -469,8 +492,8 @@ B.~Oliver.
 J.~Ortega~Valiente and J.~Reinoso~Peinado.
 \newblock New educational approach based on the use of wiki platforms in
   university environments.
-\newblock In {\em Next Generation Web Services Practices (NWeSP), 2011 7th
-  International Conference on}, pages 280--284. IEEE, 2011.
+\newblock In {\em 7th International Conference on Next Generation Web Services
+  Practices (NWeSP), 2011}, pages 280--284. IEEE, 2011.
 
 \bibitem{palomo2014scalability}
 M.~Palomo-Duarte, J.~M. Dodero, A.~Garc{\'\i}a-Dom{\'\i}nguez, P.~Neira-Ayuso,
@@ -491,13 +514,14 @@ M.~Palomo-Duarte, J.~M. Dodero, I.~Medina-Bulo, E.~J. Rodr{\'\i}guez-Posada,
 K.~Petersen, R.~Feldt, S.~Mujtaba, and M.~Mattsson.
 \newblock Systematic mapping studies in software engineering.
 \newblock In {\em 12th International Conference on Evaluation and Assessment in
-  Software Engineering}, volume~17. British Computer Society, 2008.
+  Software Engineering}, volume~17, pages 1--10. British Computer Society,
+  2008.
 
 \bibitem{piedra2010measuring}
 N.~Piedra, J.~Chicaiza, J.~L{\'o}pez, A.~Romero, and E.~Tovar.
-\newblock Measuring collaboration and creativity skills through rubrics:
-  Experience from utpl collaborative social networks course.
-\newblock In {\em Education Engineering (EDUCON), 2010 IEEE}, pages 1511--1516.
+\newblock {Measuring collaboration and creativity skills through rubrics:
+  Experience from UTPL collaborative social networks course}.
+\newblock In {\em IEEE Education Engineering (EDUCON), 2010}, pages 1511--1516.
   IEEE, 2010.
 
 \bibitem{podgorelec:2011}
@@ -518,18 +542,18 @@ R.~A. Rashid, R.~Abdullah, A.~Zaharim, H.~A. Ghulman, M.~S. Masodi, J.~Mauri,
 \newblock Engineering students performance evaluation of generic skills
   measurement: {ESPEGS} model.
 \newblock In {\em Proceedings of the 5th WSEAS International Conference on
-  Engineering Education (EE'08)}, number~5, pages 377--383. World Scientific
+  Engineering Education (EE'08)}, volume~5, pages 377--383. World Scientific
   and Engineering Academy and Society (WSEAS), 2008.
 
 \bibitem{rayon2014web}
 A.~Rayon~Jerez, M.~Guenaga, and A.~N{\'u}{\~n}ez.
 \newblock A web platform for the assessment of competences in mobile learning
   contexts.
-\newblock In {\em Global Engineering Education Conference (EDUCON), 2014 IEEE},
+\newblock In {\em IEEE Global Engineering Education Conference (EDUCON), 2014},
   pages 321--329. IEEE, 2014.
 
 \bibitem{Redecker:2013}
-C.~Redecker and �.~Johannessen.
+C.~Redecker and O.~Johannessen.
 \newblock {Changing Assessment — Towards a New Assessment Paradigm Using
   ICT}.
 \newblock {\em European Journal of Education}, 48(1):79--96, 2013.
@@ -539,13 +563,6 @@ P.~Reimann.
 \newblock Design-based research.
 \newblock In {\em Methodological Choice and Design}, pages 37--50. Springer,
   2011.
-
-\bibitem{reinoso2015evaluacion}
-A.~J. Reinoso, M.~Palomo-Duarte, J.~T. Tocino-Garcia, J.~Ortega-Valiente, and
-  A.~Balderas.
-\newblock {Evaluación del trabajo individual y grupal en un wiki}.
-\newblock In {\em III Congreso Internacional Sobre Aprendizaje, Innovación y
-  Competitividad. CINAIC 2015}.
 
 \bibitem{renau2010teaching}
 M.~R. Renau and J.~U. Viciedo.
@@ -557,8 +574,8 @@ M.~R. Renau and J.~U. Viciedo.
 \bibitem{rodriguez2010portfolio}
 S.~Rodriguez-Donaire, B.~A. Garc{\'\i}a, and S.~O. Del~Olmo.
 \newblock e-portfolio: a tool to assess university students' skills.
-\newblock In {\em Information Technology Based Higher Education and Training
-  (ITHET), 2010 9th International Conference on}, pages 114--124. IEEE, 2010.
+\newblock In {\em 9th International Conference on Information Technology Based
+  Higher Education and Training (ITHET), 2010}, pages 114--124. IEEE, 2010.
 
 \bibitem{rojas2008prueba}
 A.~Rojas-Vargas.
@@ -566,6 +583,11 @@ A.~Rojas-Vargas.
 \newblock Ministerio de Educaci{\'o}n P{\'u}blica de Costa Rica. Dirección de
   desarrollo curricular. Departamento de Evaluaci{\'o}n de los Aprendizajes,
   2008.
+
+\bibitem{ruiz2015framework}
+I.~Ruiz-Rube, J.~M. Dodero, and R.~Colomo-Palacios.
+\newblock A framework for software process deployment and evaluation.
+\newblock {\em Information and Software Technology}, 59:205--221, 2015.
 
 \bibitem{ruizacarate2013soft}
 C.~Ruizac{\'a}rate~Varela, M.~J. Garcia~Garcia, C.~Gonzalez~Garcia, and J.~L.
@@ -588,19 +610,12 @@ A.~Sevilla-Pav{\'o}n, A.~Mart{\'\i}nez-S{\'a}ez, and A.~Gimeno-Sanz.
   for the cambridge first certificate in english examination.
 \newblock {\em Procedia-Social and Behavioral Sciences}, 34:207--211, 2012.
 
-\bibitem{siemens2012learning}
-G.~Siemens and R.~S. d~Baker.
-\newblock Learning analytics and educational data mining: towards communication
-  and collaboration.
-\newblock In {\em Proceedings of the 2nd International Conference on Learning
-  Analytics and Knowledge}, pages 252--254. ACM, 2012.
-
 \bibitem{starcic2008sustaining}
 A.~I. Starcic.
 \newblock Sustaining teacher's professional development and training through
   web-based communities of practice.
-\newblock In {\em Applications and the Internet, 2008. SAINT 2008.
-  International Symposium on}, pages 317--320. IEEE, 2008.
+\newblock In {\em International Symposium on Applications and the Internet,
+  2008. SAINT 2008.}, pages 317--320. IEEE, 2008.
 
 \bibitem{strijbos2015criteria}
 J.~Strijbos, N.~Engels, and K.~Struyven.
@@ -613,7 +628,7 @@ J.-J. Torres-Gordillo and V.-H. Perera-Rodr{\'\i}guez.
 \newblock La r{\'u}brica como instrumento pedag{\'o}gico para la
   tutorizaci{\'o}n y evaluaci{\'o}n de los aprendizajes en el foro online en
   educaci{\'o}n superior.
-\newblock {\em Pixel-Bit: Revista de medios y educaci{\'o}n}, (36):141--149,
+\newblock {\em Pixel-Bit: Revista de medios y educaci{\'o}n}, 36:141--149,
   2010.
 
 \bibitem{trentin2009using}
@@ -639,7 +654,7 @@ C.~Vizcarro~Guarch, P.~Martin~Espinosa, R.~Cobos, J.~E. P{\'e}rez,
   E.~Tovar~Caro, G.~Blanco~Viejo, A.~Bermudez~Marin, and J.~Reyes
   Ruiz~Gallardo.
 \newblock Assessment of problem solving in computing studies.
-\newblock In {\em Frontiers in Education Conference, 2013 IEEE}, pages
+\newblock In {\em IEEE Frontiers in Education Conference, 2013}, pages
   999--1003. IEEE, 2013.
 
 \bibitem{ward2011developing}
@@ -664,7 +679,7 @@ J.~S. Wiggins.
 \bibitem{yang2014fine}
 F.~Yang, F.~W. Li, and R.~W. Lau.
 \newblock A fine-grained outcome-based learning path model.
-\newblock {\em Systems, Man, and Cybernetics: Systems, IEEE Transactions on},
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics: Systems},
   44(2):235--245, 2014.
 
 \bibitem{zabala2005espacio}

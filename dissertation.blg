@@ -6,77 +6,60 @@ A level-1 auxiliary file: 0_frontmatter/dedication.aux
 A level-1 auxiliary file: 0_frontmatter/abstract.aux
 A level-1 auxiliary file: 0_frontmatter/acknowledgement.aux
 A level-1 auxiliary file: 0_frontmatter/glossary.aux
-A level-1 auxiliary file: 1_introduction/0_index.aux
-A level-1 auxiliary file: 1_introduction/1_motivation.aux
-A level-1 auxiliary file: 1_introduction/2_contexto.aux
-A level-1 auxiliary file: 1_introduction/3_objetivos.aux
-A level-1 auxiliary file: 1_introduction/5_metodologia.aux
+A level-1 auxiliary file: 1_introduction/0_index_all.aux
 A level-1 auxiliary file: 2_state_of_the_art/0_index.aux
 A level-1 auxiliary file: 3_problemas/0_index.aux
 A level-1 auxiliary file: 4_overall_methodology/0_index.aux
 A level-1 auxiliary file: 5_experiments_and_results/0_index.aux
 A level-1 auxiliary file: 6_conclusion/0_index.aux
+A level-1 auxiliary file: 7_conclusion_en/0_index.aux
 A level-1 auxiliary file: Apendice/Cuestionario.aux
 A level-1 auxiliary file: Apendice/Entrevistas.aux
 A level-1 auxiliary file: Apendice/EvalMetodo.aux
+A level-1 auxiliary file: Apendice/Competencias.aux
 The style file: abbrv.bst
 A level-1 auxiliary file: 9_backmatter/declaration.aux
 Database file #1: 9_backmatter/references.bib
-I was expecting a `,' or a `}'---line 890 of file 9_backmatter/references.bib
- :   
- :   year={2003}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1362 of file 9_backmatter/references.bib
- :   
- :   year={2015}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--empty journal in chatti2014learning
-Warning--empty journal in midoro2013guidelines
 Warning--can't use both volume and number fields in Petersen:2008
-Warning--there's a number but no series in rashid2008engineering
-Warning--empty year in reinoso2015evaluacion
-Warning--there's a number but no volume in torres2010rubrica
-You've used 104 entries,
+You've used 106 entries,
             2118 wiz_defined-function locations,
-            1088 strings with 27365 characters,
-and the built_in function-call counts, 40385 in all, are:
-= -- 4077
-> -- 1924
-< -- 39
-+ -- 773
-- -- 656
-* -- 2846
-:= -- 6466
-add.period$ -- 340
-call.type$ -- 104
-change.case$ -- 626
+            1097 strings with 27619 characters,
+and the built_in function-call counts, 40741 in all, are:
+= -- 4112
+> -- 1939
+< -- 38
++ -- 780
+- -- 660
+* -- 2867
+:= -- 6546
+add.period$ -- 345
+call.type$ -- 106
+change.case$ -- 631
 chr.to.int$ -- 0
-cite$ -- 110
-duplicate$ -- 1550
-empty$ -- 3079
-format.name$ -- 656
-if$ -- 8589
+cite$ -- 107
+duplicate$ -- 1562
+empty$ -- 3114
+format.name$ -- 660
+if$ -- 8655
 int.to.chr$ -- 0
-int.to.str$ -- 104
-missing$ -- 113
-newline$ -- 525
-num.names$ -- 208
+int.to.str$ -- 106
+missing$ -- 118
+newline$ -- 535
+num.names$ -- 212
 pop$ -- 699
 preamble$ -- 1
-purify$ -- 533
+purify$ -- 539
 quote$ -- 0
-skip$ -- 1115
+skip$ -- 1118
 stack$ -- 0
-substring$ -- 2705
-swap$ -- 443
-text.length$ -- 39
+substring$ -- 2723
+swap$ -- 434
+text.length$ -- 38
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 394
-warning$ -- 6
-while$ -- 405
-width$ -- 107
-write$ -- 1153
-(There were 2 error messages)
+type$ -- 396
+warning$ -- 1
+while$ -- 410
+width$ -- 109
+write$ -- 1180
+(There was 1 warning)

@@ -3,11 +3,10 @@
 % content in this file will be fed into the main document
 
 %: ----------------------- introduction file header -----------------------
-\begin{savequote}[50mm]
-Now this is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning. 
-\qauthor{Winston Churchill}
-\end{savequote}
-
+%\begin{savequote}[50mm]
+%Now this is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning. 
+%\qauthor{Winston Churchill}
+%\end{savequote}
 
 \chapter{Resumen de problemas encontrados}
 \label{cha:Problemas}
@@ -22,50 +21,96 @@ Now this is not the end. It is not even the beginning of the end. But it is, per
 
 %------------------------------------------------------------------------- 
 
-En el capítulo anterior se ha realizado una revisión de la literatura para responder a diversas cuestiones sobre la evaluación de competencias genéricas mediante el uso de métodos y técnicas informáticas, así como de cuáles son esos métodos y si se están usando para este fin los registros de actividad de los entornos virtuales. A raíz de esta revisión han aflorado varios problemas para cada tipo de evaluación encontrado que van a ser resumidos a continuación.
+En el capítulo anterior se ha realizado una revisión de la literatura para responder a diversas cuestiones sobre la evaluación de competencias genéricas mediante el uso de métodos y herramientas informáticas, así como de cuáles son esos métodos y si usan los registros de actividad de los entornos virtuales de aprendizaje. A raíz de esta revisión han aflorado varios problemas para cada tipo de evaluación encontrado que son resumidos a continuación. También se indican en este capítulo los requisitos que deberá tener el método a desarrollar a tenor de los problemas anteriores.
 
-\section{Evaluación asistida} % de los estudiantes es la de dar
+\section{Problemas encontrados}
 
-En este tipo de evaluación la herramienta informática da soporte al usuario para que éste lleve a cabo la evaluación. Para ello le proporciona el formato para introducir datos (notas, indicadores, respuestas a preguntas, ... etc.). Estos datos podrán ser introducidos por los alumnos (autoevaluación o evaluación entre iguales) o por el profesor (evaluación del profesor).
+La explicación de los problemas encontrados se organiza según los tipos de evaluación de los trabajos (asistida y semiautomática). Para cada uno de ellos se resumirán los problemas encontrados.
 
-\subsection{Autoevaluación o evaluación entre iguales}
+\subsection{Evaluación asistida} % de los estudiantes es la de dar
 
-La autoevaluación es un proceso en el que los estudiantes evalúan su propio trabajo, mientras que  en el proceso de evaluación entre iguales un estudiante evalúa el trabajo de otro u otros estudiantes. La mayor virtud de este tipo de evaluación es que mejora tanto el conocimiento en la materia del alumnado como sus habilidades metacognitivas. Otra ventaja de esta evaluación es que ahorra parte del trabajo del profesor.
+En este tipo de evaluación la herramienta informática da soporte al usuario para que éste lleve a cabo la evaluación. Para ello le proporciona el formato para introducir datos (notas, indicadores, respuestas a preguntas, etc.). Estos datos podrán ser introducidos por los alumnos (autoevaluación o evaluación entre iguales) o por el docente (evaluación del docente).
+
+\subsection*{Autoevaluación o evaluación entre iguales} \label{cha:pro-sec:aut}
+
+La autoevaluación es un proceso en el que los estudiantes evalúan su propio trabajo, mientras que  en el proceso de evaluación entre iguales un estudiante evalúa el trabajo de otros estudiantes. La mayor virtud de este tipo de evaluación es que mejora tanto el conocimiento en la materia del alumnado como sus habilidades metacognitivas. Otra ventaja de esta evaluación es que ahorra parte del trabajo del docente.
 
 A continuación se van a describir los problemas encontrados por los autores a la hora de realizar una evaluación de una o varias competencias genéricas con un enfoque de autoevaluación o evaluación entre iguales.
 
 \paragraph*{Subjetividad}
-En ocasiones las calificaciones que asignan los estudiantes no se ajustan a la realidad, habiendo diferencias notables entre las calificaciones que asignan diferentes estudiantes o el profesor a un mismo trabajo. Este tipo de evaluaciones suelen ir acompañados de rúbricas para guiar el proceso de evaluación~\cite{malehorn1994ten}. Sin embargo, no todos las competencias a evaluar y los aspectos derivados a tener en cuenta pueden ser recogidos en una rúbrica. Si a esto unimos la falta de madurez en la materia que pueden tener los estudiantes o una interpretación diferente que estos realicen de los criterios de evaluación, las diferencias entre la calificación que el profesor daría a un trabajo y la que darían sus estudiantes podrían ser importantes~\cite{carreras2013promotion}. %Se han encontrado casos relacionados con competencias como la \emph{capacidad de análisis} o las \emph{habilidades de escritura}. 
+En ocasiones las calificaciones que asignan los estudiantes no se ajustan a la que recibirían del docente, habiendo diferencias notables entre las calificaciones que asignan diferentes estudiantes o el docente a un mismo trabajo. Este tipo de evaluaciones suelen ir acompañados de rúbricas para guiar el proceso de evaluación~\cite{malehorn1994ten}. Sin embargo, no todas las competencias a evaluar y los aspectos derivados a tener en cuenta pueden ser recogidos en una rúbrica. Si a esto unimos la falta de madurez que pueden tener los estudiantes o una interpretación diferente que estos realicen de los criterios de evaluación, las diferencias entre la calificación que el docente daría a un trabajo y la que darían sus estudiantes podrían ser importantes~\cite{carreras2013promotion}. %Se han encontrado casos relacionados con competencias como la \emph{capacidad de análisis} o las \emph{habilidades de escritura}. 
 
 \paragraph*{Escalabilidad}
-Se dice que un proceso de evaluación sufre problemas de escalabilidad cuando el número de trabajos a evaluar crece y el evaluador no es capaz de abarcar este crecimiento. Es cierto que la autoevaluación o evaluación entre iguales son estrategias que ahorran trabajo al profesor, ya que son los estudiantes los que se encargan de parte de dicha evaluación. Sin embargo, en numerosos trabajos, tras la evaluación realizada por los estudiantes los profesores han de revisar las evaluaciones de sus estudiantes, por lo que al final no sólo no se ahorra tiempo, sino que puede que tengan que realizar un mayor número de evaluaciones si cada estudiante ha corregido más de un trabajo~\cite{lasa2013problem,sevilla2012assessment}. Más sentido tiene aún esta revisión del profesor si tenemos en cuenta problemas como el descrito anteriormente, en los que las calificaciones de los estudiantes puede que no se ajusten a la realidad.
+Se dice que un proceso de evaluación sufre problemas de escalabilidad cuando el número de trabajos a evaluar crece y el evaluador no es capaz de abarcar este crecimiento. A priori podría pensarse que la autoevaluación o evaluación entre iguales son estrategias que ahorran trabajo al docente, ya que son los estudiantes los que se encargan de la evaluación. Sin embargo, más que ahorrar trabajo, podría decirse que el docente adopta otro papel, ya que de evaluar trabajos pasa a moderar o revisar las evaluaciones de los estudiantes~\cite{bostock2000student}. Además, el tiempo que debiera dedicar el docente a revisar las evaluaciones de los trabajos puede ser en muchos casos superior al tiempo que dedicaría a evaluar los trabajos.
 
-\subsection{Evaluación del profesor}
+Por ejemplo, supongamos que un docente tiene un número dado de estudiantes en clase ($n$) y el tiempo de evaluación que le requiere el trabajo realizado por cada estudiante es $t_{eval}$. Evaluar el trabajo de estos estudiantes le tomará un tiempo de $T = n*t_{eval}$. Aplicando el principio de invarianza multiplicativa esta es una actividad desde un punto de vista temporal de orden $n$ ($O(n)$). 
 
-En esta sección se recogen problemas asociados a los trabajos en los que la evaluación la realiza directamente el profesor apoyándose en la tecnología.
+Si optamos por una estrategia de evaluación entre iguales en la que cada estudiante evalúa a un número determinado de compañeros ($k$) y el docente considera revisar las evaluaciones realizadas por sus estudiantes, teniendo en cuenta que la revisión de cada evaluación le requiere un tiempo $t_{rev}$, este proceso tendría un coste de $T = k*n*t_{rev}$.
+
+Dependiendo del número de evaluaciones que tenga que realizar cada estudiante nos encontraremos en diversos casos:
+\begin{itemize}
+	\item Mejor caso: cada estudiante sólo evalúa a un único compañero ($k=1$). En este caso $T = n*t_{rev}$. Por el principio de invarianza multiplicativa este proceso sería también de ($O(n)$).
+	\item Peor caso: cada estudiante evalúa a todos sus compañeros ($k = n - 1$). En este caso $T = n*(n-1)*t_{rev} = n^{2}*t_{rev} - n*t_{rev}$. Aplicando el principio de invarianza multiplicativa y la del máximo de dos órdenes queda que este caso es de orden cuadrático ($O(n^{2})$).
+\end{itemize}
+
+Es difícil establecer un caso promedio o general, pero si un docente fijase que cada estudiante tuviese que evaluar a la mitad de sus compañeros ($n/2$) o a un tercio ($n/3$), el orden del proceso, aplicando el principio de invarianza multiplicativa, seguiría siendo cuadrático ($O(n^{2})$).
+
+%Dependiendo de la relación que haya entre $t_{eval}$ y $t_{rev}$ el docente habrá ganado o no algo de tiempo. Si un docente tarda en revisar una evaluación de un trabajo un 60\percentage{ }del tiempo que tarda en corregir un trabajo del mismo tipo ($t_{rev} = 0.6*t_{eval}$), el proceso descrito anteriormente le llevará un 20\percentage{ }más del tiempo del que le llevaba el proceso normal.
+% Obviamente, si no se revisan las evaluaciones entre iguales sí se ahorra tiempo, pero no es lo habitual.
+
+Por tanto, en el mejor caso, ambas estrategias no difieren en su implementación en más de alguna constante multiplicativa, siendo ambas estrategias de orden n ($O(n)$). Pero en el caso general, el orden del proceso de revisión de las autoevaluaciones realizadas por los estudiantes es cuadrático ($O(n^{2})$), mayor que el orden de tiempo que conlleva la evaluación del docente de los trabajos ($O(n)$). Por lo que puede afirmarse que este enfoque no resuelve el problema de la escalabilidad.
+
+En algunos de los trabajos revisados, puede verse como tras la evaluación realizada por los estudiantes, los docentes han de revisar dichas evaluaciones~\cite{lasa2013problem,sevilla2012assessment}. Los autores indican la sobrecarga de trabajo que ello les supuse, quedando por tanto ilustrado lo mencionado en el análisis anterior. %Más sentido tiene aún esta revisión del profesor si tenemos en cuenta problemas como el descrito anteriormente, en los que las calificaciones de los estudiantes puede que no se ajusten a la realidad.
+
+\subsection*{Evaluación del docente}
+
+En esta sección se recogen problemas asociados a los trabajos en los que la evaluación la realiza directamente el docente apoyándose en la tecnología.
 
 \paragraph*{Escalabilidad}
-La escalabilidad vuelve a ser el problema más mencionado en este tipo de evaluación. Los autores de los trabajos comparten experiencias en las que evaluaron competencias genéricas, pero indican que la carga de trabajo les resultó excesiva~\cite{serrano2013hiperion,lacuesta2009active} e incluso uno de ellos descarta repetir la experiencia en los siguientes cursos debido al sobresfuerzo que le supuso~\cite{benlloch2007adapting}. Podemos deducir, por tanto, que si en ocasiones los profesores apenas tienen tiempo de lograr los objetivos curriculares en cuanto a la materia que tienen que impartir y las evaluaciones que tienen que realizar, más difícil será lograr dichos objetivos si tienen que diseñar tareas adicionales para que los alumnos desempeñen competencias genéricas y después evaluar dichas tareas.
+La escalabilidad vuelve a ser el problema más mencionado en este tipo de evaluación. Los autores de los trabajos comparten experiencias en las que evaluaron competencias genéricas, pero indican que la carga de trabajo les resultó excesiva~\cite{serrano2013hiperion,lacuesta2009active} e incluso uno de ellos descarta repetir la experiencia en los siguientes cursos debido al sobresfuerzo que le supuso~\cite{benlloch2007adapting}. Podemos deducir, por tanto, que si en ocasiones los docentes tienen tiempo ajustado para lograr los objetivos curriculares específicos de la materia que tienen que impartir y las evaluaciones que tienen que realizar, más difícil será lograr dichos objetivos si tienen que diseñar tareas adicionales para que los alumnos desempeñen competencias genéricas y después evaluarlas.
 
-\section{Evaluación semiautomática}
+\subsection{Evaluación semiautomática}
 
-En esta sección se recogen problemas asociados a trabajos que utilizan herramientas de evaluación semiautomática. Estas herramientas ayudan al profesor en la evaluación proporcionándole de manera automática calificaciones o indicadores que éste puede usar para la evaluación de sus estudiantes. La intervención del profesor en estas herramientas consiste en configuraciones iniciales de parámetros del curso o la evaluación.
+En esta sección se recogen problemas asociados a trabajos que utilizan herramientas de evaluación semiautomática. Estas herramientas ayudan al docente en la evaluación proporcionándole de manera automática calificaciones o indicadores que éste puede usar para la evaluación de sus estudiantes. La intervención del docente en estas herramientas consiste en configuraciones iniciales de parámetros del curso o la evaluación.
 
-La automatización de este proceso de evaluación solventa el problema de escalabilidad mencionado en los enfoques anteriores. Pero se encuentran otros problemas que seran descritos a continuación.
+La automatización de este proceso de evaluación solventa el problema de escalabilidad mencionado en los enfoques anteriores. Pero se encuentran otros problemas que serán descritos a continuación.
 
 
 \paragraph*{Propósito específico}
-Los recursos con los que cuentan los profesores están enfocados o fueron creados para un propósito específico. Dentro de los trabajos seleccionados esto ocurre principalmente con los juegos serios, que son diseñados para un propósito principal distinto del de la pura diversión y que generalmente están ligados a competencias específicas de las materias que se imparten en el contexto para el que fueron diseñados~\cite{bedek2011behavioral,guenaga2013serious}. Además, el desarrollo de un juego para evaluar las competencias concretas que a un profesor le interesa no es una tarea que este al alcance de cualquier profesor. Pero este caso será tratado en el siguiente punto.
+Los recursos con los que cuentan los docentes están enfocados o fueron creados para un propósito específico. Dentro de los trabajos seleccionados esto ocurre principalmente con los juegos serios, que son diseñados para un propósito principal distinto del de la pura diversión y que generalmente están ligados a competencias específicas de las materias que se imparten en el contexto para el que fueron diseñados~\cite{bedek2011behavioral,guenaga2013serious}. Además, el desarrollo de un juego para evaluar las competencias concretas de un curso no es una tarea al alcance de cualquier docente. Pero este caso será tratado en el siguiente punto.
 
 
 \paragraph*{Recursos limitados / Coste elevado}
-Hay un trabajo que implementa un test psicológico de corrección automática para la evaluación de ciertas competencias genéricas. El diseño de un test de este tipo requiere personal cualificado con un perfil relacionado con la psicologia, algo que obviamente no tienen todos los profesores. Además, para la experiencia que se encontró en la literatura fue necesario contar con un equipo de expertos que mediante el método Delphi definieron el test, algo con lo que tampoco suelen contar la mayoría de los profesores~\cite{andre2011formal}.
+Hay un trabajo que implementa un test psicológico de corrección automática para la evaluación de ciertas competencias genéricas. El diseño de un test de este tipo requiere personal cualificado en psicología, algo que obviamente no tienen todos los docentes. Además, para la experiencia que se encontró en la literatura fue necesario contar con un equipo de expertos que mediante el método Delphi definieron el test, algo con lo que tampoco suelen contar la mayoría de los docentes~\cite{andre2011formal}.
 
-Si hablamos de los juegos serios nos ocurre lo mismo, un profesor puede considerar cómo sería un videojuego para que el alumno aplique ciertas competencias genéricas y él después pueda evaluarle en dichas competencias, pero desarrollar un videojuego no es una tarea sencilla y que este al alcance de cualquier profesor.
+En los juegos serios ocurre lo mismo, un docente puede considerar cómo sería un videojuego para que el alumno aplique ciertas competencias genéricas y él después pueda evaluarle en dichas competencias, pero desarrollar un videojuego no es una tarea sencilla al alcance de cualquier docente.
 
 \paragraph*{Validez de los indicadores}
-Por último se han encontrado con un conjunto de trabajos que se basan en el \emph{learning analytics} para evaluar competencias genéricas. Para ello obtienen información de los registros de aprendizaje que utilizan como indicadores asociados a diferentes competencias genéricas~\cite{fidalgo:2015,rayon2014web}. El problema es que los indicadores son fijos, y lo que para un profesor puede ser un indicador válido de la competencia de liderazgo, para otro puede no serlo. Por ello, se echa en falta un mecanismo para que sea el propio profesor el que seleccione los indicadores que necesita, descarte los que no le sean útiles y los combine hasta obtener el indicador que sea válido para su caso. Es decir, lo que sería deseable es que hubiera un método para que el profesor pueda diseñar sus propias evaluaciones en base a estos indicadores.
+Por último se han encontrado con un conjunto de trabajos que se basan en el \emph{learning analytics} para evaluar competencias genéricas. Para ello obtienen información de los registros de aprendizaje que utilizan como indicadores asociados a diferentes competencias genéricas~\cite{fidalgo:2015,rayon2014web}. El problema es que los indicadores son fijos, y lo que para un docente puede ser un indicador válido de la competencia de liderazgo, para otro puede no serlo. Por ello, se echa en falta un mecanismo para que sea el propio docente el que seleccione los indicadores que necesita, descarte los que no le sean útiles y los combine hasta obtener el indicador que sea válido para su caso. Es decir, lo que sería deseable es que hubiera un método para que el docente pueda diseñar sus propias evaluaciones en base a estos indicadores.
 
+\section{Requisitos} \label{pro:requisitos}
+
+Antes de comenzar con el desarrollo del método hay que enumerar los requisitos que éste deberá satisfacer para resolver los problemas mencionados en la sección anterior. Los requisitos son los que se detallan a continuación.
+
+\paragraph*{1. Indicadores objetivos}
+
+Los indicadores utilizados para medir el desempeño de los estudiantes deben ser objetivos. No ha lugar a consideraciones personales o interpretaciones inexactas de rúbricas como ocurre en la autoevaluación o evaluación entre iguales, donde dos evaluaciones de un mismo trabajo realizadas por personas diferentes pueden tener calificaciones diferentes. 
+
+\paragraph*{2. Evaluación escalable}
+
+El método para la evaluación de competencias genéricas deberá ser escalable, de manera que un crecimiento en el número de actividades a evaluar no le suponga un esfuerzo al docente que no pueda abordar. El método deberá estar alineado con las actividades de aprendizaje para que el docente pueda consultar los indicadores con una simple petición a la herramienta.
+
+\paragraph*{3. Propósito general}
+
+El método no debe estar orientado a una competencia específica ni genérica concreta. Es el docente quien diseña sus actividades en el entorno virtual de aprendizaje y el que luego obtiene los indicadores para utilizarlos en la evaluación de la competencia que considere que los estudiantes han desempeñado en dicha tarea (y que queda reflejada en los indicadores). 
+
+\paragraph*{4. Accesibilidad}
+
+No deberá ser un requisito que el docente tenga un perfil informático u otro específico para poder realizar las peticiones de los indicadores, ni que contrate a un equipo de expertos para obtener los indicadores. La interfaz en la que se implementará el método debe ser usable y sencilla para que los docentes puedan utilizarla sin requerirles conocimientos de programación, y los formatos a los que se exporte la información serán figuras y documentos en formatos transportables a cualquier hoja de cálculo.
+
+\paragraph*{5. Diseño de evaluaciones}
+
+El método debe poner a disposición del docente los mecanismos necesarios para que éste pueda diseñar sus propios indicadores a partir de los datos objetivos de la actividad de los estudiantes. En el estado del arte nos encontramos con trabajos que obtenían sus evaluaciones a partir de los indicadores del entorno virtual de aprendizaje, pero éstos eran fijos. Es decir, cada competencia se evaluaba con un indicador dado. Pero podía ocurrir que el docente no utilizase las actividades del entorno virtual que proporcionaban dichos indicadores o que plantease las actividades con un enfoque diferente al que realmente tienen. Por ejemplo, uno de los puntos fuertes de un wiki es que favorecen el trabajo colaborativo, y podríamos encontrar herramientas que nos ayuden a valorar el trabajo en equipo de los estudiantes que participan en una página de un wiki mediante indicadores del trabajo colaborativo. Si un docente plantea actividades en el wiki de manera que cada estudiante trabaje individualmente en una página, podrá valorar otras competencias, pero no el trabajo en equipo. Con este método el docente debe ser quien diseñe sus indicadores, y por tanto, sus evaluaciones a partir de los registros de las actividades de aprendizaje.
 
 % ----------------------------------------------------------------------
 

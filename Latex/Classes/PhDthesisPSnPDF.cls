@@ -109,7 +109,7 @@
 %\renewcommand{\nomname}{Glossary} % rename nomenclature
 
 % As we are using the glossary to list the acronyms we change the label of the section
-\renewcommand{\nomname}{Acronyms} % rename nomenclature
+\renewcommand{\nomname}{Glosario de términos y acrónimos} % rename nomenclature
 
 
 \renewcommand{\nomlabel}[1]{\textbf{#1}} % make abbreviations bold
@@ -508,7 +508,7 @@
  \cleardoublepage
  \begin{center}
 \vspace*{1.5cm}
-{\Large \bfseries Acknowledgements}
+{\Large \bfseries Agradecimientos}
 \end{center}
 \vspace{0.5cm}
 \begin{quote}}
@@ -524,7 +524,7 @@
  \cleardoublepage
  \begin{center}
 \vspace*{1.5cm}
-{\Large \bfseries Acknowledgements}
+{\Large \bfseries Agradecimientos}
 \end{center}
 \vspace{0.5cm}\begin{quote}}
 {\end{quote}\end{alwayssingle}}
